@@ -1,0 +1,29 @@
+{
+  "experiment_name": "test_bm25_ilpcsr",
+  "tasks": [
+    {
+      "task": "statute",
+      "metrics": {
+        "recall@1": 0.03428571428571429,
+        "recall@3": 0.061071428571428575,
+        "recall@5": 0.08964285714285714,
+        "recall@10": 0.11642857142857144,
+        "precision@1": 0.2,
+        "precision@3": 0.13333333333333333,
+        "precision@5": 0.12000000000000002,
+        "precision@10": 0.08,
+        "ndcg@1": 0.2,
+        "ndcg@3": 0.14692787260227563,
+        "ndcg@5": 0.13391602052736162,
+        "ndcg@10": 0.13266679545479035,
+        "f1@1": 0.058333333333333334,
+        "f1@3": 0.08318181818181818,
+        "f1@5": 0.10205128205128204,
+        "f1@10": 0.09437908496732025,
+        "mrr": 0.25,
+        "map": 0.08886904761904761
+      },
+      "output": "/Users/samudraneelsarkar/Downloads/GitHub/legal-rag/results/test/test_bm25_ilpcsr_statute.json"
+    }
+  ]
+}

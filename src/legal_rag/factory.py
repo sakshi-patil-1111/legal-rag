@@ -39,8 +39,8 @@ def build_retriever(retrieval: dict) -> Retriever:
     rtype = retrieval.get("type", "bm25")
     if rtype == "bm25":
         return BM25Retriever(
-            k1=retrieval.get("k1", 1.5),
-            b=retrieval.get("b", 0.75),
+            k1=retrieval.get("k1", 1.6),
+            b=retrieval.get("b", 0.7),
         )
     if rtype == "dense":
         return DenseRetriever(

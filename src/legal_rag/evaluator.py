@@ -106,16 +106,32 @@ class RetrievalEvaluator:
             [f"recall@{k}" for k in ks]
             + [f"precision@{k}" for k in ks]
             + [f"ndcg@{k}" for k in ks]
+            + [f"f1@{k}" for k in ks]
         )
         total_doc = {k: 0.0 for k in metric_keys}
         total_doc["mrr"] = 0.0
+        total_doc["map"] = 0.0
 
         total_snippet = {f"snippet_recall@{k}": 0.0 for k in ks}
         total_snippet |= {f"snippet_precision@{k}": 0.0 for k in ks}
         n_snippet_queries = 0
 
         start = time.perf_counter()
-        for query in queries:
+        n_queries = len(queries)
+        for qi, query in enumerate(queries):
+            if n_queries > 10 and qi % 50 == 0:
+                elapsed = time.perf_counter() - start
+                if qi > 0:
+                    rate = qi / elapsed
+                    eta = (n_queries - qi) / rate
+                    print(
+                        f"  [{qi}/{n_queries}] {elapsed:.1f}s elapsed, "
+                        f"{rate:.1f} q/s, ETA {eta:.0f}s",
+                        flush=True,
+                    )
+                else:
+                    print(f"  [{qi}/{n_queries}] starting...", flush=True)
+
             q_text = query.text
             q_transform = None
             if self.query_strategy:
@@ -147,6 +163,7 @@ class RetrievalEvaluator:
                 for k in metric_keys:
                     total_doc[k] += doc_metrics[k]
                 total_doc["mrr"] += doc_metrics["mrr"]
+                total_doc["map"] += doc_metrics["map"]
 
             # --- Snippet-level metrics ---
             snippet_metrics = {}

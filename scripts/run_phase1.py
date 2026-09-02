@@ -67,9 +67,10 @@ def main() -> None:
     output_dir.mkdir(parents=True, exist_ok=True)
 
     summary = []
+    exp_name = config["experiment_name"]
     for task in config["dataset"]["tasks"]:
         results = run_task(config, task)
-        out_path = output_dir / f"phase1_{task}.json"
+        out_path = output_dir / f"{exp_name}_{task}.json"
         save_results(out_path, results)
         summary.append({
             "task": task,
@@ -80,9 +81,9 @@ def main() -> None:
         for k, v in results["metrics"].items():
             print(f"  {k}: {v:.4f}")
 
-    summary_path = output_dir / "phase1_summary.json"
+    summary_path = output_dir / f"{exp_name}_summary.json"
     save_results(summary_path, {
-        "experiment_name": config["experiment_name"],
+        "experiment_name": exp_name,
         "tasks": summary,
     })
     print(f"Summary written to: {summary_path}")
