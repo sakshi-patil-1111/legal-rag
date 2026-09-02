@@ -9,7 +9,7 @@ description = "Modular experimental framework for legal case analysis and decisi
 requires-python = ">=3.10"
 readme = "README.md"
 license = {text = "MIT"}
-authors = [{name = "Student Researcher"}]
+authors = [{name = "Samudraneel Sarkar"}]
 keywords = ["legal", "rag", "retrieval", "nlp"]
 
 [project.optional-dependencies]
