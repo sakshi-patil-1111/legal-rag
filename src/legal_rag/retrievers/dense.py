@@ -36,6 +36,7 @@ class DenseRetriever(Retriever):
         if not SKLEARN_AVAILABLE:
             raise RuntimeError("scikit-learn is required for the dense retriever.")
         self.items = items
+        self._chunk_ids = [self._chunk_id(d) for d in items]
         texts = [self._text(d) for d in items]
         self._vectorizer = TfidfVectorizer(stop_words="english")
         tfidf = self._vectorizer.fit_transform(texts)
@@ -66,3 +67,13 @@ class DenseRetriever(Retriever):
                 seen.add(ext_id)
                 deduped.append((ext_id, float(scores[idx])))
         return deduped[:top_k]
+
+    def search_chunks(self, query: str, top_k: int = 10) -> list[tuple[str, float]]:
+        if self._svd is None or self._vectors is None:
+            raise RuntimeError("Retriever has not been indexed.")
+        q_tfidf = self._vectorizer.transform([query])
+        q_vec = self._svd.transform(q_tfidf)
+        normalize(q_vec, norm="l2", copy=False)
+        scores = (self._vectors @ q_vec.T).ravel()
+        order = np.argsort(-scores)
+        return [(self._chunk_ids[idx], float(scores[idx])) for idx in order[:top_k]]

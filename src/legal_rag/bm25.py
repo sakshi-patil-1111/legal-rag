@@ -55,3 +55,13 @@ class SimpleBM25:
         ]
         scored.sort(key=lambda x: x[1], reverse=True)
         return scored[:top_k]
+
+    def retrieve_with_idx(self, query: str, top_k: int = 10) -> list[tuple[int, float]]:
+        """Return (index, score) pairs, sorted by score descending."""
+        query_tokens = self.tokenize(query)
+        scored = [
+            (i, self.score(query_tokens, i))
+            for i in range(self.N)
+        ]
+        scored.sort(key=lambda x: x[1], reverse=True)
+        return scored[:top_k]

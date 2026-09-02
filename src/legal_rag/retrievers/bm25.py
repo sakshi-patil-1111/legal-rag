@@ -14,6 +14,7 @@ class BM25Retriever(Retriever):
 
     def index(self, items: list[Any]) -> None:
         self.items = items
+        self._chunk_ids = [self._chunk_id(d) for d in items]
         docs = [
             type("D", (), {"doc_id": self._external_id(d), "raw_text": self._text(d)})()
             for d in items
@@ -31,3 +32,9 @@ class BM25Retriever(Retriever):
                 seen.add(doc_id)
                 deduped.append((doc_id, score))
         return deduped[:top_k]
+
+    def search_chunks(self, query: str, top_k: int = 10) -> list[tuple[str, float]]:
+        if self._index is None:
+            raise RuntimeError("Retriever has not been indexed.")
+        results = self._index.retrieve_with_idx(query, top_k=top_k)
+        return [(self._chunk_ids[idx], score) for idx, score in results]
