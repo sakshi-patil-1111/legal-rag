@@ -156,14 +156,17 @@ Do NOT assume the best pipeline for statute retrieval is the best for precedent 
 - Real data config (`configs/phase1_il_pcsr.json`)
 
 **Not yet set up (infrastructure gaps):**
-- Real sentence-transformer dense retriever (current "dense" is TF-IDF/SVD placeholder)
-- LLM-based query rewriting and HyDE (current implementations are static stubs)
-- Cross-encoder reranker (only token-overlap Jaccard exists)
-- NDCG and Precision@k metrics
-- Index persistence and caching
-- Reproducibility metadata (experiment ID, timestamp, git commit, seed)
-- Dev/test split discipline (currently runs on test directly)
-- Staged ablation scripts (compare_grid.py does forbidden Cartesian product)
+- ~~Real sentence-transformer dense retriever~~ — DONE (BAAI/bge-base-en-v1.5 with disk cache)
+- ~~LLM-based query rewriting and HyDE~~ — DONE (Gemini free tier via LLMProvider)
+- ~~Cross-encoder reranker~~ — DONE (cross-encoder/ms-marco-MiniLM-L-6-v2)
+- ~~NDCG and Precision@k~~ — DONE
+- ~~Index persistence and caching~~ — DONE (embedding cache to data/cache/)
+- ~~Reproducibility metadata~~ — DONE (experiment ID, timestamp, git commit, seed, config hash)
+- ~~Dev/test split discipline~~ — DONE (configs default to dev split)
+- ~~Staged ablation scripts~~ — DONE (run_stage.py + stage_a configs)
+- Stratified development subset for expensive LLM experiments
+- Cost/token tracking populated from LLM responses
+- Result storage restructure (per-experiment dirs, JSONL traces)
 
 ### Phase 2: External Retrieval Validation — LegalBench-RAG — IN PROGRESS
 
@@ -197,7 +200,7 @@ Research question: **Which retrieval design choices appear robust across legal d
 - Configs for full run and privacy_qa subset
 
 **Not yet set up:**
-- Same infrastructure gaps as Phase 1
+- Same infrastructure gaps as Phase 1 (most now resolved)
 - Stratified development subset for expensive experiments
 
 ### Phase 3: Indian Downstream Legal QA — AIBE — NOT STARTED
@@ -517,16 +520,18 @@ If dataset access is blocked or gated: document the issue, create the adapter st
 
 ## Infrastructure Gaps (Priority Order)
 
-1. **NDCG + Precision@k** metrics
-2. **Reproducibility metadata** in results (experiment ID, timestamp, git commit, seed)
-3. **Real sentence-transformer dense retriever** (replace TF-IDF/SVD placeholder)
-4. **Index persistence and caching** (save embeddings/indexes to disk)
-5. **Dev/test split discipline** (default to dev for experiments, test only for shortlisted)
-6. **Staged ablation scripts** (replace Cartesian grid with Stage A-E)
-7. **Cross-encoder reranker** (e.g. cross-encoder/ms-marco-MiniLM-L-6-v2)
-8. **LLM-based query rewriting + HyDE** (requires API provider config)
+1. ~~NDCG + Precision@k metrics~~ — DONE
+2. ~~Reproducibility metadata in results~~ — DONE
+3. ~~Real sentence-transformer dense retriever~~ — DONE
+4. ~~Index persistence and caching~~ — DONE
+5. ~~Dev/test split discipline~~ — DONE
+6. ~~Staged ablation scripts~~ — DONE (run_stage.py + stage_a configs)
+7. ~~Cross-encoder reranker~~ — DONE
+8. ~~LLM-based query rewriting + HyDE~~ — DONE (Gemini free tier)
 9. **Result storage restructure** (per-experiment dirs, JSONL traces, aggregated CSV)
 10. **Truly adaptive agent** (evaluate evidence sufficiency, select actions)
+11. **Stratified dev subset** for expensive LLM-based experiments
+12. **Cost/token tracking** populated from LLM responses into results
 
 ---
 
