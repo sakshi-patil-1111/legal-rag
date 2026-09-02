@@ -1,4 +1,10 @@
+import hashlib
+import json
+import platform
+import subprocess
 import time
+import uuid
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Literal
 
@@ -22,6 +28,40 @@ def _texts_by_id(items: list[Any]) -> dict[str, str]:
     return texts
 
 
+def _git_commit() -> str:
+    try:
+        result = subprocess.run(
+            ["git", "rev-parse", "HEAD"],
+            capture_output=True, text=True, timeout=5,
+        )
+        return result.stdout.strip() if result.returncode == 0 else "unknown"
+    except Exception:
+        return "unknown"
+
+
+def _make_experiment_id(config: dict | None = None) -> str:
+    if config and config.get("experiment_name"):
+        base = config["experiment_name"]
+    else:
+        base = uuid.uuid4().hex[:8]
+    ts = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
+    return f"{base}_{ts}"
+
+
+def _reproducibility_meta(config: dict | None = None, seed: int = 42) -> dict[str, Any]:
+    return {
+        "experiment_id": _make_experiment_id(config),
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+        "git_commit": _git_commit(),
+        "python_version": platform.python_version(),
+        "platform": platform.platform(),
+        "seed": seed,
+        "config_hash": hashlib.sha256(
+            json.dumps(config or {}, sort_keys=True).encode()
+        ).hexdigest()[:16],
+    }
+
+
 class RetrievalEvaluator:
     def __init__(
         self,
@@ -29,11 +69,13 @@ class RetrievalEvaluator:
         retriever: Retriever,
         query_strategy: QueryStrategy | None = None,
         reranker: Reranker | None = None,
+        seed: int = 42,
     ):
         self.chunker = chunker
         self.retriever = retriever
         self.query_strategy = query_strategy
         self.reranker = reranker or None
+        self.seed = seed
         self.items: list[Any] = []
         self.chunk_map: dict[str, Any] = {}
 
@@ -54,11 +96,20 @@ class RetrievalEvaluator:
         final_k: int | None = None,
         ks: tuple[int, ...] = (1, 3, 5, 10),
         eval_mode: Literal["document", "snippet", "both"] = "document",
+        config: dict | None = None,
     ) -> dict[str, Any]:
         final_k = final_k or top_k
         query_results = []
-        total_doc_recall = {f"recall@{k}": 0.0 for k in ks}
-        total_doc_mrr = 0.0
+
+        # Accumulators for all doc-level metrics
+        metric_keys = (
+            [f"recall@{k}" for k in ks]
+            + [f"precision@{k}" for k in ks]
+            + [f"ndcg@{k}" for k in ks]
+        )
+        total_doc = {k: 0.0 for k in metric_keys}
+        total_doc["mrr"] = 0.0
+
         total_snippet = {f"snippet_recall@{k}": 0.0 for k in ks}
         total_snippet |= {f"snippet_precision@{k}": 0.0 for k in ks}
         n_snippet_queries = 0
@@ -93,9 +144,9 @@ class RetrievalEvaluator:
             doc_metrics = {}
             if eval_mode in ("document", "both"):
                 doc_metrics = evaluate_query(doc_predictions, query.ground_truth, ks=ks)
-                for k in ks:
-                    total_doc_recall[f"recall@{k}"] += doc_metrics[f"recall@{k}"]
-                total_doc_mrr += doc_metrics["mrr"]
+                for k in metric_keys:
+                    total_doc[k] += doc_metrics[k]
+                total_doc["mrr"] += doc_metrics["mrr"]
 
             # --- Snippet-level metrics ---
             snippet_metrics = {}
@@ -123,7 +174,16 @@ class RetrievalEvaluator:
         latency = time.perf_counter() - start
         n = len(queries) if queries else 1
 
+        repro = _reproducibility_meta(config, self.seed)
+
         aggregated: dict[str, Any] = {
+            "experiment_id": repro["experiment_id"],
+            "timestamp": repro["timestamp"],
+            "git_commit": repro["git_commit"],
+            "seed": repro["seed"],
+            "config_hash": repro["config_hash"],
+            "python_version": repro["python_version"],
+            "platform": repro["platform"],
             "n_queries": len(queries),
             "top_k": top_k,
             "final_k": final_k,
@@ -133,7 +193,7 @@ class RetrievalEvaluator:
         }
 
         if eval_mode in ("document", "both"):
-            aggregated["metrics"] = {k: v / n for k, v in total_doc_recall.items()} | {"mrr": total_doc_mrr / n}
+            aggregated["metrics"] = {k: v / n for k, v in total_doc.items()}
 
         if eval_mode in ("snippet", "both"):
             ns = n_snippet_queries if n_snippet_queries else 1
