@@ -25,6 +25,15 @@ try:
 except ImportError:
     ST_AVAILABLE = False
 
+# --- transformers (raw AutoModel for non-ST models like SAILER) ---
+try:
+    import torch
+    from transformers import AutoModel, AutoTokenizer
+
+    HF_AVAILABLE = True
+except ImportError:
+    HF_AVAILABLE = False
+
 
 def _is_apple_silicon() -> bool:
     return platform.system() == "Darwin" and platform.machine() == "arm64"
@@ -89,6 +98,8 @@ class DenseRetriever(Retriever):
                 "sentence-transformers not available. "
                 "Install with: pip install sentence-transformers"
             )
+        if requested == "transformers" and not HF_AVAILABLE:
+            raise RuntimeError("transformers not available.")
         return requested
 
     def _load_model(self) -> None:
@@ -98,8 +109,12 @@ class DenseRetriever(Retriever):
         elif self._backend == "sentence_transformers":
             if self._model is None:
                 self._model = SentenceTransformer(self.model_name, device="cpu")
+        elif self._backend == "transformers":
+            if self._model is None:
+                self._tokenizer = AutoTokenizer.from_pretrained(self.model_name)
+                self._model = AutoModel.from_pretrained(self.model_name)
+                self._model.eval()
         else:
-            # TF-IDF fallback — lazy init in index()
             pass
 
     def _try_load_cache(self, key: str) -> np.ndarray | None:
@@ -147,6 +162,19 @@ class DenseRetriever(Retriever):
         )
         return result.astype(np.float32)
 
+    def _encode_hf(self, texts: list[str]) -> np.ndarray:
+        all_vecs = []
+        for i in range(0, len(texts), self.batch_size):
+            batch = texts[i : i + self.batch_size]
+            inp = self._tokenizer(batch, padding=True, truncation=True, max_length=512, return_tensors="pt")
+            with torch.no_grad():
+                out = self._model(**inp)
+            mask = inp["attention_mask"].unsqueeze(-1).float()
+            emb = (out.last_hidden_state * mask).sum(1) / mask.sum(1)
+            emb = torch.nn.functional.normalize(emb, p=2, dim=1)
+            all_vecs.append(emb.numpy().astype(np.float32))
+        return np.concatenate(all_vecs, axis=0)
+
     def index(self, items: list[Any]) -> None:
         self.items = items
         self._chunk_ids = [self._chunk_id(d) for d in items]
@@ -166,6 +194,8 @@ class DenseRetriever(Retriever):
         else:
             if self._backend == "mlx":
                 self._vectors = self._encode_mlx(texts)
+            elif self._backend == "transformers":
+                self._vectors = self._encode_hf(texts)
             else:
                 self._vectors = self._encode_st(texts)
             self._save_cache(key, self._vectors)
@@ -173,6 +203,8 @@ class DenseRetriever(Retriever):
     def _encode_query(self, query: str) -> np.ndarray:
         if self._backend == "mlx":
             return self._encode_mlx([query])
+        elif self._backend == "transformers":
+            return self._encode_hf([query])
         else:
             return self._encode_st([query])
 
