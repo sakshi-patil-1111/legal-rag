@@ -18,7 +18,9 @@ def run_task(config: dict, task: str) -> dict:
 
     chunker = build_chunker(**config["chunking"])
     retriever = build_retriever(config["retrieval"])
-    query_strategy = build_query_strategy(config["query"]["strategy"])
+    query_strategy = build_query_strategy(
+        config["query"]["strategy"], **config.get("query", {}).get("params", {}),
+    )
     reranker = build_reranker(config.get("reranker"))
 
     evaluator = RetrievalEvaluator(
@@ -26,6 +28,7 @@ def run_task(config: dict, task: str) -> dict:
         retriever=retriever,
         query_strategy=query_strategy,
         reranker=reranker,
+        seed=config.get("seed", 42),
     )
 
     start = time.perf_counter()
@@ -35,6 +38,7 @@ def run_task(config: dict, task: str) -> dict:
         top_k=config["retrieval"]["top_k"],
         final_k=config.get("reranker", {}).get("final_k") or config["retrieval"]["top_k"],
         ks=tuple(config["evaluation"]["ks"]),
+        config=config,
     )
     eval_results["task"] = task
     eval_results["experiment_name"] = config["experiment_name"]

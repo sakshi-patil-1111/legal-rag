@@ -24,7 +24,9 @@ def main() -> None:
 
     chunker = build_chunker(**config["chunking"])
     retriever = build_retriever(config["retrieval"])
-    query_strategy = build_query_strategy(config["query"]["strategy"])
+    query_strategy = build_query_strategy(
+        config["query"]["strategy"], **config.get("query", {}).get("params", {}),
+    )
     reranker = build_reranker(config.get("reranker"))
 
     evaluator = RetrievalEvaluator(
@@ -32,6 +34,7 @@ def main() -> None:
         retriever=retriever,
         query_strategy=query_strategy,
         reranker=reranker,
+        seed=config.get("seed", 42),
     )
 
     start = time.perf_counter()
@@ -44,6 +47,7 @@ def main() -> None:
         final_k=final_k,
         ks=tuple(config["evaluation"]["ks"]),
         eval_mode=eval_mode,
+        config=config,
     )
     results["experiment_name"] = config["experiment_name"]
     results["config"] = config

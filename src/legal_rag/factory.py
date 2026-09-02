@@ -9,9 +9,11 @@ from .query import (
     DirectQueryStrategy,
     HyDEQueryStrategy,
     KeywordExpansionQueryStrategy,
+    LLMQueryRewriteStrategy,
+    LLMHyDEStrategy,
     QueryStrategy,
 )
-from .reranker import NoOpReranker, Reranker, TokenOverlapReranker
+from .reranker import CrossEncoderReranker, NoOpReranker, Reranker, TokenOverlapReranker
 from .retrievers import BM25Retriever, DenseRetriever, HybridRetriever, Retriever
 
 
@@ -42,8 +44,10 @@ def build_retriever(retrieval: dict) -> Retriever:
         )
     if rtype == "dense":
         return DenseRetriever(
-            n_components=retrieval.get("n_components", 50),
-            random_state=retrieval.get("random_state", 42),
+            model_name=retrieval.get("model_name", "BAAI/bge-base-en-v1.5"),
+            cache_dir=retrieval.get("cache_dir", "data/cache"),
+            batch_size=retrieval.get("batch_size", 32),
+            show_progress=retrieval.get("show_progress", True),
         )
     if rtype == "hybrid":
         bm25 = BM25Retriever(
@@ -51,20 +55,26 @@ def build_retriever(retrieval: dict) -> Retriever:
             b=retrieval.get("bm25_b", 0.75),
         )
         dense = DenseRetriever(
-            n_components=retrieval.get("dense_n_components", 50),
-            random_state=retrieval.get("dense_random_state", 42),
+            model_name=retrieval.get("dense_model_name", "BAAI/bge-base-en-v1.5"),
+            cache_dir=retrieval.get("cache_dir", "data/cache"),
+            batch_size=retrieval.get("batch_size", 32),
+            show_progress=retrieval.get("show_progress", True),
         )
         return HybridRetriever(bm25, dense, k=retrieval.get("rrf_k", 60.0))
     raise ValueError(f"Unknown retriever type: {rtype}")
 
 
-def build_query_strategy(name: str) -> QueryStrategy:
+def build_query_strategy(name: str, **kwargs) -> QueryStrategy:
     if name == "direct":
         return DirectQueryStrategy()
     if name == "keyword":
         return KeywordExpansionQueryStrategy()
     if name == "hyde":
         return HyDEQueryStrategy()
+    if name == "llm_rewrite":
+        return LLMQueryRewriteStrategy(**kwargs)
+    if name == "llm_hyde":
+        return LLMHyDEStrategy(**kwargs)
     raise ValueError(f"Unknown query strategy: {name}")
 
 
@@ -74,4 +84,8 @@ def build_reranker(config: dict | None) -> Reranker:
     rtype = config.get("type", "token_overlap")
     if rtype == "token_overlap":
         return TokenOverlapReranker()
+    if rtype == "cross_encoder":
+        return CrossEncoderReranker(
+            model_name=config.get("model_name", "cross-encoder/ms-marco-MiniLM-L-6-v2"),
+        )
     raise ValueError(f"Unknown reranker: {rtype}")
