@@ -1,3 +1,4 @@
+import math
 from collections.abc import Sequence
 from typing import Any
 
@@ -14,6 +15,20 @@ def recall_at_k(
     return len(retrieved & relevant) / len(relevant)
 
 
+def precision_at_k(
+    predictions: Sequence[tuple[str, float]],
+    ground_truth: Sequence[str],
+    k: int,
+) -> float:
+    relevant = set(ground_truth)
+    if not relevant:
+        return 0.0
+    retrieved = [p[0] for p in predictions[:k]]
+    if not retrieved:
+        return 0.0
+    return sum(1 for doc_id in retrieved if doc_id in relevant) / len(retrieved)
+
+
 def mrr(
     predictions: Sequence[tuple[str, float]],
     ground_truth: Sequence[str],
@@ -25,14 +40,36 @@ def mrr(
     return 0.0
 
 
+def ndcg_at_k(
+    predictions: Sequence[tuple[str, float]],
+    ground_truth: Sequence[str],
+    k: int,
+) -> float:
+    """Normalized Discounted Cumulative Gain at k (binary relevance)."""
+    relevant = set(ground_truth)
+    if not relevant:
+        return 0.0
+    dcg = 0.0
+    for i, (doc_id, _) in enumerate(predictions[:k], start=1):
+        if doc_id in relevant:
+            dcg += 1.0 / math.log2(i + 1)
+    ideal_hits = min(len(relevant), k)
+    idcg = sum(1.0 / math.log2(i + 1) for i in range(1, ideal_hits + 1))
+    return dcg / idcg if idcg > 0 else 0.0
+
+
 def evaluate_query(
     predictions: Sequence[tuple[str, float]],
     ground_truth: Sequence[str],
     ks: tuple[int, ...] = (1, 3, 5, 10),
 ) -> dict[str, float]:
-    return {
-        f"recall@{k}": recall_at_k(predictions, ground_truth, k) for k in ks
-    } | {"mrr": mrr(predictions, ground_truth)}
+    metrics: dict[str, float] = {}
+    for k in ks:
+        metrics[f"recall@{k}"] = recall_at_k(predictions, ground_truth, k)
+        metrics[f"precision@{k}"] = precision_at_k(predictions, ground_truth, k)
+        metrics[f"ndcg@{k}"] = ndcg_at_k(predictions, ground_truth, k)
+    metrics["mrr"] = mrr(predictions, ground_truth)
+    return metrics
 
 
 # ---------------------------------------------------------------------------
