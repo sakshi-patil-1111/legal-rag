@@ -2,7 +2,7 @@
   "experiment": "phase0_bm25_fixture",
   "n_queries": 3,
   "top_k": 10,
-  "latency_seconds": 0.00040370001806877553,
+  "latency_seconds": 0.0005603749305009842,
   "metrics": {
     "recall@1": 0.6666666666666666,
     "recall@3": 1.0,

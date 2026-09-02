@@ -13,7 +13,7 @@
       "recall@5": 1.0,
       "recall@10": 1.0,
       "mrr": 0.5,
-      "latency_seconds": 0.00019719998817890882
+      "latency_seconds": 0.0002222089096903801
     },
     "best_recall@3": {
       "task": "statute",
@@ -28,7 +28,7 @@
       "recall@5": 1.0,
       "recall@10": 1.0,
       "mrr": 0.5,
-      "latency_seconds": 0.00019719998817890882
+      "latency_seconds": 0.0002222089096903801
     }
   },
   "precedent": {
@@ -45,7 +45,7 @@
       "recall@5": 1.0,
       "recall@10": 1.0,
       "mrr": 1.0,
-      "latency_seconds": 0.0004493999877013266
+      "latency_seconds": 0.00018479209393262863
     },
     "best_recall@3": {
       "task": "precedent",
@@ -60,7 +60,7 @@
       "recall@5": 1.0,
       "recall@10": 1.0,
       "mrr": 1.0,
-      "latency_seconds": 0.0004493999877013266
+      "latency_seconds": 0.00018479209393262863
     }
   }
 }

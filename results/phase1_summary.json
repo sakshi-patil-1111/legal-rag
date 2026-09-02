@@ -10,7 +10,7 @@
         "recall@10": 1.0,
         "mrr": 0.3333333333333333
       },
-      "output": "C:\\Users\\Sakshi Patil\\OneDrive\\Desktop\\Mini-project\\results\\phase1_statute.json"
+      "output": "/Users/samudraneelsarkar/Downloads/GitHub/legal-rag/results/phase1_statute.json"
     },
     {
       "task": "precedent",
@@ -21,7 +21,7 @@
         "recall@10": 1.0,
         "mrr": 1.0
       },
-      "output": "C:\\Users\\Sakshi Patil\\OneDrive\\Desktop\\Mini-project\\results\\phase1_precedent.json"
+      "output": "/Users/samudraneelsarkar/Downloads/GitHub/legal-rag/results/phase1_precedent.json"
     }
   ]
 }

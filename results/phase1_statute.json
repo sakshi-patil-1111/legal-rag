@@ -2,7 +2,8 @@
   "n_queries": 1,
   "top_k": 10,
   "final_k": 10,
-  "latency_seconds": 9.590000263415277e-05,
+  "eval_mode": "document",
+  "latency_seconds": 0.0005009160377085209,
   "index_stats": {
     "n_documents": 3,
     "n_chunks": 3
@@ -27,7 +28,7 @@
         "token_usage": null,
         "cost_usd": null
       },
-      "predictions": [
+      "doc_predictions": [
         [
           "ipc_s420",
           3.3565967663520295
@@ -41,16 +42,19 @@
           0.18431093629863676
         ]
       ],
+      "chunk_predictions": null,
       "ground_truth": [
         "ipc_s302"
       ],
-      "metrics": {
+      "snippets": null,
+      "doc_metrics": {
         "recall@1": 0.0,
         "recall@3": 1.0,
         "recall@5": 1.0,
         "recall@10": 1.0,
         "mrr": 0.3333333333333333
-      }
+      },
+      "snippet_metrics": null
     }
   ],
   "task": "statute",
@@ -88,5 +92,5 @@
     },
     "output_dir": "results"
   },
-  "indexing_latency": 0.00024369999300688505
+  "indexing_latency": 0.0008480000542476773
 }

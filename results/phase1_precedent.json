@@ -2,7 +2,8 @@
   "n_queries": 1,
   "top_k": 10,
   "final_k": 10,
-  "latency_seconds": 8.699999307282269e-05,
+  "eval_mode": "document",
+  "latency_seconds": 0.00015970796812325716,
   "index_stats": {
     "n_documents": 3,
     "n_chunks": 3
@@ -27,7 +28,7 @@
         "token_usage": null,
         "cost_usd": null
       },
-      "predictions": [
+      "doc_predictions": [
         [
           "case_kaushal",
           7.096720635403933
@@ -41,16 +42,19 @@
           1.417842125703668
         ]
       ],
+      "chunk_predictions": null,
       "ground_truth": [
         "case_kaushal"
       ],
-      "metrics": {
+      "snippets": null,
+      "doc_metrics": {
         "recall@1": 1.0,
         "recall@3": 1.0,
         "recall@5": 1.0,
         "recall@10": 1.0,
         "mrr": 1.0
-      }
+      },
+      "snippet_metrics": null
     }
   ],
   "task": "precedent",
@@ -88,5 +92,5 @@
     },
     "output_dir": "results"
   },
-  "indexing_latency": 0.0002237000153400004
+  "indexing_latency": 0.00037629203870892525
 }

@@ -2,7 +2,8 @@
   "n_queries": 2,
   "top_k": 10,
   "final_k": 3,
-  "latency_seconds": 0.0014527499442920089,
+  "eval_mode": "both",
+  "latency_seconds": 0.00567770900670439,
   "index_stats": {
     "n_documents": 2,
     "n_chunks": 2
@@ -14,6 +15,17 @@
     "recall@10": 1.0,
     "mrr": 1.0
   },
+  "snippet_metrics": {
+    "snippet_recall@1": 0.0,
+    "snippet_recall@3": 0.0,
+    "snippet_recall@5": 0.0,
+    "snippet_recall@10": 0.0,
+    "snippet_precision@1": 0.0,
+    "snippet_precision@3": 0.0,
+    "snippet_precision@5": 0.0,
+    "snippet_precision@10": 0.0
+  },
+  "n_snippet_queries": 0,
   "per_query": [
     {
       "qid": "lbr_test_1",
@@ -27,7 +39,7 @@
         "token_usage": null,
         "cost_usd": null
       },
-      "predictions": [
+      "doc_predictions": [
         [
           "contract_a.txt",
           0.09375
@@ -37,16 +49,19 @@
           0.03125
         ]
       ],
+      "chunk_predictions": [],
       "ground_truth": [
         "contract_a.txt"
       ],
-      "metrics": {
+      "snippets": null,
+      "doc_metrics": {
         "recall@1": 1.0,
         "recall@3": 1.0,
         "recall@5": 1.0,
         "recall@10": 1.0,
         "mrr": 1.0
-      }
+      },
+      "snippet_metrics": null
     },
     {
       "qid": "lbr_test_2",
@@ -60,7 +75,7 @@
         "token_usage": null,
         "cost_usd": null
       },
-      "predictions": [
+      "doc_predictions": [
         [
           "contract_b.txt",
           0.11475409836065574
@@ -70,16 +85,19 @@
           0.058823529411764705
         ]
       ],
+      "chunk_predictions": [],
       "ground_truth": [
         "contract_b.txt"
       ],
-      "metrics": {
+      "snippets": null,
+      "doc_metrics": {
         "recall@1": 1.0,
         "recall@3": 1.0,
         "recall@5": 1.0,
         "recall@10": 1.0,
         "mrr": 1.0
-      }
+      },
+      "snippet_metrics": null
     }
   ],
   "experiment_name": "phase2_legalbench_rag_fixture",
@@ -115,5 +133,5 @@
     },
     "output_dir": "results"
   },
-  "indexing_latency": 0.011124041047878563
+  "indexing_latency": 0.12513770791701972
 }
