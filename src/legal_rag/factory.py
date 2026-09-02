@@ -45,6 +45,7 @@ def build_retriever(retrieval: dict) -> Retriever:
     if rtype == "dense":
         return DenseRetriever(
             model_name=retrieval.get("model_name", "BAAI/bge-base-en-v1.5"),
+            backend=retrieval.get("backend", "auto"),
             cache_dir=retrieval.get("cache_dir", "data/cache"),
             batch_size=retrieval.get("batch_size", 32),
             show_progress=retrieval.get("show_progress", True),
