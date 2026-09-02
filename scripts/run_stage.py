@@ -17,6 +17,12 @@ from pathlib import Path
 project_root = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(project_root / "src"))
 
+try:
+    from dotenv import load_dotenv
+    load_dotenv(project_root / ".env")
+except ImportError:
+    pass
+
 from legal_rag.corpus import save_results
 from legal_rag.datasets import load_il_pcsr
 from legal_rag.evaluator import RetrievalEvaluator

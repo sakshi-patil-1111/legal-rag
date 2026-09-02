@@ -43,7 +43,7 @@ class LLMProvider:
         self.provider = provider or os.getenv("LLM_PROVIDER", "gemini")
         self.api_key = api_key or os.getenv("GEMINI_API_KEY") or os.getenv("LLM_API_KEY", "")
         self.base_url = base_url or os.getenv("LLM_BASE_URL", "")
-        self.model = model or os.getenv("LLM_MODEL", "gemini-2.5-flash")
+        self.model = model or os.getenv("LLM_MODEL", "gemini-3.6-flash")
 
     def generate(
         self,

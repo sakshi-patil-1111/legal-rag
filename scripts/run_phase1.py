@@ -6,6 +6,12 @@ from pathlib import Path
 project_root = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(project_root / "src"))
 
+try:
+    from dotenv import load_dotenv
+    load_dotenv(project_root / ".env")
+except ImportError:
+    pass
+
 from legal_rag.corpus import save_results
 from legal_rag.datasets import load_il_pcsr
 from legal_rag.evaluator import RetrievalEvaluator
@@ -15,6 +21,11 @@ from legal_rag.factory import build_chunker, build_query_strategy, build_reranke
 def run_task(config: dict, task: str) -> dict:
     data_root = project_root / config["dataset"].get("data_root", "data/fixtures/il_pcsr")
     queries, docs = load_il_pcsr(data_root, config["dataset"]["split"], task)
+
+    # Optional: limit queries for quick testing
+    max_q = config["dataset"].get("max_queries")
+    if max_q and len(queries) > max_q:
+        queries = queries[:max_q]
 
     chunker = build_chunker(**config["chunking"])
     retriever = build_retriever(config["retrieval"])
