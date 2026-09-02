@@ -1,0 +1,44 @@
+{
+  "train_queries": [
+    {
+      "id": "ilpcsr_train_1",
+      "case_title": "State v. Raju",
+      "text": [
+        "The accused represented to the complainant that he was a licensed dealer. The complainant paid a sum of money. The accused dishonestly induced delivery of the money and absconded."
+      ],
+      "rhetorical_roles": ["Facts"],
+      "relevant_statutes": ["Section 420 IPC"],
+      "relevant_statute_ids": ["ipc_s420"],
+      "relevant_precedents": ["State of Maharashtra v. Abdul"],
+      "relevant_precedent_ids": ["case_abdul"]
+    }
+  ],
+  "dev_queries": [
+    {
+      "id": "ilpcsr_dev_1",
+      "case_title": "Ramesh v. State",
+      "text": [
+        "The complainant entrusted funds to the accused for safekeeping. The accused converted the funds for personal use and refused to return them."
+      ],
+      "rhetorical_roles": ["Facts"],
+      "relevant_statutes": ["Section 406 IPC"],
+      "relevant_statute_ids": ["ipc_s406"],
+      "relevant_precedents": ["Ramesh v. State of Karnataka"],
+      "relevant_precedent_ids": ["case_ramesh"]
+    }
+  ],
+  "test_queries": [
+    {
+      "id": "ilpcsr_test_1",
+      "case_title": "State v. Kaushal",
+      "text": [
+        "The accused attacked the victim with a sharp weapon causing fatal injuries. The victim died on the spot."
+      ],
+      "rhetorical_roles": ["Facts"],
+      "relevant_statutes": ["Section 302 IPC"],
+      "relevant_statute_ids": ["ipc_s302"],
+      "relevant_precedents": ["Kaushal v. State of Haryana"],
+      "relevant_precedent_ids": ["case_kaushal"]
+    }
+  ]
+}

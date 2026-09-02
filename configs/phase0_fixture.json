@@ -1,0 +1,12 @@
+{
+  "experiment_name": "phase0_tiny_bm25",
+  "fixture": "data/fixtures/tiny_fixture.json",
+  "retriever": {
+    "type": "bm25",
+    "top_k": 10
+  },
+  "evaluation": {
+    "ks": [1, 3, 5, 10],
+    "output_path": "results/phase0_bm25_results.json"
+  }
+}

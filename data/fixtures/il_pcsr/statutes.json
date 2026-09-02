@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ipc_s420",
+    "provision_name": "Section 420 IPC - Cheating",
+    "text": [
+      "Whoever cheats and thereby dishonestly induces the person deceived to deliver any property to any person, or to make, alter or destroy the whole or any part of a valuable security, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine."
+    ]
+  },
+  {
+    "id": "ipc_s406",
+    "provision_name": "Section 406 IPC - Criminal Breach of Trust",
+    "text": [
+      "Whoever, being in any manner entrusted with property, or with any dominion over property, dishonestly misappropriates or converts to his own use that property, or dishonestly uses or disposes of that property in violation of any direction of law prescribing the mode in which such trust is to be discharged, shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both."
+    ]
+  },
+  {
+    "id": "ipc_s302",
+    "provision_name": "Section 302 IPC - Punishment for murder",
+    "text": [
+      "Whoever commits murder shall be punished with death, or imprisonment for life, and shall also be liable to fine."
+    ]
+  }
+]

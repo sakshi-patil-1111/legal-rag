@@ -1,0 +1,23 @@
+[
+  {
+    "id": "case_abdul",
+    "case_title": "State of Maharashtra v. Abdul",
+    "text": [
+      "The accused, by deceitful representation, induced the complainant to part with a sum of money. The evidence establishes that the accused cheated the complainant and dishonestly induced delivery of property. The conduct of the accused falls squarely within the scope of section 420 of the Indian Penal Code. He is convicted accordingly."
+    ]
+  },
+  {
+    "id": "case_ramesh",
+    "case_title": "Ramesh v. State of Karnataka",
+    "text": [
+      "The complainant entrusted a sum of money to the accused for safekeeping. The accused dishonestly misappropriated the amount and used it for personal expenses. This amounts to criminal breach of trust as defined under section 406 of the Indian Penal Code. The conviction is affirmed."
+    ]
+  },
+  {
+    "id": "case_kaushal",
+    "case_title": "Kaushal v. State of Haryana",
+    "text": [
+      "The accused caused the death of the victim by intentionally inflicting injuries with a sharp weapon. The injuries were sufficient in the ordinary course of nature to cause death. The act falls within the definition of murder under section 302 of the Indian Penal Code. Conviction under section 302 is upheld."
+    ]
+  }
+]

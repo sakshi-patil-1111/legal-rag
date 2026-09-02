@@ -1,0 +1,62 @@
+{
+  "documents": [
+    {
+      "doc_id": "ipc_s420",
+      "doc_type": "statute",
+      "title": "Section 420 IPC - Cheating",
+      "raw_text": "Whoever cheats and thereby dishonestly induces the person deceived to deliver any property to any person, or to make, alter or destroy the whole or any part of a valuable security, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",
+      "source": "IPC",
+      "metadata": {"section": "420"}
+    },
+    {
+      "doc_id": "ipc_s406",
+      "doc_type": "statute",
+      "title": "Section 406 IPC - Criminal Breach of Trust",
+      "raw_text": "Whoever, being in any manner entrusted with property, or with any dominion over property, dishonestly misappropriates or converts to his own use that property, or dishonestly uses or disposes of that property in violation of any direction of law prescribing the mode in which such trust is to be discharged, shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.",
+      "source": "IPC",
+      "metadata": {"section": "406"}
+    },
+    {
+      "doc_id": "case_abdul",
+      "doc_type": "precedent",
+      "title": "State of Maharashtra v. Abdul",
+      "raw_text": "The accused, by deceitful representation, induced the complainant to part with a sum of money. The evidence establishes that the accused cheated the complainant and dishonestly induced delivery of property. The conduct of the accused falls squarely within the scope of section 420 of the Indian Penal Code. He is convicted accordingly.",
+      "source": "High Court",
+      "metadata": {"offence": "cheating"}
+    },
+    {
+      "doc_id": "case_ramesh",
+      "doc_type": "precedent",
+      "title": "Ramesh v. State of Karnataka",
+      "raw_text": "The complainant entrusted a sum of money to the accused for safekeeping. The accused dishonestly misappropriated the amount and used it for personal expenses. This amounts to criminal breach of trust as defined under section 406 of the Indian Penal Code. The conviction is affirmed.",
+      "source": "High Court",
+      "metadata": {"offence": "criminal breach of trust"}
+    }
+  ],
+  "queries": [
+    {
+      "qid": "q1",
+      "text": "A person deceives another and dishonestly induces them to deliver money.",
+      "task_type": "statute_retrieval",
+      "benchmark": "tiny_fixture",
+      "language": "en",
+      "ground_truth": ["ipc_s420"]
+    },
+    {
+      "qid": "q2",
+      "text": "A person entrusted with money misappropriates it for personal use.",
+      "task_type": "statute_retrieval",
+      "benchmark": "tiny_fixture",
+      "language": "en",
+      "ground_truth": ["ipc_s406"]
+    },
+    {
+      "qid": "q3",
+      "text": "A case where the accused cheated someone and induced delivery of money.",
+      "task_type": "precedent_retrieval",
+      "benchmark": "tiny_fixture",
+      "language": "en",
+      "ground_truth": ["case_abdul"]
+    }
+  ]
+}

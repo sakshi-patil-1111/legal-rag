@@ -1,0 +1,14 @@
+{
+  "test_cases": [
+    {
+      "id": "lbr_test_1",
+      "query": "Which state's laws govern the non-disclosure agreement?",
+      "ground_truth": ["contract_a.txt"]
+    },
+    {
+      "id": "lbr_test_2",
+      "query": "What dispute resolution mechanism is specified in the master service agreement?",
+      "ground_truth": ["contract_b.txt"]
+    }
+  ]
+}
