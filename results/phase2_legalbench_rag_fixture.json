@@ -1,9 +1,16 @@
 {
+  "experiment_id": "phase2_legalbench_rag_fixture_20260902_092318",
+  "timestamp": "2026-09-02T09:23:18.848877+00:00",
+  "git_commit": "e5099d832231d1c0a12d0c34b3dcb1cadddba6a2",
+  "seed": 42,
+  "config_hash": "da165692e2f03dba",
+  "python_version": "3.13.6",
+  "platform": "macOS-14.8.8-arm64-arm-64bit-Mach-O",
   "n_queries": 2,
   "top_k": 10,
   "final_k": 3,
   "eval_mode": "both",
-  "latency_seconds": 0.00567770900670439,
+  "latency_seconds": 0.12482358294073492,
   "index_stats": {
     "n_documents": 2,
     "n_chunks": 2
@@ -13,6 +20,14 @@
     "recall@3": 1.0,
     "recall@5": 1.0,
     "recall@10": 1.0,
+    "precision@1": 1.0,
+    "precision@3": 0.5,
+    "precision@5": 0.5,
+    "precision@10": 0.5,
+    "ndcg@1": 1.0,
+    "ndcg@3": 1.0,
+    "ndcg@5": 1.0,
+    "ndcg@10": 1.0,
     "mrr": 1.0
   },
   "snippet_metrics": {
@@ -56,9 +71,17 @@
       "snippets": null,
       "doc_metrics": {
         "recall@1": 1.0,
+        "precision@1": 1.0,
+        "ndcg@1": 1.0,
         "recall@3": 1.0,
+        "precision@3": 0.5,
+        "ndcg@3": 1.0,
         "recall@5": 1.0,
+        "precision@5": 0.5,
+        "ndcg@5": 1.0,
         "recall@10": 1.0,
+        "precision@10": 0.5,
+        "ndcg@10": 1.0,
         "mrr": 1.0
       },
       "snippet_metrics": null
@@ -92,9 +115,17 @@
       "snippets": null,
       "doc_metrics": {
         "recall@1": 1.0,
+        "precision@1": 1.0,
+        "ndcg@1": 1.0,
         "recall@3": 1.0,
+        "precision@3": 0.5,
+        "ndcg@3": 1.0,
         "recall@5": 1.0,
+        "precision@5": 0.5,
+        "ndcg@5": 1.0,
         "recall@10": 1.0,
+        "precision@10": 0.5,
+        "ndcg@10": 1.0,
         "mrr": 1.0
       },
       "snippet_metrics": null
@@ -133,5 +164,5 @@
     },
     "output_dir": "results"
   },
-  "indexing_latency": 0.12513770791701972
+  "indexing_latency": 7.8869495409308
 }

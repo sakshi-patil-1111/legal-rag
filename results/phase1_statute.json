@@ -1,9 +1,16 @@
 {
+  "experiment_id": "phase1_ilpcsr_fixture_20260902_092303",
+  "timestamp": "2026-09-02T09:23:03.766300+00:00",
+  "git_commit": "e5099d832231d1c0a12d0c34b3dcb1cadddba6a2",
+  "seed": 42,
+  "config_hash": "40f3e87c0251ae48",
+  "python_version": "3.13.6",
+  "platform": "macOS-14.8.8-arm64-arm-64bit-Mach-O",
   "n_queries": 1,
   "top_k": 10,
   "final_k": 10,
   "eval_mode": "document",
-  "latency_seconds": 0.0005009160377085209,
+  "latency_seconds": 0.00021266599651426077,
   "index_stats": {
     "n_documents": 3,
     "n_chunks": 3
@@ -13,6 +20,14 @@
     "recall@3": 1.0,
     "recall@5": 1.0,
     "recall@10": 1.0,
+    "precision@1": 0.0,
+    "precision@3": 0.3333333333333333,
+    "precision@5": 0.3333333333333333,
+    "precision@10": 0.3333333333333333,
+    "ndcg@1": 0.0,
+    "ndcg@3": 0.5,
+    "ndcg@5": 0.5,
+    "ndcg@10": 0.5,
     "mrr": 0.3333333333333333
   },
   "per_query": [
@@ -49,9 +64,17 @@
       "snippets": null,
       "doc_metrics": {
         "recall@1": 0.0,
+        "precision@1": 0.0,
+        "ndcg@1": 0.0,
         "recall@3": 1.0,
+        "precision@3": 0.3333333333333333,
+        "ndcg@3": 0.5,
         "recall@5": 1.0,
+        "precision@5": 0.3333333333333333,
+        "ndcg@5": 0.5,
         "recall@10": 1.0,
+        "precision@10": 0.3333333333333333,
+        "ndcg@10": 0.5,
         "mrr": 0.3333333333333333
       },
       "snippet_metrics": null
@@ -92,5 +115,5 @@
     },
     "output_dir": "results"
   },
-  "indexing_latency": 0.0008480000542476773
+  "indexing_latency": 0.0896269999211654
 }

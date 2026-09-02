@@ -8,6 +8,14 @@
         "recall@3": 1.0,
         "recall@5": 1.0,
         "recall@10": 1.0,
+        "precision@1": 0.0,
+        "precision@3": 0.3333333333333333,
+        "precision@5": 0.3333333333333333,
+        "precision@10": 0.3333333333333333,
+        "ndcg@1": 0.0,
+        "ndcg@3": 0.5,
+        "ndcg@5": 0.5,
+        "ndcg@10": 0.5,
         "mrr": 0.3333333333333333
       },
       "output": "/Users/samudraneelsarkar/Downloads/GitHub/legal-rag/results/phase1_statute.json"
@@ -19,6 +27,14 @@
         "recall@3": 1.0,
         "recall@5": 1.0,
         "recall@10": 1.0,
+        "precision@1": 1.0,
+        "precision@3": 0.3333333333333333,
+        "precision@5": 0.3333333333333333,
+        "precision@10": 0.3333333333333333,
+        "ndcg@1": 1.0,
+        "ndcg@3": 1.0,
+        "ndcg@5": 1.0,
+        "ndcg@10": 1.0,
         "mrr": 1.0
       },
       "output": "/Users/samudraneelsarkar/Downloads/GitHub/legal-rag/results/phase1_precedent.json"

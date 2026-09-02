@@ -2,7 +2,7 @@
   "experiment": "phase0_bm25_fixture",
   "n_queries": 3,
   "top_k": 10,
-  "latency_seconds": 0.0005603749305009842,
+  "latency_seconds": 0.0003595410380512476,
   "metrics": {
     "recall@1": 0.6666666666666666,
     "recall@3": 1.0,
@@ -37,9 +37,17 @@
       ],
       "metrics": {
         "recall@1": 1.0,
+        "precision@1": 1.0,
+        "ndcg@1": 1.0,
         "recall@3": 1.0,
+        "precision@3": 0.3333333333333333,
+        "ndcg@3": 1.0,
         "recall@5": 1.0,
+        "precision@5": 0.25,
+        "ndcg@5": 1.0,
         "recall@10": 1.0,
+        "precision@10": 0.25,
+        "ndcg@10": 1.0,
         "mrr": 1.0
       }
     },
@@ -69,9 +77,17 @@
       ],
       "metrics": {
         "recall@1": 0.0,
+        "precision@1": 0.0,
+        "ndcg@1": 0.0,
         "recall@3": 1.0,
+        "precision@3": 0.3333333333333333,
+        "ndcg@3": 0.6309297535714575,
         "recall@5": 1.0,
+        "precision@5": 0.25,
+        "ndcg@5": 0.6309297535714575,
         "recall@10": 1.0,
+        "precision@10": 0.25,
+        "ndcg@10": 0.6309297535714575,
         "mrr": 0.5
       }
     },
@@ -101,9 +117,17 @@
       ],
       "metrics": {
         "recall@1": 1.0,
+        "precision@1": 1.0,
+        "ndcg@1": 1.0,
         "recall@3": 1.0,
+        "precision@3": 0.3333333333333333,
+        "ndcg@3": 1.0,
         "recall@5": 1.0,
+        "precision@5": 0.25,
+        "ndcg@5": 1.0,
         "recall@10": 1.0,
+        "precision@10": 0.25,
+        "ndcg@10": 1.0,
         "mrr": 1.0
       }
     }
