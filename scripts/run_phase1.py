@@ -13,7 +13,7 @@ from legal_rag.factory import build_chunker, build_query_strategy, build_reranke
 
 
 def run_task(config: dict, task: str) -> dict:
-    data_root = project_root / "data" / "fixtures" / "il_pcsr"
+    data_root = project_root / config["dataset"].get("data_root", "data/fixtures/il_pcsr")
     queries, docs = load_il_pcsr(data_root, config["dataset"]["split"], task)
 
     chunker = build_chunker(**config["chunking"])
@@ -45,7 +45,8 @@ def run_task(config: dict, task: str) -> dict:
 
 
 def main() -> None:
-    config_path = project_root / "configs" / "phase1_fixture.json"
+    config_name = sys.argv[1] if len(sys.argv) > 1 else "phase1_fixture.json"
+    config_path = project_root / "configs" / config_name
     config = json.loads(config_path.read_text(encoding="utf-8"))
     output_dir = project_root / config["output_dir"]
     output_dir.mkdir(parents=True, exist_ok=True)

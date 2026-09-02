@@ -1,0 +1,29 @@
+{
+  "experiment_name": "phase2_lbr_privacy_qa_bm25",
+  "dataset": {
+    "name": "legalbench_rag",
+    "data_root": "data/raw/legalbench_rag",
+    "split": "test",
+    "benchmark": "privacy_qa"
+  },
+  "eval_mode": "both",
+  "chunking": {
+    "strategy": "fixed_char",
+    "size": 1024,
+    "overlap": 200
+  },
+  "retrieval": {
+    "type": "bm25",
+    "top_k": 10
+  },
+  "query": {
+    "strategy": "direct"
+  },
+  "reranker": {
+    "enabled": false
+  },
+  "evaluation": {
+    "ks": [1, 3, 5, 10]
+  },
+  "output_dir": "results"
+}

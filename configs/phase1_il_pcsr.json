@@ -1,0 +1,26 @@
+{
+  "experiment_name": "phase1_ilpcsr_bm25",
+  "dataset": {
+    "name": "il_pcsr",
+    "data_root": "data/raw/il_pcsr",
+    "split": "test",
+    "tasks": ["statute", "precedent"]
+  },
+  "chunking": {
+    "strategy": "whole"
+  },
+  "retrieval": {
+    "type": "bm25",
+    "top_k": 10
+  },
+  "query": {
+    "strategy": "direct"
+  },
+  "reranker": {
+    "enabled": false
+  },
+  "evaluation": {
+    "ks": [1, 3, 5, 10]
+  },
+  "output_dir": "results"
+}

@@ -13,11 +13,14 @@ from legal_rag.factory import build_chunker, build_query_strategy, build_reranke
 
 
 def main() -> None:
-    config_path = project_root / "configs" / "phase2_fixture.json"
+    config_name = sys.argv[1] if len(sys.argv) > 1 else "phase2_fixture.json"
+    config_path = project_root / "configs" / config_name
     config = json.loads(config_path.read_text(encoding="utf-8"))
-    data_root = project_root / "data" / "fixtures" / "legalbench_rag"
+    data_root = project_root / config["dataset"].get("data_root", "data/fixtures/legalbench_rag")
+    benchmark = config["dataset"].get("benchmark")
+    eval_mode = config.get("eval_mode", "both")
 
-    queries, docs = load_legalbench_rag(data_root, config["dataset"]["split"])
+    queries, docs = load_legalbench_rag(data_root, config["dataset"]["split"], benchmark=benchmark)
 
     chunker = build_chunker(**config["chunking"])
     retriever = build_retriever(config["retrieval"])
@@ -40,6 +43,7 @@ def main() -> None:
         top_k=top_k,
         final_k=final_k,
         ks=tuple(config["evaluation"]["ks"]),
+        eval_mode=eval_mode,
     )
     results["experiment_name"] = config["experiment_name"]
     results["config"] = config
@@ -48,15 +52,22 @@ def main() -> None:
 
     output_dir = project_root / config["output_dir"]
     output_dir.mkdir(parents=True, exist_ok=True)
-    output_path = output_dir / "phase2_legalbench_rag.json"
+    output_path = output_dir / f"{config['experiment_name']}.json"
     save_results(output_path, results)
 
     print(f"Experiment: {results['experiment_name']}")
     print(f"Queries: {results['n_queries']}")
     print(f"Chunks: {results['index_stats']['n_chunks']}")
-    print("Metrics:")
-    for k, v in results["metrics"].items():
-        print(f"  {k}: {v:.4f}")
+    print(f"Eval mode: {eval_mode}")
+    if "metrics" in results:
+        print("Document-level metrics:")
+        for k, v in results["metrics"].items():
+            print(f"  {k}: {v:.4f}")
+    if "snippet_metrics" in results:
+        print(f"Snippet queries: {results.get('n_snippet_queries', 0)}")
+        print("Snippet-level metrics:")
+        for k, v in results["snippet_metrics"].items():
+            print(f"  {k}: {v:.4f}")
     print(f"Results written to: {output_path}")
 
 
