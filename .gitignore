@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Secrets
+.env
+
+# Downloaded datasets (regenerated via scripts, not for redistribution)
+data/raw/
+
+# Caches / indexes (regenerated)
+data/cache/
+data/indexes/
+data/processed/
+
+# Downloaded archives
+*.zip
+*.tar.gz
+*.tar
+
+# Aggregated results (regenerated from raw)
+results/aggregated/
