@@ -36,3 +36,7 @@ data/processed/
 
 # Aggregated results (regenerated from raw)
 results/aggregated/
+
+# Per-query result files (large, regenerable from configs)
+results/**/*_statute.json
+results/**/*_precedent.json
