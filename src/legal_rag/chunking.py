@@ -29,7 +29,11 @@ class WholeDocumentChunker(Chunker):
                 parent_doc_id=d.doc_id,
                 text=d.raw_text,
                 position=0,
-                chunking_metadata={"strategy": "whole"},
+                chunking_metadata={
+                    "strategy": "whole",
+                    "char_start": 0,
+                    "char_end": len(d.raw_text),
+                },
                 structural_metadata=d.metadata,
             )
             for d in documents
@@ -123,30 +127,42 @@ class RecursiveChunker(Chunker):
     def name(self) -> str:
         return f"recursive_{self.size}_{self.overlap}"
 
-    def _split_recursive(self, text: str, depth: int = 0) -> list[str]:
+    def _split_recursive(self, text: str, depth: int = 0) -> list[tuple[str, int]]:
+        """Return list of (chunk_text, char_start) relative to the input text."""
         if depth >= len(self.separators):
-            return [text]
+            return [(text, 0)]
         sep = self.separators[depth]
         parts = text.split(sep)
-        chunks: list[str] = []
+        chunks: list[tuple[str, int]] = []
         buffer = ""
+        buffer_start = 0
+        pos = 0
         for part in parts:
             candidate = (buffer + sep + part) if buffer else part
+            candidate_start = buffer_start if buffer else pos
             if len(tokenize(candidate)) <= self.size:
+                if not buffer:
+                    buffer_start = pos
                 buffer = candidate
             else:
                 if buffer:
-                    chunks.extend(self._split_recursive(buffer, depth + 1))
+                    chunks.extend(
+                        (t, buffer_start + off) for t, off in self._split_recursive(buffer, depth + 1)
+                    )
                 buffer = part
+                buffer_start = pos
+            pos += len(part) + len(sep)
         if buffer:
-            chunks.extend(self._split_recursive(buffer, depth + 1))
+            chunks.extend(
+                (t, buffer_start + off) for t, off in self._split_recursive(buffer, depth + 1)
+            )
         return chunks
 
     def chunk(self, documents: list[LegalDocument]) -> list[LegalChunk]:
         chunks: list[LegalChunk] = []
         for d in documents:
             raw_chunks = self._split_recursive(d.raw_text)
-            for idx, c in enumerate(raw_chunks):
+            for idx, (c, char_start) in enumerate(raw_chunks):
                 chunks.append(
                     LegalChunk(
                         chunk_id=f"{d.doc_id}#c{idx}",
@@ -156,6 +172,8 @@ class RecursiveChunker(Chunker):
                         chunking_metadata={
                             "strategy": self.name,
                             "depth_used": len(self.separators),
+                            "char_start": char_start,
+                            "char_end": char_start + len(c),
                         },
                         structural_metadata=d.metadata,
                     )

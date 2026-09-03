@@ -21,6 +21,7 @@ class HybridRetriever(Retriever):
 
     def index(self, items: list[Any]) -> None:
         self.items = items
+        self._chunk_ids = [self._chunk_id(d) for d in items]
         self.retriever_a.index(items)
         self.retriever_b.index(items)
 
@@ -40,6 +41,26 @@ class HybridRetriever(Retriever):
             if doc_id in rank_b:
                 score += 1.0 / (self.k + rank_b[doc_id])
             fused.append((doc_id, score))
+
+        fused.sort(key=lambda x: x[1], reverse=True)
+        return fused[:top_k]
+
+    def search_chunks(self, query: str, top_k: int = 10) -> list[tuple[str, float]]:
+        results_a = self.retriever_a.search_chunks(query, top_k=top_k * 2)
+        results_b = self.retriever_b.search_chunks(query, top_k=top_k * 2)
+
+        rank_a = _rank_map(results_a)
+        rank_b = _rank_map(results_b)
+        ids = set(rank_a) | set(rank_b)
+
+        fused: list[tuple[str, float]] = []
+        for chunk_id in ids:
+            score = 0.0
+            if chunk_id in rank_a:
+                score += 1.0 / (self.k + rank_a[chunk_id])
+            if chunk_id in rank_b:
+                score += 1.0 / (self.k + rank_b[chunk_id])
+            fused.append((chunk_id, score))
 
         fused.sort(key=lambda x: x[1], reverse=True)
         return fused[:top_k]

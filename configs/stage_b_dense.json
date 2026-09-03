@@ -1,0 +1,16 @@
+{
+  "experiment_name": "stage_b_dense",
+  "dataset": {
+    "name": "il_pcsr",
+    "data_root": "data/raw/il_pcsr",
+    "split": "dev",
+    "tasks": ["statute", "precedent"]
+  },
+  "seed": 42,
+  "chunking": {"strategy": "whole"},
+  "retrieval": {"type": "dense", "model_name": "BAAI/bge-small-en-v1.5", "top_k": 10},
+  "query": {"strategy": "direct"},
+  "reranker": {"enabled": false},
+  "evaluation": {"ks": [1, 2, 3, 5, 10]},
+  "output_dir": "results/stage_b"
+}

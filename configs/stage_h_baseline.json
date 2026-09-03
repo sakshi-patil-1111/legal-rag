@@ -1,0 +1,16 @@
+{
+  "experiment_name": "stage_h_baseline",
+  "dataset": {
+    "name": "il_pcsr",
+    "data_root": "data/raw/il_pcsr",
+    "split": "test",
+    "tasks": ["statute", "precedent"]
+  },
+  "seed": 42,
+  "chunking": {"strategy": "whole"},
+  "retrieval": {"type": "bm25", "top_k": 10},
+  "query": {"strategy": "direct"},
+  "reranker": {"enabled": false},
+  "evaluation": {"ks": [1, 2, 3, 5, 10]},
+  "output_dir": "results/stage_h"
+}

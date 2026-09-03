@@ -1,0 +1,16 @@
+{
+  "experiment_name": "stage_d_fixed512",
+  "dataset": {
+    "name": "il_pcsr",
+    "data_root": "data/raw/il_pcsr",
+    "split": "dev",
+    "tasks": ["statute", "precedent"]
+  },
+  "seed": 42,
+  "chunking": {"strategy": "fixed_token", "size": 512, "overlap": 50},
+  "retrieval": {"type": "bm25", "top_k": 10},
+  "query": {"strategy": "direct"},
+  "reranker": {"enabled": false},
+  "evaluation": {"ks": [1, 2, 3, 5, 10]},
+  "output_dir": "results/stage_d"
+}

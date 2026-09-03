@@ -1,0 +1,197 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{caption}
+
+\title{Comparing Retrieval Approaches for Legal Documents:\\
+An Ablation Study on IL-PCSR}
+\author{Neel Sarkar}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We compare off-the-shelf retrieval methods for legal document retrieval on the IL-PCSR benchmark, which provides two tasks: statute retrieval (LSR) and prior case retrieval (PCR). We test BM25, three dense embedding models, hybrid fusion, two chunking strategies, and cross-encoder reranking. BM25 with recursive chunking (512 tokens, 50 overlap) is the strongest off-the-shelf configuration, achieving 12.92\% F1@10 on LSR and 17.92\% F1@10 on PCR on the test split. Off-the-shelf dense embeddings underperform BM25 on both tasks. Hybrid fusion does not help when the dense component is weak. Cross-encoder reranking with a web-trained model degrades performance. These results suggest that lexical matching remains a strong baseline for legal retrieval, and that the gains reported from dense models in prior work depend on task-specific fine-tuning rather than off-the-shelf usage.
+\end{abstract}
+
+\section{Introduction}
+
+Legal retrieval---finding relevant statutes and precedents for a given case---is a core task in legal AI. The IL-PCSR corpus \cite{ilpcsr} provides a shared testbed for both statute retrieval (LSR) and prior case retrieval (PCR) in the Indian legal domain, with 627 development and 627 test queries, 936 statute candidates, and 3{,}183 precedent candidates.
+
+The authors of IL-PCSR report that lexical methods (BM25) perform well on PCR while semantic methods (fine-tuned models) perform better on LSR. However, their semantic models are either pre-trained on legal corpora (SAILER) or fine-tuned on the IL-PCSR training split (Para-GNN). It is unclear how off-the-shelf dense embeddings compare to BM25 without such domain-specific training.
+
+We address this question by running a staged ablation: BM25 baseline, dense retrieval with three models, hybrid fusion, chunking strategies, and reranking. All experiments use the same corpus, split, and metrics.
+
+\section{Setup}
+
+\textbf{Dataset.} IL-PCSR development split (627 queries) for model selection, test split (627 queries) for final evaluation. Two tasks: LSR (query $\to$ statutes, avg 2.69 relevant per query) and PCR (query $\to$ precedents, avg 3.87 relevant per query). Queries are long (avg 3{,}383 words); statutes are short (avg 650 words); precedents are long (avg 7{,}485 words).
+
+\textbf{Metrics.} We report macro-F1@10, MAP, and MRR, matching the IL-PCSR paper. We also report recall@10 for completeness.
+
+\textbf{BM25.} We use the \texttt{bm25s} library with $k_1=1.6$, $b=0.7$ (matching the paper's hyperparameters). Tokenization uses English stopwords.
+
+\textbf{Dense models.} Three off-the-shelf models: (1) BAAI/bge-small-en-v1.5 (general-purpose, 384-dim), (2) axondendriteplus/Legal-Embed-bge-base-en-v1.5 (BGE-base fine-tuned on LegalBench-RAG, 768-dim), (3) CSHaitao/SAILER\_en (BERT pre-trained on English legal case documents, 768-dim, mean pooling).
+
+\textbf{Hybrid.} Reciprocal Rank Fusion (RRF) with $k=60$, combining BM25 and BGE-small.
+
+\textbf{Chunking.} Whole-document, fixed 512-token with 50-token overlap, and recursive 512-token with 50-token overlap (splits on paragraph boundaries first, then sentences).
+
+\textbf{Reranking.} Cross-encoder \texttt{ms-marco-MiniLM-L-6-v2} on top-20 candidates from first-stage retrieval.
+
+\section{Results}
+
+\subsection{Retrieval Method (RQ1)}
+
+Table~\ref{tab:retrieval} compares retrieval methods on the development split, all using whole-document indexing.
+
+\begin{table}[h]
+\centering
+\caption{Retrieval method comparison on IL-PCSR dev (whole-document, no chunking).}
+\label{tab:retrieval}
+\begin{tabular}{llcccc}
+\toprule
+Task & Method & F1@10 & MAP & MRR & Recall@10 \\
+\midrule
+\multirow{4}{*}{LSR} & BM25 & \textbf{8.39} & \textbf{9.57} & \textbf{20.55} & \textbf{18.52} \\
+ & Dense (BGE-small) & 5.67 & 6.72 & 14.73 & 13.07 \\
+ & Dense (Legal-Embed) & 7.98 & 9.01 & 19.35 & 17.98 \\
+ & Dense (SAILER) & 0.23 & 0.12 & 0.47 & 0.49 \\
+\midrule
+\multirow{4}{*}{PCR} & BM25 & \textbf{11.02} & \textbf{18.41} & \textbf{30.78} & \textbf{30.88} \\
+ & Dense (BGE-small) & 4.05 & 5.73 & 10.00 & 12.15 \\
+ & Dense (Legal-Embed) & 4.34 & 6.74 & 11.52 & 13.46 \\
+ & Dense (SAILER) & 0.02 & 0.04 & 0.16 & 0.04 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+BM25 outperforms all off-the-shelf dense models on both tasks. The legal fine-tuned model (Legal-Embed) closes some of the gap on LSR but remains worse than BM25. SAILER, without fine-tuning on the target task, performs near randomly. Hybrid fusion (RRF) does not improve over BM25 alone (Table~\ref{tab:hybrid}), because the weak dense component drags down BM25's rankings.
+
+\begin{table}[h]
+\centering
+\caption{Hybrid (RRF) vs.\ BM25 on dev.}
+\label{tab:hybrid}
+\begin{tabular}{llcccc}
+\toprule
+Task & Method & F1@10 & MAP & MRR & Recall@10 \\
+\midrule
+LSR & BM25 & \textbf{8.39} & \textbf{9.57} & \textbf{20.55} & \textbf{18.52} \\
+LSR & Hybrid (RRF) & 8.29 & 9.48 & 19.97 & 18.17 \\
+PCR & BM25 & \textbf{11.02} & \textbf{18.41} & \textbf{30.78} & \textbf{30.88} \\
+PCR & Hybrid (RRF) & 10.09 & 15.35 & 26.84 & 28.35 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Chunking (RQ2)}
+
+Table~\ref{tab:chunking} compares chunking strategies with BM25 on the development split.
+
+\begin{table}[h]
+\centering
+\caption{Chunking ablation with BM25 on dev.}
+\label{tab:chunking}
+\begin{tabular}{llcccc}
+\toprule
+Task & Chunking & F1@10 & MAP & MRR & Recall@10 \\
+\midrule
+\multirow{3}{*}{LSR} & Whole & 8.39 & 9.57 & 20.55 & 18.52 \\
+ & Fixed-512 & \textbf{11.61} & \textbf{12.90} & 28.92 & 20.76 \\
+ & Recursive-512 & 11.46 & 12.87 & \textbf{29.38} & \textbf{20.90} \\
+\midrule
+\multirow{3}{*}{PCR} & Whole & 11.02 & 18.41 & 30.78 & 30.88 \\
+ & Fixed-512 & 16.48 & 19.11 & 32.23 & 30.10 \\
+ & Recursive-512 & \textbf{17.19} & \textbf{19.75} & \textbf{33.03} & \textbf{32.43} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Chunking improves F1@10 by 38\% on LSR and 56\% on PCR over whole-document retrieval. Recursive chunking slightly outperforms fixed chunking on PCR, likely because respecting paragraph boundaries preserves legal context. The improvement is larger on PCR because precedents are long (7{,}485 words) and chunking isolates the relevant passages, reducing noise.
+
+\subsection{Reranking (RQ3)}
+
+Table~\ref{tab:rerank} shows that cross-encoder reranking degrades performance on both tasks.
+
+\begin{table}[h]
+\centering
+\caption{Cross-encoder reranking on dev (recursive-512 BM25 first stage).}
+\label{tab:rerank}
+\begin{tabular}{llcccc}
+\toprule
+Task & Rerank & F1@10 & MAP & MRR & Recall@10 \\
+\midrule
+LSR & No & \textbf{11.46} & \textbf{12.87} & \textbf{29.38} & 20.90 \\
+LSR & Yes & 9.98 & 10.50 & 20.97 & \textbf{22.24} \\
+PCR & No & \textbf{17.19} & \textbf{19.75} & \textbf{33.03} & 32.43 \\
+PCR & Yes & 13.83 & 14.58 & 23.58 & \textbf{33.68} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The cross-encoder (\texttt{ms-marco-MiniLM-L-6-v2}) is trained on web search data, not legal text. It reorders BM25's correct rankings into worse positions. Recall@10 increases slightly because reranking reshuffles the top-20 pool, but precision and ranking quality drop. The reranking step also adds roughly 60$\times$ latency (5 minutes vs.\ 5 seconds per task).
+
+\subsection{Final Test Results}
+
+Table~\ref{tab:test} reports the best configuration (recursive-512 BM25, no reranking) on the held-out test split, compared against the whole-document BM25 baseline.
+
+\begin{table}[h]
+\centering
+\caption{Final test results on IL-PCSR test split (627 queries).}
+\label{tab:test}
+\begin{tabular}{llcccc}
+\toprule
+Task & Configuration & F1@10 & MAP & MRR & Recall@10 \\
+\midrule
+\multirow{2}{*}{LSR} & BM25 whole & 8.31 & 9.96 & 23.78 & 18.16 \\
+ & BM25 recursive-512 & \textbf{12.92} & \textbf{14.37} & \textbf{32.34} & \textbf{23.64} \\
+\midrule
+\multirow{2}{*}{PCR} & BM25 whole & 11.38 & 17.69 & 28.42 & 32.66 \\
+ & BM25 recursive-512 & \textbf{17.92} & \textbf{21.63} & \textbf{33.97} & \textbf{34.30} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Recursive chunking improves F1@10 by 55\% on LSR and 57\% on PCR over the whole-document baseline. The gains transfer from dev to test without degradation.
+
+\section{Discussion}
+
+\textbf{Why does BM25 dominate?} IL-PCSR queries are long legal judgment texts (3{,}383 words on average). Precedents are similarly long and lexically close to the query, which favors exact term matching. Statutes are shorter and more abstract, but BM25 still outperforms off-the-shelf dense embeddings. The dense models we tested have a 512-token input limit, which truncates the long queries and loses information. Even the legal fine-tuned model, which uses 768-dim embeddings and was trained on legal text, does not close the gap.
+
+\textbf{Why does the paper report dense $>$ BM25 on LSR?} The IL-PCSR paper's semantic models are either pre-trained specifically for legal case structure (SAILER, with its asymmetric encoder-decoder architecture) or fine-tuned on the IL-PCSR training split (Para-GNN, with graph neural networks over paragraph-level rhetorical roles). These are not off-the-shelf models. SAILER without fine-tuning performs near randomly in our experiments. The paper's advantage comes from task-specific training, not from dense retrieval in general.
+
+\textbf{Why does chunking help so much?} BM25's length normalization penalizes long documents. Chunking reduces document length, which sharpens the signal. For precedents (7{,}485 words), this means the relevant passage is not diluted by 7{,}000 words of irrelevant legal reasoning. For statutes (650 words), the gain is smaller but still present, likely because individual subsections match better than the full statute text.
+
+\textbf{Why does reranking hurt?} The cross-encoder was trained on MS MARCO web queries. Legal text has precise terminology, negation patterns, and structural conventions that a web-trained model does not handle well. A legal-domain reranker might help, but we did not find one available off-the-shelf.
+
+\section{Limitations}
+
+We tested only off-the-shelf models. Fine-tuning a dense model on the IL-PCSR training split would likely change the results, as the paper demonstrates. We did not test query transformation (rewriting, HyDE) due to API cost. We used only one cross-encoder; a legal-specific reranker might perform differently. Our BM25 uses unigram tokenization; the paper reports gains from n-gram BM25 (2--5 grams), which we did not implement.
+
+\section{Conclusion}
+
+For off-the-shelf legal document retrieval on IL-PCSR, BM25 with recursive chunking is the best configuration. Dense embeddings, hybrid fusion, and cross-encoder reranking do not improve over this baseline without domain-specific training. Chunking is the single most impactful design choice, improving F1@10 by over 50\% on both tasks. These findings suggest that practitioners building legal retrieval systems without access to task-specific training data should start with BM25 and chunking, not dense embeddings.
+
+\begin{thebibliography}{9}
+
+\bibitem{ilpcsr}
+S.~Paul, D.~Ghumare, P.~Goyal, S.~Ghosh, A.~Modi.
+\newblock IL-PCSR: Legal Corpus for Prior Case and Statute Retrieval.
+\newblock In \emph{Proceedings of EMNLP}, 2025.
+
+\bibitem{sailer}
+H.~Li, Q.~Ai, J.~Chen, Q.~Dong, Y.~Wu, Y.~Liu, C.~Chen, Q.~Tian.
+\newblock SAILER: Structure-aware Pre-trained Language Model for Legal Case Retrieval.
+\newblock In \emph{Proceedings of SIGIR}, 2023.
+
+\bibitem{bm25s}
+X.~L. Nguyen.
+\newblock bm25s: Extremely Fast BM25.
+\newblock \url{https://github.com/xhluca/bm25s}, 2024.
+
+\end{thebibliography}
+
+\end{document}

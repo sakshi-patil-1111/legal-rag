@@ -34,7 +34,7 @@ class TestRetrievers(unittest.TestCase):
     def test_dense_retriever(self):
         chunker = WholeDocumentChunker()
         chunks = chunker.chunk(self.docs)
-        retriever = DenseRetriever(n_components=2)
+        retriever = DenseRetriever(cache_dir=None)
         retriever.index(chunks)
         results = retriever.search("dishonestly induces delivery of money", top_k=3)
         self.assertTrue(len(results) > 0)
@@ -43,7 +43,7 @@ class TestRetrievers(unittest.TestCase):
         chunker = WholeDocumentChunker()
         chunks = chunker.chunk(self.docs)
         bm25 = BM25Retriever()
-        dense = DenseRetriever(n_components=2)
+        dense = DenseRetriever(cache_dir=None)
         hybrid = HybridRetriever(bm25, dense)
         hybrid.index(chunks)
         results = hybrid.search("dishonestly induces delivery of money", top_k=3)
