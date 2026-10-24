@@ -236,6 +236,8 @@ class DenseRetriever(Retriever):
             self._model = self._model.to(self._query_device)
 
     def _encode_query(self, query: str) -> np.ndarray:
+        if self._device == "cuda" and HF_AVAILABLE:
+            torch.cuda.empty_cache()
         if self._backend == "mlx":
             return self._encode_mlx([query])
         elif self._backend == "transformers":
