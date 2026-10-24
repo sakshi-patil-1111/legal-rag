@@ -75,6 +75,7 @@ class DenseRetriever(Retriever):
         query_prompt: str | None = None,
         max_length: int = 32768,
         dtype: str | None = None,
+        query_device: str | None = None,
     ):
         super().__init__()
         self.model_name = model_name
@@ -85,6 +86,7 @@ class DenseRetriever(Retriever):
         self.query_prompt = query_prompt
         self._max_length = max_length
         self._dtype = dtype
+        self._query_device = query_device
         self._device = self._select_device(device)
         self._backend = self._select_backend(backend)
         self._model: Any = None
@@ -230,6 +232,8 @@ class DenseRetriever(Retriever):
             self._save_cache(key, self._vectors)
         if self._device == "cuda" and HF_AVAILABLE:
             torch.cuda.empty_cache()
+        if self._query_device and self._query_device != self._device and self._backend in ("sentence_transformers", "transformers"):
+            self._model = self._model.to(self._query_device)
 
     def _encode_query(self, query: str) -> np.ndarray:
         if self._backend == "mlx":
