@@ -46,6 +46,9 @@ def build_retriever(retrieval: dict) -> Retriever:
         return DenseRetriever(
             model_name=retrieval.get("model_name", "BAAI/bge-base-en-v1.5"),
             backend=retrieval.get("backend", "auto"),
+            device=retrieval.get("device", "auto"),
+            query_prompt=retrieval.get("query_prompt"),
+            max_length=retrieval.get("max_length", 32768),
             cache_dir=retrieval.get("cache_dir", "data/cache"),
             batch_size=retrieval.get("batch_size", 32),
             show_progress=retrieval.get("show_progress", True),
@@ -57,6 +60,10 @@ def build_retriever(retrieval: dict) -> Retriever:
         )
         dense = DenseRetriever(
             model_name=retrieval.get("dense_model_name", "BAAI/bge-base-en-v1.5"),
+            backend=retrieval.get("backend", "auto"),
+            device=retrieval.get("device", "auto"),
+            query_prompt=retrieval.get("query_prompt"),
+            max_length=retrieval.get("max_length", 32768),
             cache_dir=retrieval.get("cache_dir", "data/cache"),
             batch_size=retrieval.get("batch_size", 32),
             show_progress=retrieval.get("show_progress", True),

@@ -70,7 +70,10 @@ class DenseRetriever(Retriever):
         batch_size: int = 32,
         show_progress: bool = True,
         random_state: int = 42,
-        backend: str = "auto",  # auto | mlx | sentence_transformers | tfidf
+        backend: str = "auto",  # auto | mlx | sentence_transformers | transformers | tfidf
+        device: str = "auto",   # auto | mps | cuda | cpu
+        query_prompt: str | None = None,
+        max_length: int = 32768,
     ):
         super().__init__()
         self.model_name = model_name
@@ -78,6 +81,9 @@ class DenseRetriever(Retriever):
         self.batch_size = batch_size
         self.show_progress = show_progress
         self.random_state = random_state
+        self.query_prompt = query_prompt
+        self._max_length = max_length
+        self._device = self._select_device(device)
         self._backend = self._select_backend(backend)
         self._model: Any = None
         self._tokenizer: Any = None
@@ -102,17 +108,28 @@ class DenseRetriever(Retriever):
             raise RuntimeError("transformers not available.")
         return requested
 
+    @staticmethod
+    def _select_device(requested: str) -> str:
+        if requested != "auto":
+            return requested
+        if HF_AVAILABLE:
+            if torch.backends.mps.is_available():
+                return "mps"
+            if torch.cuda.is_available():
+                return "cuda"
+        return "cpu"
+
     def _load_model(self) -> None:
         if self._backend == "mlx":
             if self._model is None:
                 self._model, self._tokenizer = mlx_load(self.model_name)
         elif self._backend == "sentence_transformers":
             if self._model is None:
-                self._model = SentenceTransformer(self.model_name, device="cpu")
+                self._model = SentenceTransformer(self.model_name, device=self._device)
         elif self._backend == "transformers":
             if self._model is None:
                 self._tokenizer = AutoTokenizer.from_pretrained(self.model_name)
-                self._model = AutoModel.from_pretrained(self.model_name)
+                self._model = AutoModel.from_pretrained(self.model_name).to(self._device)
                 self._model.eval()
         else:
             pass
@@ -152,13 +169,21 @@ class DenseRetriever(Retriever):
         norms[norms == 0] = 1.0
         return result / norms
 
-    def _encode_st(self, texts: list[str]) -> np.ndarray:
+    def _encode_st(self, texts: list[str], is_query: bool = False) -> np.ndarray:
+        kwargs = {}
+        if is_query and self.query_prompt:
+            prompts = getattr(self._model, "prompts", None) or {}
+            if self.query_prompt in prompts:
+                kwargs["prompt_name"] = self.query_prompt
+            else:
+                kwargs["prompt"] = self.query_prompt
         result = self._model.encode(
             texts,
             batch_size=self.batch_size,
             show_progress_bar=self.show_progress,
             normalize_embeddings=True,
             convert_to_numpy=True,
+            **kwargs,
         )
         return result.astype(np.float32)
 
@@ -166,13 +191,13 @@ class DenseRetriever(Retriever):
         all_vecs = []
         for i in range(0, len(texts), self.batch_size):
             batch = texts[i : i + self.batch_size]
-            inp = self._tokenizer(batch, padding=True, truncation=True, max_length=512, return_tensors="pt")
+            inp = self._tokenizer(batch, padding=True, truncation=True, max_length=self._max_length, return_tensors="pt").to(self._device)
             with torch.no_grad():
                 out = self._model(**inp)
             mask = inp["attention_mask"].unsqueeze(-1).float()
             emb = (out.last_hidden_state * mask).sum(1) / mask.sum(1)
             emb = torch.nn.functional.normalize(emb, p=2, dim=1)
-            all_vecs.append(emb.numpy().astype(np.float32))
+            all_vecs.append(emb.cpu().numpy().astype(np.float32))
         return np.concatenate(all_vecs, axis=0)
 
     def index(self, items: list[Any]) -> None:
@@ -206,7 +231,7 @@ class DenseRetriever(Retriever):
         elif self._backend == "transformers":
             return self._encode_hf([query])
         else:
-            return self._encode_st([query])
+            return self._encode_st([query], is_query=True)
 
     def search(self, query: str, top_k: int = 10) -> list[tuple[str, float]]:
         if self._vectors is not None:
