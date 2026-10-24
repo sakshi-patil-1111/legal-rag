@@ -129,6 +129,7 @@ class DenseRetriever(Retriever):
             if self._model is None:
                 kwargs = {"model_kwargs": {"dtype": self._dtype}} if self._dtype else {}
                 self._model = SentenceTransformer(self.model_name, device=self._device, **kwargs)
+                self._model.max_seq_length = self._max_length
         elif self._backend == "transformers":
             if self._model is None:
                 self._tokenizer = AutoTokenizer.from_pretrained(self.model_name)
