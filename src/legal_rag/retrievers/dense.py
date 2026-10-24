@@ -243,6 +243,10 @@ class DenseRetriever(Retriever):
         elif self._backend == "transformers":
             return self._encode_hf([query])
         else:
+            tok = getattr(self._model, "tokenizer", None)
+            if tok is not None and self._max_length:
+                ids = tok(query, truncation=True, max_length=self._max_length)["input_ids"]
+                query = tok.decode(ids, skip_special_tokens=True)
             return self._encode_st([query], is_query=True)
 
     def search(self, query: str, top_k: int = 10) -> list[tuple[str, float]]:
