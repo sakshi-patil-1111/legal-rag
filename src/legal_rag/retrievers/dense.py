@@ -127,7 +127,7 @@ class DenseRetriever(Retriever):
                 self._model, self._tokenizer = mlx_load(self.model_name)
         elif self._backend == "sentence_transformers":
             if self._model is None:
-                kwargs = {"model_kwargs": {"dtype": self._dtype}} if self._dtype else {}
+                kwargs = {"model_kwargs": {"torch_dtype": self._dtype}} if self._dtype else {}
                 self._model = SentenceTransformer(self.model_name, device=self._device, **kwargs)
                 self._model.max_seq_length = self._max_length
         elif self._backend == "transformers":
@@ -228,6 +228,8 @@ class DenseRetriever(Retriever):
             else:
                 self._vectors = self._encode_st(texts)
             self._save_cache(key, self._vectors)
+        if self._device == "cuda" and HF_AVAILABLE:
+            torch.cuda.empty_cache()
 
     def _encode_query(self, query: str) -> np.ndarray:
         if self._backend == "mlx":
