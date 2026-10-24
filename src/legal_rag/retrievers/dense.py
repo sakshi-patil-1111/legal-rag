@@ -74,6 +74,7 @@ class DenseRetriever(Retriever):
         device: str = "auto",   # auto | mps | cuda | cpu
         query_prompt: str | None = None,
         max_length: int = 32768,
+        dtype: str | None = None,
     ):
         super().__init__()
         self.model_name = model_name
@@ -83,6 +84,7 @@ class DenseRetriever(Retriever):
         self.random_state = random_state
         self.query_prompt = query_prompt
         self._max_length = max_length
+        self._dtype = dtype
         self._device = self._select_device(device)
         self._backend = self._select_backend(backend)
         self._model: Any = None
@@ -125,7 +127,8 @@ class DenseRetriever(Retriever):
                 self._model, self._tokenizer = mlx_load(self.model_name)
         elif self._backend == "sentence_transformers":
             if self._model is None:
-                self._model = SentenceTransformer(self.model_name, device=self._device)
+                kwargs = {"model_kwargs": {"dtype": self._dtype}} if self._dtype else {}
+                self._model = SentenceTransformer(self.model_name, device=self._device, **kwargs)
         elif self._backend == "transformers":
             if self._model is None:
                 self._tokenizer = AutoTokenizer.from_pretrained(self.model_name)
