@@ -19,7 +19,6 @@
     "top_k": 10
   },
   "query": {"strategy": "direct"},
-  "max_queries": 10,
   "reranker": {"enabled": false},
   "evaluation": {"ks": [1, 2, 3, 5, 10]},
   "output_dir": "results/stage_b2"

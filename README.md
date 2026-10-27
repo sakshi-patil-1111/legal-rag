@@ -1,6 +1,8 @@
 # Legal RAG Project
 
-Modular, reproducible experimental framework for evaluating retrieval and agentic RAG strategies on legal case analysis and decision support.
+Reproducible experimental framework for comparing retrieval strategies on legal
+case analysis. Currently focused on the IL-PCSR benchmark (Indian statute and
+precedent retrieval). See `report.tex` for the write-up.
 
 ## Setup
 
@@ -16,28 +18,56 @@ pip install datasets huggingface_hub
 ```bash
 # IL-PCSR (gated, requires HF_TOKEN in .env)
 python scripts/download_il_pcsr.py
-
-# LegalBench-RAG (open)
-# Download from Dropbox and unzip into data/raw/legalbench_rag/
-# See: https://github.com/ZeroEntropy-AI/legalbenchrag
 ```
 
 ## Running
 
+Experiments are config-driven:
+
 ```bash
-# Phase 0: tiny fixture smoke test
-python scripts/run_phase0.py
+python scripts/run_phase1.py <config_name>.json
 
-# Phase 1: IL-PCSR
-python scripts/run_phase1.py                      # fixture
-python scripts/run_phase1.py phase1_il_pcsr.json  # real data
+# Examples
+python scripts/run_phase1.py stage_a_bm25.json        # BM25 whole-doc baseline
+python scripts/run_phase1.py stage_d_recursive.json   # BM25 + recursive-512 chunking
+python scripts/run_phase1.py stage_b2_qwen3_chunked.json
+```
 
-# Phase 2: LegalBench-RAG
-python scripts/run_phase2.py                                      # fixture
-python scripts/run_phase2.py phase2_legalbench_rag_privacy_qa.json # privacy_qa subset
-python scripts/run_phase2.py phase2_legalbench_rag.json            # full
+Configs live in `configs/`. Results are written to `results/<stage>/` —
+aggregated summaries are committed, per-query outputs are gitignored.
 
-# Tests
+| Stage | Comparison |
+|-------|-----------|
+| A | BM25 whole-document baseline |
+| B | Dense retrievers (BGE, Legal-Embed, SAILER) |
+| B2 | Qwen3-Embedding-0.6B (long-context dense) |
+| C | Hybrid BM25 + dense via RRF |
+| D | Chunking ablation (whole / fixed-512 / recursive-512) |
+| E | Cross-encoder reranking |
+| H | Final test-split evaluation |
+
+For long-context dense models on limited GPU memory, queries can be truncated
+via `retrieval.max_length` and index/query encoding can be split across
+devices with `device` / `query_device`. The Qwen3 LSR run was executed on a
+Kaggle T4 (fp16, queries capped at 2048 tokens).
+
+## Headline results (dev split, 627 queries)
+
+| Method | LSR F1@10 | LSR MAP | PCR F1@10 | PCR MAP |
+|--------|-----------|---------|-----------|---------|
+| BM25 whole-doc | 8.4% | 9.6% | 11.0% | 18.4% |
+| Dense (BGE / Legal-Embed / SAILER) | 0.2–8.0% | — | 0.0–4.3% | — |
+| Hybrid RRF | 8.3% | 9.5% | 10.1% | 15.3% |
+| BM25 + recursive-512 | 11.5% | 12.9% | 17.2% | 19.8% |
+| + cross-encoder rerank | 10.0% | 10.5% | 13.8% | 14.6% |
+| **Qwen3-Embedding-0.6B + recursive-512** | **12.6%** | **15.2%** | — | — |
+
+Qwen3 is the first dense model to beat BM25 on statute retrieval. PCR numbers
+for Qwen3 pending. Test split: BM25 + recursive-512 gets 12.9% LSR / 17.9% PCR F1.
+
+## Tests
+
+```bash
 pytest tests/ -q
 ```
 
@@ -45,12 +75,12 @@ pytest tests/ -q
 
 ```
 .
-├── src/legal_rag/       Core library
+├── src/legal_rag/       Core library (retrievers, chunkers, evaluator)
 ├── tests/               Unit and smoke tests
 ├── data/fixtures/       Local fixtures (committed)
 ├── data/raw/            Downloaded datasets (gitignored)
 ├── configs/             Experiment configurations
-├── scripts/             Executable experiment scripts
-├── results/             Saved experiment outputs
-└── AGENTS.md            Project plan and status
+├── scripts/             download_il_pcsr.py, run_phase1.py
+├── results/             Aggregated experiment outputs
+└── report.tex           Paper draft
 ```
