@@ -1,0 +1,12 @@
+\babel@toc {USenglish}{}\relax 
+\contentsline {chapter}{Preface}{iv}{}%
+\contentsline {chapter}{Acknowledgements}{v}{}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{}%
+\contentsline {section}{\numberline {1.1}Motivation}{1}{}%
+\contentsline {subsection}{\numberline {1.1.1}Some Wonderful Minds}{1}{}%
+\contentsline {chapter}{\numberline {2}Related Work}{2}{}%
+\contentsline {chapter}{\numberline {3}Proposed Work}{3}{}%
+\contentsline {chapter}{\numberline {4}Experimental Setup and Results Analysis}{4}{}%
+\contentsline {chapter}{\numberline {5}Conclusion and Future Work}{5}{}%
+\contentsline {chapter}{\numberline {A}Some Complex Proofs and simple Results}{6}{}%
+\contentsline {chapter}{References}{7}{}%

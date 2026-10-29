@@ -1,0 +1,239 @@
+%\vspace{-2mm}
+\section{\ilpcsr\ Corpus and Tasks} \label{sec:dataset/overview}
+%\vspace{-3mm}
+
+
+
+Our corpus consists of three components:
+(i)~{\bf Statute Candidate Pool:} 936 Statutes -- Articles/Sections of law from 92 Central (Federal) Acts of Government of India; 
+(ii)~{\bf Precedent Candidate Pool:} 3,183 Prior Cases from the Supreme Court of India (SCI) and state-level High Courts of India (HCI);
+(iii)~{\bf Query Set:} 6,271 Case Judgment documents from SCI and HCI. %The procedure of creating the dataset is described below.
+
+\begin{table}
+    \small
+    \centering
+    \addtolength{\tabcolsep}{-0.1em}
+    \begin{tabular}{p{0.27\textwidth}ccc}\toprule
+         &  \textbf{Qry}&  \textbf{Stat} & \textbf{Prec}\\\midrule
+         \#Docs & 6271 & 936 & 3183 \\
+         Avg. \#words&  3383&  650& 7485\\
+         Avg. citations per query&  -&  2.69& 3.87\\
+         Avg. no. of times being cited &  -&  25.97& 5.3\\
+         \#Candidates with zero frequency & - & 19 & 93 \\
+         \#Held-out candidates & - & 20 & 88 \\
+         \bottomrule
+    \end{tabular}
+    \vspace{-2mm}
+    \caption{Salient statistics of \ilpcsr}
+    \vspace{-5mm}
+    \label{tab:salient-stats-ilpcsr}
+\end{table}
+
+\vspace{1mm}
+\noindent\underline{\textbf{Dataset Construction:}} 
+% We collected a corpus of $20K$ case judgments from the website IndianKanoon~\footnote{\url{www.indiankanoon.org}} (a popular legal search engine in India) through their API service. All documents are in the official language: English. Indian legal documents are in public domain and accessible to all. These documents were chosen such that these were prominent judgments (having cited large number of times by other documents) of the SCI and various HCI, spanning a time frame of 1950--2019. This gives us a corpus of important case documents that have both spatial and temporal variance.
+We compiled 20K publicly available English case judgments from IndianKanoon (\url{www.indiankanoon.org}), a popular legal search engine in India, via its API. All documents are in English (the official language) and publicly accessible. The corpus comprises frequently cited Supreme Court and High Court decisions from 1950–2019, providing broad temporal and jurisdictional coverage (see App.~\ref{sec:dataset-appendix} for full construction pipeline).
+
+\begin{table*}
+    \centering
+    \small
+    \begin{tabular}{p{0.15\textwidth}ccccp{0.08\textwidth}cp{0.08\textwidth}}
+    \toprule
+         \textbf{Dataset}& \textbf{Jurisdiction} &  \textbf{Query Type}&  \textbf{\#Queries}&  \textbf{\#Statutes}  & \textbf{Avg. Stat citations} &  \textbf{\#Precedents}  & \textbf{Avg. Prec citations}\\ \midrule
+         ECHR2021& EU &  Case facts&  11478&  66 &1.78&  - &-\\
+         FLA-CJO& China & Case facts&  60k&  321 &3.81&  - &-\\
+         CAIL'18& China & Case facts&  2.6M&  183 &1.09&  - &-\\
+ CAIL-Long& China & Case facts& 229K& 574 &5.77&- &-\\
+ ILSI& India & Case facts& 66K& 100 &3.78&- &-\\
+ COLIEE'24 Task 3& Japan & Law Questions& 554&746 &1.27 &- &-\\ \midrule
+ COLIEE'24 Task 1& Canada & Case Judgment& 1678& - &-&5529 & 4.10\\
+ LeCard& China & Case Judgment& 107& - &-&100 &10.33\\
+ CAIL'19-SCM& China & Case Judgment& 8964& - &-&2 per query & 1.0\\
+ IL-PCR & India & Case Judgment& 1182& - &-&7070 &6.8\\ \midrule
+ \ilpcsr{} (ours) & India & Case Judgment& 6271& 936 &2.69&3183 &3.87\\ \bottomrule
+    \end{tabular}
+    \vspace{-3mm}
+    \caption{Comparison of \ilpcsr\ with other LSR and PCR datasets.} %All existing datasets are meant for either statute identification or precedent identification, but not both. I\ilpcsr\  is the first dataset for both tasks together. Average Stat (Prec) citations refers to the average number of gold-standard statutes (precedents) cited per query.}
+    \label{tab:dataset_compare}
+    \vspace{-5mm}
+\end{table*}
+% We cleaned the documents and removed very short and very long documents ($<$5 and $>$95 percentile as per number of tokens).
+% We cleaned the documents by removing unnecessary symbols and punctuations.
+% For creating list of candidate statues and precedents, we considered only those statutes and cases that were cited at least 5 and 3 times respectively. For the query set, we chose those cases that cite at least one candidate statute and two candidate precedents. We further added a set of statutes and precedents that are \textit{not} cited by any query to the candidate pools, to conform to a real-world setting where there can be many non-relevant candidates (details in App. \ref{sec:dataset-appendix}).
+
+
+
+\vspace{1mm}
+\noindent\underline{\textbf{Final dataset (\ilpcsr{}):}}
+We obtain a pool of 936 statutes, precedent pool of 3,183 cases, and a query set of 6,271 queries. The query set is randomly divided into train/validation/test splits in the ratio of 8:1:1.
+The judgments cover 13 broad legal areas, such as, \textit{Labour \& Employment}, \textit{Income Tax}, \textit{Motor Vehicle accidents}, and so on (full distribution in Table~\ref{tab:categories}, App.~\ref{sec:dataset-appendix}).
+Our dataset includes candidates never cited by any query, as well as others cited only in the test set but \textit{not} in the train set (held-out candidates) to reflect real-world settings (statistics in Table~\ref{tab:salient-stats-ilpcsr}, more details in App. \ref{sec:dataset-appendix}).
+% For some salient statistics of \ilpcsr{}, see Table~\ref{tab:salient-stats-ilpcsr}.
+% Of the 936 statutes, 19 are not cited in any query, and 29 are cited in the test set but \textit{not} in the train set (held-out candidates). Among the 3,183 precedents, 94 are not cited in any query, and 155 are held-out candidates.
+% These held-out candidates reflect a real-world setting, since many new candidates may be available only at the test time. % compared to what was used for training. %when deploying a model compared to when it was trained. 
+
+\vspace{1mm}
+\noindent\underline{\textbf{Anonymization and Masking of Citations:}} 
+% We masked the portions of the query documents where statute/precedent citations occur, to prevent models from associating the queries with the statute and case titles. 
+% We also anonymized (using InLegalNER tool~\citep{kalamkar2022legalner}) all documents with regard to person names to prevent ethnic/religious biases. We replaced the identified text portions with placeholders such as [SECTION], [ACT], [PRECEDENT] and [ENTITY]. We also verified the masking strategy manually for $10$ randomly selected documents, and observed that more than $98\%$ of the statute and precedent citations were effectively masked.
+We masked statute and precedent citations in query documents to prevent models from associating the queries with the statute and case titles.
+We also anonymized person names via InLegalNER~\citep{kalamkar2022legalner} to avoid ethnic/religious bias (details in App.~\ref{sec:dataset-appendix}). Identified spans were replaced with placeholders ([SECTION], [ACT], [PRECEDENT], [ENTITY]). Manual checks on 10 random documents confirmed that over 98\% of citations were effectively masked.
+
+
+
+
+% \vspace{1mm}
+% \noindent\underline{\textbf{Salient Dataset Statistics:}}
+% The case documents in our dataset cover 13 different broad legal areas, such as, \textit{Labour \& Employment}, \textit{Income Tax}, \textit{Motor Vehicle accidents}, and so on (full list in App.~\ref{app:categories}).
+% % On average, each query in our dataset has 3383 words, while each statute has 650 and each precedent has 7485 words.
+% % While each query cites, on average, 2.69 statutes and 3.87 precedents, each statute is cited by 25.97 queries and each precedent is cited by 5.3 queries
+% Table~\ref{tab:salient-stats-ilpcsr} shows some salient statistics of \ilpcsr{}.
+% (more details in App. \ref{sec:dataset-appendix}).
+
+\vspace{1mm}
+\noindent\underline{\textbf{Comparison with other Corpora:}}
+% To the best of our knowledge, \ilpcsr{} is the first dataset for parallel identification of \textit{both} relevant statutes and precedents for the \textit{same query}. 
+% Table~\ref{tab:dataset_compare} compares existing datasets with \ilpcsr{}.
+% Prior LSR datasets, especially those in English, have mostly worked with a limited candidate set of statutes. For instance, the ECHR2021 dataset~\citep{chalkidis2021echr} consists of cases from the European Court of Human Rights, and a statute set of only 66 articles. Datasets from China have mostly used cases from China Judgment Online, and have usually involved more articles, like FLA-CJO~\citep{luo2017fla} (321 criminal articles), CAIL2018~\citep{xiao2018cail2018} (183 criminal articles) and CAIL-Long~\citep{xiao2021lawformer} (244 articles for Criminal law, 330 articles for Civil law).
+% In the Indian setting, the ILSI dataset~\citep{paul2022ilsi} consists of 100 articles from the Indian Penal Code. 
+% All these datasets are devised in a multi-label classification setup, where given a query case, the task is to predict whether each article is relevant or not.
+% COLIEE ~\citep{li2024coliee2024} contains dataset on the task of statute retrieval (short questions asking directly about the specific law, and not the details of real life cases) from the Japanese law and dataset on the PCR task from the Canadian Federal law. 
+% For PCR, in common law jurisdictions (including India, Canada, UK), cases cited from the query case are considered relevant.
+% Recently, \citet{joshi2023ucreat} released a PCR dataset based on cases from the Supreme Court of India. For the Chinese jurisdiction (based on civil law), LeCard~\citep{ma2021lecard} and CAIL2019-SCM~\citep{xiao2019cail2019scm} were created.
+To the best of our knowledge, \ilpcsr{} is the first dataset enabling parallel identification of both relevant statutes and precedents for the same query. Table~\ref{tab:dataset_compare} compares it with prior datasets. Existing LSR datasets, especially in English, typically cover limited statute sets, e.g., ECHR2021~\citep{chalkidis2021echr} includes European Court of Human Rights cases with only 66 articles. Chinese datasets rely on China Judgment Online and usually involve more articles, e.g., FLA-CJO~\citep{luo2017fla} (321 criminal articles), CAIL2018~\citep{xiao2018cail2018} (183 criminal articles), and CAIL-Long~\citep{xiao2021lawformer} (244 criminal, 330 civil articles). In India, \citet{paul2022ilsi} use 100 IPC articles for the ILSI dataset. All these works adopt a multi-label classification setup, predicting relevance of each article for a query case. COLIEE~\citep{li2024coliee2024} covers statute retrieval (short legal questions, not real cases) for Japanese law and PCR for Canadian Federal law. In common law jurisdictions (India, Canada, UK), cases cited from the query case are considered relevant. Recent datasets include efforts with Indian Supreme Court cases~\citep{joshi2023ucreat}, while for Chinese law, LeCard~\citep{ma2021lecard} and CAIL2019-SCM~\citep{xiao2019cail2019scm} have been introduced.
+
+% \vspace{1mm}
+%\section{Tasks Formulation} \label{sec:dataset}
+\noindent\underline{\textbf{Tasks Formulation:}} Identifying the statutes and precedents cited in a query case can both be modeled as retrieval problems. Given a query $q$ and a set of candidates $\{c_1, c_2, \ldots, c_l\}$, where $c_i \in \mathcal S$ (statute pool = $\{s_1, s_2, \ldots, s_m\}$) for LSR and $c_i \in \mathcal P$ (precedent pool = $\{p_1, p_2, \ldots, p_n\}$) for PCR. A retrieval model $\mathcal{M}(,.,)$ returns a ranked list of all the candidates $\hat{C}(q) = [c_{q_1}, c_{q_2}, \ldots, c_{q_l}]$ based on their relevance to $q$. Here, we have $\mathcal M(q, c_{q_1}) \geq \mathcal M(q, c_{q_2}) \geq \ldots \geq \mathcal M(q, c_{q_l})$, where $\mathcal M(q, c)$ is the score for a query-candidate pair.  
+%Given a query $q$ and a pool of candidate statutes $\mathcal{S} = \{s_1, s_2, \ldots, s_m\}$, where $m = |\mathcal S|$, the task of statute retrieval involves retrieving the set of statutes $S(q) \subset \mathcal S$ that are relevant for $q$. Similarly, the task of precedent retrieval requires one to identify the set of relevant precedents $P(q) \subset \mathcal P$, where $\mathcal{P} = \{p_1, p_2, \ldots, p_n\}$, where $n = |\mathcal P|$, is the pool of precedent candidates. Historically, statute identification has mostly been modeled as a multi-label classification problem, but it can also be framed as a retrieval task especially when the number of candidate statutes is large. Precedent identification has almost always been  modeled as a retrieval/ranking task. \paul{Mathematically, for a given query $q$ and a set of candidates $\{c_1, c_2, \ldots, c_l\}$, where $c_i \in \mathcal S$ for LSR and $c_i \in \mathcal P$ for PCR, a retrieval model $\mathcal M$ is supposed to return a ranked list of all the candidates $\hat{C}(q) = [c_{q_1}, c_{q_2}, \ldots, c_{q_l}]$ based on their relevance to $q$. Here, we have $\mathcal M(q, c_{q_1}) \geq \mathcal M(q, c_{q_2}) \geq \ldots \geq \mathcal M(q, c_{q_l})$, where $\mathcal M(q, c)$ is the similarity score for a query-candidate pair.}
+% \paul{Mathematically, for a given query $Q$, the task of Legal Statute Retrieval (LSR) requires creating a ranked list of all the statute candidates in $\mathcal{S}$ --- $R_{S}(Q) = \{S_{Q_1}, S_{Q_2}, \ldots, S_{Q_N}\}$, where $S_{Q_i}$ is the $i$-th ranked statute for query $Q$. Any LSR method $\mathcal M$ should essentially estimate a similarity score $\mathcal M(Q, S_{Q_i})$ between query $Q$ and the $i$-th ranked statute, provided that $\mathcal M(Q, S_{Q_1}) \geq \mathcal M(Q, S_{Q_2}) \geq \ldots \geq \mathcal M(Q, S_{Q_M})$. Similarly, for Legal Precedent Retrieval (PCR), any PCR method $\mathcal N$ should generate a ranked list $R_P(Q) = \{P_{Q_1}, P_{Q_2}, \ldots P_{Q_N}\}$, where $\mathcal N(Q, P_{Q_1}) \geq \mathcal M(Q, P_{Q_2}) \geq \ldots \geq \mathcal N(Q, P_{Q_N})$.}
+% It is important to note that the concept of \textit{relevance} in legal domain is quite different from relevance based on semantic similarity in the general NLP domain, e.g., relevance in the case of PCR is in terms of similar factual situations. Further relevance can be quite restrictive in the legal domain. For instance, given a case related to kidnapping, many statutes can be relevant. Still, the exact statute applied would depend on other factors, like, whether hurt was caused, or if hurt was the primary intention of the crime, etc. Similarly, for precedents, lawyers would like to cite cases that are relevant not only in terms of facts but also in terms of the desired solution. For instance, the defense and prosecution lawyers are likely to cite relevant cases with opposite outcomes.
+It is important to note that in the legal domain,  the concept of \textit{relevance} is defined more restrictively than semantic similarity in general NLP. Relevance generally depends on factual alignment (e.g., a kidnapping case may invoke different statutes depending on whether hurt was actually caused, or if it was intended). For precedents, relevance also concerns legal outcomes, as opposing parties often cite factually similar cases with opposite judgments.
+
+ 
+
+% \noindent In most prior works, the queries are taken as the case judgement full texts~\citep{li2023coliee23,joshi2023ucreat}, although some studies considered only the case fact portions as the queries~\cite{li2023sailer}. In this work, we consider the full case judgement texts as queries, since in the Indian case judgements, the fact portions are \textit{not} marked, and use of automated methods to extract the facts often lead to errors (since facts are often interleaved with other types of information)~\cite{bhattacharya2023deeprhole,malik-rr-2021,kalamkar-etal-2022-corpus}. The gold standard precedent and statute sets for a certain query $q$ are usually considered as the set of precedents and statutes that have actually been cited from $q$ (this information is masked from the query). Although this has been the standard practice in most prior works~\citep{paul2022ilsi,joshi2023ucreat,li2024coliee2024}, it is possible that some candidate might be relevant to a case but it is not cited by the legal professionals involved in that particular case, and this brings us back to the complexity of defining legal relevance as discussed earlier. We conduct an annotation study with legal experts to delve deeper into this specific issue, the details of which are covered in \S\ref{sec:human-annotation}.
+\noindent Prior works have typically used full case judgments as queries~\citep{li2023coliee23,joshi2023ucreat}, though some restrict to fact sections~\cite{li2023sailer}. We adopt full judgments, since facts are not explicitly demarcated in Indian judgments, and automated extraction is error-prone due to interleaving of facts with other content~\cite{bhattacharya2023deeprhole,malik-rr-2021,kalamkar-etal-2022-corpus}. The gold standard precedent and statute sets for a query $q$ are taken as those actually cited in $q$ (this information is then masked from the query). While this is standard practice~\citep{paul2022ilsi,joshi2023ucreat,li2024coliee2024}, some potentially relevant candidates might not have been cited by the legal professionals involved in that particular case, and this brings us back to the complexity of defining legal relevance as discussed earlier. To examine this further, we conduct an  annotation study with the help of legal experts (details in \S\ref{sec:human-annotation}).
+
+
+
+%%%%%%%%%%% 
+
+%We follow the same approach in this work. 
+%\subsection{Document Collection} \label{sec:dataset/collection_preproc}
+%\noindent\textbf{Document Collection:} We collected a corpus of $20K$ case judgments from the website \url{indiankanoon.org} (a reputed legal repository in India) through their API service. Indian legal documents are in public domain and accessible to all. These documents were chosen such that these were prominent judgments of the Supreme Court of Indian and various High Courts of Indian states, spanning a time frame of 1950--2019, and having the most citations (being cited by other documents makes a particular case more important). This gives us a corpus of important case documents that have both spatial and temporal variance.
+% \subsection{Desired dataset properties} \label{sec:dataset/properties}
+% The following properties were considered in the dataset design philosophy:
+% \noindent (i)~The dataset should be anonymized with regard to entity names, including the court professionals like judges and lawyers, to prevent ethnic or religious biases.
+% \noindent (ii)~The dataset should have some number of zero shot candidates (not cited in the train set but cited during dev and test), as well as certain number of candidates not cited by any query at all.
+%\subsection{Dataset Construction} \label{sec:dataset/construction}
+% \noindent\textbf{Dataset Construction:} We describe the steps in preparing our dataset. For brevity, we state the steps briefly here; details are in Appendix~\ref{sec:dataset-appendix}.
+
+% We clean the documents and remove very short and very long documents ($<5$ and $>95$ percentile as per number of tokens). We then choose to consider only those statutes and cases that are cited at least a certain number of times (5 and 3 respectively), as the candidate statutes and precedents respectively. As the queries, we choose those cases that cite at least one candidate statute and two candidate precedents. 
+% We further add a set of statutes and precedents that are \textit{not} cited by any query to the candidate pools, to conform to a real-world setting where there can be many non-relevant candidates.
+
+% \noindent\underline{\textbf{Final dataset (\ilpcsr{}):}}
+% This process gives us a final statute pool of 936 statutes and a final precedent pool of 3,183 cases. We have a final query set of 6,271 queries. This set is randomly divided into train/dev/test splits in the ratio of 80\%:10\%:10\%, giving us train, dev and test sets of sizes 5,021, 627 and 627 respectively.
+% Of the 936 statutes, 19 are not cited in any query, and 29 are cited in the test set but \textit{not} the train set (held-out candidates).
+% Similarly, of the 3,183 precedents, 94 are not cited in any query, and 157 are held-out candidates. \pg{Have we highlighted the results on held-out anywhere?} \paul{Conducting this analysis and adding}.
+
+% \noindent\underline{\textbf{Anonymization and Masking Citations:}} We mask the portions of the query documents where  statute/precedent citations occur, to prevent models from associating the queries with the statute and case titles. 
+% We also anonymize all documents with regard to person names to prevent ethnic/religious biases. 
+% For these, we utilize the LegalNER tool~\citep{kalamkar2022legalner} which is capable of extracting mentions of Section numbers, Act names, Case titles, as well as entity names, with a fair degree of accuracy. We replace the identified text portions with placeholders such as [SECTION], [ACT], [PRECEDENT] and [ENTITY]. 
+
+
+% We first perform simple pre-processing of the collected documents, such as removal of consecutive punctuations, whitespace, etc., spelling correction, and filtering gibberish text patterns. These errors are seen in legal case documents since in many cases the digital versions of the cases available on IndianKanoon might have been generated using automated OCR methods.
+
+% To designate our query set and statute and precedent candidate pools, we next follow the steps described below. Also, to note, in our setting, training, validation and testing happens on the same candidate pool.
+
+% \noindent (i)~\textbf{Filtering by length:} We measured the length (in terms of number of tokens after NLTK~\citep{loper2002nltk} tokenization) of all the documents in our corpus, and removed very small ($<5$ percentile, approx. 400 tokens) and very large ($>95$ percentile, approx. 10k tokens) cases, giving us approx 18k cases.
+
+% \noindent (ii)~\textbf{Intermediate Statute Pool:} We collected all the statutes (Sections/Articles from Central Govt. Acts) cited across all the 18k cases. We only choose those statutes that are cited at least 5 times across 18k cases, giving us an intermediate statute set of around 1200 statutes.
+
+% \noindent (iii)~\textbf{Intermediate Precedent Pool:} We also enumerated all the prior cases cited from these 18k cases, which are also part of our corpus. We only choose those precedents that are cited at least 3 times across 18k cases, giving us an intermediate precedent set of around 5k documents.
+
+% \noindent (iv)~\textbf{Final Query Set:} From our pool of 18k cases, we choose those cases that cite at least one statute and two precedents from their respective intermediate pools. This gives us a final query set of 6271 queries. This set was randomly divided into train/dev/test splits in the ratio of 80\%:10\%:10\%, giving us train, dev and test sets of sizes 5021, 627 and 627 respectively.
+
+% \noindent (v)~\textbf{Final Statute and Precedent Pools:} Finally, we filter our intermediate candidate pools further, since we want those candidates that are cited more across the final query set. However, we also want a few held-out candidates to conform to a real-world setting. \sg{This held-out set is important, should be explained a bit more -- this is a practical challenge. Ideally, we can give a few more details like the exact number. Also, do other datasets like COLIEE include such held-out examples?}
+% For statutes, we choose only those statutes that are cited at least 4 times across train/dev/test are chosen; and we sample few statutes that are cited less to satisfy the held-out property. 
+% This process gives us a final statute pool of 936 statutes. We apply a similar policy for precedents, choosing those cases cited at least 3 times across the query set, and some more for held-out, giving us a final precedent pool of 3183 cases. 
+% % More details can be found in Table~\ref{tab:dataset_stats}.
+
+% \noindent (vi)~\textbf{Anonymization and Masking Citations:} We mask the portions of the query document where the citation occurs, to prevent deep learning models from associating the queries with the Section numbers, Act names or Case titles. Apart from these, we also anonymize the documents with regard to person names to prevent ethnic/religious biases. We utilize the LegalNER~\citep{kalamkar2022legalner} tool by Opennyai, which is capable of extracting mentions of Section numbers, Act names, Case titles, as well as entity names, to fair degree of accuracy. We replace the actual text with placeholders such as [SECTION], [ACT], [PRECEDENT] and [ENTITY]. 
+% An example of the anonymization and masking process is depicted in Figure~\ref{fig:anonymization_masking}.
+
+
+% \begin{table*}
+%     \centering
+%     \small
+%     \begin{tabular}{p{0.15\textwidth}ccccp{0.08\textwidth}cp{0.08\textwidth}}
+%     \hline
+%          \textbf{Dataset}& \textbf{Jurisdiction} &  \textbf{Query Type}&  \textbf{\#Queries}&  \textbf{\#Statutes}  & \textbf{Avg. Stat citations} &  \textbf{\#Precedents}  & \textbf{Avg. Prec citations}\\ \hline
+%          ECHR2021& EU &  Case facts&  11478&  66 &1.78&  - &-\\
+%          FLA-CJO& China & Case facts&  60k&  321 &3.81&  - &-\\
+%          CAIL2018& China & Case facts&  2.6M&  183 &1.09&  - &-\\
+%  CAIL-Long& China & Case facts& 229K& 574 &5.77&- &-\\
+%  ILSI& India & Case facts& 66K& 100 &3.78&- &-\\
+%  COLIEE 2024 Task 3& Japan & Law Questions& 554&746 &1.27 &- &-\\ \hline
+%  COLIEE 2024 Task 1& Canada & Case Judgment& 1678& - &-&5529 & 4.10\\
+%  LeCard& China & Case Judgment& 107& - &-&100 &10.33\\
+%  CAIL2019-SCM& China & Case Judgment& 8964& - &-&2 per query & 1.0\\
+%  IL-PCR& India & Case Judgment& 1182& - &-&7070 &6.8\\ \hline
+%  \ilpcsr{} (this work) & India & Case Judgment& 6271& 936 &2.69&3183 &3.87\\ \hline
+%     \end{tabular}
+%     \caption{Comparison of ILPCSR with other LSR and PCR datasets. All existing datasets are meant for either statute identification or precedent identification, but not both. ILPCSR is the first dataset for both tasks together. Average Stat (Prec) citations refers to the average number of gold-standard statutes (precedents) cited per query.}
+%     \label{tab:dataset_compare}
+%     \vspace{-5mm}
+% \end{table*}
+
+% %\subsection{Comparison with other datasets} \label{sec:dataset/comparison}
+
+% \noindent\textbf{Comparison with other datasets}
+% To our knowledge,  \ilpcsr{} is the first dataset for identification of \textit{both}  relevant statutes and precedents for the \textit{same query}, where the query is a real case document. 
+% Table~\ref{tab:dataset_compare} compares existing datasets with \ilpcsr{}. Note that all prior datasets are meant for either statute retrieval (LSR) or precedent retrieval (PCR), but not both.
+
+% Prior LSR datasets, especially those in English, have mostly worked with a limited candidate set of statutes. 
+% For instance, the ECHR2021 dataset~\citep{chalkidis2021echr} consists of cases from the European Court of Human Rights, and a statute set of only 66 articles.
+% Datasets from China have mostly used cases from China Judgment Online, and have usually involved more articles, like FLA-CJO~\citep{luo2017fla} (321 criminal articles), CAIL2018~\citep{xiao2018cail2018} (183 criminal articles) and CAIL-Long~\citep{xiao2021lawformer} (244 articles for Criminal law, 330 articles for Civil law).
+% In the Indian setting, the ILSI dataset~\citep{paul2022ilsi} consists of 100 articles from the Indian Penal Code. 
+% All these datasets are devised in a multi-label classification setup, where given a query case, the task is to predict whether each article is relevant or not.
+% The \coliee{}~\citep{li2024coliee2024} family of datasets contains a task on statute retrieval, where the objective is to return a ranked list of the candidates, similar to classic information retrieval. Here, the candidate sets are fairly large (746 statutes from Japanese law in \texttt{COLIEE 2024}), but the queries are simple, short questions asking directly about the specific law, and not the details of real life cases.
+
+% For PCR, in common law jurisdictions (including India, Canada, UK), cases cited from the query case are considered relevant.
+% %whereas in civil law jurisdictions, legal experts are required to annotate relevance between cases.
+% The \coliee{}~\citep{li2024coliee2024} family of datasets consist of query and candidate cases from Canadian Federal law. Recently, \citet{joshi2023ucreat} released a PCR dataset based on cases from the Supreme Court of India.
+% For the Chinese jurisdiction (based on civil law), LeCard~\citep{ma2021lecard} and CAIL2019-SCM~\citep{xiao2019cail2019scm} were created by combining lexical retrievers like BM25 with human annotation.
+
+% %A brief summary comparing ILPCSR with other LSR and PCR datasets is shown in Table~\ref{tab:dataset_compare}. 
+% The major contribution of our \ilpcsr{} dataset is to provide a framework to model both LSR and PCR from the same query. This will help foster greater research and understanding into the relationship between the two tasks, which are fundamental in most legal systems across the world.
+
+%\vspace{2mm}
+%\noindent \textbf{Availability of the dataset:} We make a small sample of the dataset available anonymously.\footnote{ \url{https://anonymous.4open.science/r/AnonymousSampleDataset-67B6/readme.md}}
+%The full dataset (along with all method implementations) will be released publicly upon acceptance.
+
+% \section{Tasks Formulation} \label{sec:dataset}
+
+% Identifying the statutes and precedents cited in a query case can both be modeled as retrieval problems, as follows.
+% Given a query $Q$ and a pool of candidate statutes $\mathcal{S} = \{S_1, S_2, \ldots, S_{\mid\mathcal S \mid}\}$, the task of statute retrieval involves retrieving the set of statutes $S(Q) \subset \mathcal S$ that are relevant for $Q$. 
+% Similarly, the task of precedent retrieval requires one to identify the set of relevant precedents $P(Q) \subset \mathcal P$, where $\mathcal{P} = \{P_1, P_2, \ldots, P_{\mid\mathcal P \mid}\}$ is the pool of precedent candidates.
+
+% Historically, statute identification has mostly been modeled as a multi-label classification problem, but it can also be framed as a retrieval task especially when the number of candidate statutes is large. 
+% Precedent identification has almost always been  modeled as a retrieval/ranking task. 
+
+% %\subsection{Formulation of Statute and Precedent Retrieval} \label{sec:dataset/formulation}
+
+% It is important to note that the concept of \textit{relevance} can be quite restrictive in the legal domain. For instance, given a case related to kidnapping, many statutes can be relevant. Still, the exact statute applied would depend on other factors, like, whether hurt was caused, or if hurt was the primary intention of the crime, etc. Similarly, for precedents, lawyers would like to cite cases that are relevant not only in terms of facts but also in terms of the desired solution. For instance, the defence and prosecution lawyers are likely to cite relevant cases with opposite outcomes.
+
+% In most prior works, the queries are taken as the case judgement full texts~\citep{li2023coliee23,joshi2023ucreat}, although some studies considered only the case fact portions as the queries~\cite{li2023sailer}. 
+% In this work, we consider the full case judgement texts as queries, since in the Indian case judgements, the fact portions are \textit{not} marked, and use of automated methods to extract the facts often lead to errors (since facts are often interleaved with other types of information)~\cite{bhattacharya2023deeprhole}. 
+% The gold standard precedent and statute sets for a certain query $Q$ are usually considered as the set of precedents and statutes that have actually been cited from $Q$ (these information are masked from the query text). We follow the same approach in this work.
+
+
+
+
+
+
+
+
+
+

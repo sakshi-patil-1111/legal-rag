@@ -41,6 +41,7 @@ def build_retriever(retrieval: dict) -> Retriever:
         return BM25Retriever(
             k1=retrieval.get("k1", 1.6),
             b=retrieval.get("b", 0.7),
+            ngram=retrieval.get("ngram", 1),
         )
     if rtype == "dense":
         return DenseRetriever(
@@ -59,6 +60,7 @@ def build_retriever(retrieval: dict) -> Retriever:
         bm25 = BM25Retriever(
             k1=retrieval.get("bm25_k1", 1.5),
             b=retrieval.get("bm25_b", 0.75),
+            ngram=retrieval.get("bm25_ngram", 1),
         )
         dense = DenseRetriever(
             model_name=retrieval.get("dense_model_name", "BAAI/bge-base-en-v1.5"),

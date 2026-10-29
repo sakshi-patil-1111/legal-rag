@@ -31,6 +31,14 @@ class TestRetrievers(unittest.TestCase):
         results = retriever.search("cheats and thereby dishonestly induces the person deceived", top_k=3)
         self.assertEqual(results[0][0], "ipc_s420")
 
+    def test_bm25_ngram(self):
+        chunker = WholeDocumentChunker()
+        chunks = chunker.chunk(self.docs)
+        retriever = BM25Retriever(ngram=2)
+        retriever.index(chunks)
+        results = retriever.search("cheats and thereby dishonestly induces the person deceived", top_k=3)
+        self.assertTrue(len(results) > 0)
+
     def test_dense_retriever(self):
         chunker = WholeDocumentChunker()
         chunks = chunker.chunk(self.docs)

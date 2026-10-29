@@ -1,0 +1,35 @@
+%\vspace{-2mm}
+\section{Related Work} \label{sec:relwork}
+%\vspace{-3mm}
+LSR and PCR are fundamental tasks in legal document processing and several research works have been done in this area, for example, techniques based on n-grams \cite{salton1988termweight,zeng2007knowledge}, doc embeddings \cite{le2014doc2vec}, transformers \cite{vold2021tflegal} and others \cite{salton1975vector,robertson2009bm25,liu2023ml,hofmann2013balancing,wang2018modeling,ma2022incorporating}. 
+Various works have been done for identifying legal statutes~\cite{wang2018modeling,wang2019hmn,chalkidis2019neural,zhong2018topjudge,wu2023precedent,paul2024legal}. 
+Similarly, various works have focused on prior case retrieval~\cite{rabelo2022semantic,joshi2023ucreat,tang2024casegnn,tang2024caselink,qin2024ljpretrieval,bhattacharya2020hierspcnet,ma2021retrieving,ma2024llmrelevance}.
+% Due to space limitations, we provide more details about above-mentioned works in App. \ref{app:related-work}.
+More details regarding related work are provided in App. \ref{app:related-work}.
+% To the best of our knowledge, the two tasks have only been attempted independently. In this paper, we are the first ones to provide a parallel corpus that provides an opportunity to develop models that exploit the dependence between the two tasks. 
+To our knowledge, the two tasks have only been addressed separately. We present the first parallel corpus enabling models to leverage their interdependence.
+%a common model architecture for both the tasks, since both the tasks are legal document retrieval tasks. 
+
+% Identifying the legal statutes and relevant prior cases given a legal fact or situation is one of the most fundamental tasks in law.
+% Traditionally, researchers have used statistical and lexical approaches to solve both tasks independently. The advent of deep learning NLP approaches has led to renewed efforts in both tasks using advanced architectures.
+
+% \subsection{Overview of Prior Works} \label{sec:relwork/overview}
+
+% Traditional approaches for identifying relevant statutes and precedents have mostly involved exploiting lexical features such as n-grams of words~\citep{salton1988termweight}, hand-crafted features~\citep{zeng2007knowledge} or embeddings from pre-trained models like Doc2vec~\citep{le2014doc2vec}.
+% Lately, transformer-based embedding methods have been used for directly calculating dot product scores between the query and statute/precedent~\citep{vold2021tflegal}.
+% While most unsupervised approaches have utilized methods like Vector Space Model~\citep{salton1975vector} and BM25~\citep{robertson2009bm25}, supervised approaches for both tasks can broadly be divided into classification~\citep{liu2023ml,hofmann2013balancing} (model predicts similarity between query and statute/precedent) and ranking based~\citep{wang2018modeling,ma2022incorporating} (model ranks a list of statutes/precedents based on relevance to the query) approaches. 
+
+% \subsection{Identifying Legal Statutes} \label{sec:relwork/statutes}
+% Historically, researchers have used multi-label learning frameworks to identify relevant statutes for a query~\citep{wang2018modeling,wang2019hmn,chalkidis2019neural}. In many jurisdictions, identifying the relevant statutes is considered to be a subtask of the broader task of Legal Judgment Prediction~\citep{zhong2018topjudge}, which could entail predicting the legal charges and term of punishment as auxiliary tasks.
+% Some approaches have only considered the text of the queries in the classification pipeline, relying on the encoder to generate good quality representations of the query~\citep{chalkidis2019neural}.
+% Others have incorporated the text of the statutes as well, in generating statute-aware query representations which are then used for classification~\citep{wang2018modeling,wang2019hmn}.
+% It should be noted that most of these approaches have worked in a setup with limited number of statutes (<200), and hence the classification approach suffices.
+% Lately, LLMs have been used to perform the task of statute identification~\citep{wu2023precedent}, and these models can utilize their superior language understanding capabilities as well as knowledge of legal statutes to excel in the task of statute identification.
+
+% \subsection{Identifying Precedents} \label{sec:relwork/precedents}
+% Unlike statutes, most prior works on prior case retrieval have modeled the task in a ranking framework. The major challenge in this task is the fact that both the queries and precedents are very long. 
+% Additionally, it has been observed that the query consists of several legal aspects, and each individual aspect leads to matching with certain precedents that eventually get cited~\citep{rabelo2022semantic}. 
+% Mostly, researchers have tried to reduce the noise in the query text by using event information~\citep{joshi2023ucreat,tang2024casegnn}, or extracting salient portions of the document~\citep{qin2024ljpretrieval}. 
+% \citet{rabelo2022semantic} took a granular approach, by dividing both the queries and precedents into paragraphs/sentences, scoring each pair of query and precedent sentence, and then generating aggregate scores.
+% Other approaches have involved usage of GNNs~\citep{tang2024casegnn,tang2024caselink}, citation network structures~\citep{bhattacharya2020hierspcnet}, making use of the statutes cited from the precedent cases (not the queries)~\citep{qin2024ljpretrieval}, and re-ranking approaches based on some first stage retriever like BM25~\citep{ma2021retrieving}.
+% LLMs have also been lately used to summarize the queries and precedents~\citep{qin2024ljpretrieval}, or perform query expansion based on its inherent domain knowledge~\citep{ma2024llmrelevance}.

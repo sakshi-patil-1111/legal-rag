@@ -1,0 +1,34 @@
+
+\begin{abstract}
+Identifying/retrieving relevant statutes and prior cases/precedents for a given legal situation are common tasks exercised by law practitioners. Researchers to date have addressed the two tasks independently, thus developing completely different datasets and models for each task; however, both retrieval tasks are inherently related, e.g., similar cases tend to cite similar statutes (due to similar factual situation). 
+In this paper, we address this gap. We propose \ilpcsr{} (Indian Legal corpus for Prior Case and Statute Retrieval), which is a unique corpus that provides a common testbed for developing models for both the tasks (Statute Retrieval and Precedent Retrieval) that can exploit the dependence between the two. We experiment extensively with several baseline models on the tasks, including lexical models, semantic models and ensemble based on GNNs. Further, to exploit the dependence between the two tasks, we develop an LLM-based re-ranking approach that gives the best performance. 
+\end{abstract}
+% \begin{abstract}
+% Identifying relevant statutes and prior cases/precedents for a given legal case are two of the most common tasks exercised by legal practitioners. Researchers till date have addressed the two tasks independently, thus developing completely different datasets and models for each of the task, making it difficult to compare models across both tasks despite both being legal document retrieval problems. Given the paucity of such corpora, in this resource paper, we propose a new corpus \ilpcsr{} (Indian Legal corpus for Prior Case and Statute Retrieval), which is a unique corpus that provides a common testbed for developing models for both the tasks (Statue Retrieval and Precedent Retrieval). We experiment extensively with several baseline models on the tasks, including lexical models and semantic models. Results show that the ensemble of a semantic model (GNN) and a lexical model (BM25) gives the best performance.
+% \end{abstract}
+% Identifying relevant statutes and prior precedents for a given legal case are two of the most common tasks exercised by legal practitioners. Given the quantum of legal cases in modern times, these tasks need to be automated in order to expedite the legal workflow. Researchers till date have addressed the two tasks independently. However, there is a strong correlation between precedents and statues cited in a legal case; hence it makes sense to model both the tasks jointly. Given the paucity of such corpora, in this resource paper, we propose a new corpus IL-PCSR (Indian Legal corpus for Prior Case and Statute Retrieval), which is the first corpus for doing the two tasks (Statue Retrieval and Precedent Retrieval) together. 
+% We experiment extensively with several baseline models on the tasks. We propose a new model based on ensemble of a GNN-based architecture and BM-25 for both the tasks. Results show that the ensemble of a semantic model (GNN) and a lexical model (BM-25) gives the best performance on both the tasks.
+
+% Identifying relevant statutes and prior prece-001
+% dents for a given legal case are two of the most002
+% common tasks exercised by legal practitioners.003
+% Given the quantum of legal cases in modern004
+% times, these tasks need to be automated in or-005
+% der to expedite the legal workflow. Researchers006
+% till date have addressed the two tasks indepen-007
+% dently. However, there is a strong correlation008
+% between a case and its precedents and statutes009
+% invoked in both; hence it makes sense to model010
+% both the tasks jointly. Given the paucity of such011
+% corpora, in this resource paper, we propose a012
+% new corpus IL-PCSR (Indian Legal corpus for013
+% Prior Case and Statute Retrieval), which is the014
+% first corpus for doing the two tasks (Statue Re-015
+% trieval and Precedent Retrieval) together. We016
+% experiment extensively with several baseline017
+% models on the tasks. We propose a new model018
+% based on ensemble of a GNN-based architec-019
+% ture and BM-25 for both the tasks. Results020
+% show that the ensemble of a semantic model021
+% (GNN) and a lexical model (BM-25) gives the022
+% best performance on both the tasks.
