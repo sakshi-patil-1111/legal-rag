@@ -40,3 +40,7 @@ results/aggregated/
 # Per-query result files (large, regenerable from configs)
 results/**/*_statute.json
 results/**/*_precedent.json
+
+# local reference dirs
+BTech_Latex_Report/
+arXiv-2511.00268v1/
