@@ -51,11 +51,14 @@ class LLMProvider:
         system: str = "",
         temperature: float = 0.3,
         max_tokens: int = 512,
+        reasoning_effort: str | None = None,
     ) -> LLMResponse:
         if self.provider == "gemini":
             return self._generate_gemini(prompt, system, temperature, max_tokens)
         else:
-            return self._generate_openai_compat(prompt, system, temperature, max_tokens)
+            return self._generate_openai_compat(
+                prompt, system, temperature, max_tokens, reasoning_effort,
+            )
 
     def _generate_gemini(
         self, prompt: str, system: str, temperature: float, max_tokens: int,
@@ -109,7 +112,12 @@ class LLMProvider:
         )
 
     def _generate_openai_compat(
-        self, prompt: str, system: str, temperature: float, max_tokens: int,
+        self,
+        prompt: str,
+        system: str,
+        temperature: float,
+        max_tokens: int,
+        reasoning_effort: str | None = None,
     ) -> LLMResponse:
         url = f"{self.base_url}/chat/completions"
         messages = []
@@ -120,9 +128,14 @@ class LLMProvider:
         payload = {
             "model": self.model,
             "messages": messages,
-            "temperature": temperature,
-            "max_tokens": max_tokens,
         }
+        if reasoning_effort:
+            # Reasoning models reject temperature and use max_completion_tokens.
+            payload["reasoning_effort"] = reasoning_effort
+            payload["max_completion_tokens"] = max_tokens
+        else:
+            payload["temperature"] = temperature
+            payload["max_tokens"] = max_tokens
 
         start = time.perf_counter()
         data = json.dumps(payload).encode()

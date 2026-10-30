@@ -16,7 +16,7 @@
     "dtype": "float16",
     "query_prompt": "query",
     "max_length": 2048,
-    "batch_size": 4,
+    "batch_size": 16,
     "cache_dir": "data/cache",
     "top_k": 10
   },

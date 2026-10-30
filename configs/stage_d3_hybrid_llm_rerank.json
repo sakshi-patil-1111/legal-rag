@@ -1,0 +1,40 @@
+{
+  "experiment_name": "stage_d3_hybrid_llm_rerank",
+  "dataset": {
+    "name": "il_pcsr",
+    "data_root": "data/raw/il_pcsr",
+    "split": "dev",
+    "tasks": ["statute", "precedent"]
+  },
+  "seed": 42,
+  "chunking": {"strategy": "recursive", "size": 512, "overlap": 50},
+  "retrieval": {
+    "type": "hybrid",
+    "bm25_ngram": 5,
+    "bm25_k1": 1.6,
+    "bm25_b": 0.7,
+    "dense_model_name": "Qwen/Qwen3-Embedding-0.6B",
+    "backend": "sentence_transformers",
+    "device": "cuda",
+    "dtype": "float16",
+    "query_prompt": "query",
+    "max_length": 2048,
+    "batch_size": 16,
+    "cache_dir": "data/cache",
+    "rrf_k": 60,
+    "top_k": 50
+  },
+  "query": {"strategy": "direct"},
+  "reranker": {
+    "enabled": true,
+    "type": "llm",
+    "model_name": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "pool_size": 20,
+    "query_chars": 4000,
+    "doc_chars": 1000,
+    "final_k": 10
+  },
+  "evaluation": {"ks": [1, 2, 3, 5, 10]},
+  "output_dir": "results/stage_d3"
+}

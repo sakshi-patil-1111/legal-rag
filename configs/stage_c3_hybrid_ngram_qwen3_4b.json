@@ -1,0 +1,31 @@
+{
+  "experiment_name": "stage_c3_hybrid_ngram_qwen3_4b",
+  "dataset": {
+    "name": "il_pcsr",
+    "data_root": "data/raw/il_pcsr",
+    "split": "dev",
+    "tasks": ["statute", "precedent"]
+  },
+  "seed": 42,
+  "chunking": {"strategy": "recursive", "size": 512, "overlap": 50},
+  "retrieval": {
+    "type": "hybrid",
+    "bm25_ngram": 5,
+    "bm25_k1": 1.6,
+    "bm25_b": 0.7,
+    "dense_model_name": "Qwen/Qwen3-Embedding-4B",
+    "backend": "sentence_transformers",
+    "device": "cuda",
+    "dtype": "float16",
+    "query_prompt": "query",
+    "max_length": 2048,
+    "batch_size": 8,
+    "cache_dir": "data/cache",
+    "rrf_k": 60,
+    "top_k": 10
+  },
+  "query": {"strategy": "direct"},
+  "reranker": {"enabled": false},
+  "evaluation": {"ks": [1, 2, 3, 5, 10]},
+  "output_dir": "results/stage_c3"
+}
