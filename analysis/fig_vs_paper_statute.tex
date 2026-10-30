@@ -1,0 +1,14 @@
+\begin{tikzpicture}
+\begin{axis}[xbar, width=0.46\linewidth, height=0.42\linewidth,
+  xlabel={F1 (\%)}, bar width=6pt,
+  legend style={font=\scriptsize},
+  nodes near coords, every node near coord/.append style={font=\tiny},
+  ytick={0,1,2,3,4,5,6,7}, yticklabels={ours: Qwen3-0.6B,ours: BM25 2-gram,ours: BM25 rec-512,BM25 3-gram (paper),BM25 para-2gram (paper),SAILER infer (paper),Para-GNN FT (paper),Ensemble (paper)},
+  yticklabel style={font=\scriptsize}, y dir=reverse,
+  grid=both, grid style={dashed,gray!30}]
+\addplot[fill=blue!60] coordinates {(12.57,0) (10.55,1) (11.46,2)};
+\addlegendentry{ours}
+\addplot[fill=gray!50] coordinates {(17.80,3) (18.59,4) (7.15,5) (32.85,6) (39.44,7)};
+\addlegendentry{paper}
+\end{axis}
+\end{tikzpicture}

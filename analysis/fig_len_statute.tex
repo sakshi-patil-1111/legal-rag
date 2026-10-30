@@ -1,0 +1,12 @@
+\begin{tikzpicture}
+\begin{axis}[width=0.46\linewidth, height=0.34\linewidth,
+  xlabel={query length (chars)}, ylabel={mean F1@10 (\%)},
+  legend style={font=\scriptsize, at={(1.02,1)}, anchor=north west},
+  xtick=data, grid=both, grid style={dashed,gray!30},
+  mark size=1.8pt, line width=0.8pt]
+\addplot coordinates {(0,6.42) (1,6.69) (2,4.68) (3,5.55) (4,0.00)};
+\addlegendentry{BGE dense}
+\addplot coordinates {(0,7.07) (1,14.06) (2,12.55) (3,10.12) (4,0.00)};
+\addlegendentry{BM25 rec-512}
+\end{axis}
+\end{tikzpicture}

@@ -1,0 +1,32 @@
+\begin{tikzpicture}
+\begin{axis}[width=0.46\linewidth, height=0.34\linewidth,
+  xlabel={$k$}, ylabel={macro-F1 (\%)},
+  legend style={font=\scriptsize, at={(1.02,1)}, anchor=north west},
+  xtick=data, grid=both, grid style={dashed,gray!30},
+  mark size=1.8pt, line width=0.8pt]
+\addplot coordinates {(1,6.19) (2,7.96) (3,8.79) (5,8.76) (10,8.39)};
+\addlegendentry{BM25 whole-doc}
+\addplot coordinates {(1,5.51) (2,7.06) (3,8.33) (5,8.85) (10,7.98)};
+\addlegendentry{Legal-Embed}
+\addplot coordinates {(1,0.05) (2,0.10) (3,0.13) (5,0.10) (10,0.23)};
+\addlegendentry{SAILER}
+\addplot coordinates {(1,4.71) (2,5.59) (3,6.13) (5,6.02) (10,5.67)};
+\addlegendentry{BGE dense}
+\addplot coordinates {(1,5.98) (2,7.82) (3,8.76) (5,8.85) (10,8.29)};
+\addlegendentry{Hybrid RRF (weak)}
+\addplot coordinates {(1,9.97) (2,11.95) (3,12.23) (5,12.15) (10,11.61)};
+\addlegendentry{BM25 fixed-512}
+\addplot coordinates {(1,10.13) (2,11.83) (3,12.01) (5,12.02) (10,11.46)};
+\addlegendentry{BM25 rec-512}
+\addplot coordinates {(1,5.20) (2,7.03) (3,9.16) (5,9.85) (10,9.98)};
+\addlegendentry{Rerank (weak)}
+\addplot coordinates {(1,7.16) (2,9.42) (3,9.70) (5,9.24) (10,8.31)};
+\addlegendentry{H-baseline}
+\addplot coordinates {(1,11.21) (2,13.12) (3,13.83) (5,13.37) (10,12.92)};
+\addlegendentry{H-final}
+\addplot coordinates {(1,10.78) (2,12.30) (3,12.20) (5,11.37) (10,10.55)};
+\addlegendentry{BM25 2-gram}
+\addplot coordinates {(1,10.43) (2,12.56) (3,12.99) (5,13.65) (10,12.57)};
+\addlegendentry{Qwen3-0.6B}
+\end{axis}
+\end{tikzpicture}
