@@ -26,6 +26,12 @@ data/raw/
 
 # Caches / indexes (regenerated)
 data/cache/
+data/cache_cpu/
+data/indexes/
+
+# Downloaded kernel / volume snapshots (large, regenerable)
+results/kaggle_hybrid/
+results/modal_stage_*/
 data/indexes/
 data/processed/
 

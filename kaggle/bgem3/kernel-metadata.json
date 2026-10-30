@@ -1,0 +1,14 @@
+{
+  "id": "samudraneel05/legal-rag-bgem3",
+  "title": "legal-rag-bgem3",
+  "code_file": "script.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": ["samudraneel05/il-pcsr-data"],
+  "competition_sources": [],
+  "kernel_sources": []
+}

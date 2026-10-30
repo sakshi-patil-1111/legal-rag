@@ -2,7 +2,8 @@
 
 Reproducible experimental framework for comparing retrieval strategies on legal
 case analysis. Currently focused on the IL-PCSR benchmark (Indian statute and
-precedent retrieval). See `report.tex` for the write-up.
+precedent retrieval). See `PLAN.md` for the project handoff doc and
+`BTech_Latex_Report/thesis.tex` for the dissertation.
 
 ## Setup
 
@@ -82,37 +83,46 @@ no vendor SDK):
 
 ## Headline results (dev split, 627 queries)
 
-| Method | LSR F1@10 | LSR MAP | PCR F1@10 | PCR MAP |
-|--------|-----------|---------|-----------|---------|
-| BM25 whole-doc | 8.4% | 9.6% | 11.0% | 18.4% |
-| Dense (BGE / Legal-Embed / SAILER) | 0.2–8.0% | — | 0.0–4.3% | — |
-| Hybrid RRF | 8.3% | 9.5% | 10.1% | 15.3% |
-| BM25 + recursive-512 | 11.5% | 12.9% | 17.2% | 19.8% |
-| + cross-encoder rerank | 10.0% | 10.5% | 13.8% | 14.6% |
-| **Qwen3-Embedding-0.6B + recursive-512** | **12.6%** | **15.2%** | 10.5% | 17.1% |
-| BM25 bigram + recursive-512 | 10.6% | 12.6% | 20.1% | 27.1% |
-| **BM25 5-gram (whole doc)** | — | — | **20.7%** | **39.9%** |
-| **Hybrid RRF (5-gram BM25 + Qwen3-0.6B)** | **14.1%** | **18.2%** | 19.4% | 30.3% |
+| Method | LSR F1@10 | LSR MAP | LSR MRR | PCR F1@10 | PCR MAP | PCR MRR |
+|--------|-----------|---------|---------|-----------|---------|---------|
+| BM25 whole-doc unigram | 8.4% | 9.6% | 20.5% | 11.0% | 18.4% | 30.8% |
+| BM25 + recursive-512 | 11.5% | 12.9% | 29.4% | 17.2% | 19.8% | 33.0% |
+| BM25 2-gram + rec-512 | 10.6% | 12.6% | 30.8% | 20.1% | 27.1% | 43.7% |
+| **BM25 5-gram (whole doc)** | — | — | — | **20.7%** (32.2%@2) | **39.9%** | **57.3%** |
+| Dense (BGE / Legal-Embed / SAILER) | 0.2–8.0% | — | — | 0.0–4.3% | — | — |
+| Qwen3-Embedding-0.6B | 12.6% | 15.2% | 30.9% | 11.1% | 17.2% | 27.2% |
+| Qwen3-Embedding-4B | 14.3% | **19.8%** | 37.4% | 12.6% | 19.6% | 29.9% |
+| Hybrid RRF (5-gram + Qwen3-0.6B) | 13.7% | 17.9% | 38.8% | 19.2% | 30.0% | 45.1% |
+| Hybrid RRF (5-gram + Qwen3-4B) | 14.7% | 19.1% | 40.5% | 19.7% | 31.6% | 46.4% |
+| + bge-reranker-v2-m3 CE rerank | 7.5% | 6.6% | 16.1% | 6.9% | 6.5% | 13.7% |
+| **+ gpt-6-luna listwise rerank** | **14.8%** (23.8%@2) | **25.2%** | **50.9%** | 16.6% | 25.5% | 39.2% |
 
-Qwen3 is the first dense model to beat BM25 on statute retrieval. Test split:
-BM25 + recursive-512 gets 12.9% LSR / 17.9% PCR F1.
+Key findings:
 
-5-gram BM25 nearly reproduces the IL-PCSR paper's best lexical PCR row under
-their best-k protocol: F1@2 32.2% vs. 33.3%, MAP 39.9% vs. 44.0%, MRR 57.3%
-vs. 58.6%. The bigram variant does not reproduce their paragraph-level LSR
-row (12.3% vs. 18.6% best-k F1).
+- **5-gram BM25 nearly reproduces the paper's best lexical PCR row** under
+  their best-k protocol: F1@2 32.2% vs. 33.3%, MAP 39.9% vs. 44.0%, MRR
+  57.3% vs. 58.6%. Independently reproduced on Kaggle CPU (20.8/40.0/57.4).
+- **gpt-6-luna listwise rerank lifts LSR over every non-fine-tuned paper
+  row**: MAP 25.2% vs. para-wise BM25's 21.8%; MRR 50.9% vs. 44.3%.
+  It mildly hurts PCR — LLM reranking is task-asymmetric.
+- **Fusion dilution**: RRF helps LSR but hurts PCR because the dense leg
+  is too weak to partner with 5-gram BM25 (best-k F1 24.4% vs. 32.2%
+  alone). Fusion only helps when both legs are comparable.
+- **Truncated cross-encoders destroy recall**: reranking 4.5K-token
+  queries at 2K tokens drops PCR R@10 from ~53% to 19% — the model
+  judges on the query's opening section only.
+- **PRF does not help** on this benchmark (ΔMAP ≈ 0 on both filtered and
+  full 16.8M-shingle indexes); **rhetorical-role filtering alone fails**
+  (~4-6 F1) but dropping Court Reasoning text is free for PCR and helps
+  LSR slightly. See `results/cpu_*` and `PLAN.md`.
 
-The hybrid is a tale of two tasks. On **LSR** it is our best method (F1@10
-14.1%, MAP 18.2%, MRR 39.4%) — dense and lexical legs complement each other on
-statutes. On **PCR** the same fusion *dilutes*: Qwen3-0.6B ranks precedents
-weakly (MAP 17.1%), so RRF pulls the strong 5-gram BM25 leg down (best-k F1
-24.3% vs. 32.2% for BM25 alone). Fusion only helps when both legs are
-comparable in strength.
+Test split: BM25 + recursive-512 gets 12.9% LSR / 17.9% PCR F1.
 
-In flight on Modal (A10G × 6): Qwen3-0.6B PCR, the two hybrids above re-run,
-**Qwen3-Embedding-4B** dense + hybrid, `bge-reranker-v2-m3` cross-encoder
-rerank of the hybrid top-50, and a `gpt-6-luna` listwise LLM rerank —
-see `modal_app.py`.
+In flight on Kaggle T4: contrastive fine-tune of Qwen3-0.6B on the
+5,017-query train split (`scripts/finetune_embedder.py`) and a BGE-M3
+dense+sparse+ColBERT-MaxSim evaluation (`scripts/run_bgem3.py`) — kernel
+dirs in `kaggle/`. See `PLAN.md` for the full experiment ladder, paper-vs-
+ours protocol notes, and thesis roadmap.
 
 ## Tests
 
@@ -125,12 +135,20 @@ pytest tests/ -q
 ```
 .
 ├── src/legal_rag/       Core library (retrievers, chunkers, evaluator,
-│                        legal_agent, llm, factory)
-├── tests/               Unit and smoke tests
+│                        legal_agent, llm, factory, reranker)
+├── tests/               Unit and smoke tests (30)
 ├── data/fixtures/       Local fixtures (committed)
 ├── data/raw/            Downloaded datasets (gitignored)
 ├── configs/             Experiment configurations
-├── scripts/             download_il_pcsr.py, run_phase1.py, agent_demo.py
-├── results/             Aggregated experiment outputs
-└── report.tex           Paper draft
+├── scripts/             run_phase1.py, run_cpu_experiments.py,
+│                        finetune_embedder.py, run_bgem3.py,
+│                        analyze_results.py, download_il_pcsr.py,
+│                        agent_demo.py
+├── kaggle/              Kernel definitions (cpu/gpu results runs)
+├── modal_app.py         Modal app: data bootstrap + GPU experiment runs
+├── analysis/            Bootstrap CIs + pgfplots figures (*.tex, *.json)
+├── results/             Aggregated experiment outputs (summaries committed)
+├── BTech_Latex_Report/  thesis.tex (compiles via tectonic)
+├── PLAN.md              Handoff doc: experiment ladder, thesis roadmap
+└── report.tex           Early paper draft (superseded by thesis)
 ```

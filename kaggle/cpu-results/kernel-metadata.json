@@ -1,0 +1,14 @@
+{
+  "id": "samudraneel05/legal-rag-cpu-results",
+  "title": "legal-rag-cpu-results",
+  "code_file": "script.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": ["samudraneel05/legal-rag-cpu-experiments"]
+}
