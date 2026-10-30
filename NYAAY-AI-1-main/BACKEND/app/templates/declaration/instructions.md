@@ -1,0 +1,1 @@
+Draft a general declaration (uncorroborated by oath, unlike an affidavit). State the facts clearly. End with a signature block and date/place.

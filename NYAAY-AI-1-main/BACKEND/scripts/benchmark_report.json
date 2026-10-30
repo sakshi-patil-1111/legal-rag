@@ -1,0 +1,64 @@
+{
+    "accuracy": 100.0,
+    "passed": 7,
+    "total": 7,
+    "results": [
+        {
+            "query": "What are the essential elements of a valid contract under the Indian Contract Act?",
+            "status": "PASS",
+            "expected": [
+                "Indian Contract Act"
+            ],
+            "missing": []
+        },
+        {
+            "query": "Can a person be arrested by the police without a warrant for a cognizable offence under the BNSS?",
+            "status": "PASS",
+            "expected": [
+                "Bharatiya Nagarik Suraksha Sanhita"
+            ],
+            "missing": []
+        },
+        {
+            "query": "What is the principle of res judicata and when does it apply?",
+            "status": "PASS",
+            "expected": [
+                "Code of Civil Procedure"
+            ],
+            "missing": []
+        },
+        {
+            "query": "What are the valid grounds for divorce under the Hindu Marriage Act?",
+            "status": "PASS",
+            "expected": [
+                "Hindu Marriage Act, 1955"
+            ],
+            "missing": []
+        },
+        {
+            "query": "How is electronic evidence treated under the BSA compared to the old Evidence Act?",
+            "status": "PASS",
+            "expected": [
+                "Bharatiya Sakshya Adhiniyam"
+            ],
+            "missing": []
+        },
+        {
+            "query": "What are the consumer rights regarding product liability in India?",
+            "status": "PASS",
+            "expected": [
+                "Consumer Protection Act"
+            ],
+            "missing": []
+        },
+        {
+            "query": "Can fundamental rights be amended by the Parliament?",
+            "status": "PASS",
+            "expected": [
+                "Constitution of India",
+                "Kesavananda Bharati"
+            ],
+            "missing": []
+        }
+    ]
+}

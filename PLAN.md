@@ -9,8 +9,9 @@ B.Tech report, and how everything is wired.
 - Paper under study: **IL-PCSR** (EMNLP 2025 Findings), source in
   `arXiv-2511.00268v1/`. Main results table: `sections/experiments.tex`.
 - Thesis draft: `BTech_Latex_Report/thesis.tex` (compiles clean, 42 pp).
-- Reference agent architecture: `NYAAY-AI-1-main/` (hackathon project;
-  read-only source of ideas, not a dependency).
+- Agent architecture being adapted: `NYAAY-AI-1-main/` (hackathon project,
+  now tracked in the repo — will be modified and integrated for the
+  dissertation; see §5).
 
 ---
 
@@ -257,11 +258,31 @@ has 7 chapters, TikZ diagrams, native pgfplots figures, bootstrap CIs.
 
 ---
 
-## 5. NYAAY-AI — what it is and what to do with it
+## 5. NYAAY-AI — first-class component, to be modified for the dissertation
 
 `NYAAY-AI-1-main/` is a legal-assistance hackathon codebase (Flask app,
-crew/agent-style orchestration, Indian-law focus). It is **not runnable
-as-is** against our benchmark — treat it as an architecture reference.
+crew/agent-style orchestration, Indian-law focus) that is **now tracked
+in this repository** — it will be modified and integrated as the
+dissertation's agentic layer, not merely cited. Generated artifacts are
+excluded via `NYAAY-AI-1-main/.gitignore` (chroma backup, uploads, audit
+dumps); all source/docs/corpus/data are committed.
+
+Layout worth knowing:
+
+| Path | What it is |
+|---|---|
+| `BACKEND/app/` | Flask app + core modules (incl. `core/key_rotator.py`) |
+| `BACKEND/corpus/` | Indian legal corpus it retrieves over (~10MB) |
+| `BACKEND/data/` | knowledge/case data (~21MB) |
+| `BACKEND/eval/`, `tests/` | their own eval + test harness |
+| `FRONTEND/` | Vercel-deployed UI (~1.4MB) |
+| `benchmark_*.json`, `benchmark_rrf*.py` | their retrieval benchmarks |
+
+Integration direction (aligns with §2 P2 agentic work): port their
+orchestration ideas onto `legal_agent.py`/`LegalAgent` and swap their
+corpus/retrievers for our IL-PCSR retrievers, so the dissertation's
+agent is benchmarkable on a standard dataset — NYAAY-AI alone has no
+comparable evaluation.
 
 Mapping already implemented in `src/legal_rag/legal_agent.py`:
 
@@ -289,8 +310,10 @@ What to build for the thesis (priority order):
 5. Write up as "agentic retrieval evaluation" — the thesis chapter is
    already sketched; needs real numbers from item 1.
 
-Do NOT: rewrite NYAAY-AI to run, port its Flask app, or claim it as a
-baseline — it's architecture inspiration, not a competitor system.
+Do NOT: run its Flask app against IL-PCSR as a "baseline" (different
+corpus/task, not comparable), or commit regenerated chroma backups /
+uploads — but DO mine its orchestration, citation-verification, and
+agent-role code for the dissertation's agentic layer.
 
 ---
 

@@ -1,0 +1,9 @@
+{
+  "mandatory_fields": [
+    "principal_name",
+    "agent_name",
+    "specific_powers_granted",
+    "duration_if_any"
+  ],
+  "optional_fields": []
+}

@@ -1,0 +1,12 @@
+{
+  "mandatory_fields": [
+    "applicant_name",
+    "applicant_address",
+    "public_information_officer_designation",
+    "department",
+    "information_sought"
+  ],
+  "optional_fields": [
+    "application_fee_details"
+  ]
+}

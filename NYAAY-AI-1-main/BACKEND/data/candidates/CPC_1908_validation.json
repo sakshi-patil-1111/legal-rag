@@ -1,0 +1,14 @@
+{
+    "document_id": "CPC_1908.txt",
+    "status": "PASS",
+    "errors": [],
+    "warnings": [
+        "Possible missing section between 1 and 9"
+    ],
+    "stats": {
+        "total_blocks": 6,
+        "parts": 1,
+        "chapters": 1,
+        "sections": 4
+    }
+}

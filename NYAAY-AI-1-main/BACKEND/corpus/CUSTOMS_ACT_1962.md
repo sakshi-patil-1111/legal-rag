@@ -1,0 +1,1090 @@
+---
+document_id: customs_act_1962.txt
+source_name: CUSTOMS_ACT_1962
+legal_domain: Tax Law
+act_name: Customs Act, 1962
+document_type: statute
+---
+
+# Customs Act, 1962
+
+121.
+Confiscation of sale-proceeds of smuggled goods
+Where any smuggled goods are sold by a person having knowledge or reason to believe that the goods are smuggled goods, the sale proceeds thereof shall be liable to confiscation.120. Confiscation of smuggled goods notwithstanding any change in form, etc.
+(1)
+Smuggled goods may be confiscated notwithstanding any change in their form.
+(2)
+Where smuggled goods are mixed with other goods in such manner that the smuggled goods cannot be separated from such other goods, the whole of the goods shall be liable to confiscation :
+Provided that where the owner of such goods proves that he had no knowledge or reason to believe that they included any smuggled goods, only such part of the goods the value of which is equal to the value of the smuggled goods shall be liable to confiscation.
+121.
+Confiscation of sale-proceeds of smuggled goods
+Where any smuggled goods are sold by a person having knowledge or reason to believe that the goods are smuggled goods, the sale proceeds thereof shall be liable to confiscation.
+122.
+Adjudication of confiscations and penalties
+In every case under this Chapter in which anything is liable to confiscation or any person is liable to a penalty, such confiscation or penalty may be adjudged,-
+(a)
+without limit, by a Principal Commissioner of Customs or Commissioner of Customs or a Deputy Commissioner of Customs;
+(b)
+where the value of the goods liable to confiscation does not exceed five lakh rupees by an Assistant Commissioner of Customs or Deputy Commissioner of Customs;
+(c)
+where the value of the goods liable to confiscation does not exceed fifty thousand rupees, by a Gazetted Officer of Customs lower in rank than an Assistant Commissioner of Customs or Deputy Commissioner of Customs.
+122A.
+Adjudication Procedure
+(1)
+The adjudicating authority shall, in any proceeding under this Chapter or any other provision of this Act, give an opportunity of being heard to a party in a proceeding, if the party so desires.
+(2)
+The adjudicating authority may, if sufficient cause is shown at any stage of proceeding referred to in sub-section (1), grant time, from time to time, to the parties or any of them and adjourn the hearing for reasons to be recorded in writing:
+Provided that no such adjournment shall be granted more than three times to a party during the proceeding.
+123.
+Burden of proof in certain cases
+1.
+(1)
+Where any goods to which this section applies are seized under this Act in the reasonable belief that they are smuggled goods, the burden of proving that they are not smuggled goods shall be-
+(a)
+in a case where such seizure is made from the possession of any person,-
+(i)
+on the person from whose possession the goods were seized; and
+(ii)
+if any person, other than the person from whose possession the goods were seized, claims to be the owner thereof, also on such other person;
+(b)
+in any other case, on the person, if any, who claims to be the owner of the goods so seized.
+(2)
+This section shall apply to gold, and manufactures thereof watches, and any other class of goods which the Central Government may by notification in the Official Gazette specify.
+124.
+- Issue of show-cause notice before confiscation of goods, etc.
+No order confiscating any goods or imposing any penalty on any person shall be made under this Chapter unless the owner of the goods or such person--
+(a)
+is given a notice in writing with the prior approval of the officer of customs not below the rank of an Assistant Commissioner of Customs, informing him of the grounds on which it is proposed to confiscate the goods or to impose a penalty;
+(b)
+is given an opportunity of making a representation in writing within such reasonable time as may be specified in the notice against the grounds of confiscation or imposition of penalty mentioned therein; and
+(c)
+is given a reasonable opportunity of being heard in the matter :
+Provided that the notice referred to in clause (a) and the representation referred to in clause (b) may, at the request of the person concerned be oral.
+125.
+Option to pay fine in lieu of confiscation
+(1)
+Whenever confiscation of any goods is authorised by this Act, the officer adjudging it may, in the case of any goods, the importation or exportation whereof is prohibited under this Act or under any other law for the time being in force, and shall, in the case of any other goods, give to the owner of the goods or, where such owner is not known, the person from whose possession or custody such goods have been seized, an option to pay in lieu of confiscation such fine as the said officer thinks fit :
+Provided that, without prejudice to the provisions of the proviso to sub-section (2) of section 115, such fine shall not exceed the market price of the goods confiscated, less in the case of imported goods the duty chargeable thereon.
+(2)
+Where any fine in lieu of confiscation of goods is imposed under sub-section (1), the owner of such goods or the person referred to in sub-section (1), shall, in addition, be liable to any duty and charges payable in respect of such goods.
+126.
+On confiscation, property to vest in Central Government
+(1)
+When any goods are confiscated under this Act, such goods shall there-upon vest in the Central Government.
+(2)
+The officer adjudging confiscation shall take and hold possession of the confiscated goods.
+127.
+Award of confiscation or penalty by customs officers not to interfere with other punishments
+The award of any confiscation or penalty under this Act by an officer of customs shall not prevent the infliction of any punishment to which the person affected thereby is liable under the provisions of Chapter XVI of this Act or under any other law.
+127A.
+Definition
+In this Chapter, unless the context otherwise requires,—
+(a)
+"Bench" means a Bench of the Settlement Commission;
+(b)
+"case" means any proceeding under this Act or any other Act for the levy, assessment and collection of customs duty, pending before an adjudicating authority on the date on which an application under sub-section (1) of section 127B is made:
+Provided that when any proceeding is referred back by any court, Appellate Tribunal or any other authority, to the adjudicating authority for a fresh adjudication or decision, as the case may be, then such proceeding shall not be deemed to be a proceeding pending within the meaning of this clause;
+(c)
+"Chairman" means the Chairman of the Settlement Commission;
+(d)
+"Commissioner (Investigation)" means an officer of the customs or a Central Excise Officer appointed as such Commissioner to conduct inquiry or investigation for the purposes, of this Chapter;
+(e)
+"Member" means a Member of the Settlement Commission and includes the Chairman and the Vice-Chairman;
+(f)
+"Settlement Commission" means the Customs, Central Excise and Service Tax Settlement Commission constituted under section 32 of the Central Excise Act, 1944 (1 of 1944); and
+(g)
+"Vice-Chairman" means a Vice-Chairman of the Settlement Commission.
+127B.
+- Application for settlement of cases
+(1)
+Any importer, exporter or any other person (hereinafter referred to as the applicant in this Chapter) may, in respect of a case, relating to him make an application, before adjudication to the Settlement Commission to have the case settled, in such form and in such manner as may be specified by rules, and containing a full and true disclosure of his duty liability which has not been disclosed before the proper officer, the manner in which such liability has been incurred, the additional amount of customs duty accepted to be payable by him and such other particulars as may be specified by rules including the particulars of such dutiable goods in respect of which he admits short levy on account of misclassification, under-valuation or inapplicability of exemption notification or otherwise and such application shall be disposed of in the manner hereinafter provided:
+Provided that no such application shall be made unless,--
+(a)
+the applicant has filed a bill of entry, or a shipping bill, or a bill of export, or made a baggage declaration, or a label or declaration accompanying the goods imported or exported through post or courier, as the case may be, and in relation to such document or documents, a show cause notice has been issued to him by the proper officer;
+(b)
+the additional amount of duty accepted by the applicant in his application exceeds three lakh rupees; and
+(c)
+the applicant has paid the additional amount of customs duty accepted by him along with interest due under section 28AA:
+Provided further that no application shall be entertained by the Settlement Commission under this sub-section in cases which are pending in the Appellate Tribunal or any court:
+Provided also that no application under this sub-section shall be made in relation to goods to which section 123 applies or to goods in relation to which any offence under the Narcotic Drugs and Psychotropic Substances Act, 1985(61 of 1985) has been committed:
+Provided also that no application under this sub-section shall be made for the interpretation of the classification of the goods under the Customs Tariff Act, 1975(51 of 1975).
+(3)
+Every application made under sub-section (1) shall be accompanied by such fees as may be specified by rules.
+(4)
+An application made under sub-section (1) shall not be allowed to be withdrawn by the applicant.
+127C.
+Procedure on receipt of application under section 127B
+(1)
+On receipt of an application under section 127B, the Settlement Commission shall call for a report from the Principal Commissioner of Customs or Commissioner of Customs having jurisdiction and on the basis of the materials contained in such report and having regard to the nature and circumstances of the case or the complexity of the investigation involved therein, the Settlement Commission may, by order, allow the application to be proceeded with or reject the application :
+Provided that an application shall not be rejected under this sub-section, unless an opportunity has been given to the applicant of being heard :
+Provided further that the Principal Commissioner of Customs or Commissioner of Customs shall furnish such report within a period of one month of the receipt of the communication from the Settlement Commission, failing which it shall be presumed that the Principal Commissioner of Customs or Commissioner of Customs has no objection to such application; but he may raise objections at the time of hearing fixed by the Settlement Commission for admission of the application and the date of such hearing shall be communicated by the Settlement Commission to the applicant and the Principal Commissioner of Customs or Commissioner of Customs within a period not exceeding two months from the date of receipt of such application, unless the presiding officer of the Bench extends the said period of two months, after recording the reasons in writing.
+(2)
+A copy of every order under sub-section (1) shall be sent to the applicant and to the Principal Commissioner of Customs or Commissioner of Customs having jurisdiction.
+(3)
+Subject to the provisions of sub-section (4), the applicant shall, within thirty days of the receipt of a copy of the order under sub-section (1) allowing the application to be proceeded with, pay the amount of additional duty admitted by him as payable and shall furnish proof of such payment to the Settlement Commission.
+(4)
+If the Settlement Commission is satisfied, on an application made under sub-section (1) that the applicant is unable for good and sufficient reasons to pay the amount referred to in sub-section (3), within the time specified in that sub-section, it may extend the time for payment of the amount which remains unpaid or allow payment thereof by installments, if the applicant furnishes adequate security for the payment thereof.
+(5)
+Where the additional amount of customs duty referred to in sub-section (3) is not paid by the applicant within the time specified or extended period, as the case may be, the Settlement Commission may direct that the amount which remains unpaid, together with simple interest at the rate of eighteen per cent per annum or at the rate notified by the Board from time to time on the amount remaining unpaid, be recovered as the sum due to the Central Government by the proper officer having jurisdiction over the applicant in accordance with the provisions of section 142.
+(7)
+After examination of the records and the report of the Principal Commissioner of Customs or Commissioner of Customs received under sub-section (1), and the report, if any, of the Commissioner (Investigation) of the Settlement Commission under sub-section (6), and after giving an opportunity to the applicant and to the Principal Commissioner of Customs or Commissioner of Customs having jurisdiction to be heard, either in person or through a representative duly authorised in this behalf, and after examining such further evidence as may be placed before it or obtained by it, the Settlement Commission may, in accordance with the provisions of this Act, pass such order as it thinks fit on the matters covered by the application and any other matter relating to the case not covered by the application, but referred to in the report of the Principal Commissioner of Customs or Commissioner of Customs or the Commissioner (Investigation) under sub-section (1) or sub-section (6).
+(8)
+Subject to the provisions of section 32A of the Central Excise Act, 1944 (1 of 1944), the materials brought on record before the Settlement Commission shall be considered by the Members of the concerned Bench before passing any order under sub-section (7) and, in relation to the passing of such order, the provisions of section 32D of the Central Excise Act, 1944 (1 of 1944) shall apply.
+(9)
+Every order passed under sub-section (7) shall provide for the terms of settlement including any demand by way of duty, penalty or interest, the manner in which any sum due under the settlement shall be paid and all other matters to make the settlement effective and shall also provide that the settlement shall be void if it is subsequently found by the Settlement Commission that it has been obtained by fraud, or misrepresentation of facts.
+(10)
+Where any duty payable in pursuance of an order under sub-section (7) is not paid by the applicant within thirty days of the receipt of a copy of the order by him, then, whether or not the Settlement Commission has extended the time for payment of such duty or has allowed payment thereof by installments, the applicant shall be liable to pay simple interest at the rate of eighteen per cent per annum or at such other rate as notified by the Board on the amount remaining unpaid from the date of expiry of the period of thirty days aforesaid.
+(11)
+Where a settlement becomes void as provided under sub-section (9) the proceedings with respect to the matters covered by the settlement shall be deemed to have been revived from the stage at which the application was allowed to be proceeded with by the Settlement Commission and proper officer may, notwithstanding anything contained in any other provision of this Act, complete such proceedings at any time before the expiry of two years from the date of the receipt of communication that the settlement became void.
+127D.
+Power of Settlement Commission to order provisional attachment to protect revenue
+(1)
+Where, during the pendency of any proceeding before it, the Settlement Commission is of the opinion that for the purpose of protecting the interests of the revenue it is necessary so to do, it may, by order, attach provisionally any property belonging to the applicant in such manner as may be specified by rules.
+(2)
+Every provisional attachment made by the Settlement Commission under sub-section (1) shall cease to have effect from the date the sums due to the Central Government for which such attachment is made are discharged by the applicant and evidence to that effect is submitted to the Settlement Commission.
+127E.
+Omitted
+127F.
+Power and procedure of Settlement Commission
+(1)
+In addition to the powers conferred on the Settlement Commission under Chapter V of the Central Excise Act, 1944 (1 of 1944), it shall have all the powers which are vested in an officer of the customs under this Act or the rules made thereunder.
+(2)
+Where an application made under section 127B has been allowed to be proceeded with under section 127C, the Settlement Commission shall, until an order is passed under sub-section (7) of section 127C, have, subject to the provisions of sub-section (6) of that section, exclusive jurisdiction to exercise the powers and perform the functions of any officer of customs or Central Excise Officer as the case may be, under this Act or in the Central Excise Act, 1944 (1 of 1944), as the case may be, in relation to the case.
+(3)
+In the absence of any express direction by the Settlement Commission to the contrary, nothing in this Chapter shall affect the operation of the provisions of this Act in so far as they relate to any matter other than those before the Settlement Commission.
+(4)
+The Settlement Commission shall, subject to the provisions of Chapter V of the Central Excise Act, 1944 (1 of 1944) and this Chapter, have power to regulate its own procedure and the procedure of Benches thereof in all matters arising out of the exercise of its powers, or of the discharge of its functions, including the places at which the Benches shall hold their sittings.
+127G.
+Inspection etc., of reports
+No person shall be entitled to inspect, or obtain copies of, any report made by any officer of the Customs to the Settlement Commission; but the Settlement Commission may, in its discretion, furnish copies thereof to any such person on an application made to it in this behalf and on payment of such fee as may be specified by rules :
+Provided that, for the purpose of enabling any person whose case is under consideration to rebut any evidence brought on record against him in any such report, the Settlement Commission shall, on an application made in this behalf, and on payment by such person of such fees as may be specified by rules, furnish him with a certified copy of any such report or part thereof relevant for the purpose.
+127H.
+Power of Settlement Commission to grant immunity from prosecution and penalty
+(1)
+The Settlement Commission may, if it is satisfied that any person who made the application for settlement under section 127B has co-operated with the Settlement Commission in the proceedings before it and has made a full and true disclosure of his duty liability, grant to such person, subject to such conditions as it may think fit to impose, immunity from prosecution for any offence under this Act or under the Indian Penal Code (45 of 1860) or under any other Central Act for the time being in force and also either wholly or in part from the imposition of any penalty, fine and interest under this Act, with respect to the case covered by the settlement :
+Provided that no such immunity shall be granted by the Settlement Commission in cases where the proceedings for the prosecution for any such offence have been instituted before the date of receipt of the application under section 127B.
+(2)
+An immunity granted to a person under sub-section (1) shall stand withdrawn if such person fails to pay any sum specified in the order of the settlement passed under sub-section (1) of section 127C within the time specified in such order or within such further time as may be allowed by the Settlement Commission, or fails to comply with any other conditions subject to which the immunity was granted and thereupon the provisions of this Act shall apply as if such immunity had not been granted.
+(3)
+An immunity granted to a person under sub-section (1) may, at any time, be withdrawn by the Settlement Commission, if it is satisfied that such person had, in the course of the settlement proceedings, concealed any particulars, material to the settlement or had given false evidence, and thereupon such person may be tried for the offence with respect to which the immunity was granted or for any other offence of which he appears to have been guilty in connection with the settlement and shall also become liable to the imposition of any penalty under this Act to which such person would have been liable, had no such immunity been granted.
+127I.
+- Power of Settlement Commission to send a case back to the proper officer
+(1)
+The Settlement Commission may, if it is of opinion that any person who made an application for settlement under section 127B has not co-operated with the Settlement Commission in the proceedings before it, send the case back to the proper officer who shall thereupon dispose of the case in accordance with the provisions of this Act as if no application under section 127B had been made.
+(2)
+For the purpose of sub-section (1), the proper officer shall be entitled to use all the materials and other information produced by the assessee before the Settlement Commission or the results of the inquiry held or evidence recorded by the Settlement Commission in the course of the proceedings before it as if such materials, information, inquiry and evidence had been produced before such proper officer or held or recorded by him in the course of the proceedings before him.
+(3)
+For the purposes of the time limit under section 28 and for the purposes of interest under section 28AA, in a case referred to in sub-section (1), the period commencing on and from the date of the application to the Settlement Commission under section 127B and ending with the date of receipt by the officer of customs of the order of the Settlement Commission sending the case back to the officer of customs shall be excluded.
+127J.
+Order of settlement to be conclusive
+Every order of settlement passed under sub-section (7) of section 127C shall be conclusive as to the matters stated therein and no matter covered by such order shall, save as otherwise provided in this Chapter, be reopened in any proceeding under this Act or under any other law for the time being in force.
+127K.
+Recovery of sums due under order of settlement
+Any sum specified in an order of settlement passed under sub-section (7) of section 127C may, subject to such conditions, if any, as may be specified therein, be recovered, and any penalty for default in making payment of such sum may be imposed and recovered as sums due to the Central Government in accordance with the provisions of section 142, by the proper officer having jurisdiction over the applicant.
+127L.
+Bar on subsequent application for settlement in certain cases
+(1)
+Where, ,—
+(i)
+an order of settlement provides for the imposition of a penalty on the applicant under section 127B for settlement, on the ground of concealment of particulars of his duty liability; or
+Explanation.--In this clause, the concealment of particulars of duty liability relates to any such concealment made from the officer of customs.
+(ii)
+after the passing of an order of settlement in relation to a case, such person is convicted of any offence under this Act in relation to that case; or
+(iii)
+the case of such person is sent back to the proper officer by the Settlement Commission under section 127-I, then such person shall not be entitled to apply for settlement under section 127B in relation to any other matter.
+127M.
+Proceedings before Settlement Commission to be judicial proceedings
+Any proceedings under this Chapter before the Settlement Commission shall be deemed to be a judicial proceeding within the meaning of sections 193 and 228, and for the purposes of section 196, of the Indian Penal Code (45 of 1860).
+127MA.
+Certain persons who have filed appeals to the Appellate Tribunal entitled to make applications to the Settlement Commission
+(1)
+Notwithstanding anything contained in this Chapter, any person who has filed an appeal to the Appellate Tribunal under this Act, on or before the 29th day of February, 2000 and which is pending, shall, on withdrawal of such appeal from the Appellate Tribunal, be entitled to make an application to the Settlement Commission to have his case settled under this Chapter :
+Provided that no such person shall be entitled to make an application under this section in a case where the Principal Commissioner of Customs or Commissioner of Customs or any officer on his behalf has, on or before the date on which the Finance Act, 2000 receives the assent of the President, applied to the Appellate Tribunal for the determination of such points arising out of the decision or order specified by the Board in its order under sub-section (1) of section 129D or filed an appeal under sub-section (2) of section 129A, as the case may be.
+(2)
+Any person referred to in sub-section (1) may make an application to the Appellate Tribunal for permission to withdraw the appeal.
+(3)
+On receipt of an application under sub-section (2), the Appellate Tribunal shall grant permission to withdraw the appeal.
+(4)
+Upon withdrawal of the appeal, the proceedings in appeal immediately before such withdrawal shall, for the purposes of this Chapter, be deemed to be a proceeding pending before a proper officer.
+(5)
+An application to the Settlement Commission under this section shall be made within a period of thirty days from the date on which the order of the Appellate Tribunal permitting the withdrawal of the appeal is communicated to the person.
+(6)
+An application made to the Settlement Commission under this section shall be deemed to be an application made under sub-section (1) of section 127B and the provisions of this Chapter, except sub-section (11) of section 127C, and sub-section (1) of section 127-I, shall apply accordingly.
+(7)
+Where an application made to the Settlement Commission under this section is not entertained by the Settlement Commission, then, the appeal shall be deemed to have been revived before the Appellate Tribunal and the provisions contained in section 129A, section 129B and section 129C shall, so far as may be, apply accordingly.
+(8)
+The Settlement Commission may, if is of opinion that any person who made an application under sub-section (5) has not co-operated with the proceedings before it, send the case back to the Appellate Tribunal and the provisions containing in section 129A, section 129B and section 129C shall, so far as may be, apply accordingly.
+127N.
+Application of certain provisions of Central Excise Act
+The provisions of Chapter V of the Central Excise Act, 1944 (1 of 1944), in so far as it is not inconsistent with the provisions of this Chapter shall apply in relation to proceedings before the Settlement Commission under this Chapter.
+128.
+Appeals to Commissioner (Appeals)
+(1)
+Any person aggrieved by any decision or order passed under this Act by an officer of customs lower in rank than a Principal Commissioner of Customs or Commissioner of Customs may appeal to the Commissioner (Appeals)within sixty days from the date of the communication to him of such decision or order :
+Provided that the Commissioner (Appeals) may, if he is satisfied that the appellant was prevented by sufficient cause from presenting the appeal within the aforesaid period of sixty days, allow it to be presented within a further period of thirty days.
+(1A)
+The Commissioner (Appeals) may, if sufficient cause is shown at any stage of hearing of an appeal, grant time, from time to time, to the parties or any of them and adjourn the hearing of the appeal for reasons to be recorded in writing:
+Provided that no such adjournment shall be granted more than three times to a party during hearing of the appeal.
+(2)
+Every appeal under this section, shall be in such form and shall be verified in such manner as may be specified by rules made in this behalf.
+128A.
+Procedure in appeal
+(1)
+The Commissioner (Appeals) shall give an opportunity to the appellant to be heard if he so desires.
+(2)
+The Commissioner (Appeals) may, at the hearing of an appeal, allow the appellant to go into any ground of appeal not specified in the grounds of appeal, if the Commissioner (Appeals) is satisfied that the omission of that ground from the grounds of appeal was not willful or unreasonable.
+(3)
+The Commissioner (Appeals) shall, after making such further inquiry as may be necessary, pass such order, as he thinks just and proper, confirming, modifying or annulling the decision or order appealed against:
+Provided that an order enhancing any penalty or fine in lieu of confiscation or confiscating goods of greater value or reducing the amount of refund shall not be passed unless the appellant has been given a reasonable opportunity of showing cause against the proposed order :
+Provided further that where the Commissioner (Appeals) is of opinion that any duty has not been levied or has been short-levied or erroneously refunded, no order requiring the appellant to pay any duty not levied, short-levied or erroneously refunded shall be passed unless the appellant is given notice within the time-limit specified in section 28 to show cause against the proposed order.
+(4)
+The order of the Commissioner (Appeals) disposing of the appeal shall be in writing and shall state the points for determination, the decision thereon and the reasons for the decision.
+(4A)
+The Commissioner (Appeals) shall, where it is possible to do so, hear and decide every appeal within a period of six months from the date on which it is filed.
+(5)
+On the disposal of the appeal, the Commissioner (Appeals) shall communicate the order passed by him to the appellant, the adjudicating authority and, the Principal Chief Commissioner of Customs or Chief Commissioner of Customs and the Principal Commissioner of Customs or Commissioner of Customs.
+129.
+Appellate Tribunal
+(1)
+The Central Government shall constitute an Appellate Tribunal to be called the Customs, Excise and Service Tax Appellate Tribunal consisting of as many judicial and technical members as it thinks fit to exercise the powers and discharge the functions conferred on the Appellate Tribunal by this Act.
+129A.
+Appeals to the Appellate Tribunal
+(1)
+Any person aggrieved by any of the following orders may appeal to the Appellate Tribunal against such order--
+(a)
+a decision or order passed by the Principal Commissioner of Customs or Commissioner of Customs as an adjudicating authority;
+(b)
+an order passed by the Commissioner (Appeals) under section 128A;
+(c)
+an order passed by the Board or the Appellate Commissioner of Customs under section 128, as it stood immediately before the appointed day;
+(d)
+an order passed by the Board or the Principal Commissioner of Customs or Commissioner of Customs, either before or after the appointed day, under section 130, as it stood immediately before that day :
+Provided that no appeal shall lie to the Appellate Tribunal and the Appellate Tribunal shall not have jurisdiction to decide any appeal in respect of any order referred to in clause ( b) if such order relates to,--
+(a)
+any goods imported or exported as baggage;
+(b)
+any goods loaded in a conveyance for importation into India, but which are not unloaded at their place of destination in India; or so much of the quantity of such goods as has not been unloaded at any such destination if goods unloaded at such destination are short of the quantity required to be unloaded at their destination;
+(c)
+payment of drawback as provided in Chapter X, and the rules made thereunder :
+Provided further that the Appellate Tribunal may, in its discretion, refuse to admit an appeal in respect of an order referred to in clause ( b) or clause ( c) or clause ( d) where-
+(i)
+the value of the goods confiscated without option having been given to the owner of the goods to pay a fine in lieu of confiscation under section 125; or
+(ii)
+in any disputed case, other than a case where the determination of any question having a relation to the rate of duty of customs or to the value of goods for purposes of assessment is in issue or is one of the points in issue, the difference in duty involved or the duty involved; or
+(iii)
+the amount of fine or penalty determined by such order, does not exceed two lakh rupees.
+(1A)
+Every appeal against any order of the nature referred to in the first proviso to sub-section (1), which is pending immediately before the commencement of section 40 of the Finance Act, 1984, before the Appellate Tribunal and any matter arising out of or connected with such appeal and which is so pending shall stand transferred on such commencement to the Central Government and the Central Government shall deal with such appeal or matter under section 129DD as if such appeal or matter were an application or a matter arising out of an application made to it under that section.
+(B)
+(i)
+The Board may, by order, constitute such Committees as may be necessary for the purposes of this Act.
+(ii)
+Every Committee constituted under clause (i) shall consist of two Chief Commissioners of Customs or two Commissioners of Customs, as the case may be.
+(2)
+The Committee of Principal Commissioner of Customs or Commissioner of Customs may, if it is of opinion that an order passed by--
+(a)
+the Appellate Commissioner of Customs under section 128, as it stood immediately before the appointed day, or
+(b)
+the Commissioner (Appeals) under section 128A, is not legal or proper, direct the proper officer to appeal on his behalf to the Appellate Tribunal or, as the case may be, the Customs and Excise Revenues Appellate Tribunal established under section 3 of the Customs and Excise Revenues Appellate Tribunal Act, 1986, against such order.
+Provided that where the Committee of Commissioners of Customs differs in its opinion regarding the appeal against the order of the Commissioner (Appeals), it shall state the point or points on which it differs and make a reference to the jurisdictional Principal Chief Commissioner of Customs or Chief Commissioner of Customs who shall, after considering the facts of the order, if is of the opinion that the order passed by the Commissioner (Appeals) is not legal or proper, direct the proper officer to appeal to the Appellate Tribunal against such order.
+Explanation.--For the purposes of this sub-section, "jurisdictional Chief Commissioner" means the Principal Chief Commissioner of Customs or Chief Commissioner of Customs having jurisdiction over the adjudicating authority in the matter.
+(3)
+Every appeal under this section shall be filed within three months from the date on which the order sought to be appealed against is communicated to the Principal Commissioner of Customs or Commissioner of Customs, or as the case may be, the other party preferring the appeal.
+(4)
+On receipt of notice that an appeal has been preferred under this section, the party against whom the appeal has been preferred may, notwithstanding that he may not have appealed against such order or any part thereof, file, within forty-five days of the receipt of the notice, a memorandum of cross-objections verified in such manner as may be specified by rules made in this behalf against any part of the order appealed against and such memorandum shall be disposed of by the Appellate Tribunal as if it were an appeal presented within the time specified in sub-section (3).
+(5)
+The Appellate Tribunal may admit an appeal or permit the filing of a memorandum of cross-objections after the expiry of the relevant period referred to in sub-section (3) or sub-section (4), if it is satisfied that there was sufficient cause for not presenting it within that period.
+(6)
+An appeal to the Appellate Tribunal shall be in such form and shall be verified in such manner as may be specified by rules made in this behalf and shall, irrespective of the date of demand of duty and interest or of levy of penalty in relation to which the appeal is made, be accompanied by a fee of,--
+(a)
+where the amount of duty and interest demanded and penalty levied by any officer of customs in the case to which the appeal relates is five lakh rupees or less, one thousand rupees;
+(b)
+where the amount of duty and interest demanded and penalty levied by any officer of customs in the case to which the appeal relates is more than five lakh rupees but not exceeding fifty lakh rupees, five thousand rupees;
+(c)
+where the amount of duty and interest demanded and penalty levied by any officer of customs in the case to which the appeal relates is more than fifty lakh rupees, ten thousand rupees:
+Provided that no such fee shall be payable in the case of an appeal referred to in subsection (2) or a memorandum of cross-objections referred to in sub-section (4).
+(7)
+Every application made before the Appellate Tribunal --
+(a)
+in an appeal for rectification of mistake or for any other purpose; or
+(b)
+for restoration of an appeal or an application, shall be accompanied by a fee of five hundred rupees;
+Provided that no such fee shall be payable in the case of an application filed by or on behalf of the Principal Commissioner of Customs or Commissioner of Customs under this sub-section.
+129B.
+Orders of Appellate Tribunal
+(1)
+The Appellate Tribunal may, after giving the parties to the appeal, an opportunity of being heard, pass such orders thereon as it thinks fit, confirming, modifying or annulling the decision or order appealed against or may refer the case back to the authority which passed such decision or order with such directions as the Appellate Tribunal may think fit, for a fresh adjudication or decision, as the case may be, after taking additional evidence, if necessary.
+(1A)
+The Appellate Tribunal may, if sufficient cause is shown, at any stage of hearing of an appeal, grant time to the parties or any of them and adjourn the hearing of the appeal for reasons to be recorded in writing:
+Provided that no such adjournment shall be granted more than three times to a party during hearing of the appeal .
+(2)
+The Appellate Tribunal may, at any time within six months from the date of the order, with a view to rectifying any mistake apparent from the record, amend any order passed by it under sub-section (1) and shall make such amendments if the mistake is brought to its notice by the Principal Commissioner of Customs or Commissioner of Customs or the other party to the appeal :
+Provided that an amendment which has the effect of enhancing the assessment or reducing a refund or otherwise increasing the liability of the other party shall not be made under this sub-section, unless the Appellate Tribunal has given notice to him of its intention to do so and has allowed him a reasonable opportunity of being heard.
+(2A)
+The Appellate Tribunal shall, where it is possible to do so, hear and decide every appeal within a period of three years from the date on which such appeal is filed:
+(3)
+The Appellate Tribunal shall send a copy of every order passed under this section to the Principal Commissioner of Customs or Commissioner of Customs and the other party to the appeal .
+(4)
+Save as otherwise provided in section 130 or section 130E, order passed by the Appellate Tribunal on appeal shall be final.
+129C.
+Procedure of Appellate Tribunal
+(1)
+The powers and functions of the Appellate Tribunal may be exercised and discharged by Benches constituted by the President from amongst the members thereof.
+(2)
+Subject to the provisions contained in sub-section (4), a Bench shall consist of one judicial member and one technical member.
+(3)
+Omitted
+(4)
+The President or any other member of the Appellate Tribunal authorised in this behalf by the President may, sitting singly, dispose of any case which has been allotted to the Bench of which he is a member where-
+(a)
+the value of the goods confiscated without option having been given to the owner of the goods to pay a fine in lieu of confiscation under section 125; or
+(b)
+in any disputed case, other than a case where the determination of any question having a relation to the rate of duty of customs or to the value of goods for purposes of assessment is in issue or is one of the points in issue, the difference in duty involved or the duty involved; or
+(c)
+the amount of fine or penalty involved, does not exceed fifty lakh rupees
+(5)
+If the members of a Bench differ in opinion on any point, the point shall be decided according to the opinion of the majority, if there is a majority; but if the members are equally divided, they shall state the point or points on which they differ and make a reference to the President who shall either hear the point or points himself or refer the case for hearing on such point or points by one or more of the other members of the Appellate Tribunal and such point or points shall be decided according to the opinion of the majority of those members of the Appellate Tribunal who have heard the case, including those who first heard it.
+(6)
+Subject to the provisions of this Act, the Appellate Tribunal shall have power to regulate its own procedure and the procedure of the Benches thereof in all matters arising out of the exercise of its powers or of the discharge of its functions, including the places at which the Benches shall hold their sittings.
+(7)
+The Appellate Tribunal shall, for the purposes of discharging its functions, have the same powers as are vested in a court under the Code of Civil Procedure, 1908 (5 of 1908), when trying a suit in respect of the following matters, namely :-
+(a)
+discovery and inspection;
+(b)
+enforcing the attendance of any person and examining him on oath;
+(c)
+compelling the production of books of account and other documents; and
+(d)
+issuing commissions.
+(8)
+Any proceedings before the Appellate Tribunal shall be deemed to be a judicial proceeding within the meaning of sections 193 and 228 and for the purpose of section 196 of the Indian Penal Code (45 of 1860), and the Appellate Tribunal shall be deemed to be a Civil Court for all the purposes of section 195 and Chapter XXVII of the Code of Criminal Procedure, 1973 (2 of 1974).
+129D.
+Power of Board Principal Commissioner of Customs or Commissioner of Customs to or pass certain orders
+(1)
+The Board may, of its own motion, call for and examine the record of any proceedings in which a
+Principal Commissioner of Customs or Commissioner of Customs as an adjudicating authority has passed any decision or order under this Act for the purpose of satisfying itself as to the legality or propriety of any such decision or order and may, by order, direct such Commissioner or any other Commissioner to apply to the Appellate Tribunal or, as the case may be, the Customs and Excise, Revenues Appellate Tribunal established under section 3 of the Customs and Excise Revenues Appellate Tribunal Act, 1986 for the determination of such points arising out of the decision or order as may be specified by the Committee of Chief Commissioners of Customs in its order.
+Provided that where the Committee of Chief Commissioners of Customs differs in its opinion as to the legality or propriety of the decision or order of the Principal Commissioner of Customs or Commissioner of Customs, it shall state the point or points on which it differs and make a reference to the Board which, after considering the facts of the decision or order passed by the Principal Commissioner of Customs or Commissioner of Customs, if is of the opinion that the decision or order passed by the Principal Commissioner of Customs or Commissioner of Customs is not legal or proper, may, by order, direct such Commissioner or any other Commissioner to apply to the Appellate Tribunal for the determination of such points arising out of the decision or order, as may be specified in its order.
+(2)
+The Principal Commissioner of Customs or Commissioner of Customs may, of his own motion, call for and examine the record of any proceeding in which an adjudicating authority subordinate to him has passed any decision or order under this Act for the purpose of satisfying himself as to the legality or propriety of any such decision or order and may, by order, direct such authority or any officer of customs subordinate to him to apply to the Commissioner (Appeals) for the determination of such points arising out of the decision or order as may be specified by the Principal Commissioner of Customs or Commissioner of Customs in his order.
+(3)
+Every order under sub-section (1) or sub-section (2), as the case may be, shall be made within a period of three months from the date of communication of the decision or order of the adjudicating authority.
+Provided that the Board may, on sufficient cause being shown, extend the said period by another thirty days.
+(4)
+Where in pursuance of an order under sub-section (1) or sub-section (2), the adjudicating authority or any officer of customs authorised in this behalf by the Principal Commissioner of Customs or Commissioner of Customs makes an application to the Appellate Tribunal or, as the case may be, the Customs and Excise Revenues Appellate Tribunal established under section 3 of the Customs and Excise Revenues Appellate Tribunal Act, 1986 or the Commissioner (Appeals) within a period of one month from the date of communication of the order under sub-section (1) or sub-section (2) to the adjudicating authority, such application shall be heard by the Appellate Tribunal or, as the case may be, the Customs and Excise Revenues Appellate Tribunal established under section 3 of the Customs and Excise Revenues Appellate Tribunal Act, 1986 or the Commissioner (Appeals) as the case may be, as if such application were an appeal made against the decision or order of the adjudicating authority and the provisions of this Act regarding appeals, including the provisions of sub-section (4) of section 129Aor, as the case may be, the provisions of the Customs and Excise Revenues Appellate Act, 1986 shall, so far as may be, apply to such application.
+(5)
+The provisions of this section shall not apply to any decision or order in which the determination of any question having a relation to the rate of duty or to the value of goods for the purposes of assessment of any duty is in issue or is one of the points in issue.
+Explanation.-- For the purposes of this sub-section, the determination of a rate of duty in relation to any goods or valuation of any goods for the purposes of assessment of duty includes the determination of a question--
+(a)
+relating to the rate of duty for the time being in force, whether under the Customs Tariff Act, 1975 (51 of 1975), or under any other Central Act providing for the levy and collection of any duty of customs, in relation to any goods on or after the 28th day of February, 1986; or
+(b)
+relating to the value of goods for the purposes of assessment of any duty in cases where the assessment is made on or after the 28th day of February, 1986; or
+(c)
+whether any goods fall under a particular heading or sub-heading of the First Schedule or the Second Schedule to the Customs Tariff Act, 1975 (51 of 1975), or that any goods are or not covered by a particular notification or order issued by the Central Government granting total or partial exemption from duty; or
+(d)
+whether the value of any goods for the purposes of assessment of duty shall be enhanced or reduced by the addition or reduction of the amounts in respect of such matters as are specifically provided in this Act.
+129DA.
+Powers of revision of Board or Principal Commissioner of Customs or Commissioner of Customs in certain cases
+(1)
+The Board may, of its own motion or on the application of any aggrieved person or otherwise, call for and examine the record of any proceeding in which a Principal Commissioner of Customs or Commissioner of Customs has passed any decision or order not being a decision or order passed under sub-section (2) of this section of the nature referred to in sub-section (5) of section 129D for the purpose of satisfying itself as to the correctness, legality or propriety of such decision or order and may pass such order thereon as it thinks fit.
+(2)
+The Principal Commissioner of Customs or Commissioner of Customs may, of his own motion or on the application of any aggrieved person or otherwise, call for and examine the record of any proceeding in which an adjudicating authority subordinate to him has passed any decision or order of the nature referred to in sub-section (5) of section 129D for the purpose of satisfying himself as to the correctness, legality or propriety of such decision or order and may pass such order thereon as he thinks fit.
+(3)
+(a)
+No decision or order under this section shall be made so as to prejudicially affect any person unless such person is given a reasonable opportunity of making representation and if, he so desires, of being heard in his defence.
+(b)
+Where the Board or, as the case may be, the Principal Commissioner of Customs or Commissioner of Customs is of the opinion that any duty has not been levied or has been short-levied or short-paid or erroneously refunded, no order requiring the affected person to pay any duty not levied or paid, short-levied or short-paid or erroneously refunded shall be passed under this section unless such person is given notice within the time limit specified in section 28 to show cause against the proposed order.
+(4)
+No proceedings shall be initiated under sub-section (1) or sub-section (2) in respect of any decision or order after the expiry of a period of six months from the date of communication of such decision or order :
+Provided that in respect of any decision or order passed before the commencement of the Customs and Central Excises Laws (Amendment) Act, 1988, the provisions of this sub-section shall have effect as if for the words "six months", the words "one year" were substituted.
+(5)
+Any person aggrieved by any decision or order passed under sub-section (1) or sub-section (2) may appeal to the Customs and Excise Revenues Appellate Tribunal established under section 3 of the Customs and Excise Revenues Appellate Tribunal Act, 1986 (62 of 1986), against such decision or order.
+129DD.
+Revision by Central Government
+(1)
+The Central Government may, on the application of any person aggrieved by any order passed under section 128A, where the order is of the nature referred to in the first proviso to sub-section (1) of section 129A, annul or modify such order:
+Provided that the Central Government may in its discretion, refuse to admit an application in respect of an order where the amount of duty or fine or penalty, determined by such order does not exceed five thousand rupees.
+Explanation : For the purposes of this sub-section, "order passed under section 128A" includes an order passed under that section before the commencement of section 40 of the Finance Act, 1984, against which an appeal has not been preferred before such commencement and could have been, if the said section had not come into force, preferred after such commencement, to the Appellate Tribunal.
+(1A)
+The Principal Commissioner of Customs or Commissioner of Customs may, if he is of the opinion that an order passed by the Commissioner (Appeals) under section 128A is not legal or proper, direct the proper officer to make an application on his behalf to the Central Government for revision of such order.
+(2)
+An application under sub-section (1) shall be made within three months from the date of the communication to the applicant of the order against which the application is being made :
+Provided that the Central Government may, if it is satisfied that the applicant was prevented by sufficient cause from presenting the application within the aforesaid period of three months, allow it to be presented within a further period of three months.
+(3)
+An application under sub-section (1) shall be in such form and shall be verified in such manner as may be specified by rules made in this behalf and shall be accompanied by a fee of, --
+(a)
+two hundred rupees, where the amount of duty and interest demanded, fine or penalty levied by an officer of customs in the case to which the application relates is one lakh rupees or less;
+(b)
+one thousand rupees, where the amount of duty and interest demanded, fine or penalty levied by an officer of customs in the case to which the application relates is more than one lakh rupees:
+Provided that no such fee shall be payable in the case of an application referred to in sub-section (1A).
+(4)
+The Central Government may, of its own motion annul or modify any order referred to in sub-section (1).
+(5)
+No order enhancing any penalty or fine in lieu of confiscation or confiscating goods of greater value shall be passed under this section, --
+( a) in any case in which an order passed under section 128A has enhanced any penalty or fine in lieu of confiscation or has confiscated goods of greater value, and
+( b) in any other case, unless the person affected by the proposed order has been given notice to show cause against it within one year from the date of the order sought to be annulled or modified.
+(6)
+Where the Central Government is of opinion that any duty of customs has not been levied or has been short-levied, no order levying or enhancing the duty shall be made under this section unless the person affected by the proposed order is given notice to show cause against it within the time limit specified in section 128.
+129E.
+Deposit of certain percentage of duty demanded or penalty imposed before filing appeal.--
+The Tribunal or the Commissioner (Appeals), as the case may be, shall not entertain any appeal,--
+(i)
+under sub-section (1) of section 128, unless the appellant has deposited seven and a half per cent. of the duty, in case where duty or duty and penalty are in dispute, or penalty, where such penalty is in dispute, in pursuance of a decision or an order passed by an officer of customs lower in rank than the Principal Commissioner of Customs or Commissioner of Customs;
+(ii)
+against the decision or order referred to in clause (a) of sub-section (1) of section 129A, unless the appellant has deposited seven and a half per cent. of the duty, in case where duty or duty and penalty are in dispute, or penalty, where such penalty is in dispute, in pursuance of the decision or order appealed against;
+(iii)
+against the decision or order referred to in clause (b) of sub-section (1) of section 129A, unless the appellant has deposited ten per cent. of the duty, in case where duty or duty and penalty are in dispute, or penalty, where such penalty is in dispute, in pursuance of the decision or order appealed against:
+Provided that the amount required to be deposited under this section shall not exceed rupees ten crores:
+Provided further that the provisions of this section shall not apply to the stay applications and appeals pending before any appellate authority prior to the commencement of the Finance (No. 2) Act, 2014.
+129EE.
+Interest on delayed refund of amount deposited under section 129E.--
+Where an amount deposited by the appellant under section 129E is required to be refunded consequent upon the order of the appellate authority, there shall be paid to the appellant interest at such rate, not below five per cent. and not exceeding thirty-six per cent. per annum as is for the time being fixed by the Central Government, by notification in the Official Gazette, on such amount from the date of payment of the amount till, the date of refund of such amount:
+Provided that the amount deposited under section 129E, prior to the commencement of the Finance (No. 2) Act, 2014, shall continue to be governed by the provisions of section 129EE as it stood before the commencement of the said Act.
+130.
+- Statement of case to High Court
+(1)
+The Principal Commissioner of Customs or Commissioner of Customs or the other party may, within sixty days of the date upon which he is served with notice of an order under section 129B passed before the 1st day of July, 1999 (not being an order relating, among other things, to the determination of any question having a relation to the rate of duty of customs or to the value of goods for purposes of assessment), by application in such form as may be specified by rules made in this behalf, accompanied, where the application is made by the other party, by a fee of two hundred rupees require the Appellate Tribunal to refer to the High Court any question of law arising out of such order and, subject to the other provisions contained in this section, the Appellate Tribunal shall, within one hundred and twenty days of the receipt of such application, draw up a statement of the case and refer it to the High Court:
+Provided that the Appellate Tribunal may, if it is satisfied that the applicant was prevented by sufficient cause from presenting the application within the period hereinbefore specified, allow it to be presented within a further period not exceeding thirty days.
+(2)
+On receipt of notice that an application has been made under subsection (1), the person against whom such application has been made, may, notwithstanding that he may not have filed such an application file, within forty five days of the receipt of the notice, a memorandum of cross objections verified in such manner as may be specified by rules made in this behalf against any part of the order in relation to which an application for reference has been made and such memorandum shall be disposed of by the Appellate Tribunal as if it were an application presented within the time specified in subsection (1).
+(2A)
+The High Court may admit an appeal after the expiry of the period of one hundred and eighty days referred to in clause (a) of sub-section (2), if it is satisfied that there was sufficient cause for not filing the same within that period.
+(3)
+If, on an application made under subsection (1), the Appellate Tribunal refuses to state the case of the ground that no question of law arises, the Principal Commissioner of Customs or Commissioner of Customs, or, as the case may be, the other party may, within six months from the date on which he is served with notice of such refusal, apply to the High Court and the High Court may, if it is not satisfied with the correctness of the decision of the Appellate Tribunal, require the Appellate Tribunal to state the case and to refer it, and on receipt of any such requisition, the Appellate Tribunal shall state the case and refer it accordingly.
+(4)
+Wherein the exercise of its powers under subsection (3), the Appellate Tribunal refuses to state a case which it has been required by an applicant to state, the applicant may, within thirty days from the date on which he receives notice of such refusal, withdraw his application and, if he does so, the fee, if any, paid by him shall be refunded.
+130A.
+Application to High Court
+(1)
+The Principal Commissioner of Customs or Commissioner of Customs or the other party may, within one hundred and eighty days of the dale upon which he is served with notice of an order under section 129B passed on or after the 1st day of July, 1999 (not being an order relating, among other things, to the determination of any question having a relation to the rate of duty of customs or to the value of goods for purposes of assessment), by application in the prescribed form, accompanied, where the application is made by the other party, by a fee of two hundred rupees, apply to the High Court to direct the Appellate Tribunal to refer to the High Court any question of law arising from such order of the Tribunal.
+(2)
+The Principal Commissioner of Customs or Commissioner of Customs or the other party applying to the High Court under subsection (1) shall clearly state the question of law which he seeks to be referred to the High Court and shall also specify the paragraph in the order of the Appellate Tribunal relevant to the question sought to be referred.
+(3)
+On receipt of notice that an application has been made under subsection (1), the person against whom such application has been made, may, notwithstanding that he may not have filed such application, file, within forty five days of the receipt of the notice, a memorandum of cross objections verified in the prescribed manner against any part of the order in relation to which an application for reference has been made and such memorandum shall be disposed of by the High Court as if it were an application presented within the time specified in subsection (1).
+(3A)
+The High Court may admit an application or permit the filing of a memorandum of cross-objections after the expiry of the relevant period referred to in sub-section (1) or sub-section (3), if it is satisfied that there was sufficient cause for not filing the same within that period."
+(4)
+If, on an application made under subsection (1), the High Court directs the Appellate Tribunal to refer the question of law raised in the application, the Appellate Tribunal shall, within one hundred and twenty days of the receipt of such direction, draw up a statement of the case and refer it to the High Court.
+130B.
+Power of High Court or Supreme Court to require statement to be amended
+If the High Court or the Supreme Court is not satisfied that the statements in a case referred to it are sufficient to enable it to determine the questions raised thereby, the Court may refer the case to the Appellate Tribunal for the purpose of making such additions thereto or alterations therein as it may direct in that behalf.
+130C.
+Case before High Court to be heard by not less than two judges
+(1)
+When any case has been referred to the High Court under section 130, or section 130A it shall be heard by a bench of not less than two judges of the High Court and shall be decided in accordance with the opinion of such judges or of the majority, if any of such judges.
+(2)
+Where there is no such majority, the judges shall state the point of law upon which they differ and the case shall then be heard upon that point only one or more of the other judges of the High Court, and such point shall be decided according to the opinion of the majority of the judges who have heard the case including those who first heard it.
+130D.
+Decision of High Court or Supreme Court on the case stated
+(1)
+The High Court or the Supreme Court hearing any such case shall decide the questions of the law raised therein, and shall deliver its judgment thereon containing the grounds on which such decision is founded and a copy of the judgment shall be sent under the seal of the Court and the signature of the registrar to the Appellate Tribunal which shall pass such orders as are necessary to dispose of the case in conformity with such judgment.
+(2)
+The costs of any reference to the High Court or the Supreme Court which shall not include the fee for making the reference shall be in the discretion of the Court.
+130E.
+Appeal to Supreme Court
+An appeal shall lie to the Supreme Court from-
+(a)
+any judgment of the High Court delivered on a reference made under section 130 or section 130A in any case which, on its own motion or on an oral application made by or on behalf of the party aggrieved, immediately after the passing of the judgment, the High Court certifies to be a fit one for appeal to the Supreme Court; or
+(b)
+any order passed by the Appellate Tribunal relating, among other things, to the determination of any question having a relation to the rate of duty of customs or to the value of goods for purposes of assessment.
+130F.
+Hearing before Supreme Court
+(1)
+The provisions of the Code of Civil Procedure, 1908 (5 of 1908), relating to appeals to the Supreme Court shall, so far as may be, apply in the case of appeals under section 130Eas they apply in the case of appeals from decrees of a High Court :
+(2)
+The costs of the appeal shall be in the discretion of the Supreme Court.
+131.
+Sums due to be paid notwithstanding reference, etc.
+Notwithstanding that a reference has been made to the High Court or the Supreme Court or an appeal has been preferred to the Supreme Court under this Act before the commencement of the National Tax Tribunal Act, 2005, sums due to the Government as a result of an order passed under sub-section (1) of section 129B shall be payable in accordance with the order so passed.
+131A.
+Exclusion of time taken for copy
+In computing the period of limitation, specified for an appeal or application under this Chapter, the day on which the order complained of was served, and if the party preferring the appeal or making the application was not furnished with a copy of the order when the notice of the order was served upon him, the time requisite for obtaining a copy of such order shall be excluded.
+131B.
+Transfer of certain pending proceedings and transitional provisions
+(1)
+Every appeal which is pending immediately before the appointed day before the Board under section 128, as it stood immediately before that day, and any matter arising out of or connected with such appeal and which is so pending shall stand transferred on that day to the Appellate Tribunal and the Appellate Tribunal may proceed with such appeal or matter from the stage at which it was on that day :
+Provided that the appellant may demand that before proceeding further with that appeal or matter, he may be re-heard .
+(2)
+Every proceeding which is pending immediately before the appointed day before the Central Government under section 131, as it stood immediately before that day, and any matter arising out of or connected with such proceeding and which is so pending shall stand transferred on that day to the Appellate Tribunal and the Appellate Tribunal may proceed with such proceeding or matter from the stage at which it was on that day as if such proceeding or matter were an appeal filed before it:
+Provided that if any such proceeding or matter relates to an order where-
+(a)
+the value of the goods confiscated without option having been given to the owner of the goods to pay a fine in lieu of confiscation under section 125 ; or
+(b)
+in any disputed case, other than a case where the determination of any question having a relation to the rate of duty of customs or to the value of goods for purposes of assessment is in issue or is one of the points in issue, the difference in duty involved or the duty involved; or
+(c)
+the amount of fine or penalty determined by such order, does not exceed ten thousand rupees, such proceeding or matter shall continue to be dealt with by the Central Government as if the said section 131 has not been substituted:
+Provided further that the applicant or the other party may make a demand to the Appellate Tribunal that before proceeding further with that proceeding or matter, he may be re-heard.
+(3)
+Every proceeding which is pending immediately before the appointed day before the Board or the Principal Commissioner of Customs or Commissioner of Customs under section 130, as it stood immediately before that day, and any matter arising out of or connected with such proceeding and which is so pending shall continue to be dealt with by the Board or the Principal Commissioner of Customs or Commissioner of Customs, as the case may be, as if the said section had not been substituted.
+(4)
+Any person who immediately before the appointed day was authorised to appear in any appeal or proceeding transferred under sub-section (1) or sub-section (2) shall, notwithstanding anything contained in section 146A, have the right to appear before the Appellate Tribunal in relation to such appeal or proceeding.
+131BA.
+Appeal not to be filed in certain cases
+(1)
+The Board may, from time to time, issue orders or instructions or directions fixing such monetary limits, as it may deem fit, for the purposes of regulating the filing of appeal, application, revision or reference by the Principal Commissioner of Customs or Commissioner of Customs under the provisions of this Chapter.
+(2)
+Where, in pursuance of the orders or instructions or directions, issued under sub-section (1), the Principal Commissioner of Customs or Commissioner of Customs has not filed an appeal, application, revision or reference against any decision or order passed under the provisions of this Act, it shall not preclude such Principal Commissioner of Customs or Commissioner of Customs from filing any appeal, application, revision or reference in any other case involving the same or similar issues or questions of law.
+(3)
+Notwithstanding the fact that no appeal, application, revision or reference has been filed by the Principal Commissioner of Customs or Commissioner of Customs pursuant to the orders or instructions or directions issued under subsection (1), no person, being a party in appeal, application, revision or reference shall contend that the Principal Commissioner of Customs or Commissioner of Customs has acquiesced in the decision on the disputed issue by not filing appeal, application, revision or reference.
+(4)
+The Commissioner (Appeals) or the Appellate Tribunal or the court hearing an appeal, application, revision or reference shall have regard to the circumstances under which the appeal, application, revision or reference was not filed by the Principal Commissioner of Customs or Commissioner of Customs in pursuance of orders or instructions or directions issued under sub-section (1).
+(5)
+Every order or instruction or direction issued by the Board on or after the 20th day of October, 2010, but before the date on which the Finance Bill, 2011 receives the assent of the President, fixing monetary limits for filing appeal, application, revision or reference shall be deemed to have been issued under sub-section (1), and the provisions of sub-sections (2), (3) and (4) shall apply accordingly.
+131C.
+Definitions Omitted
+132.
+False declaration, false documents, etc.
+Whoever makes, signs or uses, or causes to be made, signed or used, any declaration, statement or document in the transaction of any business relating to the customs, knowing or having reason to believe that such declaration, statement or document is false in any material particular, shall be punishable with imprisonment for a term which may extend to two years, or with fine, or with both.
+133.
+Obstruction of officer of customs
+If any person intentionally obstructs any officer of customs in the exercise of any powers conferred under this Act, such person shall be punishable with imprisonment for a term which may extend to two years, or with fine, or with both.
+134.
+Refusal to be X-rayed
+If any person-
+(a)
+resists or refuses to allow a radiologist to screen or to take X-ray picture of his body in accordance with an order made by a Magistrate under section 103 ; or
+(b)
+resists or refuses to allow suitable action being taken on the advice and under the supervision of a registered medical practitioner for bringing out goods liable to confiscation secreted inside his body, as provided in section 103,
+135.
+Evasion of duty or prohibitions
+(1)
+Without prejudice to any action that may be taken under this Act, if any person--
+(a)
+is in relation to any goods in any way knowingly concerned in misdeclaration of value or in any fraudulent evasion or attempt at evasion of any duty chargeable thereon or of any prohibition for the time being imposed under this Act or any other law for the time being in force with respect to such goods; or
+(b)
+acquires possession of or is in any way concerned in carrying, removing, depositing, harbouring, keeping, concealing, selling or purchasing or in any other manner dealing with any goods which he knows or has reason to believe are liable to confiscation under section 111 or section 113, as the case may be; or
+(c)
+attempts to export any goods which he knows or has reason to believe are liable to confiscation under section 113; or
+(d)
+fraudulently avails of or attempts to avail of drawback or any exemption from duty provided under this Act in connection with export of goods,
+he shall be punishable,--
+(i)
+in the case of an offence relating to,--
+(A)
+any goods the market price of which exceeds one crore of rupees; or
+(B)
+the evasion or attempted evasion of duty exceeding fifty lakh of rupees; or
+(C)
+such categories of prohibited goods as the Central Government may, by notification in the Official Gazette, specify; or
+(D)
+fraudulently availing of or attempting to avail of drawback or any exemption from duty referred to in clause (d), if the amount of drawback or exemption from duty exceeds fifty lakh of rupees,
+with imprisonment for a term which may extend to seven years and with fine:
+Provided that in the absence of special and adequate reasons to the contrary to be recorded in the judgment of the court, such imprisonment shall not be for less than one year;
+(ii)
+in any other case, with imprisonment for a term which may extend to three years, or with fine, or with both.
+(2)
+If any person convicted of an offence under this section, or under sub-section (1) of section 136 is again convicted of an offence under this section, then, he shall be punishable for the second and for every subsequent offence with imprisonment for a term which may extend to seven years and with fine:
+Provided that in the absence of special and adequate reasons to the contrary to be recorded in the judgment of the court such imprisonment shall not be for less than one year.
+(3)
+For the purposes of sub-sections (1) and (2), the following shall not be considered as special and adequate reasons for awarding a sentence of imprisonment for a term of less than one year, namely:--
+(i)
+the fact that accused has been convicted for the first time for an offence under this Act;
+(ii)
+the fact that in any proceeding under this Act, other than a prosecution, the accused has been ordered to pay a penalty or the goods which are the subject-matter of such proceedings have been ordered to be confiscated or any other action has been taken against him for the same act which constitutes the offence ;
+(iii)
+the fact that the accused was not the principle offender and was acting merely as a carrier of goods or otherwise was a secondary party to the commission of the offence ;
+(iv)
+the age of the accused.
+135A.
+Preparation
+If a person makes preparation to export any goods in contravention of the provisions of this Act, and from the circumstances of the case it may be reasonably inferred that if not prevented by circumstances independent of his will, he is determined to carry out his intention to commit the offence, he shall be punishable with imprisonment for a term which may extend to three years, or with fine, or with both.
+135B.
+Power of court to publish name, place of business, etc., of persons convicted under the Act.
+(1)
+Where any person is convicted under this Act for contravention of any of the provisions thereof, it shall be competent for the court convicting the person to cause the name and place of business or residence of such person, nature of the contravention, the fact that the person has been so convicted and such other particulars as the court may consider to be appropriate in the circumstances of the case, to be published at the expense of such person in such newspapers or in such manner as the court may direct.
+(2)
+No publication under sub-section (1) shall be made until the period for preferring an appeal against the orders of the court has expired without any appeal having been preferred, or such an appeal, having been preferred, has been disposed of.
+(3)
+The expenses of any publication under sub-section (1) shall be recoverable from the convicted person as if it were a fine imposed by the court.
+136.
+Offences by officers of customs
+(1)
+If any officer of customs enters into or acquiesces in any agreement to do, abstains from doing, permits, conceals or connives at any act or thing, whereby any fraudulent export is effected or any duty of customs leviable on any goods, or any prohibition for the time being in force under this Act or any other law for the time being in force with respect to any goods is or may be evaded, he shall be punishable with imprisonment for a term which may extend to three years or with fine, or with both.
+(2)
+If any officer of customs,-
+(a)
+requires any person to be searched for goods liable to confiscation or any document relating thereto, without having reason to believe that he has such goods or document secreted about his person; or
+(b)
+arrests any person without having reason to believe that he has been guilty of an offence punishable under section 135 ; or
+(c)
+searches or authorizes any other officer of customs to search any place without having reasons to believe that any goods, documents or things of the nature referred to in section 105 are secreted in that place,
+he shall be punishable with imprisonment for a term which may extend to six months, or with fine which may extend to one thousand rupees, or with both.
+(3)
+If any officer of customs, except in the discharge in good faith of his duty as such officer or in compliance with any requisition made under any law for the time being in force, discloses any particulars learnt by him in his official capacity in respect of any goods, he shall be punishable with imprisonment for a term which may extend to six months, or with fine which may extend to one thousand rupees, or with both.
+137.
+Cognizance of offences
+(1)
+No court shall take cognizance of any offence under section 132, section 133, section 134 or section 135 or section 135A, except with the previous sanction of the Principal Commissioner of Customs or Commissioner of Customs.
+(2)
+No court shall take cognizance of any offence under section 136,-
+(a)
+where the offence is alleged to have been committed by an officer of customs not lower in rank than Assistant Commissioner of Customs or Deputy Commissioner of Customs, except with the previous sanction of the Central Government;
+(b)
+where the offence is alleged to have been committed by an officer of customs lower in rank than Assistant Commissioner of Customs such compounding or Deputy Commissioner of Customs, except with the previous sanction of the Principal Commissioner of Customs or Commissioner of Customs.
+(3)
+Any offence under this Chapter may, either before or after the institution of prosecution, be compounded by the Principal Chief Commissioner of Customs or Chief Commissioner of Customs on payment, by the person accused of the offence to the Central Government, of such compounding amount and in such manner of compounding as may be specified by rules.
+Provided that nothing contained in this sub-section shall apply to-
+(a)
+a person who has been allowed to compound once in respect of any offence under sections 135 and 135A;
+(b)
+a person who has been accused of committing an offence under this Act which is also an offence under any of the following Acts, namely:--
+(i)
+the Narcotic Drugs and Psychotropic Substances Act, 1985; (61 of 1985).
+(ii)
+the Chemical Weapons Convention Act, 2000; (34 of 2000).
+(iii)
+the Arms Act, 1959; (54 of 1959).
+(iv)
+the Wild Life (Protection) Act, 1972; (53 of 1972).
+(c)
+a person involved in smuggling of goods falling under any of the following, namely:--
+(i)
+goods specified in the list of Special Chemicals, Organisms, Materials, Equipment and Technology in Appendix 3 to Schedule 2 (Export Policy) of ITC (HS) Classification of Export and Import Items of the Foreign Trade Policy, as amended from time to time, issued under section 5 of the Foreign Trade (Development and Regulation) Act, 1992; (22 of 1992).
+(ii)
+goods which are specified as prohibited items for import and export in the ITC (HS) Classification of Export and Import Items of the Foreign Trade Policy, as amended from time to time, issued under section 5 of the Foreign Trade (Development and Regulation) Act, 1992; (22 of 1992).
+(iii)
+any other goods or documents, which are likely to affect friendly relations with a foreign State or are derogatory to national honour;
+(d)
+a person who has been allowed to compound once in respect of any offence under this Chapter for goods of value exceeding rupees one crore;
+(e)
+a person who has been convicted under this Act on or after the 30th day of December, 2005.
+138.
+Offences to be tried summarily
+Notwithstanding anything contained in the Code of Criminal Procedure, 1973(2 of 1974), an offence under this Chapter (other than the offence punishable for a term of imprisonment of three years or more under section 135) may be tried summarily by a Magistrate.
+138A.
+Presumption of culpable mental state
+(1)
+In any prosecution for an offence under this Act which requires a culpable mental state on the part of the accused, the court shall presume the existence of such mental state but it shall be a defence for the accused to prove the fact that he had no such mental state with respect to the act charged as an offence in that prosecution.
+Explanation:-- In this section "culpable mental state" includes intention, motive, knowledge of a fact and believe in, or reason to believe, a fact.
+(2)
+For the purposes of this section, a fact is said to be proved only when the court believes it to exist beyond reasonable doubt and not merely when its existence is established by a preponderance of probability.
+138B.
+Relevancy of statements under certain circumstances.--
+(1)
+A statement made and signed by a person before any gazetted officer of customs during the course of any inquiry or proceeding under this Act shall be relevant, for the purpose of proving, in any prosecution for an offence under this Act, the truth of the facts which it contains,-
+(a)
+when the person who made the statement is dead or cannot be found, or is incapable of giving evidence, or is kept out of the way by the adverse party, or whose presence cannot be obtained without an amount of delay or expense which, under the circumstances of the case, the court considers unreasonable ; or
+(b)
+when the person who made the statement is examined as a witness in the case before the court and the court is of opinion that, having regard to the circumstances of the case, the statement should be admitted in evidence in the interests of justice.
+(2)
+The provisions of sub-section (1) shall, so far as may be, apply in relation to any proceeding under this Act, other than proceeding before a court, as they apply in relation to a proceeding before a court.
+138C.
+Admissibility of micro films, facsimile copies of documents and computer print outs as documents and as evidence.--
+(1)
+Notwithstanding anything contained in any other law for the time being in force,-
+(a)
+a micro film of a document or the reproduction of the image or images embodied in such micro film (whether enlarged or not) ; or
+(b)
+a facsimile copy of a document ; or
+(c)
+a statement contained in a document and included in a printed material produced by a computer (hereinafter referred to as a "computer print out"), if the conditions mentioned in sub-section (2) and the other provisions contained in this section are satisfied in relation to the statement and the computer in question,
+shall be deemed to be also a document for the purposes of this Act and the rules made thereunder and shall be admissible in any proceedings thereunder, without further proof, or production of the original, as evidence of any contents of the original or of any facts stated therein of which direct evidence would be admissible.
+(2)
+The conditions referred to in sub-section (1) in respect of a computer print out shall be the following, namely :-
+(a)
+the computer print out containing the statement was produced by the computer during the period over which the computer was used regularly to store or process information for the purposes of any activities regularly carried on over that period by the person having lawful control over the use of the computer ;
+(b)
+during the said period, there was regularly supplied to the computer in the ordinary course of the said activities, information of the kind contained in the statement or of the kind from which the information so contained is derived ;
+(c)
+throughout the material part of the said period, the computer was operating properly or, if not, then any respect in which it was not operating properly or was out of operation during that part of that period was not such as to affect the production of the document or the accuracy of the contents ; and
+(d)
+the information contained in the statement reproduces or is derived from information supplied to the computer in the ordinary course of the said activities.
+(3)
+Where over any period, the function of storing or processing information for the purposes of any activities regularly carried on over that period as mentioned in clause (a) of sub-section (2) was regularly performed by computers, whether-
+(a)
+by a combination of computers operating over that period ; or
+(b)
+by different computers operating in succession over that period ; or
+(c)
+by different combinations of computers operating in succession over that period ; or
+(d)
+in any other manner involving the successive operation over that period, in whatever order, of one or more computers and one or more combinations of computers,
+all the computers used for that purpose during that period shall be treated for the purposes of this section as constituting a single computer, and references in this section to a computer shall be construed accordingly.
+(4)
+In any proceedings under this Act and the rules made thereunder where it is desired to give a statement in evidence by virtue of this section, a certificate doing any of the following things, that is to say,-
+(a)
+identifying the document containing the statement and describing the manner in which it was produced ;
+(b)
+giving such particulars of any device involved in the production of that document as may be appropriate for the purpose of showing that the document was produced by a computer ;
+(c)
+dealing with any of the matters to which the conditions mentioned in sub-section (2) relate,
+and purporting to be signed by a person occupying a responsible official position in relation to the operation of the relevant device or the management of the relevant activities (whichever is appropriate) shall be evidence of any matter stated in the certificate; and for the purposes of this sub-section, it shall be sufficient for a matter to be stated to the best of the knowledge and belief of the person stating it.
+(5)
+For the purposes of this section,-
+(a)
+information shall be taken to be supplied to a computer if it is supplied thereto in any appropriate form and whether it is so supplied directly or (with or without human intervention) by means of any appropriate equipment;
+(b)
+whether in the course of activities carried on by any official, information is supplied with a view to its being stored or processed for the purposes of those activities by a computer operated otherwise than in the course of those activities, that information, if duly supplied to that computer, shall be taken to be supplied to it in the course of those activities ;
+(c)
+a document shall be taken to have been produced by a computer whether it was produced by it directly or (with or without human intervention) by means of any appropriate equipment.
+Explanation:-- For the purposes of this section,-
+(a)
+"computer" means any device that receives, stores and processes data, applying stipulated processes to the information and supplying results of these processes; and
+(b)
+any reference to information being derived from other information shall be a reference to its being derived therefrom by calculation, comparison or any other process.
+139.
+Presumption as to documents in certain cases.--
+Where any document-
+(i)
+is produced by any person or has been seized from the custody of control of any person, in either case, under this Act or under any other law, or
+(ii)
+has been received from any place outside India in the course of investigation of any offence alleged to have been committed by any person under this Act,
+and such document is tendered by the prosecution in evidence against him or against him and any other person who is tried jointly with him, the court shall-
+(a)
+presume, unless the contrary is proved, that the signature and every other part of such document which purports to be in the handwriting of any particular person or which the court may reasonably assume to have been signed by, or to be in the handwriting of, any particular person, is in that person's handwriting, and in the case of a document executed or attested that it was executed or attested by the person by whom it purports to have been so executed or attested ;
+(b)
+admit the document in evidence, notwithstanding that it is not duly stamped, if such document is otherwise admissible in evidence ;
+(c)
+in a case falling under clause ( i) also presume, unless the contrary is proved, the truth of the contents of such document.
+Explanation:-- For the purposes of this section "document" includes inventories, photographs and lists certified by a Magistrate under sub-section (1C) of section 110.
+140.
+Offences by companies
+(1)
+If the person committing an offence under this Chapter is a company, every person who, at the time the offence was committed was in charge of, and was responsible to, the company for the conduct of business of the company, as well as the company, shall be deemed to be guilty of the offence and shall be liable to be proceeded against and punished accordingly:
+Provided that nothing contained in this sub-section shall render any such person liable to such punishment provided in this Chapter if he proves that the offence was committed without his knowledge or that he exercised all due diligence to prevent the commission of such offence.
+(2)
+Notwithstanding anything contained in sub-section (1) where an offence under this Chapter has been committed by a company and it is proved that the offence has been committed with the consent or connivance of, or is attributable to any negligence on the part of, any director, manager, secretary or other officer of the company, such director, manager, secretary or other officer shall also be deemed to be guilty of that offence and shall be liable to be proceeded against and punished accordingly.
+Explanation:-- For the purposes of this section,—
+(a)
+"company" means a body corporate and includes a firm or other association of individuals ; and
+(b)
+"director", in relation to a firm, means a partner in the firm.
+140A.
+Application of section 562 of the Code of Criminal Procedure, 1898, and of the Probation of Offenders Act, 1958.--
+(1)
+Nothing contained in section 562 of the Code of Criminal Procedure, 1898 (5 of 1898), or in the Probation of Offenders Act, 1958 (20 of 1958), shall apply to a person convicted of an offence under this Act unless that person is under eighteen years of age.
+(2)
+The provisions of sub-section (1) shall have effect notwithstanding anything contained in sub-section (3) of section 135.
+141.
+Conveyances and goods in a customs area subject to control of officers of customs
+(1)
+All conveyances and goods in a customs area shall, for the purpose of enforcing the provisions of this Act, be subject to the control of officers of customs.
+(2)
+The imported or export goods may be received, stored, delivered, dispatched or otherwise handled in a customs area in such manner as may be prescribed and the responsibilities of persons engaged in the aforesaid activities shall be such as may be prescribed.
+142.
+Recovery of sums due to Government
+(1)
+Where any sum payable by any person under this Act including the amount required to be paid to the credit of the Central Government under section 28B is not paid, --
+(a)
+the proper officer may deduct or may require any other officer of customs to deduct the amount so payable from any money owing to such person which may be under the control of the proper-officer or such other officer of customs; or
+(b)
+the Assistant Commissioner of Customs or Deputy Commissioner of Customs may recover or may require any other officer of customs to recover the amount so payable by detaining and selling any goods belonging to such person which are under the control of the Assistant Commissioner of Customs or Deputy Commissioner of Customs or such other officer of customs; or
+(c)
+if the amount cannot be recovered from such person in the manner provided in clause ( a) or clause ( b) --
+(i)
+the Assistant Commissioner of Customs or Deputy Commissioner of Customs may prepare a certificate signed by him specifying the amount due from such person and send it to the Collector of the district in which such person owns any property or resides or carries on his business and the said Collector on receipt of such certificate shall proceed to recover from such person the amount specified thereunder as if it were an arrear of land revenue ; or
+(ii)
+the proper officer may, on an authorisation by a Principal Commissioner of Customs or Commissioner of Customs and in accordance with the rules made in this behalf, distain any movable or immovable property belonging to or under the control of such person, and detain the same until the amount payable is paid ; and in case, any part of the said amount payable or of the cost of the distress or keeping of the property, remains unpaid for a period of thirty days next after any such distress, may cause the said property to be sold and with the proceeds of such sale, may satisfy the amount payable and the costs including cost of sale remaining unpaid and shall render the surplus, if any, to such person.
+Provided that where the person (hereinafter referred to as predecessor), by whom any sum payable under this Act including the amount required to be paid to the credit of the Central Government under section 28B is not paid, transfers or otherwise disposes of his business or trade in whole or in part, or effects any change in the ownership thereof, in consequence of which he is succeeded in such business or trade by any other person, all goods, materials, preparations, plants, machineries, vessels, utensils, implements and articles in the custody or possession of the person so succeeding may also be attached and sold by the proper officer, after obtaining written approval from the Principal Commissioner of Customs or Commissioner of Customs, for the purposes of recovering the amount so payable by such predecessor at the time of such transfer or otherwise disposal or change.
+(d)
+(i)
+the proper officer may, by a notice in writing, require any other person from whom money is due to such person or may become due to such person or who holds or may subsequently hold money for or on account of such person, to pay to the credit of the Central Government either forthwith upon the money becoming due or being held, or at or within the time specified in the notice not being before the money becomes due or is held, so much of the money as is sufficient to pay the amount due from such person or the whole of the money when it is equal to or less than that amount;
+(ii)
+every person to whom the notice is issued under this section shall be bound to comply with such notice, and in particular, where any such notice is issued to a post office, banking company or an insurer, it shall not be necessary to produce any pass book, deposit receipt, policy or any other document for the purpose of any entry, endorsement or the like being made before the payment is made, notwithstanding any rule, practice or requirement to the contrary;
+(iii)
+in case the person to whom a notice under this section has been issued, fails to make the payment in pursuance thereof to the Central Government, he shall be deemed to be a defaulter in respect of the amount specified in the notice and all the consequences of this Chapter shall follow.
+(2)
+Where the terms of any bond or other instrument executed under this Act or any rules or regulations made thereunder provide that any amount due under such instrument may be recovered in the manner laid down in sub-section (1), the amount may, without prejudice to any other mode of recovery, be recovered in accordance with the provisions of that sub-section.
+142A.
+Liability under Act to be first charge
+Notwithstanding anything to the contrary contained in any Central Act or State Act, any amount of duty, penalty, interest or any other sum payable by an assessee or any other person under this Act, shall, save as otherwise provided in section 529A of the Companies Act, 1956(1 of 1956), the Recovery of Debts Due to Banks and the Financial Institutions Act, 1993(51 of 1993) and the Securitisation and Reconstruction of Financial Assets and the Enforcement of Security Interest Act, 2002(54 of 2002), be the first charge on the property of the assessee or the person, as the case may be.
+143.
+Power to allow import or export on execution of bonds in certain cases
+(1)
+Where this Act or any other law requires anything to be done before a person can import or export any goods or clear any goods from the control of officers of customs and the Assistant Commissioner of Customs or Deputy Commissioner of Customs is satisfied that having regard to the circumstances of the case, such thing cannot be done before such import, export or clearance without detriment to that person, the Assistant Commissioner of Customs or Deputy Commissioner of Customs, may, notwithstanding anything contained in this Act or such other law, grant leave for such import, export or clearance on the person executing a bond in such amount, with such surety or security and subject to such conditions as the Assistant Commissioner of Customs or Deputy Commissioner of Customs approves, for the doing of that thing within such time after the import, export or clearance as may be specified in the bond.
+(2)
+If the thing is done within the time specified in the bond, the Assistant Commissioner of Customs or Deputy Commissioner of Customs shall cancel the bond as discharged in full and shall, on demand, deliver it, so cancelled, to the person who has executed or who is entitled to receive it ; and in such a case that person shall not be liable to any penalty provided in this Act or, as the case may be, in such other law for the contravention of the provisions thereof relating to the doing of that thing.
+(3)
+If the thing is not done within the time specified in the bond, the Assistant Commissioner of Customs or Deputy Commissioner of Customs shall, without prejudice to any other action that may be taken under this Act or any other law for the time being in force, be entitled to proceed upon the bond in accordance with law.
+143A.
+Omitted
+144.
+Power to take samples
+(1)
+The proper officer may, on the entry or clearance of any goods or at any time while such goods are being passed through the customs area, take samples of such goods in the presence of the owner thereof, for examination or testing, or for ascertaining the value thereof, or for any other purposes of this Act.
+(2)
+After the purpose for which a sample was taken is carried out, such sample shall, if practicable, be restored to the owner, but if the owner fails to take delivery of the sample within three months of the date on which the sample was taken, it may be disposed of in such manner as the Principal Commissioner of Customs or Commissioner of Customs may direct.
+(3)
+No duty shall be chargeable on any sample of goods taken under this section which is consumed or destroyed during the course of any test or examination thereof, .
+145.
+Owner, etc., to perform operations incidental to compliance with customs law
+All operations necessary for making any goods available for examinations by the proper officer or for facilitating such examination shall be performed by, or at the expense of, the owner, importer or exporter of the goods, as the case may be.
+146.
+Licence for customs brokers
+(1)
+No person shall carry on business as a customs broker relating to the entry or departure of a conveyance or the import or export of goods at any customs station unless such person holds a licence granted in this behalf in accordance with the regulations.
+(2)
+The Board may make regulations for the purpose of carrying out the provisions of this section and, in particular, such regulations may provide for--
+(a)
+the authority by which a licence may be granted under this section and the period of validity of such licence;
+(b)
+the form of the licence and the fees payable therefore;
+(c)
+the qualifications of persons who may apply for a licence and the qualifications of persons to be employed by a licensee to assist him in his work as a customs broker;
+(d)
+the manner of conducting the examination;
+(e)
+the restrictions and conditions (including the furnishing of security by the licensee) subject to which a licence may be granted;
+(f)
+the circumstances in which a licence may be suspended or revoked; and
+(g)
+the appeals, if any, against an order of suspension or revocation of a licence, and the period within which such appeal may be filed.
+146A.
+Appearance by authorised representative
+(1)
+Any person who is entitled or required to appear before an officer of customs or the Appellate Tribunal in connection with any proceedings under this Act, otherwise than when required under section 108 to attend personally for examination on oath or affirmation, may, subject to the other provisions of this section, appear by an authorised representative.
+(2)
+For the purposes of this section, "authorised representative" means a person authorised by the person referred to in sub-section (1) to appear on his behalf, being-
+(a)
+his relative or regular employee ; or
+(b)
+a customs broker licensed under section 146 ; or
+(c)
+any legal practitioner who is entitled to practice in any civil court in India ; or
+(d)
+any person who has acquired such qualifications as the Central Government, may specify by rules made in this behalf.
+(3)
+Notwithstanding anything contained in this section, no person who was a member of the Indian Customs and Central Excise Service - Group A and has retired or resigned from such service after having served for not less than three years in any capacity in that service shall be entitled to appear as an authorised representative in any proceedings before an officer of customs for a period of two years from the date of his retirement or resignation, as the case may be.
+(4)
+No person,-
+(a)
+who has been dismissed or removed from Government service ; or
+(b)
+who is convicted of an offence connected with any proceeding under this Act, the Central Excise Act, 1944 or the Gold (Control) Act, 1968 or the Finance Act, 1994 (32 of 1994) or the Finance Act, 1994 (32 of 1994); or
+(c)
+who has become an insolvent,
+shall be qualified to represent any person under sub-section (1), for all times in the case of a person referred to in clause (a), and for such time as the Principal Commissioner of Customs or Commissioner of Customs or the Competent Authority under the Central Excise Act, 1944 or the Gold (Control) Act, 1968, as the case may be, may, by order, determine in the case of a person referred to in clause (b), and for the period during which the insolvency continues in the case of a person referred to in clause (c).
+(5)
+If any person,-
+(a)
+who is a legal practitioner, is found guilty of misconduct in his professional capacity by any authority entitled to institute proceedings against him, an order passed by that authority shall have effect in relation to his right to appear before an officer of customs or the Appellate Tribunal as it has in relation to his right to practice as a legal practitioner ;
+(b)
+who is not a legal practitioner, is found guilty of misconduct in connection with any proceedings under this Act by such authority as may be specified by rules made in this behalf, that authority may direct that he shall thenceforth be disqualified to represent any person under sub-section (1).
+(6)
+Any order or direction under clause (b) of sub-section (4) or clause (b) of sub-section (5) shall be subject to the following conditions, namely :-
+(a)
+no such order or direction shall be made in respect of any person unless he has been given a reasonable opportunity of being heard ;
+(b)
+any person against whom any such order or direction is made may, within one month of the making of the order or direction, appeal to the Board to have the order or direction cancelled ; and
+(c)
+no such order or direction shall take effect until the expiration of one month from the making thereof, or, where an appeal has been preferred, until the disposal of the appeal.
+147.
+Liability of principal and agent
+(1)
+Where this Act requires anything to be done by the owner, importer or exporter of any goods, it may be done on his behalf by his agent.
+(2)
+Any such thing done by an agent of the owner, importer or exporter of any goods shall, unless the contrary is proved, be deemed to have been done with the knowledge and consent of such owner, importer or exporter, so that in any proceedings under this Act, the owner, importer or exporter of the goods shall also be liable as if the thing had been done by himself.
+(3)
+When any person is expressly or impliedly authorised by the owner, importer or exporter of any goods to be his agent in respect of such goods for all or any of the purposes of this Act, such person shall, without prejudice to the liability of the owner, importer or exporter, be deemed to be the owner, importer or exporter of such goods for such purposes including liability therefore under this Act :
+Provided that where any duty is not levied or is short-levied or erroneously refunded on account of any reason other than any willful act, negligence or default of the agent, such duty shall not be recovered from the agent unless in the opinion of Assistant Commissioner of Customs or Deputy Commissioner of Customs the same cannot be recovered from the owner, importer or exporter.
+148.
+Liability of agent appointed by the person in charge of a conveyance
+(1)
+Where this Act requires anything to be done by the person in charge of a conveyance, it may be done on his behalf by his agent.
+(2)
+An agent appointed by the person in charge of a conveyance and any person who represents himself to any officer of customs as an agent of any such person in charge, and is accepted as such by that officer, shall be liable for the fulfillment in respect of the matter in question of all obligations imposed on such person in charge by or under this Act or any law for the time being in force, and to penalties and confiscations which may be incurred in respect of that matter.
+149.
+Amendment of documents
+Save as otherwise provided in sections 30 and 41, the proper officer may, in his discretion, authorise any document, after it has been presented in the customs house to be amended :
+Provided that no amendment of a bill of entry or a shipping bill or bill of export shall be so authorised to be amended after the imported goods have been cleared for home consumption or deposited in a warehouse, or the export goods have been exported, except on the basis of documentary evidence which was in existence at the time the goods were cleared, deposited or exported, as the case may be.
+150.
+Procedure for sale of goods and application of sale proceeds
+(1)
+Where any goods not being confiscated goods are to be sold under any provisions of this Act, they shall, after notice to the owner thereof, be sold by public auction or by tender or with consent of the owner in any other manner.
+(2)
+The proceeds of any such sale shall be applied—
+(a)
+firstly to the payment of the expenses of the sale,
+(b)
+next to the payment of the freight and other charges, if any, payable in respect of the goods sold, to the carrier, if notice of such charges has been given to the person having custody of the goods,
+(c)
+next to the payment of the duty, if any, on the goods sold,
+(d)
+next to the payment of the charges in respect of the goods sold due to the person having the custody of the goods,
+(e)
+next to the payment of any amount due from the owner of the goods to the Central Government under the provisions of this Act or any other law relating to customs, and the balance, if any, shall be paid to the owner of the goods.
+Provided that where it is not possible to pay the balance of sale proceeds, if any, to the owner of the goods within a period of six months from the date of sale of such goods or such further period as the Principal Commissioner of Customs or Commissioner of Customs may allow, such balance of sale proceeds shall be paid to the Central Government.
+151.
+Certain officers required to assist officers of customs
+The following officers are hereby empowered and required to assist officers of customs in the execution of this Act, namely:—
+(a)
+officers of the Central Excise Department;
+(b)
+officers of the Navy;
+(c)
+officers of the Police;
+(d)
+officers of the Central or State Governments employed at any port or airport;
+(e)
+such other officers of the Central or State Government or a local authority as are specified by the Central Government in this behalf by notification in the Official Gazette.
+151A.
+Instructions to officers of customs
+The Board may, if it considers it necessary or expedient so to do for the purpose of uniformity in the classification of goods or with respect to the levy of duty thereon or for the implementation of any other provisions of this Act or of any other law for the time being in force, in so far as they relate to any prohibition, restriction or procedure for import or export of goods, issue such orders, instructions and directions to officers of customs as it may deem fit and such officers of customs and all other persons employed in the execution of this Act shall observe and follow such orders, instructions and directions of the Board :
+Provided that no such orders, instructions or directions shall be issued-
+(a)
+so as to require any such officer of customs to make a particular assessment or to dispose of a particular case in a particular manner; or
+(b)
+so as to interfere with discretion of the Principal Commissioner of Customs or Commissioner of Customs (Appeals) in the exercise of his appellate functions.
+152.
+Delegation of powers
+The Central Government may, by notification in the Official Gazette, direct that subject to such conditions, if any, as may be specified in the notification-
+(a)
+any power exercisable by the Board under this Act shall be exercisable also by a Principal Chief Commissioner of Customs or Chief Commissioner of Customs or a Principal Commissioner of Customs or Commissioner of Customs empowered in this behalf by the Central Government ;
+(b)
+any power exercisable by a Principal Commissioner of Customs or Commissioner of Customs under this Act may be exercisable also by a Joint Commissioner of Customs or an Assistant Commissioner of Customs or Deputy Commissioner of Customs empowered in this behalf by the Central Government ;
+(c)
+any power exercisable by a Joint Commissioner of Customs under this Act may be exercisable also by an Assistant Commissioner of Customs or Deputy Commissioner of Customs empowered in this behalf by the Central Government ;
+(d)
+any power exercisable by an Assistant Commissioner of Customs or Deputy Commissioner of Customs under this Act may be exercisable also be a gazetted officer of customs empowered in this behalf by the Board.
+153.
+Service of order, decision, etc.
+Any order or decision passed or any summons or notice issued under this Act, shall be served—
+(a)
+by tendering the order, decision, summons or notice or sending it by registered post or by such courier as may be approved by the Principal Commissioner of Customs or Commissioner of Customs; or
+(b)
+if the order, decision, summons or notice cannot be served in the manner provided in clause (a), by affixing it on the notice board of the customs house.
+154.
+Correction of clerical errors, etc.
+Clerical or arithmetical mistakes in any decision or order passed by the Central Government, the Board or any officer of customs under this Act, or errors arising therein from any accidental slip or omission may, at any time, be corrected by the Central Government, the Board or such officer of customs or the successor in office of such officer, as the case may be.
+154A.
+Rounding off of duty, etc.
+The amount of duty, interest, penalty, fine or any other sum payable, and the amount of refund, drawback or any other sum due, under the provisions of this Act shall be rounded off to the nearest rupee and, for this purpose, where such amount contains a part of a rupee consisting of paise then, if such part is fifty paise or more, it shall be increased to one rupee and if such part is less than fifty paise it shall be ignored.
+154B.
+Publication of information respecting persons in certain cases
+(1)
+If the Central Government is of opinion that it is necessary or expedient in the public interest to publish the names of any person and any other particulars relating to any proceedings or prosecutions under this Act in respect of such person, it may cause to be published such names and particulars in such manner as it thinks fit.
+(2)
+No publication under this section shall be made in relation to any penalty imposed under this Act until the time for presenting an appeal to the Commissioner (Appeals) under section 128 or the Appellate Tribunal under section 129A, as the case may be, has expired without an appeal having been presented or the appeal, if presented, has been disposed of.
+Explanation.-In the case of a firm, company or other association of persons, the names of the partners of the firm, directors, managing agents, secretaries and treasurers or managers of the company, or the members of the association, as the case may be, may also be published if, in the opinion of the Central Government, circumstances of the case justify it".
+155.
+Protection of action taken under the Act
+(1)
+No suit, prosecution or other legal proceeding shall lie against the Central Government or any officer of the Government or a local authority for anything which is done, or intended to be done in good faith, in pursuance of this Act or the rules or regulations.
+(2)
+No proceeding other than a suit shall be commenced against the Central Government or any officer of the Government or a local authority for anything purporting to be done in pursuance of this Act without giving the Central Government or such officer a month's previous notice in writing of the intended proceeding and of the cause thereof, or after the expiration of three months from the accrual of such cause.
+156.
+General power to make rules
+(1)
+Without prejudice to apply power to make rules contained elsewhere in this Act, the Central Government may make rules consistent with this Act generally to carry out the purposes of this Act.
+(2)
+In particular and without prejudice to the generality of the foregoing power, such rules may provide for all or any of the following matters, namely:-
+(a)
+the manner of determining the transaction value of the imported goods and export goods under sub-section (1) of section 14;
+(b)
+the conditions subject to which accessories of, and spare parts and maintenance and repairing implements for, any article shall be chargeable at the same rate of duty as that article;
+(c)
+the due date and the manner of making deferred payment of duties, taxes, cesses or any other charges under sections 47 and 51.
+(d)
+the detention and confiscation of goods the importation of which is prohibited and the conditions, if any, to be fulfilled before such detention and confiscation and the information, notices and security to be given and the evidence requisite for the purposes of such detention or confiscation and the mode of verification of such evidence ;
+(e)
+the reimbursement by an informant to any public officer of all expenses and damages incurred in respect of any detention of any goods made on his information and of any proceedings consequent on such detention;
+(f)
+the information required in respect of any goods mentioned in a shipping bill or bill of export which are not exported or which are exported and are afterwards re-landed;
+(g)
+the publication, subject to such conditions as may be specified therein, of names and other particulars of persons who have been found guilty of contravention of any of the provisions of this Act or the rules.
+(h)
+the amount to be paid for compounding and the manner of compounding under sub-section (3) of section 137.
+157.
+General power to make regulations
+(1)
+Without prejudice to any power to make regulations contained elsewhere in this Act, the Board may make regulations consistent with this Act and the rules, generally to carry out the purposes of this Act.
+(2)
+In particular and without prejudice to the generality of the foregoing power, such regulations may provide for all or any of the following matters, namely:-
+(a)
+the form of a bill of entry, shipping bill, bill of export, import manifest, import report, export manifest, export report, bill of transhipment, declaration for transhipment, boat note and bill of coastal goods ;
+(ai)
+the manner of export of goods, relinquishment of title to the goods and abandoning them to customs and destruction or rendering of goods commercially valueless in the presence of the proper officer under clause (d) of sub-section (1) of section 26A;
+(aii)
+the form and manner of making application for refund of duty under sub-section (2) of section 26A;
+(aa)
+the form and manner in which an application for refund shall be made under section 27;
+(b)
+the conditions subject to which the transhipment of all or any goods under sub-section (3) of section 54, the transportation of all or any goods under section 56 and the removal of warehoused goods from one warehouse to another under section 67 may be allowed without payment of duty ;
+(c)
+the conditions subject to which any manufacturing process or other operations may be carried on in a warehouse under section 65.
+(d)
+the manner of conducting audit of the assessment of duty of the imported or export goods at the office of the proper officer or the premises of the importer or exporter, as the case may be.
+158.
+Provisions with respect to rules and regulations
+(1)
+All rules and regulations made under this Act shall be published in the Official Gazette.
+(2)
+Any rule or regulation which the Central Government or the Board is empowered to make under this Act may provide-
+(i)
+for the levy of fees in respect of applications, amendment of documents, furnishing of duplicates of documents, issue of certificates, and supply of statistics, and for rendering of any services by officers of customs under this Act ;
+(ii)
+that any person who contravenes any provision of a rule or regulation or abets such contravention or who fails to comply with any provision of a rule or regulation with which it was his duty to comply, shall be liable to a penalty which may extend to fifty thousand rupees.
+159.
+Rules, certain notifications and orders to be laid before Parliament.--
+Every rule or regulation made under this Act, every notification issued under sections 11, 11B, 11H, 11-I, 11K, 11N, 14, 25, 28A, 43, 66, 69, 70, 74, 75, 76, 98, 98A, 101 and 123 and every order made under sub-section (2) of section 25, other than an order relating to goods of strategic, secret, individual or personal nature, shall be laid, as soon as may be after it is made or issued, before each House of Parliament, while it is in session, for a total period of thirty days which may be comprised in one session, or in two or more successive sessions, and if, before the expiry of the session immediately following the session or the successive sessions aforesaid, both Houses agree in making any modification in the rule or regulation or notification or order, or both Houses agree that the rule or regulation should not be made or notification or order should not be issued or made, the rule or regulation or notification or order shall thereafter have effect only in such modified form or be of no effect, as the case may be; so, however, that any such modification or annulment shall be without prejudice to the validity of anything previously done under that rule or regulation or notification or order.
+159A.
+Effect of amendments, etc., of rules, regulations, notifications or orders
+Where any rule, regulation, notification or order made or issued under this Act or any notification or order issued under such rule or regulation, is amended, repealed, superseded or rescinded, then, unless a different intention appears, such amendment, repeal, super session or rescinding shall not-
+(a)
+revive anything not in force or existing at the time at which the amendment, repeal, super session or rescinding takes effect; or
+(b)
+affect the previous operation of any rule, regulation, notification or order so amended, repealed, superseded or rescinded or anything duly done or suffered thereunder; or
+(c)
+affect any right, privilege, obligation or liability acquired, accrued or incurred under any rule, regulation, notification or order so amended, repealed, superseded or rescinded; or
+(d)
+affect any penalty, forfeiture or punishment incurred in respect of any offence committed under or in violation of any rule, regulation, notification or order so amended, repealed, superseded or rescinded; or
+(e)
+affect any investigation, legal proceeding or remedy in respect of any such right, privilege obligation, liability, penalty, forfeiture or punishment as aforesaid,
+and any such investigation, legal proceeding or remedy may be instituted, continued or enforced and any such penalty, forfeiture or punishment may be imposed as if the rule, regulation, notification or order, as the case may be, had not been amended, repealed, superseded or rescinded.
+160.
+Repeal and savings
+(1)
+The enactments specified in the Schedule are hereby repealed to the extent mentioned in the fourth column thereof.
+(2)
+In the Indian Tariff Act, 1934 (32 of 1934)—
+(a)
+for section 2, the following section shall be substituted, namely :—
+"2. Duties specified in the Schedule to be levied.—The rates at which duties of customs shall be levied under the Customs Act, 1962, are specified in the First and Second Schedules.";
+(b)
+sections 5 and 6 shall stand repealed.
+(3)
+Notwithstanding the repeal of any enactment by this section,—
+(a)
+any notification, rule, regulation, order or notice issued or any appointment or declaration made or any licence, permission or exemption granted for any assessment made, confiscation adjudged or any duty levied or any penalty or fine imposed or any forfeiture, cancellation or discharge of any bond ordered or any other thing done or any other action taken under any repealed enactment shall, so far as it is not inconsistent with the provisions of this Act, be deemed to have been done or taken under the corresponding provision of this Act;
+(b)
+any document referring to any enactment hereby repealed shall be construed as referring to this Act or to the corresponding provision of this Act.
+(4)
+This Act shall apply to all goods which are subject to the control of customs at the commencement of this Act notwithstanding that the goods were imported before such commencement.
+(5)
+Where the period prescribed for any application, appeal, revision or other proceeding under any repealed enactment had expired on or before the commencement of this Act, nothing in this Act shall be construed as enabling any such application, appeal or revision to be made or a proceeding to be instituted under this Act by reason only of the fact that a longer period therefore is prescribed or provision is made for extension of time in suitable cases by the appropriate authority.
+(6)
+The provisions of section 65 shall apply to goods warehoused before the commencement of this Act if the operations permissible under that section were carried on after such commencement.
+(7)
+Any duty or penalty payable under any repealed enactment may be recovered in a manner provided under this Act but without prejudice to any action already taken for the recovery of such duty or penalty under the repealed enactment.
+(8)
+The mention of particular matters in sub-sections (4), (5), (6) and (7) shall not be held to prejudice or affect the general application of section 6 of the General Clauses Act, 1897 (10 of 1897), with regard to the effect of repeals.
+(9)
+Nothing in this Act shall effect any law for the time being in force relating to the constitution and powers of any port authority in a major port as defined in the Indian Ports Act, 1908 (15 of 1908).
+161.
+Removal of difficulties
+If any difficulty arises in giving effect to the provisions of this Act, particularly in relation to the transition from the enactments repealed by this Act to the provisions of this Act, the Central Government may, by general or special order, do anything not inconsistent with such provisions which appears to be necessary or expedient for the purpose of removing the difficulty.
+See section 160
+Repeals
+Year
+No.
+Short title
+Extent of repeal
+(1)
+(2)
+(3)
+(4)
+1878
+8
+The Sea Customs Act
+The whole
+1896
+8
+The Inland Bonded Warehouses Act
+The whole
+1924
+19
+The Land Customs Act
+The whole
+1934
+22
+The Aircraft Act
+Section 16

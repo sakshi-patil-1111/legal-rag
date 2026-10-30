@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-06-29T02-09-05",
+  "corpus_version": "1.0",
+  "model_used": "gemini-2.5-flash",
+  "embedding_model": "all-MiniLM-L6-v2",
+  "dataset_size": 11,
+  "metrics": {
+    "hit_rate_at_5": 100.0,
+    "true_recall_at_5": 100.0,
+    "mrr": 1.0,
+    "citation_precision": 100.0,
+    "citation_recall": 100.0,
+    "citation_f1": 100.0,
+    "behavior_score": 72.72727272727273,
+    "avg_retrieval_latency": 0.009999999999999998,
+    "avg_model_latency": 2.666363636363636,
+    "avg_retry_latency": 15.0,
+    "avg_e2e_latency": 18.313636363636366,
+    "failure_rate": 0.0
+  }
+}

@@ -1,0 +1,2774 @@
+---
+document_id: banking_regulation_act_1949.txt
+source_name: BANKING_REGULATION_ACT_1949
+legal_domain: Banking & Finance
+act_name: Banking Regulation Act, 1949
+document_type: statute
+---
+
+# Banking Regulation Act, 1949
+
+Banking Regulation Act, 1949
+
+1. Short title, extent and commencement
+(1) This Act may be called the Banking
+Regulation Act, 1949.
+(2) It extends to the whole of India
+(3) It shall come into force on such date5 as
+the Central Government may, by notification in the Official Gazette, appoint in
+this behalf.
+Banking Regulation Act, 1949
+
+10. Prohibition of employment of Managing
+Agents and restrictions on certain forms of employment
+(1) No banking company-
+(a) shall employ or be
+managed by a Managing Agent; or
+(b) shall employ or
+continue the employment of any person-
+(i) who is, or at any
+time has been, adjudicated insolvent, or has suspended payment or has
+compounded, with his creditors, or who, is or has been, convicted by a criminal
+court of an offence involving moral turpitude; or
+(ii) whose
+remuneration or part of whose remuneration takes the form of commission or of a
+share in the profits of the company:
+PROVIDED that nothing contained
+in this sub-clause shall apply to the payment by a banking company of-
+(a) any bonus in
+pursuance of a settlement or award arrived at or made under any law relating to
+industrial disputes or in accordance with any scheme framed by such banking
+company or in accordance with the usual practice prevailing in banking
+business;
+(b) any commission to
+any broker (including guarantee broker), cashier-contractor, clearing and
+forwarding agent, auctioneer or any other person, employed by the banking
+company under a contract otherwise than as a regular member of the staff of the
+company; or]
+(iii) whose
+remuneration is, in the opinion of the Reserve Bank, excessive; or
+(c) shall
+be managed by any person-
+(i) who is
+a Director of any other company not being-
+(a) a
+subsidiary of the banking company, or
+(b) a company registered
+under section 25 of the Companies Act, 1956 (1 of 1956):
+PROVIDED that the prohibition in this
+sub-clause shall not apply in respect of any such Director for a temporary
+period not exceeding three months or such further period not exceeding nine
+months as the Reserve Bank may allow; or]
+(ii) who is engaged in any other business or
+vocation; or
+(iii) 9[whose term of office as a person
+managing the company is] for a period exceeding five years at any one time:
+PROVIDED that the term of office of any such
+person may be renewed or extended by further periods not exceeding five years
+on each occasion subject to the condition that such renewal or extension shall
+not be sanctioned earlier than two years form the date on which it is to come
+into force:
+PROVIDED ALSO that where the term of
+office of such person is for an indefinite period, such term, unless it
+otherwise comes to an end earlier, shall come to an end immediately on the
+expiry of five years from the date of his appointment or on the expiry of three
+months from the date of commencement of section 8 of the Banking Laws
+(Miscellaneous Provisions) Act, 1963 (55 of 1963), whichever is later:]
+PROVIDED FURTHER that nothing in this
+clause shall apply to a Director, other than the Managing Director, of a
+banking company by reason only of his being such Director.
+Explanation : For the purpose of
+sub-clause (iii) of clause (b), the expression "remuneration ", in
+relation to a persons employed or continued in employment, shall include salary,
+fees and perquisites but shall not include any allowances or other amounts paid
+to him for the purpose of reimbursing him in respect of the expenses actually
+incurred by him in the performance of his duties.
+(2) In forming its opinion under sub-clause
+(iii) of clause (b) of sub-section (1), the Reserve Bank may have regard among
+other matters to the following:-
+(i) the financial
+condition and history of the banking company, its size and area of operation,
+its resources, the volume of its business, and the trend of its earning
+capacity;
+(ii) the number of its
+branches or offices;
+(iii) the
+qualifications, age and experience of the person concerned;
+(iv) the remuneration
+paid to other persons employed by the banking company or to any person
+occupying a similar position in any other banking company similarly situated;
+and
+(v) the interests of
+its depositors.
+(3)[***]
+(4)[***]
+(5)[***]
+(6) Any decision or order of the Reserve Bank
+made under this section shall be final for all purposes.]
+Banking Regulation Act, 1949
+
+11. Requirement as to minimum paid-up capital
+and reserves
+(1) Notwithstanding anything contained in
+[section 149 of the Companies Act, 1956], no banking company in existence on
+the commencement of this Act, shall, after the expiry of three years from such
+commencement or of such further period not exceeding one year as the Reserve
+Bank, having regard to the interests of the depositors of the company, may
+think fit in any particular case to allow, carry on business 11[in India], and
+no other banking company shall, after the commencement of this Act, commence or
+carry on business 11[in India], unless it complies with such of the
+requirements of this section as are applicable to it.]
+[(2) In the case of a banking company
+incorporated outside India-
+(a) the aggregate
+value of its paid-up capital and reserves shall not be less than fifteen lakhs
+of rupees and if it has a place or places of business in the city of
+Bombay or Calcutta or both, twenty lakhs
+of rupees; and
+(b) [the banking
+company shall deposit and keep deposited with the Reserve Bank either in cash
+or in the form of unencumbered approved securities, or partly in cash and
+partly in the form of such securities-
+(i) an amount which
+shall not be less than the minimum required by clause (a); and
+(ii) as soon as may be
+after the expiration of each 40[***] year, an amount calculated at twenty per
+cent of its profit for that year in respect of all business transacted through
+its branches in India, as disclosed in the profit and loss account prepared
+with reference to that year under section 29:]
+PROVIDED that any such banking
+company may at any time replace-
+(i) any securities so
+deposited by cash or by any other unencumbered approved securities or partly by
+cash and partly by other such securities, so however, that the total amount
+deposited is not affected;
+(ii) any cash so
+deposited by unencumbered approved securities of an equal value.]
+[(2A) Notwithstanding anything contained in
+sub-section (2), the Central Government may, on the recommendation of the
+Reserve Bank, and having regard to the adequacy of the amounts already
+deposited and kept deposited by a banking company under sub-section (2), in
+relation to its deposit liabilities in India declare by order in writing that
+the provisions of sub-clause (ii) of clause (b) of sub-section (2) shall not
+apply to such banking company for such period as may be specified in the
+order.]
+(3) In the case of any banking company to
+which the provisions of sub-section(2) do not apply, the aggregate value of its
+paid-up capital and reserves shall not be less than -
+(i) if it has places
+of business in more than one State, five lakh of rupees, and if any such place
+or places of business is or are situated in the city of Bombay or Calcutta or
+both, ten lakhs of rupees;
+(ii) if it has all its
+places of business in one State none of which is situated in the city of Bombay
+or Calcutta, one lakh of rupees in respect of its principal place of business,
+plus ten thousand rupees in respect of each of its other places of business, situated
+in the same district in which it has its principal place of business, plus
+twenty-five thousand rupees in respect of each place of business situated
+elsewhere in the State otherwise than in the same district:
+PROVIDED that no banking
+company to which this clause applies shall be required to have paid-up capital
+and reserves exceeding an aggregate value of five lakhs of rupees:
+PROVIDED FURTHER that no banking
+company to which this clause applies and which has only one place of business,
+shall be required to have paid-up capital and reserves exceeding an aggregate
+value of fifty thousand rupees:
+[PROVIDED FURTHERthat
+in the case of every banking company to which this clause applies and which
+commences banking business for the first time after the commencement of the
+Banking Companies (Amendment) Act, 1962 (36 of 1962), the value of its paid-up
+capital shall not be less than five lakhs of rupees;]
+(iii) if it has all
+its places of business in one State, or more of which is or are situated in the
+city of  Bombay or  Calcutta , five lakhs of
+rupees, plus twenty-five thousand rupees in respect of each place of business
+situated outside the city of  Bombay or  Calcutta , as the case may be:
+PROVIDED that no banking
+company to which this clause applies shall be required to have paid-up capital
+and reserves exceeding an aggregate value of ten lakhs of rupees.
+Explanation: For the purposes of this sub-section,
+a place of business situated 42[in a State] other than that in which the
+principal place of business of the banking company is situated shall, if it is
+not more than twenty-five miles distant from such principal place of business,
+be deemed to be situated within the same State as such principal place of
+business.
+(4) Any amount deposited and kept deposited
+with the Reserve Bank under 43[*subsection (2) by any banking company
+incorporated 44[outside India] shall, in the event of the company ceasing for
+any reason to carry on banking business 11 [in India], be an asset of the
+company on which the claims of all the creditors of the company 11[in India]
+shall be a first charge.
+(5) For the purposes of this section-
+(a) "place of
+business" means any office, sub-office, sub-pay office and any place of
+business at which deposits are received, cheques cashed or moneys lent;
+(b) "value"
+means the real or exchangeable value, and not, the nominal value which may be
+shown in the books of the banking company concerned.]
+(6) If any dispute arises in computing the
+aggregate value of the paid-up capital and reserves of any banking company, a
+determination thereof by the Reserve Bank shall be final for the purposes of
+this section.
+Banking Regulation Act, 1949
+
+12. Regulation of paid-up capital, subscribed
+capital and authorized capital and voting rights of shareholders
+(1) No banking company shall carry on business
+in  India , unless it satisfies
+the following conditions, namely,-
+(i) that the
+subscribed capital of the company is not less than one-half of the authorized
+capital and the paid-up capital is not less than one-half of the subscribed
+capital and that, if the capital is increased, it complies with the conditions
+prescribed in this clause, within such period not exceeding two years as the
+Reserve Bank may allow;
+(ii) that the capital
+of the company consists of ordinary shares only or of ordinary shares or equity
+shares and such preferential shares as may have been issued prior to the 1st
+day of July, 1944:
+PROVIDED that nothing contained in this
+sub-section shall apply to any banking company incorporated before the 15th day
+of January, 1937.
+(2) No person holding shares in a banking
+company shall, in respect of any shares held by him, exercise voting rights
+28[on poll] 45[in excess of 46[ten per cent]] of the total voting rights of all
+the shareholders of the banking company.
+(3) Notwithstanding anything contained in any
+law for the time being in force or in any contract or instrument no suit or
+other proceeding shall be maintained against any person registered as the
+holder of a share in a banking company on the ground that the title to the said
+share vests in a person other than the registered holder:
+PROVIDED that nothing contained in this
+sub-section shall bar a suit or other proceeding-
+(a) by a transferee of the share on the ground
+that he has obtained from the registered holder a transfer of the share in
+accordance with any law relating to such transfer ; or
+(b) on behalf of a minor or a lunatic on the
+ground that the registered holder holds the shares on behalf of the minor or
+lunatic.
+(4) Every Chairman, Managing Director or Chief
+Executive Officer by whatever name called of a banking company shall furnish to
+the Reserve Bank through that banking company returns containing full
+particulars of the extent and value of his holding of shares, whether directly
+or indirectly, in the banking company and of any change in the extent of such
+holding or any variation in the rights attaching thereto and such other
+information relating to those shares as the Reserve Bank may, by order, require
+and in such form and at such time as may be specified in the order.]
+Banking Regulation Act, 1949
+
+13. Restriction on commission, brokerage,
+discount, etc., on sale of shares
+Notwithstanding anything to the contrary
+contained in [sections 76 and 79 of the Companies Act, 1956 (1 of 1956)1, no
+banking company shall pay out directly or indirectly by way of commission,
+brokerage, discount or remuneration in any form in respect of any shares issued
+by it, any amount exceeding in the aggregate two and one-half per cent of the
+paid-up value of the said shares.
+Banking Regulation Act, 1949
+
+14. Prohibition of charge on unpaid capital
+No banking company shall create any charge
+upon any unpaid capital of the company, and any such charge shall be invalid.
+Banking Regulation Act, 1949
+
+15. Restrictions as to payment of dividend
+[(1)] No banking company shall pay any
+dividend on its shares until all its capitalized expenses (including
+preliminary expenses, organization expenses, share selling commission,
+brokerage, amounts of losses incurred and any other item of expenditure not
+represented by tangible assets) have been completely written off.
+[(2) Notwithstanding anything to the contrary
+contained in sub-section (1) or in the Companies Act, 1956 (1 of 1956), a
+banking company may pay dividends on its shares without writing off-
+(i) the depreciation,
+if any, in the value of its investments in approved securities in any case
+where such depreciation has not actually been capitalized or otherwise
+accounted for as a loss;
+(ii) the depreciation,
+if any, in the value of its investments in shares, debentures or bonds (other
+than approved securities) in any case where adequate provision for such
+depreciation has been made to the satisfaction of the auditor of the banking
+company;
+(iii) the bad debts,
+if any, in any case where adequate provision for such debts has been made to
+the satisfaction of the auditor of the banking company.]
+Banking Regulation Act, 1949
+
+16. Prohibition of common Directors
+[(1) No banking company incorporated in India shall have as a
+Director in its Board of Directors any person who is a Director of any other
+banking company.
+(1A) No banking company referred to in
+sub-section (1) shall have in its Board of Directors more than three Directors
+who are Directors of companies which among themselves are entitled to exercise
+voting rights in excess of twenty per cent of the total voting rights of all
+the share-holders of that banking company.
+(2) If immediately before commencement of the
+Banking Companies (Amendment) Act, 1956 (95 of 1956), any person holding office
+as a Director of a banking company is also a Director of companies which among
+themselves are entitled to exercise voting rights in excess of twenty per cent
+of the total voting rights of all the shareholders of the banking company, he
+shall, within such period from such commencement as the Reserve Bank may
+specify in this behalf-
+(a) either resign his
+office as a Director of the banking company; or
+(b) choose such number
+of companies as among themselves are not entitled to exercise voting rights in
+excess of twenty per cent of the total voting rights of all the shareholders of
+the banking company as companies in which he wishes to continue to hold the
+office of a Director and resign his office as a Director in the other
+companies.]
+(3) Nothing in sub-section (1) shall apply to,
+or in relation to, any Director appointed by the Reserve Bank.]
+Banking Regulation Act, 1949
+
+17. Reserve Fund
+(1) Every banking company incorporated in
+India shall create a reserve fund and 50[* **] shall, out of the balance of
+profit of each year, as disclosed in the profit and loss account prepared under
+section 29 and before any dividend is declared, transfer to the reserve fund a
+sum equivalent to not less than twenty per cent of such profit.
+(1A) Notwithstanding anything contained in
+sub-section (1), the Central Government may, on the recommendation of the
+Reserve Bank and having regard to the adequacy of the paid-up, capital and
+reserves of a banking company in relation to its deposit liabilities, declare
+by order in writing that the provisions of sub-section (1) shall not apply to
+the banking company for such period as may be specified in the order:
+PROVIDED that no such order shall be made
+unless, at the time it is made, the amount in the reserve fund under
+sub-section (1), together with the amount in the share premium account is not
+less than the paid-up capital of the banking company.]
+(2) Where a banking company appropriates any
+sum from the reserve fund or the share premium account, it shall, within
+twenty-one days from the date of such appropriation, report the fact to the
+Reserve Bank, explaining the circumstances relating to such appropriation:
+PROVIDED that the Reserve Bank may, in any
+particular case, extend the said period of twenty-one days by such period as it
+thinks fit or condone any delay in the making of such report.
+Banking Regulation Act, 1949
+
+18. Cash reserve
+(1) Every banking company, not being a
+scheduled bank, shall maintain in India by way of cash reserve with itself or
+by way of balance in a current account with the Reserve Bank or by way of net
+balance in current accounts or in one or more of the aforesaid ways, a sum
+equivalent to at least three per cent of the total of its demand and time
+liabilities in India as on the last Friday of the second preceding fortnight
+and shall submit to the Reserve Bank before the twentieth day of every month a
+return showing the amount so held on alternate Fridays during a month with
+particulars of its demand and time liabilities in India on such Friday or if
+any such Friday is a public holiday under the Negotiable Instruments Act, 1881
+(26 of 1881), at the close of business on the preceding working day.
+Explanation : In this section, and
+in section 24-
+(a) "liabilities in India " shall not
+include-
+(i) the paid-up
+capital or the reserves or any credit balance in the profit and loss account of
+the banking company,
+(ii) any advance taken
+from the Reserve Bank or from the Development Bank or from the Exim Bank 52[or
+from the Reconstruction Bank] 19[or from the National Housing Bank] or from the
+National Bank 82[or from the Small Industries Bank] by the banking company;
+(iii) in the case of a
+Regional Rural Bank, also any loan taken by such bank from its sponsor bank;
+(b) "fortnight" shall means the
+period from Saturday to the second following Friday, both days inclusive;
+(c) "net balance in current
+accounts" shall, in relation to a banking company, means the excess, if
+any, of the aggregate of the credit balance in current account maintained by
+that banking company with the State Bank of India or a subsidiary bank or a
+corresponding new bank over the aggregate of the credit balances in current
+account held by the said banks with such banking company;
+(d) for the purpose of computation of
+liabilities, the aggregate of the liabilities of banking company to the State
+Bank of India, a subsidiary bank, a corresponding new bank, a Regional Rural
+Bank, another banking company, a co-operative bank or any other financial
+institution notified by the Central Government in this behalf, shall be reduced
+by the aggregate of the liabilities of all such banks and institutions to the
+banking company;
+(e) the expression "Co-operative
+Bank" shall have the meaning assigned to it in clause (cci) of section 56.
+(2) The Reserve Bank may, for the purpose of
+this section and section 24, specify from time to time, with reference to any
+transaction or class of transactions, that such transaction or transactions
+shall be regarded as liability in India of a banking company and, if any
+question arises as to whether any transaction or class of transaction shall be
+regarded for the purposes of this section and section 24 as liability in India
+of a banking Company, the decision of the Reserve Bank thereon shall be final.]
+Banking Regulation Act, 1949
+
+19. Restriction on nature of subsidiary
+companies
+(1) A banking company shall not form any
+subsidiary company except a subsidiary company formed for one or more of the
+following purposes, namely.-
+(a) the undertaking of
+any business which, under clause (a) to (o) of sub-section (1) of section 6, is
+permissible for a banking company to undertake, or
+(b) with the previous
+permission in writing of the Reserve Bank, the carrying on of the business of
+banking exclusively outside India , or
+(c) the undertaking of
+such other business, which the Reserve Bank may, with the prior approval of the
+Central Government, consider to be conducive to the spread of banking in India
+or to be otherwise useful or necessary in the public interest.
+Explanation : For the purpose of section 8, a
+banking company shall not be deemed, by reason of its forming or having a
+subsidiary company, to be engaged indirectly, in the business carried on by
+such subsidiary company.]
+(2) Save as provided in sub-section (1), no
+banking company shall hold shares in any company, whether as pledgee, mortgagee
+or absolute owner, of an amount exceeding thirty per cent of the paid-up share
+capital of that company or thirty per cent of its own paid-up share capital
+under reserves, whichever is less:
+PROVIDED that any banking company which is on
+the date of the commencement of this Act holding any shares in contravention of
+the provisions of this sub-section shall not be liable to any penalty therefor
+if it reports the matter without delay to the Reserve Bank and if it brings its
+holding of shares into conformity with the said provisions within such period,
+not exceeding two years, as the Reserve Bank may think fit to allow.
+(3) Save as provided in sub-section (1) and
+notwithstanding anything contained in sub-section (2), a banking company shall
+not, after the expiry of one year from the date of the commencement of this
+Act, hold shares, whether as pledge, mortgagee or absolute owner, in any company
+in the management of which any Managing Director or Manager of the banking
+company is in any manner concerned or interested.
+Banking Regulation Act, 1949
+
+2. Application of other laws not barred
+The provisions of this Act shall be in
+addition to, and not, save as hereinafter expressly provided, in derogation of
+the [Companies Act, 1956 (1 of 1956)], and any other law for the time being in
+force.
+Banking Regulation Act, 1949
+
+20. Restrictions on loans and advances
+(1) Notwithstanding anything to the contrary
+contained in section 77 of the Companies Act, 1956 (1 of 1956), no banking
+company shall-
+(a) grant any loans or
+advances on the security of its own shares, or
+(b) enter into any
+commitment for granting any loan or advance to or on behalf of-
+(i) any of its
+Directors,
+(ii) any firm in which
+any of its Directors is interested as Partner, Manager, Employee or Guarantor,
+or
+(iii) any company (not
+being a subsidiary of the banking company or a company registered under section
+25 of the Companies Act, 1956 (1 of 1956), or a government company, of which
+15[or the subsidiary or the holding company of which] any of the Directors of
+the banking company is a Director, Managing Agent, Manager, Employee or
+Guarantor or in which he holds substantial interest, or
+(iv) any individual in
+respect of whom any of its Directors is a partner or guarantor.
+(2) Where any loan or advance granted by a
+banking company is such that a commitment for granting it could not have been
+made if clause (b) of sub-section (1) had been in force on the date on which
+the loan or advance was made or is granted by a banking company after the
+commencement of section 5 of the Banking Laws (Amendment) Act, 1968 (58 of
+1968), but in pursuance of a commitment entered into before such commencement,
+steps shall be taken to recover the amounts due to the banking company on
+account of the loan or advance together with interest, if any, due thereon
+within the period stipulated at the time of the grant of the loan or advance,
+or where no such period has been stipulated, before the expiry of one year from
+the commencement of the said section 5:
+PROVIDED that the Reserve Bank may, in any
+case, on an application in writing made to it by the banking company in this
+behalf, extend the period for the recovery of the loan or advance until such
+date; not being a date beyond the period of three years from the commencement
+of the said section 5, and subject to such terms and conditions, as the Reserve
+Bank may deem fit:
+PROVIDED FURTHER that this sub-section
+shall not apply if and when the Director concerned vacates the office of the
+Director of the banking company, whether by death, retirement, resignation or
+otherwise.
+(3) No loan or advance, referred to in
+sub-section (2), or any part thereof shall be remitted without the previous
+approval of the Reserve Bank, and any remission without such approval shall be
+void and of on effect.
+(4) Where any loan or advance referred to in
+sub-section (2), payable by any person, has not been repaid to the banking
+company within the period specified in that sub-section, then, such person
+shall, if he is a Director of such banking company on the date of the expiry of
+the said period, be deemed to have vacated his office as such on the said date.
+Explanation: In this section-
+(a) "loan or advance" shall not
+include any transaction which the Reserve Bank may, having regard to the nature
+of the transaction, the period within which, and the manner and circumstances
+in which, any amount due on account of the transaction is likely to be realized,
+the interest of the depositors and other relevant considerations, specify by
+general or special order as not being a loan or advance for the purpose of this
+section;
+(b) "Director" includes a member of
+any board or committee in India constituted by a banking
+company for the purpose of managing, or for the purpose of advising it in
+regard to the management of, all or any of its affairs.
+(5) If any question arises whether any
+transaction is a loan or advance for the purposes of this section, it shall be
+referred to the Reserve Bank, whose decision thereon shall be final.]
+Banking Regulation Act, 1949
+
+21. Power of Reserve Bank to control advances
+by banking companies
+(1) Where the Reserve Bank is satisfied that
+it is necessary or expedient in the public interest 86[or in the interests of
+depositors] 12[or banking policy] so to do, it may determine the policy in
+relation to advances to be followed by banking companies generally or by any
+banking company in particular, and when the policy has been so determined, all
+banking companies or the banking company concerned, as the case may be, shall
+be bound to follow the policy as so determined.
+(2) Without prejudice to the generality of the
+power vested in the Reserve Bank under sub-section (1), the Reserve Bank may
+give directions to banking companies, either generally or to any banking
+company or group of banking companies in particulars, 9[as to-
+(a) the purposes for
+which advances may or may not be made;
+(b) the margins to be
+maintained in respect of secured advances;
+(c) the maximum amount
+of advances or other financial accommodation which, having regard to the
+paid-up capital, reserves and deposits of a banking company and other relevant
+considerations, may be made by that banking company to any one company, firm,
+association to persons or individual;
+(d) the maximum amount
+up to which, having regard to the considerations referred to in clause (c), guarantees
+may be given by a banking company on behalf of any one company, firm,
+association of persons or individual; and
+(e) the rate of
+interest and other terms and conditions on which advances or other financial
+accommodation may be made or guarantees may be given.]
+(3) Every banking company shall be bound to
+comply with any directions given to it under this section.
+Banking Regulation Act, 1949
+
+22. Licensing of banking companies
+(1) Save as hereinafter provided, no company
+shall carry on banking business in India unless it holds a license issued in
+that behalf by the Reserve Bank and any such license may be issued subject to
+such conditions as the Reserve Bank may think fit to impose.] .
+(2) Every banking company in existence on the
+commencement of this Act, before the expiry of six months from such
+commencement, and every other company before commencing banking business 11 [in
+India], shall apply in writing to the Reserve Bank for a license under this
+section:
+PROVIDED that in the case of a banking company
+in existence on the commencement of this Act, nothing in sub-section (1) shall
+be deemed to prohibit the company from carrying on banking business until it is
+granted a license in pursuance of 55[this section] or is by notice in writing
+informed by the Reserve Bank that a license cannot be granted to it:
+PROVIDED FURTHER that the Reserve Bank
+shall not give a notice as aforesaid to be a banking company in existence on
+the commencement of this Act before the expiry of the three years referred to
+in sub-section (1) of section 11 or of such further period as the Reserve Bank may
+under that sub-section think fit to allow.
+(3) Before granting any license under this
+section, the Reserve Bank may require to be satisfied by an inspection of the
+books of the company or otherwise that 56[***] the following conditions are
+fulfilled, namely:-
+(a) that the company
+is or will be in a position to pay its present or future depositors in full as
+their claims accrue;
+(b) that the affairs
+of the company are not being, or are not likely to be, conducted in a manner
+detrimental to the interests of its present or future depositors;
+(c) that the general
+character of the proposed management of the company will not be prejudicial to
+the public interest of its present or future depositors;
+(d) that the company
+has adequate capital structure and earning prospects;
+(e) that the public
+interest will be served by the grant of a license to the company to carry on
+banking business in India ;
+(f) that having regard
+to the banking facilities available in the proposed principal area of operations
+of the company, the potential scope for expansion of banks already in existence
+in the area and other relevant factors the grant of the license would not be
+prejudicial to the operation and consolidation of the banking system consistent
+with monetary stability and economic growth;
+(g) any other
+condition, the fulfillment of which would, in the opinion of the Reserve Bank,
+be necessary to ensure that the carrying on of banking business in India by the company will
+not be prejudicial to the public interest or the interests of the depositors.]
+(3A) Before granting any license under this
+section to a company incorporated outside India, the Reserve Bank may require
+to be satisfied by an inspection of the books of the company or otherwise that
+the conditions specified in sub-section (3) are fulfilled and that the carrying
+on of banking business by such company in India will be in the public interest
+and that the government or law of the country in which it is incorporated does
+not discriminate in any way against banking companies registered in India and
+that the company complies with all the provisions of this Act applicable to
+banking companies incorporated outside India.]
+(4) The Reserve Bank may cancel a license
+granted to a banking company under this section:
+(i) if the company
+ceases to carry on banking business in India ; or
+(ii) if the company at
+any time fails to comply with any of the conditions imposed upon it under
+sub-section (1); or
+(iii) if at any time,
+any of the conditions referred to in sub-section (3) 15 [and sub-section (3A)]
+is not fulfilled:
+PROVIDED that before canceling a license under
+clause (ii) or clause (iii) of this sub-section on the ground that the banking
+company has failed to comply with or has failed to fulfill any of the
+conditions referred to therein, the Reserve Bank, unless it is of opinion that
+the delay will be prejudicial to the interests of the company's depositors or
+the public, shall grant to the company on such terms as it may specify, and
+opportunity of taking the necessary steps for complying with or fulfilling such
+condition.
+(5) Any banking company aggrieved by the
+decision of the Reserve Bank canceling a license under this section may, within
+thirty days from the date on which such decision is communicated to it, appeal
+to the Central Government.
+(6) The decision of the Central Government
+where an appeal has been preferred to it under sub-section (5) or of the
+Reserve Bank where no such appeal has been preferred shall be final.
+Banking Regulation Act, 1949
+
+23. Restrictions on opening of new, and
+transfer of existing, places of business
+(1) Without obtaining the prior permissions of
+the Reserve Bank-
+(a) no banking company
+shall open a new place of business in India or change otherwise than within the
+same city, town or village, the location of an existing place of business
+situated in India; and
+(b) no banking company
+incorporated in  India shall open a new
+place of business outside India or change, otherwise
+than within the same city, town or village in any country or area outside India , the location of an
+existing place of business situated in that country or area:
+PROVIDED that nothing in this sub-section shall
+apply to the opening for a period not exceeding one month of a temporary place
+of business within a city, town or village or the environs thereof within which
+the banking company already has a place of business, for the purpose of
+affording banking facilities to the public on the occasion of an exhibition, a
+conference or a mela or any other like occasion.
+(2) Before granting any permission under this
+section, the Reserve Bank may require to be satisfied by an inspection under
+section 35 or otherwise as to the financial condition and history of the
+company, the general character of its management, the adequacy of its capital
+structure and earning prospects and that public interest will be served by the
+opening or, as the case may be, change of location, of the place of business.
+(3) The Reserve Bank may grant permission
+under sub-section (1) subject to such conditions as it may think fit to impose
+either generally or with reference to any particular case.
+(4) Where, in the opinion of the Reserve Bank,
+a banking company has, at any time, failed to comply with any of the conditions
+imposed on it under this section, the Reserve Bank may, by order in writing and
+after affording reasonable opportunity to the banking company for showing cause
+against the action proposed to be taken against it, revoke any permission
+granted under this section.
+57[(4A) Any Regional Rural Bank requiring the
+permission of the Reserve Bank under this section shall forward its application
+to the Reserve Bank through the National Bank which shall give its comments on
+the merits of the application and send it to the Reserve Bank:
+PROVIDED that the Regional Rural Bank shall
+also send an advance copy of the application directly to the Reserve Bank.]
+(5) For the purposes of this section
+"place of business" includes any sub-office, pay office, sub-pay
+office and any place of business at which deposits are received, cheques cashed
+or moneys lent.]
+Banking Regulation Act, 1949
+
+24. Maintenance of a percentage of assets
+(1) After the expiry of two years from the
+commencement of this Act, every banking company shall maintain [in India] in
+cash, gold or unencumbered approved securities, valued at a price not exceeding
+the current market price, an amount which shall not at the close of business on
+any day be less than 20 per cent of the total of its [demand and time
+liabilities] [in India].
+Explanation: For the purposes of
+this section, "unencumbered approved securities" of a banking company
+shall include its approved securities lodged with another institution for an
+advance or any other credit arrangement to the extent to which such securities
+have not been drawn against or availed of.]
+(2) In computing the amount for the purposes
+of sub-section (1), the deposit required under sub-section (2) of section 11 to
+be made with the Reserve Bank by a banking company incorporated outside India
+and any balances maintained in India by a banking company in current account
+with the Reserve Bank or the State Bank of India or with any other bank which
+may be notified in this behalf by the Central Government, including in the case
+of a scheduled bank the balance required under section 42 of the Reserve Bank
+of India Act, 1934 (2 of 1934), to be so maintained, shall be deemed to be cash
+maintained in India.]
+(2A) (a) Notwithstanding anything contained in
+sub-section (1) or in sub-section(2), after the expiry of two years from the
+commencement of the Banking Companies (Amendment) Act, 1962 (36 of 1962):-
+(i) a scheduled bank,
+in addition to the average daily balance which it is, or may be, required to
+maintain under section 42 of the Reserve Bank of India Act, 1934 (2 of 1934),
+and
+(ii) every other
+banking company, in addition to the cash reserve which it is required to
+maintain under section 18, 106[shall maintain in India-
+(A) in cash, or
+(B) in gold valued at a price not exceeding
+the current market price or in unencumbered approved securities valued at a
+price determined in accordance with such one or more of, or combination, of the
+following methods of valuation, namely, valuation with reference to cost price,
+market price, book value or face value, as may be specified by the Reserve Bank
+from time to time, an amount which shall not, at the close of business on any
+day, be less than twenty-five per cent or such other percentage not exceeding
+forty per cent as the Reserve Bank may, from time to time, by notification in
+the Official Gazette, specify, of the total of its demand and time liabilities
+in India, as on the last Friday of the second preceding fortnight;
+(b) in computing the amount for the purposes
+of clause (a)-
+(i) the deposit
+required under sub-section (2) of section 11 to be made with the Reserve Bank
+by a banking company incorporated outside India;
+(ii) any cash or
+balances maintained in India by a banking company other than a scheduled bank
+with itself or with the Reserve Bank or by way of net balance in current
+account in excess of the cash or balance or net balance required to be
+maintained under section 18;
+(iii) any balance
+maintained by a scheduled bank with the Reserve Bank in excess for the balance
+required to be maintained by it under section 42 of the Reserve Bank of India
+Act, 1934 (2 of 1934);
+(iv) the net balance
+in current accounts maintained in India by a scheduled bank;
+(v) any balance
+maintained by a Regional Rural Bank in call or fixed deposit with its sponsor
+bank, shall be deemed to be cash maintained in India .
+Explanation: For the purposes of
+clause (a) of this sub-section, the market price of an approved security shall
+be the price as on the date of the issue of the notification or as on any
+earlier or later date as may be notified from time to time by the Reserve Bank
+in respect of any class or classes of securities.
+(2B) The Reserve Bank may, by notification in
+the Official Gazette, vary the percentage referred to in sub-section (2A) in
+respect of a Regional Rural Bank
+(3) For the purposes of ensuring compliance
+with the provisions of this section, every banking company shall, not later
+than twenty days after the end of the month to which it relates, furnish to the
+Reserve Bank in the prescribed form and manner a monthly return showing
+particulars of its assets maintained in accordance with this section, and its
+demand and time liabilities in India at the close of business on each alternate
+Friday during the month, or if any such Friday is a public holiday, at the
+close of business on the preceding working day:
+PROVIDED that every Regional Bank shall also
+furnish a copy of the said return to the National Bank.
+(4)(a) If on any alternate Friday or, if such
+Friday is a public holiday, on the preceding working day, the amount maintained
+by a banking company at the close of business on that day falls below the
+minimum prescribed by or under clause (a) of sub-section (2A), such banking
+company shall be liable to pay to the Reserve Bank in respect of that day's
+default, penal interest for that day at the rate of three per cent per annum
+above the bank rate on the amount by which the amount actually maintained falls
+short of the prescribed minimum on that day; and
+(b) If the default occurs again on the next
+succeeding alternate Friday, or, if such Friday is a public holiday, on the
+preceding working day, and continues on succeeding alternate Fridays or
+preceding working days, as the case may be, the rate of penal interest shall be
+increased to a rate of five per cent per annum above the bank rate on each such
+shortfall in respect of that alternate Friday and each succeeding alternate
+Friday or preceding working day, if such Friday is a public holiday, on which
+the default continues.
+(5)(a) Without prejudice to the provisions of
+sub-section (3), the Reserve Bank may require a banking company to furnish to
+it a return in the form and manner specified by it showing particulars of its
+assets maintained in accordance with this section and its demand and time
+liabilities in India, as at the close of business on each day of a month; and
+(b) Without prejudice to the provisions of
+sub-section (4), on the failure of a banking company to maintain as on any day,
+the amount so required to be maintained by or under clause (a) of sub-section
+(2A) the Reserve Bank may, in respect of such default, require the banking
+company to pay penal interest for that day as provided in clause (a) of
+sub-section (4) and if the default continues on the next succeeding working day,
+the penal interest may be increased as provided in clause (b) of sub-section
+(4) for the concerned days.
+(6)(a) The penalty payable under sub-section
+(4) and sub-section (5) shall be paid within a period of fourteen days from the
+date on which a notice issued by the Reserve Bank demanding payment of the same
+is served on the banking company and in the event of failure of the banking
+company to pay the same within such period, the penalty may be levied by a
+direction of the principal civil court having jurisdiction in the area where an
+office of the defaulting banking company is situated, such direction to be made
+only upon an application made by the Reserve Bank in this behalf to the court;
+and
+(b) When the court makes a direction under
+clause (a), it shall issue a certificate specifying the sum payable by the
+banking company and every such certificate shall be enforceable in the same
+manner as if it were a decree made by the court in a suit.
+(7) When under the provisions of clause (b) of
+sub-section (4) penal interest at the increased rate of five per cent above the
+bank rate has become payable by a banking company, if thereafter the amount
+required to be maintained on the next succeeding alternate Friday, or if such
+Friday is a public holiday, the next preceding working day, is still below, the
+prescribed minimum, every Director, Manager or Secretary of the banking
+company, who is knowingly and willfully a party to the default, shall be
+punishable with fine which may extend to five hundred rupees and with a further
+fine which may extend to five hundred rupees for each subsequent alternate
+Friday or the preceding working day, as the case may be, on which the default
+continues.
+(8) Notwithstanding anything contained in this
+section, if the Reserve Bank is satisfied, on an application in writing by the
+defaulting banking company, that the banking company had sufficient cause for
+its failure to comply with the provisions of clause (a) of sub-section (2A),
+the Reserve Bank may not demand the payment of the penal interest.
+Explanation: In this section, the
+expression, "public holiday" means a day which is a public holiday
+under the Negotiable Instruments Act, 1881 (26 of 1881).
+Banking Regulation Act, 1949
+
+25. Assets in India
+(1) The assets in India of every banking company
+at the close of business on the last Friday of every quarter or, if that Friday
+is a public holiday under the Negotiable Instruments Act, 1881 (26 of 1881), at
+the close of the business on the preceding working day, shall not be less than
+seventy-five per cent of its demand and time liabilities in India.
+(2) Every banking company shall, within one
+month from the end of every quarter, submit to the Reserve Bank a return in the
+prescribed form and manner of the assets and liabilities referred to in sub-section
+(1) as at the close of business on the last Friday of the previous quarter, or,
+if that Friday is a public holiday under the Negotiable Instruments Act, 1881
+(26 of 1881), at the close of business on the preceding working day:]
+PROVIDED that every Regional Rural Bank shall
+also furnish a copy of the said return to the National Bank.]
+(3) For the purposes of this section:-
+(a)  "assets
+in India" shall be deemed to include export bills drawn in and import
+bills drawn on and payable in, India and expressed in such currencies as the
+Reserve Bank may from time to time approve in this behalf and also such
+securities as the Reserve Bank may approve in this behalf notwithstanding all
+or any of the said bills or securities are held outside India;
+(b) "liabilities
+in  India " shall not
+include the paid-up capital or the reserves or any credit balance in the profit
+and loss account of the banking company;,
+(C)
+"quarter" means the period of three months ending on the last day of
+March, June, September or December.
+Banking Regulation Act, 1949
+
+26. Return of unclaimed deposits
+Every banking company shall, within thirty
+days after the close of each calendar year, submit a return in the prescribed
+form and manner to the Reserve Bank as at the end of such calendar year of all
+accounts 113[in India] which have not been operated upon for ten years 114[* *
+*]:
+PROVIDED that in the case of money deposited
+for a fixed period the said term of ten years shall be reckoned from the date
+of the expiry of such fixed period:
+PROVIDED FURTHER that every Regional
+Rural Bank shall also furnish a copy of the said return to the National Bank.
+Banking Regulation Act, 1949
+
+27. Monthly returns and power to call for
+other returns and information
+(1) Every banking company shall, before the
+close of the month succeeding that to which it relates, submit to the Reserve
+Bank a return in the prescribed form and manner showing its assets and
+liabilities 102[in India] as at the close of business on the last Friday of
+every month or if that Friday is a public holiday under the Negotiable
+Instruments Act, 1881 (26 of 1881), at the close of business on the preceding
+working day.
+(2) The Reserve Bank may at any time direct a
+banking company to furnish it within such time as may be specified by the
+Reserve Bank, with such statements and information relating to the business or
+affairs of the banking company (including any business or affairs with which
+such banking company is concerned) as the Reserve Bank may consider necessary
+or expedient to obtain for the purposes of this Act, and without prejudice to
+the generality of the foregoing power may call for information every half-year
+regarding 104[the investments of a banking company and the classification of
+its advances in respect of industry, commerce and agriculture].]
+(3) Every Regional Rural Bank shall submit a
+copy of the return which it submits to the Reserve Bank under sub-section (1)
+also to the National Bank and the powers exercisable by the Reserve Bank under
+sub-section (2) may also be exercised by the National Bank in relation to the
+Regional Rural Banks.]
+Banking Regulation Act, 1949
+
+28. Power to publish information
+The Reserve Bank or the National Bank, or
+both, if they consider it in the public interest so to do, may publish any
+information obtained by them under this Act in such consolidated form as they
+think fit.
+Banking Regulation Act, 1949
+
+29. Accounts and balance-sheet
+(1) At the expiration of each calendar years
+or at the expiration of a period of twelve months ending with such date as the
+Central Government may, by notification in the Official Gazette, specify in
+this behalf,] every banking company incorporated in India], in respect of all
+business transacted by it, and every banking company incorporated outside
+India], in respect of all business transacted through its branches 102[in
+India], shall prepare with reference to that year or period, as the case may
+be,] a balance-sheet and profit and loss account as on the last working day of
+120[the year or the period, as the case may be,] in the Forms set out in the
+Third Schedule or as near thereto as circumstances admit:
+PROVIDED that with a view to facilitating the
+transition from one period of accounting to another period of accounting under
+this sub-section, the Central Government may by order published in the Official
+Gazette, make such provisions as it considers necessary or expedient for the
+preparation of, or for other matters relating to, the balance-sheet or profit
+and loss account in respect of the concerned year or period, as the case may
+be.
+(2) The balance-sheet and profit and loss
+account shall be signed-
+(a) in the case of a
+banking company incorporated [in India], by the manager or the principal
+officer of the company and where there are more than three Directors of the
+company, by at least three of those Directors, or where there are not more than
+three Directors, by all the Directors, and
+(b) in the case of a
+banking company incorporated [outside India ] by the Manager or
+Agent of the principal office of the company 122[in India ].
+(3) Notwithstanding that the balance-sheet of
+a banking company is under subsection (1) required to be prepared in a form
+other than the form 123[set out in Part I of Schedule VI to the Companies Act,
+1956 (1 of 1956)1, the requirements of that Act relating to the balance-sheet
+and profit and loss account of a company shall, in so far as they are not
+inconsistent with this Act, apply to the balance-sheet or profit and loss
+account, as the case may be, of a banking company.
+(3A) Notwithstanding anything to the contrary
+contained in sub-section (3) of section 210 of the Companies Act, 1956 (1 of
+1956), the period to which the profit and loss account relates shall, in the
+case of a banking company, be the period ending with the last working day of
+the year immediately preceding the year in which the annual general meeting is
+held.
+Explanation: In sub-section (3A),
+"year" means the year or, as the case may be, the period referred to
+in sub-section (1).
+(4) The Central Government after giving not
+less than three months' notice of its intention so to do by a notification in
+the Official Gazette, may from time to time by a like notification amend the
+Forms set out in the Third Schedule.
+Banking Regulation Act, 1949
+
+3. Act to apply to co-operative societies in
+certain cases
+Nothing in this Act shall apply to-
+(a) a primary agricultural credit society;
+(b) a co-operative land mortgage bank; and
+(c) any other co-operative society, except in
+the manner and to the extent specified in Part V.]
+Comment: Section 3 of the Banking Regulation
+Act specifically lays down that except in the manner and to the extent
+specified in Part V of the said Act none of the other provisions of the said Act
+are applicable to C0-operative Societies. AIR 1977 Kerala 36
+Banking Regulation Act, 1949
+
+30. Audit
+[(1 ) The balance-sheet and profit and loss
+account prepared in accordance with section 29 shall be audited by a person
+duly qualified under any law for the time being in force to be an Auditor of
+companies.]
+(1A) Notwithstanding anything contained in any
+law for the time being in force or in any contract to the contrary, every
+banking company shall, before appointing, re-appointing or removing any Auditor
+or Auditors, obtain the previous approval of the Reserve Bank.
+(1B) Without prejudice to anything contained
+in the Companies Act, 1956 (1 of 1956), or any other law for the time being in
+force, where the Reserve Bank is of opinion that it is necessary in the public
+interest or in the interests of the banking company or its depositors so to do,
+128[it may at any time by order direct that the special audit of the banking
+company's accounts, for any such transaction or class of transactions or for
+such period or periods as may be specified in the order, shall be conducted and
+may by the same or a different order either appoint a person duly qualified
+under any law for the time being in force to be an Auditor of companies or
+direct the Auditor of the banking company himself to conduct such special
+audit] and the Auditor shall comply with such directions and make a report of
+such audit to the Reserve Bank and forward a copy thereof to the company.
+(1C) The expenses of, or incidental to,
+129[the special audit] specified in the order made by the Reserve Bank shall be
+borne by the banking company.]
+(2) The Auditor shall have the powers of,
+exercise the functions vested in, and discharge the duties and be subject to
+the liabilities and penalties imposed of Auditors of companies by 130[section
+227 of the Companies Act, 1956 (1 of 1956)] 131[and Auditors, if any, appointed
+by the law establishing, constituting or forming the banking company
+concerned].
+(3) In addition to the matters which under the
+aforesaid Act the Auditor is required to state in his report, he shall, in the
+case of a banking company incorporated 102[in India], state in his report:-
+(a) whether or not the
+information and explanations required by him have been found to be
+satisfactory;
+(b) whether or not the
+transactions of the company which have come to his notice have been within the
+powers of the company;
+(c) whether or not the
+returns received from branch officers of the company have been found adequate
+for the purposes of his audit;
+(d) whether the profit
+and loss account shows a true balance 132[of profit or loss] for the period
+covered by such account;
+(e) any other matter,
+which he considers should be brought to the notice of the shareholders of the
+company.
+Banking Regulation Act, 1949
+
+31. Submission of returns
+The accounts and balance-sheet referred to in
+section 29 together with the Auditor's report shall be published in the
+prescribed manner and three copies thereof shall be furnishes as returns to the
+Reserve Bank within three months from the end of the period to which they
+refer:
+PROVIDED that the Reserve Bank may in any case
+extend the said period of three months for the furnishing of such returns by a
+further period not exceeding three months:
+PROVIDED FURTHER that a Regional Rural
+Bank shall furnish such returns also to the National Bank.]
+Banking Regulation Act, 1949
+
+32. Copies of balance-sheets and accounts to
+be sent to Registrar
+[(1) Where a banking company in any year
+furnished its accounts and balance-sheet in accordance with the provisions of
+section 31, it shall at the same time send to the Register three copies of such
+accounts and balance-sheet and of the Auditor's report, and where such copies
+are so sent, it shall not be necessary to file with the Registrar, in the case
+of a public company, copies of the accounts and balance-sheet and of the
+Auditors' report, and in the case of a private company, copies of the
+balance-sheet and of the Auditor's report as required by sub-section (1) of
+section 220 of the Companies Act, 1956 (1 of 1956), and the copies so sent
+shall be chargeable with the same fee and shall be dealt with in all respects
+as if they were filed in accordance with that section.]
+(2) When in pursuance of sub-section (2) of
+section 27 the Reserve Bank required any additional statement or information in
+connection with the balance-sheet and accounts furnished under section 31, the
+banking company shall, when supplying such statement or information send a copy
+thereof to the Registrar.
+Banking Regulation Act, 1949
+
+33. Display of audited balance-sheet by
+companies incorporated outside India
+Every banking company, incorporated
+119[outside India] shall, not later than the first Monday in August of any year
+in which it carries on business, display in a conspicuous place in its
+principal office and in every branch office 102[in India] a copy of its last
+audited balance-sheet and profit and loss account prepared under section 29,
+and shall keep the copy so displayed until replaced by a copy of the subsequent
+balance-sheet and profit and loss account so prepared, and every such banking
+company shall display in like manner copies of its complete audited
+balance-sheet and profit and loss account relating to its banking business as
+soon as they are available, and shall keep the copies so displayed until copies
+of such subsequent accounts are available.
+Banking Regulation Act, 1949
+
+34. Accounting provisions of this Act not
+retrospective
+Nothing in this Act shall apply to the
+preparation of accounts by a banking company and the audit and submission
+thereof in respect of any accounting year which has expired prior to the
+commencement of this Act, and notwithstanding the other provisions of this Act,
+such accounts shall be prepared, audited and submitted in accordance with the
+law in force immediately before the commencement of this Act.
+Banking Regulation Act, 1949
+
+35. Inspection
+(1) Notwithstanding anything to the contrary
+contained in [section 235 of the Companies Act, 1956 (1 of 1956),] the Reserve
+Bank at any time may, and on being directed so to do by the Central Government
+shall, cause an inspection to be made by one or more of its officers of any
+banking company and its books and accounts; and the Reserve Bank shall supply
+to the banking company a copy of its report on such inspection.
+[(1A) (a)
+Notwithstanding anything to the contrary contained in any law for the time
+being in force and without prejudice to the provisions of sub-section (1), the
+Reserve Bank, at any time, may also cause a scrutiny to be made by any or more
+of its officers, of the affairs of any banking company and its books and
+accounts; and
+(b) A copy of the
+report of the scrutiny shall be furnished to the banking company if the banking
+company makes a request for the same or if any adverse action is contemplated
+against the banking company on the basis of the scrutiny.]
+(2) It shall be the duty of every Director or
+other officer 140[or employee] of the banking company to produce to any officer
+making an inspection under sub-section (1) 134[or a scrutiny under sub-section
+(1A)1 all such books, accounts and other documents in his custody or power and
+to furnish him with any statements and information relating to the affairs of
+the banking company as the said officer may require of him within such time as
+the said officer may specify.
+(3) Any person making an inspection under
+sub-section(1) [or a scrutiny under sub-section (1A)] may examine on oath any
+Director or other officer [or employee] of the banking company in relation to
+its business, and may administer any oath accordingly.
+(4) The Reserve Bank shall, if it has been
+directed by the Central Government to cause an inspection to be made, and may,
+in any other case, report to the Central Government on any inspection [or
+scrutiny] made under this section, and the Central Government, if it is of
+opinion after considering the report that the affairs of the company are being
+conducted to the detriment of the interests of its depositors, may, after
+giving such opportunity to the banking company to make a representation in
+connection with the report as, in the opinion of the Central Government, seems
+reasonable, by order in writing-
+(a) prohibit the
+banking company from receiving fresh deposits;
+(b) direct the Reserve
+Bank to apply under section 38 for the winding up of the banking company:
+PROVIDED that the Central Government may defer,
+for such period as it may think fit, the passing of an order under this
+sub-section, or cancel or modify any such order, upon such terms and conditions
+as it may think fit to impose.
+(5) The Central Government may, after giving
+reasonable notice to the banking company, publish the report submitted by the
+Reserve Bank or such portion thereof as may appear necessary.
+Explanation: For the purposes of this section, the
+expression "banking company" shall include-
+(i) in the case of a banking company
+incorporated outside India , all its branches in India ; and
+(ii) in the case of a banking company
+incorporated in  India-
+(a) all its
+subsidiaries formed for the purposes of carrying on the business of banking
+exclusively outside India ; and
+(b) all its branches
+whether situated in India or outside India .] 110[(6) The powers
+exercisable by the Reserve Bank under this section in relation to Regional
+Rural Banks may (without prejudice to the exercise of such powers by the Reserve
+Bank in relation to any Regional Rural Bank whenever it considers necessary so
+to do) be exercised by the National Bank in relation to the Regional Rural
+Banks, and accordingly, sub-sections (1) to (5) shall apply in relation to
+Regional Rural Banks as if every reference therein to the Reserve Bank included
+also a reference to the National Bank.]
+Banking Regulation Act, 1949
+
+36. Further powers and functions of Reserve
+Bank
+(1) The Reserve Bank may:
+(a) caution or
+prohibit banking companies generally or any banking company in particular
+against entering into any particular transaction or class of transactions, and
+generally give advice to any banking company;
+(b) on a request by
+the companies concerned and subject to the provisions of section 44A, assist,
+as intermediary or otherwise, in proposals for the amalgamation of such banking
+companies;
+(c) give assistance to any banking company by
+means of the grant of a loan or advance to it under clause (3) of sub-section
+(1), of section 18 of the Reserve Bank of India Act, 1934 (2 of 1934)
+[(d) at any time, if it satisfied that in the
+public interest or in the interest of banking company or its depositors it is
+necessary so to do,] by order in writing and on such terms and conditions as
+may be specified therein:
+(i) require the
+banking company to call a meeting of its Directors for the purpose, of considering
+any matter relating to or arising out of the affairs of the banking company, or
+require an officer of the banking company to discuss any such matter with an
+officer of the Reserve Bank.
+(ii) depute one or
+more of its officers to watch the proceedings at any meeting of the Board of
+Directors of the banking company or of any committee or of any other body
+constituted by it; require the banking company to give an opportunity to the
+officers so deputed to be heard at such meetings and also require such officers
+to send a report of such proceedings to the Reserve Bank;
+(iii) require the
+Board of Directors of the banking company or any committee or any other body
+constituted by it to give in writing to any officer specified by the Reserve
+Bank in this behalf at his usual address all notices of, and other
+communications relating to, any meeting of the Board, committee or other body
+constituted by it;
+(iv) appoint one or
+more of its officers to observe the manner in which the affairs of the banking
+company or of its officers or branches are being conducted and make a report
+thereon;
+(v) require the
+banking company to make, within such time as may be specified in the order,
+such changes in the management as the Reserve Bank may consider necessary
+(2) The Reserve Bank shall make an annual
+report of the Central Government on the trend and progress of banking in the
+country, with particular reference to its activities under clause (2) of
+section 17 of the Reserve Bank of India Act, 1934 (2 of 1934), including in
+such report its suggestions, if any, for the strengthening of banking business
+throughout the country.
+(3) The Reserve Bank may appoint such staff at
+such places as it considers necessary for the scrutiny of the returns,
+statements and information furnished by banking companies under this Act, and
+generally to ensure the efficient performance of its functions under this Act.
+Banking Regulation Act, 1949
+
+37. Suspension of business
+(1) The High Court] may on the application of
+a banking company which is temporarily unable to meet its obligations make an
+order (a copy of which it shall cause to be forwarded to the Reserve Bank)
+staying the commencement or continuance of all actions and proceedings against
+the company for a fixed period of time on such terms and conditions as it shall
+think fit and proper, and may from time to time extend the period so however
+that the total period of moratorium shall not exceed six months.
+(2) No such application shall be maintainable
+unless it is accompanied by a report of the Reserve Bank indicating that in the
+opinion of the Reserve Bank the banking company will be able to pay its debts
+if the application is granted:
+PROVIDED that the 163[High Court] may, for
+sufficient reasons, grant relief under this section even if the application is
+not accompanied by such report, and where such relief is grated, the 163[High
+Court] shall call for a report from the Reserve Bank on the affairs of the
+banking company;, on receipt of which it may either rescind any order already
+passed or pass such further orders thereon as may be just and proper in the
+circumstances.
+(3) When an application is made under
+sub-section (1), the High Court may appoint a special officer who shall
+forthwith take into his custody or under his control all the assets, books,
+documents, effects and actionable claims to which the banking company is or
+appears to be entitled and shall also exercise such other powers as the High
+Court may deem fit to confer on him, having regard to the interests of the
+depositors of the banking company.]
+(4) Where the Reserve Bank is satisfied that
+the affairs of a banking company in respect of which an order under sub-section
+(1) has been made, are being conducted in manner detrimental to the interests
+of the depositors, it may make an application to the High Court for the winding
+up of the company, and where any such application is made, the High Court shall
+not make any order extending the period for which the commencement or
+continuance of all actions and proceedings against the company were stayed
+under that sub-section.]
+Banking Regulation Act, 1949
+
+38. Winding up by High Court
+(1) Notwithstanding anything contained in
+section 391, section 392, section 433 and section 583 of the Companies Act,
+1956 (1 of 1956), but without prejudice to its powers under sub-section (1) of
+section 37 of this Act, the High Court shall order the winding up of a banking
+company-
+(a) if the banking
+company is unable to pay its debts; or
+(b) if an application
+for its winding up has been made by the Reserve Bank under section 37 or this
+section.
+(2) The Reserve Bank shall make an application
+under this section for the winding up of a banking company it is directed so to
+do by an order under clause(b) of sub-section (4) of section 35.
+(3) The Reserve Bank may make an application
+under this section for the winding up of a banking company-
+(a) if the banking
+company-
+(i) has failed to
+comply with the requirements specified in section 11; or
+(ii) has by reason of
+the provisions of section 22become disentitled to carry on banking business in India ; or
+(iii) has been
+prohibited from receiving fresh deposits by an order under clause (a) of
+sub-section (4) of section 35 or under clause (b) of sub-section (3A) or
+section 42 of the Reserve Bank of India, Act, 1934 (2 of 1934); or
+(iv) having failed to
+comply with any requirement of this Act other than the requirements laid down
+in section 11, has continued such failure, or, having contravened any provision
+of this Act has continued such contravention beyond such period or periods as
+may be specified in that behalf by the Reserve Bank from time to time, after
+notice in writing of such failure or contravention has been conveyed to the
+banking company; or
+(b) if in the opinion
+of the Reserve Bank-
+(i) a compromise or
+arrangement. Sanctioned by a court in respect of the banking company cannot be
+worked satisfactorily with or without modifications; or
+(ii) the returns,
+statements or information furnished to it under or in pursuance of the provisions
+of this Act disclose that the banking company is unable to pay its debts; or
+(iii) the continuance
+of the banking company is prejudicial to the interest of its depositors.
+(4) Without prejudice to the provisions
+contained in section 434 of the Companies Act, 1956 (1 of 1956), a banking
+company shall be deemed to be unable to pay its debts if it has refused to meet
+any lawful demand made at any of its offices or branches within two working
+days, if such demand is made at a place where there is an office, branch or
+agency of the Reserve Bank, or within five working days, if such demand is made
+elsewhere, and if the Reserve Bank certifies in writing that the banking
+company is unable to pay its debts.
+(5) A copy of every application made by the
+Reserve Bank under sub-section (1) shall be sent by the Reserve Bank to the
+Registrar.]
+Banking Regulation Act, 1949
+
+39. Reserve Bank to be official liquidator
+(1) Notwithstanding anything contained in
+section 38A of this Act or in section 448 or section 449 of the Companies Act,
+1956 (1 of 1956), where in any proceeding for the winding up by the High Court
+of a banking company, an application is made by the Reserve Bank in this
+behalf, the Reserve Bank, the State Bank of India or any other bank notified by
+the Central Government in this behalf or any individual as stated in such
+application shall be appointed as the official liquidator of the banking
+company in such proceeding and the liquidator, if any, functioning in such
+proceeding shall vacate office upon such appointment.
+(2) Subject to such directions as may be made
+by the High Court, the remuneration of the official liquidator appointed under
+this section, the cost and expenses of his establishment and the cost and
+expenses of the winding up shall be met out of the assets of the banking
+company which is being wound up, and notwithstanding anything to the contrary
+contained in any other law for the time being in force, no fees shall be
+payable to the Central Government, out of the assets of the banking company.]
+Banking Regulation Act, 1949
+
+4. Power to suspend operation of Act
+(1) The Central Government, if on a
+representation made by the Reserve Bank in this behalf it is satisfied that it
+is expedient so to do, may by notification in the Official Gazette, suspend for
+such period, not exceeding sixty days, as may be specified in the notification,
+the operation of all or any of the provisions of this Act, either generally or
+in relation to any specified banking company.
+(2) In a case of special emergency, the
+Governor of the Reserve Bank, or in his absence a Deputy Governor of the
+Reserve Bank nominated by him in this behalf may, by order in writing, exercise
+the powers of the Central Government under sub-section (1) so however that the
+period of suspension shall not exceed thirty days, and where the Governor or
+the Deputy Governor, as the case may be, does so, he shall report the matter to
+the Central Government forthwith, and the order shall, as soon as may be, be
+published in the Gazette of India.
+(3) The Central Government may, by
+notification in the Official Gazette, extend from time to time the period of
+any suspension ordered under sub-section (1) or sub-section (2) for such
+period, not exceeding sixty days at any one time, as it thinks fit so however
+that the total period does not exceed one year.
+(4). A copy of any notification issued under
+sub-section (3) shall be laid on the table of 8[Parliament] as soon as may be
+after it is issued.
+Banking Regulation Act, 1949
+
+40. Stay of proceedings
+Notwithstanding anything to the contrary
+contained in 202[section 466 of the Companies Act, 1956 (1 of 1956)1, the
+203[High Court] shall not make any order staying the proceedings in relation to
+the winding up of a banking company, unless the 203[High Court] is satisfied
+that an arrangement has been made whereby the company can pay its depositors in
+full as their claims accrue.
+Banking Regulation Act, 1949
+
+41. Preliminary report by official liquidator
+Notwithstanding anything to the contrary
+contained in section 455 of the Companies Act, 1956 (1 of 1956), where a
+winding up order has been made in respect of a banking company whether before
+or after the commencement of the Banking Companies (Second Amendment) Act, 1960
+(37 of 1960), the official liquidator shall submit a preliminary report to the
+High Court within two months from the date of the winding up order or where the
+winding up order has been made before such commencement, within two months from
+such commencement, giving the information required by that section so far as it
+is available to him and also stating the amount of assets of the banking
+company in cash which are in his custody or under his control on the date of
+the report and the amount of its assets which are likely to be collected in
+cash before the expiry of that period of two month s in order that such assets
+may be applied speedily towards the making of preferential payments, under
+section 530 of the companies Act, 1956, and in the discharge, as far as
+possible, of the liabilities and obligations of the banking company to its
+depositors and other creditors in accordance with the provisions hereinafter
+contained; and the official liquidator shall make for the purposes aforesaid
+every endeavor to collect in cash as much of the assets of the banking company
+as practicable.
+Banking Regulation Act, 1949
+
+42. Power to dispense with meetings of
+creditors, etc.
+Notwithstanding anything to the contrary
+contained in 205[section 460] of the Companies Act, 1956 (1 of 1956), the
+203[High Court] may, in the proceedings for winding up a banking company,
+dispense with any meeting of creditors or contributories [* * *] if it
+considers that no object will be secured thereby sufficient to justify the
+delay and expense.
+Banking Regulation Act, 1949
+
+43. Booked depositors' credits to be deemed
+proved
+In any proceeding for the winding up of a
+banking company, every depositor of the banking company shall be deemed to have
+filed his claim for the amount shown in the books of the banking company as
+standing to his credit and, notwithstanding anything to the contrary contained
+in 208[section 474 of the Companies Act, 1956 (1 of 1956)1, the High Court
+shall presume such claims to have been proved, unless the official liquidator
+shows that there is reason for doubting its correctness.
+Banking Regulation Act, 1949
+
+44. Power of High Court in voluntary winding
+up
+(1) Notwithstanding anything to the contrary
+contained in section 484 of the Companies Act, 1956 (1 of 1956), no banking
+company may be voluntarily wound up unless the Reserve Bank certifies in
+writing that the company is able to pay in full all its debts to its creditors
+as they accrue.
+(2) The High Court, may, in any case where a
+banking company is being wound up voluntarily, make an order that the voluntary
+winding up shall continue, but subject to the supervision of the court.
+(3) Without prejudice to the provisions
+contained in sections 441 and 521 of the Companies Act, 1956 (1 of 1956), the
+High Court may of its own motion and shall on the application of the Reserve
+Bank, order the winding up of a banking company by the High Court in any of the
+following cases, namely:
+(a) where the banking
+company is being wound up voluntarily and at any stage during the voluntary
+winding up proceedings the company is not able to meet its debts as they
+accrue; or
+(b) where the banking
+company is being wound up voluntarily or is being wound up subject to the
+supervision of the court and the High Court is satisfied that the voluntary
+winding up or winding up subject to the supervision of the court cannot be
+continued without detriment to the interests of the depositors.]
+Banking Regulation Act, 1949
+
+45. Power of Reserve Bank to apply to Central
+Government for suspension of business by a banking company and to prepare
+scheme of reconstitution or amalgamation
+(1) Notwithstanding anything contained in the
+foregoing provisions of this Part or in any other law or [any agreement or
+other instrument], for the time being in force, where it appears to the Reserve
+Bank that there is good reason so to do, the Reserve Bank may apply to the Central
+Government for an order of moratorium in respect of 229[a banking company].
+(2) The Central Government, after considering
+the application made by the Reserve Bank under sub-section (1), may make an
+order of moratorium staying the commencement or continuance of all actions and
+proceedings against the company for a fixed period of time on such terms and
+conditions as it thinks fit and proper and may from time to time extend the
+period so however that the total period of moratorium shall not exceed six
+months.
+(3) Except as otherwise provided by any
+directions given by the Central Government in the order made by it under
+subsection (2) or at any time thereafter, the banking company shall not during
+the period of moratorium make any payment to any depositors or discharge any
+liabilities or obligations to any other creditors.
+228[(4) During the period of moratorium, if
+the Reserve Bank is satisfied that:
+(a) in the public
+interest; or
+(b) in the interests
+of the depositors; or
+(c) in order to secure
+the proper management of the banking company; or
+(d) in the interest of
+the banking system of the country as a whole, it is necessary so to do, the
+Reserve Bank may prepare a scheme-
+(i) for the
+reconstruction of the banking company, or
+(ii)for the
+amalgamation of the banking company with any other banking institution (in this
+section referred to as "the transferee bank")
+(5) The scheme aforesaid may contain provision
+for all or any of the following matters, namely:
+(a) the constitution,
+name and registered office, the capital, assets, powers, rights, interests,
+authorities and privileges, the liabilities, duties and obligations of the
+banking company on its reconstruction or, as the case may be, of the transferee
+bank;
+(b) in the case of
+amalgamation of the banking company, the transfer to the transferee bank of the
+business, properties, assets and liabilities of the banking company on such
+terms and conditions as may be specified in the scheme;
+(c) any change in the
+Board of Directors, or the appointment of a new Board of Directors, of the
+banking company on its reconstruction or, as the case may be, of the transferee
+bank and the authority by whom, the manner in which, the other terms and
+conditions on which, such change or appointment shall be made and in the case
+of appointment of a new Board of Directors or of any Director, the period for
+which such appointment shall be made;
+(d) the alteration of
+the memorandum and articles of association of the banking company on its reconstruction
+or, as the case may be of the transferee bank for the purpose of altering the
+capital thereof or for such other purpose as may be necessary to give effect to
+the reconstruction or amalgamation;
+(e) subject to the
+provisions of the scheme, the continuation by or against the banking company on
+its reconstruction or, as the case maybe, the transferee bank, of any actions
+or proceedings pending against the banking company immediately before the date
+of the order of moratorium;
+(f) the reduction of
+the interest or rights which the members, depositors and other creditors have
+in or against the banking company before its reconstruction or amalgamation to
+such extent as the Reserve Bank considers necessary in the public interest or
+in the interests of the members, depositors and other creditors or for the
+maintenance of the business of the banking company;
+(g) the payment in
+cash or otherwise to depositors and other creditors in full satisfaction of
+their claim-
+(i) in respect of
+their interest or right in or against the banking company before its
+reconstruction or amalgamation; or
+(ii) where their
+interest or rights aforesaid in or against the banking company has or have been
+reduced under clause (f), in respect of such interest or rights as so reduced;
+(h) the allotment to
+the members of the banking company for shares held by them therein before its
+reconstruction or amalgamation [whether their interest in such shares has been
+reduced under clause (f) or not], of shares in the banking company on its
+reconstruction or, as the case may be, in the transferee bank and where any
+members claim payment in cash and not allotment of shares, or where it is not
+possible to allot shares to any members, the, payment in cash to those members
+in full satisfaction of their claim-
+(i) in respect of
+their interest in shares in the banking company before its reconstruction or
+amalgamation; or
+(ii) where such
+interest has been reduced under clause (f) in respect of their interest in
+shares as so reduced;
+(i) the continuance of
+the services of all the employees of the banking company (excepting such of
+them as not being workmen within the meaning of the Industrial Disputes Act,
+1947 (14 of 1947) are specifically mentioned in the scheme) in the banking
+company itself on its reconstruction or, as the case may be, in the transferee
+bank at the same remuneration and on the same terms and conditions of service,
+which they were getting or, as the case may be, by which they were being
+governed, immediately before the date of the order of moratorium:
+PROVIDED that the scheme shall
+contain a provision that:-
+(i) the banking
+company shall pay or grant not later than the expiry of the period of three
+years from the date on which the scheme is sanctioned by the Central
+Government, to the said employee the same remuneration and the same terms and
+conditions of service 229[as are, at the time of such payment or grant,
+applicable] to employees of corresponding rank or status of a comparable
+banking company to be determined for this purpose by the Reserve Bank (whose
+determination in this respect shall be final);
+(ii) the transferee
+bank shall pay or grant not later than the expiry of the aforesaid period of
+three years, to the said employees the same remuneration and the same terms and
+conditions of service [as are, at the time of such payment or grant,
+applicable] to the other employees of corresponding rank or status of the
+transferee bank subject to the qualifications and experience of the said
+employees being the same as or equivalent to those of such other employees of
+the transferee bank:
+PROVIDED FURTHER that if in any case
+under clause (ii) of the first proviso any doubt or difference arises as to
+whether the qualification and experience of any of the said employees are the
+same as or equivalent to the qualifications and experience of the other
+employees of corresponding rank or status of the transferee bank, 230[the doubt
+or difference shall be referred, before the expiry of a period of three years from
+the date of the payment or grant mentioned in that clause ], to the Reserve
+Bank whose decision thereon shall be final;
+(j) notwithstanding
+anything contained in clause (i) where any of the employees of the banking
+company not being workmen within the meaning of the Industrial Disputes Act,
+1947 (14 of 1947) are specifically mentioned in the scheme under clause (i), or
+where any employees of the banking company have by notice in writing given to
+the banking company or, as the case may be, the transferee bank at any time
+before the expiry of one month next following the date on which the scheme is
+sanctioned by the Central Government, intimated their intention of not becoming
+employees of the banking company on its reconstruction or, as the case may be,
+of the transferee bank, the payment to such employees of compensation, if any,
+to which they are entitled under the Industrial Disputes Act, 1947, and such
+pension, gratuity, provident fund and other retirement benefits ordinarily
+admissible to them under the rules or authorizations of the banking company
+immediately before the date of the order of moratorium;
+(k) any other terms
+and conditions for the reconstruction or amalgamation of the banking company;
+(l) such incidental,
+consequential and supplemental matters as are necessary to secure that the
+reconstruction or amalgamation shall be fully and effectively carried out.
+(6)(a) A copy of the scheme prepared by the
+Reserve Bank shall be sent in draft to the banking company and also to the
+transferee bank and any other banking company concerned in the amalgamation,
+for suggestions and objections, if any, within such period as the Reserve Bank
+may specify for this purpose;
+(b) the Reserve Bank
+may make such modifications, if any, in the draft scheme as it may consider
+necessary in the light of the suggestions and objections received from the
+banking company and also from the transferee bank, and any other banking
+company concerned in the amalgamation and from any members, depositors or other
+creditors of each of those companies and the transferee bank.
+(7) The scheme shall thereafter be placed
+before the Central Government for its sanction and the Central Government may
+sanction the scheme without any modifications or with such modifications as it
+may consider necessary; and the scheme as sanctioned by the Central Government
+shall come into force on such date as the Central Government may specify in
+this behalf:
+PROVIDED that different dates may be specified
+for different provisions of the scheme.
+[(7A) The sanction accorded by the Central
+Government under sub-section (7), whether before or after the commencement of
+section 21 of the Banking Law (Miscellaneous Provisions) Act, 1963 (55 of
+1963), shall be conclusive evidence that all the requirements of this section
+relating to reconstruction, or, as the case may be, amalgamation have been
+complied with and a copy of the sanctioned scheme certified in writing by an
+officer of the Central Government to be a true copy thereof, shall, in all legal
+proceedings (whether in appeal or otherwise and whether instituted before or
+after commencement of the said section 21), be admitted as evidence to the same
+extent as the original scheme.]
+(8) On and from the date of coming into
+operation of the scheme or any provision thereof, the scheme or such provision
+shall be binding on the banking company or, as the case may be, on the
+transferee bank and any other banking company concerned in the amalgamation and
+also on all the members, depositors and other creditors and employees of each
+of those companies and of the transferee bank, and on any other person having
+any right or liability in relation to any of those companies or the transferee
+bank 231[including the trustees or other persons managing, or connected in any
+other manner with, any provident fund or other fund maintained by any of those
+companies or the transferee bank.]
+(9) 232[On and from the date of the coming
+into operation of, or as the case may be, the date specified in this behalf in
+the scheme], the properties and assets of the banking company shall, by virtue
+of and to the extent provided in the scheme, stand transferred to, and vest in,
+and the liabilities of the banking company shall, by virtue of and to the
+extent provided in the scheme, stand transferred to, and become the liabilities
+of, the transferee bank.
+(10) If any difficulty arises in giving effect
+to the provisions of the scheme, the Central Government may by order do
+anything not inconsistent with such provision which appears to it necessary or
+expedient for the purpose of removing the difficulty.
+(11) Copies of the scheme or of any order made
+under sub-section(10) shall be laid before both Houses of Parliament, as soon
+as may be, after the scheme has been sanctioned by the Central Government, or,
+as the case may be, the order has been made.
+(12) Where the scheme is a scheme for
+amalgamation of the banking company, any business acquired by the transferee
+bank under the scheme or under any provision thereof shall, after the coming
+into operation of the scheme or such provision, be carried on by the transferee
+bank in accordance with the law governing the transferee bank, subject to such
+modifications in that law or such exemptions of the transferee bank from the
+operation of any provisions thereof as the Central Government on the
+recommendation of the Reserve Bank may, by notification in the Official
+Gazette, make for the purpose of giving full effect to the scheme:
+PROVIDED that no such modification or exemption
+shall be made so as to have effect for a period of more than seven years from
+the date of the acquisition of such business.
+(13) Nothing in this section shall be deemed
+to prevent the amalgamation with a banking institution by a single scheme of
+several banking companies in respect of each of which an order of moratorium
+has been made under this section.
+(14) The provisions of this section and of any
+scheme made under it shall have effect notwithstanding anything to the contrary
+contained in any other provisions of this Act or in any other law or any
+agreement, award or other instrument for the time being in force.
+(15) In this section, "banking
+institution" means any banking company and includes the State Bank of India or 231[a subsidiary
+bank or a corresponding new bank.]]
+[Explanation: Reference in this
+section to the terms and conditions of service as applicable to an employee
+shall not be construed as extending to the rank and status of such employee.]
+Banking Regulation Act, 1949
+
+46. Penalties
+(1) Whoever in any return, balance-sheet or
+other document 202[or on any information required or furnished] by or under or
+for the purpose of any provision of this Act, willfully makes a statement which
+is false in any material particular, knowing it to be false, or willfully omits
+to make a material statement, shall be punishable with imprisonment for a term
+which may extend to three years and shall also be liable to fine.
+(2) If any person fails to produce any book,
+account or other documents or to furnish any statement or information which
+under sub-section (2) of section 35 it is his duty to produce or furnish, or to
+answer any question relating to the business of a banking company which he is
+asked by 250[an officer making inspection or scrutiny under that section] he
+shall be punishable with fine which may extend to 251[two thousand rupees] in
+respect of each offence, and if he persists in such refusal, to further fine
+which may extend to 252[one hundred rupees] for every day during which the
+offence continues.
+(3) If any deposits are received by a banking
+company in contravention of an order under clause (a) of sub-section (4) of
+section 35, every Director or other officer of the banking company, unless he
+proves that the contravention took place without his knowledge or that he
+exercised all due diligence to prevent it, shall be deemed to be guilty of such
+contravention and shall be punishable with a fine which may extend to twice the
+amount of the deposits so received.
+253[(4) If any other provision of this Act is
+contravened or if any default in made in,-
+(i) complying with any
+requirement of this Act or of any order, rule or direction made or condition
+imposed thereunder, or
+(ii) carrying out '
+the terms of, or the obligation under, a scheme sanctioned under sub-section
+(7) of section 45, by any person, such person shall be punishable with fine
+which may extend to 254[fifty thousand rupees or twice the amount involved in
+such contravention or default where such amount is quantifiable, whichever is
+more, and where a contravention or default is a continuing one, with a further
+fine which may extend to two thousand and five hundred rupees for every day,
+during which the contravention or default continues.
+(5) Where a contravention or default has been
+committed by a company, every person who at the time the contravention or
+default was committed, was in charge of, and was responsible to, the company
+for the conduct of the business of the company, as well as the company, shall
+be deemed to be guilty of the contravention of default and shall be liable to
+be proceeded against and punished accordingly:
+PROVIDED that nothing contained in this
+sub-section shall render any such person liable to any punishment provided in
+this Act if he proves that the contravention or default was committed without
+his knowledge or that he exercised all due diligence to prevent the
+contravention or default.
+(6) Notwithstanding anything contained in
+sub-section (5), where a contravention or default has been committed by a
+company, and it is proved that the same was committed with the consent or
+connivance of, or is attributable to any gross negligence on the part of, any
+Director, Manager, Secretary or other Officer of the company, such Director,
+Manager, Secretary or other Officer shall also be deemed to be guilty of that
+contravention or default and shall be liable to be proceeded against and
+punished accordingly.
+Explanation: For the purposes of
+this section,-
+(a) "company" means any body corporate
+and includes a firm or other association of individuals; and
+(b) "Director", in relation to a
+firm, means a partner in the firm.]
+Banking Regulation Act, 1949
+
+47. Cognizance of offences
+No court shall take cognizance of any offence
+punishable under 216[sub-section (5) of section 36AA or] section 46 except upon
+complaint in writing made by an officer of 256[the Reserve Bank or, as the case
+may be, the National Bank], generally or specially authorized in writing in
+this behalf by 255[the Reserve Bank or, as the case may be, the National Bank],
+and 257[no court other than that of a Metropolitan or a Judicial Magistrate of
+the first class or any court superior thereto] shall try any such offence.
+Banking Regulation Act, 1949
+
+48. Application of fines
+A court imposing any fine under this Act may
+direct that the whole or any part thereof shall be applied in or towards
+payment of the costs of the proceedings, or in or towards the rewarding of the
+person on whose information the fine is recovered.
+Banking Regulation Act, 1949
+
+49. Special provisions for private banking
+companies
+The exemptions whether express or implied, in
+favor of a private company in 260[sections 90, 165, 182, 204 and 255, clauses
+(a) and (b) of sub-section (1) of section 293 and sections 300,388A and 416 of
+the Companies Act, 1956 (1 of 1956)1, shall not operate in favor of a private
+company which is a banking company.
+Banking Regulation Act, 1949
+
+5. Interpretation
+In this Act], unless there is anything
+repugnant in the subject or context,-
+(a) "approved securities" means-
+(i) securities in
+which a trustee may invest money under clause (a), clause (b), clause (bb),
+clause (c) or clause (d) of section 20 of the Indian Trust Act, 1882 (2 of
+1882);
+(ii) such of the
+securities authorized by the Central Government under clause (f) of section 20
+of the Indian Trust Act, 1882 (2 of 1882), as may be prescribed];
+(b) "banking" means the accepting,
+for the purpose of lending or investment, of deposits of money from the public,
+repayable on demand or otherwise, and withdrawable by cheque, draft, order or
+otherwise.
+(c) "banking company" means any
+company which transacts the business of banking 11[in India ];
+Explanation: Any company which is engaged in the
+manufacture of goods or carries on any trade and which accepts deposits of
+money from the public merely for the purpose of financing its business as such
+manufacturer or trader shall not be deemed to transact the business of banking
+within the meaning of this clause;
+(ca) "banking policy" means any
+policy which is specified from time to time by the Reserve Bank in the interest
+of the banking system or in the interest of monetary stability or sound
+economic growth, having due regard to the interests of the depositors, the
+volume of deposits and other resources of the bank and the need for equitable
+allocation and the efficient use of these deposits and resources;]
+(CC) "branch" or "branch
+office", in relation to a banking company, means any branch or branch
+office, whether called a pay office or sub-pay office or by any other name, at
+which deposits are received, cheques cashed or moneys lent, and for the
+purposes of section 35 includes any place of business where any other form of
+business referred to in sub-section (1) of section 6 is transacted;]
+(d) "company" means any company as
+defined in section 3 of the Companies Act, 1956 (1 of 1956); and includes a
+foreign company within the meaning of section 591 of that Act;]
+(da) "corresponding new bank" means
+a corresponding new bank constituted under section 3 of the Banking Companies
+(Acquisition and Transfer of Undertakings) Act, 1970 (5 of 1970), or under
+section 3 of the Banking Companies (Acquisition and Transfer of Undertakings)
+Act, 1980 (40 of 1980);]
+(f) "demand liabilities" means
+liabilities which must be met on demand, and "time liabilities" means
+liabilities which are not demand liabilities;
+(ff) "Deposit Insurance Corporation"
+means the Deposit Insurance Corporation established under section 3 of the
+Deposit Insurance Corporation Act, 1961 (47 of 1961);]
+(ffa) "Development Bank" means the
+Industrial Development Bank of India established under section 3 of the
+Industrial Development Bank of India Act, 1964 (18 of 1964);
+(ffb) "Exim Bank" means
+Export-Import Bank of India established under section 3 of the Export-Import
+Bank of India Act, 1981 (28 of 1981);]
+(ffc) "Reconstruction Bank" means
+the Industrial Reconstruction Bank of India established under section 3 of the
+Industrial Reconstruction Bank of India Act, 1984 (62 of 1984);]
+(ffd) "National Housing Bank" means
+the National Housing Bank established under section 3 of the National Housing
+Bank Act, 1987;]
+(g) "gold" includes gold in the form
+of coin, whether legal tender or not, or in the form of bullion or ingot,
+whether refined or not;
+(gg) "managing agent" includes-
+(i) secretaries and
+treasurers,
+(ii) where the
+managing agent is a company, any director of such company, and any member
+thereof who holds substantial interest in such company,
+(iii) where the
+managing agent is a firm, any partner of such firm;]
+(h) "managing director", in relation
+to a banking company, means a Director who, by virtue of agreement with the
+banking company or of a resolution passed by the banking company in general
+meeting or by its Board of Directors or, by virtue of its memorandum or
+articles of association, is entrusted with the management of the whole, or
+substantially the whole of the affairs of the company, and includes a Director
+occupying the position of a Managing Director, by whatever name called:]
+PROVIDED that the Managing Director shall
+exercise his powers subject to the superintendence, control and direction of
+the Board of Directors;
+(ha) "National Bank" means the
+National Bank for Agriculture and Rural Development established under section 3
+of the National Bank for Agriculture and Rural Development Act, 1981 (61 of
+1981);
+(i) [* * *1
+(j) "prescribed" means prescribed by
+rules made under this Act;
+(ja) "regional rural bank" means a
+regional rural bank established under section 3 of the Regional Rural Banks
+Act, 1976 (21 of 1976);]
+(k) [* * *]
+(l) "Reserve Bank" means the Reserve
+Bank of India constituted under section 3 of the Reserve Bank of India Act,
+1934 (2 of 1934);]
+(m) 24[* * *]
+(n) "secured loan or advances" means
+a loan or advance made on the security of assets the market value of which is
+not at any time less than the amount of such loan or advance; and
+"unsecured loan or advance" means a loan or advance not so secured;
+(ni) "Small Industries Bank" means
+the Small Industries Development Bank of India established under s.
+3 of the Small Industries Development Bank of India Act, 1989;]
+(na) "small-scale industrial
+concern" means an industrial concern in which the investment in plant and
+machinery is not in excess of seven and a half lakh of rupees or such higher
+amount, not exceeding twenty lakhs of rupees, as the Central Government may, by
+notification in the Official Gazette, specify in this behalf, having regard to
+the trends in industrial development and other relevant factors;]
+(nb) "Sponsor Bank" has the meaning
+assigned to it in the Regional Rural Banks Act, 1976 (21 of 1976);
+(nc) "State Bank of India" means the
+State Bank of India constituted under section 3 of the State Bank of India Act,
+1955 (23 of 1955);]
+(nd)] "subsidiary bank" has the
+meaning assigned to it in the State Bank of India (Subsidiary Banks) Act,
+1959 (38 of 1959);
+[(ne)] "substantial interest:-
+(i) in relation to a
+company, means the holding of a beneficial interest by an individual or his
+spouse or minor child, whether singly or taken together in the shares thereof,
+the amount paid-up on which exceeds five lakhs of rupees or ten per cent of the
+paid-up capital of the company, whichever is less;
+(ii) in relation to a
+firm, means the beneficial interest held therein by an individual or his spouse
+or minor child, whether singly or taken together, which represents more than
+ten per cent of the total capital subscribed by all the partners of the said
+firm;
+[(o) all other words and expressions used
+herein but not defined and defined in the Companies Act, 1956 (1 of 1956),
+shall have the meanings respectively assigned to them in that Act.]
+(2) [* * *]
+Banking Regulation Act, 1949
+
+50. Certain claims for compensation barred
+No person shall have any right, whether in
+contract or otherwise, to any compensation for any loss incurred by reason of
+the operation of any of the provisions 202[contained in sections, 10, 12A, 16,
+35A, 35B, 262[36, 43A and 45] or by reason of the compliance by a banking
+company with any order or direction given to it under this Act.]
+Banking Regulation Act, 1949
+
+51. Application of certain provisions to the
+State Bank of India  and other notified banks
+(1) Without prejudice to the provisions of the
+State Bank of India Act, 1955 (23 of 1955), or any other enactment, the
+provisions of section 10, 13 to 15, 17 253[19 to 21A, 23 to 28, 29 (excluding
+sub-section (3)] 265[sub-sections (1B), (1C), and (2) of section 30], 31,
+34,35,35A, 36 [excluding clause (d) of sub-section (1)], 45Y to 45ZF, 46 to
+48],50,52 and 53 shall also apply, so far as maybe, to and in relation to the
+State Bank of India 253[or any corresponding new bank or a Regional Rural Bank
+or any subsidiary bank] as they apply to and in relation to banking companies:
+PROVIDED that,-
+(a) nothing contained in clause (c) of
+sub-section (1) of section 10 shall apply to the Chairman of the State Bank of
+India or to a 267[Managing Director] of any subsidiary bank in so far as the
+said clause precludes him from being a Director of, or holding an office in,
+any institution approved by the Reserve Bank;
+253[(b) nothing contained in sub-clause (iii)
+of clause (b) of sub-section (1) of section 20 shall apply to any bank referred
+to in sub-section (1), insofar as the said sub-clause (iii) of clause (b)
+precludes that bank from entering into any commitment for granting any loan or
+advance to or on behalf of a company (not being a government company) in which
+not less than forty per cent of the paid-up capital is held (whether singly or
+taken together) by the Central Government or the Reserve Bank or a corporation
+owned by that bank; and
+(c) nothing contained in section 46 or in
+section 47A shall apply to-
+(i) an officer of the
+Central Government or the Reserve Bank nominated or appointed as Director of
+the State Bank of India or any corresponding new bank or a Regional Rural Bank
+or any subsidiary bank or a banking company; or
+(ii) an officer of the
+State of India or a corresponding new bank or a Regional Rural Bank or a
+subsidiary bank nominated or appointed as Director of any of the said banks
+(not being the bank of which he is an officer) or of a banking company.]
+(2) References to a banking company in any
+rules or direction relating to any provisions of this Act referred to in
+sub-section (1) shall, except where such rule or direction provides otherwise, be
+construed as referring also to the State Bank of India, a corresponding new
+bank, a Regional Rural Bank and a subsidiary bank.]
+Banking Regulation Act, 1949
+
+52. Power of Central Government to make rules
+(1) The Central Government may, after
+consultation with the Reserve Bank, make rules to provide for all matters for
+which provision is necessary or expedient for the purpose of giving effect to
+the provisions of this Act and all such rules shall be published in the
+Official Gazette.
+(2) In particular, and without prejudice to
+the generality of the foregoing power, such rules may provide for the details
+to be included in the returns required by this Act and the manner in which such
+return shall be submitted 269[and the form in which the official liquidator may
+file lists of debtors to the Court having jurisdiction under Part III or Part
+IIIA and the particulars which such lists may contain and any other matter
+which has to be, or may be, prescribed].
+(4) The Central Government may, by rules made
+under this section, annul, alter or add to, all or any of the provisions of the
+Fourth Schedule.]
+(5) Every rule made by the Central Government
+under this Act shall be laid, as soon as may be after it is made, before each
+House of Parliament, while it is in session, for a total period of thirty days
+which may be comprised in one session or in two or more successive sessions,
+and if, before the expiry of the session immediately following the session or
+the successive sessions aforesaid, both Houses agree in making any modification
+in the rules or both Houses agree that the rule should not be made, the rule
+shall thereafter have effect only in such modified form or be of no effect, as
+the case may be; so, however, that any such modification or annulment shall be
+without prejudice to the validity of anything previously done under that rule.]
+Banking Regulation Act, 1949
+
+53. Power to exempt in certain cases
+The Central Government may, on the
+recommendation of the Reserve Bank, by notification in the Official Gazette,
+that any or all of the provisions of this Act shall not apply to any banking
+company or institution or to any class of banking companies either generally or
+for such period as may be specified.
+Banking Regulation Act, 1949
+
+54. Protection of action taken under Act
+(1) No suit or other legal proceedings shall
+lie against the Central Government, the Reserve Bank or any officer for
+anything which is in good faith done or intended to be done in pursuance of
+this Act.
+(2) Save as otherwise expressly provided by or
+under this Act, no suit or other legal proceedings shall lie against the
+Central Government, the Reserve Bank or any officer for any damage caused or
+likely to be caused by anything in good faith done or intended to be done in
+pursuance of this Act.
+Banking Regulation Act, 1949
+
+55. Amendment of Act 2 of 1934
+The Reserve Bank of India Act, 1934 shall be
+amended in the manner specified in the fourth column of the First Schedule, and
+the amendments to section 18 thereof as specified in the said Schedule shall be
+deemed to have had effect on and from the 20th day of September, 1947.
+Banking Regulation Act, 1949
+
+56. Act to apply to Co-operative Societies
+subject to modifications
+The provisions of this Act, as in force for
+the time being, shall apply to, or in relation to, co-operative societies as
+they apply to, or in relation to, banking companies subject to the following
+modifications, namely,-
+(a) throughout this Act, unless the context
+otherwise requires-
+(i) references to a
+"banking company" or "the company" or "such
+company" shall be construed as references to a Co-operative Bank,
+(ii) reference to
+"commencement of this Act" shall be construed as reference to
+commencement of the Banking Laws (Application to Co-operative Societies) Act,
+1965 (23 of 1965);
+(b) in section 2, the words and figures
+"the Companies Act, 1956 (1 of 1956), and" shall be omitted;
+(c) in section 5- 273[(1) after clause (cc),
+the following clauses shall be inserted, namely,-
+(cci) "Co-operative Bank" means a
+State Co-operative Bank, a Central Co-operative Bank and a primary Co-operative
+Bank;
+(ccii) "co-operative credit society"
+means a co-operative society, the primary object of which is to provide
+financial accommodation to its members and includes a co-operative land
+mortgage bank;
+(cciii) "Director", in relation to a
+co-operative society, includes a member of any committee or body for the time
+being vested with the management of the affairs of that society;
+(cciv) "primary agricultural credit
+society" means a co-operative society-
+(1) the primary object
+or principal business of which is to provide financial accommodation to its
+members for agricultural purposes or for purposes connected with agricultural
+activities (including the marketing of crops); and
+(2) the bye-laws of
+which do not permit admission of any other co-operative society as a member:
+PROVIDED that this sub-clause
+shall not apply to the admission of a Co-operative Bank as a member by reason
+of such Co-operative Bank subscribing to the share capital of such co-operative
+society out of funds provided by the State Government for the purpose;
+(ccv) "primary Co-operative Bank means a
+co-operative society, other than a primary agricultural credit society-
+(1) the primary object
+or principal business of which is the transaction of banking business;
+(2) the paid-up share
+capital and reserves of which are less than one lakh of rupees; and
+(3) the bye-laws of
+which do not permit admission of any other co-operative society as a member:
+PROVIDED that this sub-clause
+shall not apply to the admission of a Co-operative Bank as a member by reason
+of such co-operative Bank subscribing to the share capital of such co-operative
+society out of funds provided by the State Government for the purpose;
+(ccvi) "primary credit society"
+means a co-operative society, other than a primary agricultural credit society-
+(1) the primary object
+or principal business of which is the transaction of banking business;
+(2) the paid up share
+capital and reserves of which are less than one lakh of rupees; and
+(3) the bye-laws of
+which do not permit admission of any other co-operative society as a member:
+PROVIDED that this sub-clause
+clause shall not apply to the admission of a Co-operative Bank as a member by
+reason of such Co-operative Bank subscribing to the share capital of such
+co-operative society out of funds provided by the State Government for the
+purpose.
+Explanation: If any dispute arises
+as to the primary object or principal business of any co-operative society
+referred to in clauses (cciv), (ccv) and (ccvi), a determination thereof by the
+Reserve Bank shall be final;
+(ccvii) "Central Co-operative Bank",
+"co-operative society", "primary rural credit society" and
+"State Co-operative Bank" shall have the meanings respectively
+assigned to them in the National Bank for Agricultural and Rural Development
+Act, 1981 (61 of 1981)];
+(ii) clauses (ff) (h)
+and (hb) shall be omitted;]
+(d) for section 5A, the following section
+shall be substituted, namely:-
+"5A. Act to override bye-laws, etc.-
+(1) The provisions of
+253[this Act] shall have effect, notwithstanding anything to the contrary
+contained in the bye-laws of a co-operative society, or in any agreement
+executed by it, or in any resolution passed by it in general meeting, or by its
+Board of Directors or other body entrusted with the management of its affairs,
+whether the same be registered, executed or passed, as the case may be, before
+or after the commencement of the Banking Laws (Application to Co-operative
+Societies) Act, 1965 (23 of 1965).
+(2) Any provision
+contained in the bye-laws, agreement or resolution aforesaid shall, to the
+extent to which it is repugnant to the provisions of 274[this Act], become or
+be void, as the case may be.";
+(e) in section 6, in sub-section (1)-
+(i) in clause (b), the
+words "but excluding the business of a Managing Agent or Secretary and
+Treasurer of a company" shall be omitted;
+(ii) in clause (d),
+after the word "company", the words "co-operative society"
+shall be inserted;
+(iii) in clause (m)
+after the word "company", the words "or co-operative
+society" shall be inserted;
+253[(f) for section 7, the following section
+shall be substituted namely :-
+
+7. Use of words "bank" "banker"
+or "banking"
+(1) No co-operative
+society other than a Co-operative Bank shall use as part of its name or in
+connection with its business any of the words "bank",
+"banker", or "banking", and no co-operative society shall
+carry on the business of banking in India unless it uses as part of its name at
+least one of such words.
+(2) Nothing in this
+section shall apply to-
+(a) a primary credit
+society, or
+(b) a co-operative
+society formed for the protection of the mutual interest of Co-operative Banks
+or co-operative land mortgage banks, or
+(c) any co-operative society,
+not being a primary credit society, formed by the employees of-
+(i) a banking company
+or the State Bank of India or a corresponding new bank or a subsidiary bank of
+such banking company, State Bank of India or a corresponding new bank, or
+(ii) a Co-operative
+Bank or a primary credit society or a co-operative land mortgage bank, in so
+far as the words "bank", "banker", or "banking" appear
+as part of the name of the employer bank, or as the case may be, of the bank,
+whose subsidiary the employer bank is.]
+(fi) in section 8, for
+the proviso, the following proviso shall be substituted, namely,-
+"PROVIDED that this section shall
+not apply-
+(a) to any such business as aforesaid which
+was in the course of being transacted on the commencement of clause (iii) of
+section 42 of the Banking Laws (Amendment) Act, 1983 (1 of 1984), so, however,
+that the said business shall be completed before the expiry of one year from
+such commencement; or
+(b) to any business as is specified in
+pursuance of clause (o) of sub-section (1) of section 6;";
+(fii) in section 9, for the second proviso,
+the following provisos shall be substituted, namely:-
+"PROVIDED FURTHER that in the case
+of a primary credit society which becomes a primary Co-operative Bank after the
+commencement of clause (iii) of section 42 of the Banking Laws (Amendment) Act,
+1983 (1 of 1984), the period of seven years shall commence from the day it so
+becomes a primary Co-operative Bank:
+PROVIDED ALSO that the Reserve Bank
+may, in any particular case, extend the aforesaid period of seven years by such
+period as it may consider necessary where it is satisfied that such extension
+would be in the interests of the depositors of the Co-operative Bank."];
+(g)Sections 10, 10A,10B, LOBB, 10C1 and 10D1
+shall be omitted;
+(h) for section 11, the following section
+shall be substituted, namely,-
+
+11. Requirement as to minimum paid-up capital
+and reserves-(1) Notwithstanding any law relating to co-operative societies for
+the time being in force, no Co-operative Bank shall commence or carry on the
+business of banking in India unless the aggregate value of its paid-up capital
+and reserves is not less than one lakh of rupees:
+PROVIDED that nothing in this sub-section shall
+apply to-
+(a) any such bank
+which is carrying on such business at the commencement of the Banking Laws
+(Application to Co-operative Societies) Act, 1965 (23 of 1965), for a period of
+three years from such commencement; or
+(b) to a primary
+credit society which becomes a primary Co-operative Bank after such
+commencement, for a period of two years from the date it so becomes a Primary
+Co-operative Bank or for such further period not exceeding one year as the
+Reserve Bank, having regard to the interests of the depositors of the Primary
+Co-operative Bank, may think fit in any particular case to allow.
+(2) For the purposes of this section, "value"
+means the real or exchangeable value and not the nominal value which may be
+shown in the books of the Co-operative Bank concerned
+(3) If any dispute arises in computing the
+aggregate value of the paid-up capital and reserves of any such Co-operative
+Bank, a determination thereof by the Reserve Bank shall be final for the
+purpose of this section.'
+(i) sections 12,12A,
+13 and 15 to 17 shall be omitted;
+(j) for section 18,
+the following section shall be substituted, namely,-
+"18. Cash reserve-
+(1) Every Co-operative Bank, not being a State
+Co-operative Bank for the time being included in the Second Schedule to the
+Reserve Bank of India Act, 1934 (2 of 1934) (hereinafter referred to as a
+"Scheduled State Co-operative Bank"), shall maintain in
+India by way of such reserve with itself or by
+way of balance in a current account with the Reserve Bank or the State
+Co-operative Bank of the State concerned or by way of net balance in current
+account, or, in the case of a Primary Co-operative Bank, with the Central
+Co-operative Bank of the district concerned, or in one or more of the aforesaid
+ways, a sum equivalent to at least three per cent of the total of its demand
+and time liabilities in India, as on the last Friday of the second preceding
+fortnight and shall submit to the Reserve Bank before the fifteenth day of
+every month a return showing the amount so held on alternate Fridays during a
+month with particulars of its demand and time liabilities in India on such
+Fridays or if any such Friday is a public holiday under the Negotiable
+Instruments Act, 1881 (26 of 1881), at the close of business on the preceding
+working day.
+Explanation: In this section and
+in section 24-
+(a) "liabilities in India " shall not
+include-
+(i) the paid up
+capital or the reserves or any credit balance in the profit and loss account of
+the Co-operative Bank;
+(ii) any advance taken
+from a State Government, the Reserve. Bank, the Development Bank, the Exim Bank
+276[the Reconstruction Bank], 277[the National Housing Bank], the National Bank
+278[the Small Industries Bank] or from the National Co-operative Development
+Corporation established under section 3 of the National Co-operative
+Development Corporation Act, 1962 (26 of 1962) by the Co-operative Bank;
+(iii) in the case of a
+State or Central Co-operative Bank, also any deposit of money with it
+representing the reserve fund or any part thereof maintained with it by any
+other co-operative society within its area of operation, and in the case of a
+Central Co-operative Bank, also an advance taken by it from the State
+Co-operative Bank of the State concerned;
+(iv) in the case of a
+Primary Co-operative Bank, also any advance taken by it from the State
+Co-operative Bank of the State concerned or the Central Co-operative Bank of
+the district concerned;
+(v) in the case of any
+Co-operative Bank, which has granted an advance against any balance maintained with
+it, such balance to the extent of the amount outstanding in respect of such
+advance; and
+(vi) in the case of
+any Co-operative Bank, the amount of any advance or other credit arrangement
+drawn and availed of against approved securities;
+(b) "fortnight" shall mean the
+period from Saturday to the second following Friday, both days inclusive;
+(c) "net balance in current
+accounts" shall, in relation to a Co-operative Bank, mean the excess, if
+any, of the aggregate of the credit balances in current account maintained by
+that Co-operative Bank with the State Bank of India or a subsidiary bank or a
+corresponding new bank, over the aggregate of the credit-balances in current
+accounts held by the said banks with such Co-operative Bank;
+(d) for the purpose of computation of
+liabilities, the aggregate of the liabilities of a Co-operative Bank to the
+State Bank of India, a subsidiary bank, a corresponding new bank, a Regional
+Rural Bank, a banking company or any other financial institution notified by the
+Central Government in this behalf shall be reduced by the aggregate of the
+liabilities of all such banks and institutions to the Co-operative Bank;
+(e) any cash with a Co-operative Bank or any
+balance held by a Co-operative Bank with another bank, shall not, to the extent
+such cash or such balance represents the balance in, or investment of,
+Agricultural Credit Stabilization Fund of such Co-operative Bank, be deemed to
+be cash maintained in India.(2) The Reserve Bank may, for the purposes of this
+section and section 24, specify from time to time, with reference to any
+transaction or class of ,transactions, that such transaction or transactions
+shall be regarded as liability in India of a Co-operative Bank, and, ' if any
+question arises as to whether any transaction or class of transactions shall be
+regarded for the purposes of this section and section 24, as liability in India
+of a Co -operative Bank, the decision of the Reserve Bank thereon shall be
+final."];
+(k) for section 19, the following section shall
+be substituted, namely,
+"19. Restriction on holding shares in
+other co-operative societies-No Co-operative Bank shall hold shares in any
+other co-operative society except to such extent and subject to such conditions
+as the Reserve Bank may specify in that behalf:
+PROVIDED that nothing contained in this section
+shall apply to:-
+(i) shares acquired through funds provided by
+the State Government for that purpose;
+(ii) in the case of a Central Co-operative
+Bank, the holding of shares in the State Co-operative Bank to which it is
+affiliated;
+(iii) in the case of a primary Co-operative
+Bank, the holding of shares in the Central Co-operative Bank to which it is
+affiliated or in the State Co-operative Bank of the State in which it is
+registered:
+PROVIDED FURTHER that where any shares
+are held by a Co-operative Bank in contravention of this section at the
+commencement of the Banking Laws (Application to Co-operative Societies) Act,
+1965 (23 of 1965), the Co-operative Bank shall without delay report the matter
+to the Reserve Bank and shall, notwithstanding anything contained in this
+section, be entitled to hold the shares for such period and on such conditions
+as the Reserve Bank may specify".;
+(1) for section 20 of the principal Act, the
+following section shall be substituted, namely-
+"20. Restrictions on loans and
+advances-No Co-operative Bank shall-
+(a) make any loans or
+advances on the security of its own shares; or
+(b) grant unsecured
+loans or advances:
+(i) to any of its
+Directors; or
+(ii) to firms or
+private companies in which any of its Directors is interested as Partner or
+Managing Agent or Guarantor or to individuals in cases where any of its
+Directors is a guarantor; or
+(iii) to any company
+in which the Chairman of the Board of Directors of the Co-operative Bank (where
+the appointment of a Chairman is for a fixed term) is interested as its
+Managing Agent, or where there is no Managing Agent, as its Chairman or
+Managing Director:
+PROVIDED that nothing in clause (b) shall apply
+to the grant of unsecured loans or advances-
+(a) made by a Co-operative Bank-
+(i) against bills for
+supplies or services made or rendered to government or bills of exchange
+arising out of bona fide commercial or trade transactions, or
+(ii) in respect
+whereof trust-receipts are furnished to the Co-operative Bank;
+(b) made by a Primary Co-operative Bank to any
+of its Directors or to any other person within such limits and on such terms
+and conditions as may be approved by the Reserve Bank in this behalf.
+(2) Every Co-operative Bank shall, before the
+close of the month succeeding that to which the return relates, submit to the
+Reserves Bank a return in the prescribed form and manner showing all unsecured
+loans and advances granted by it to companies in cases [other than those in
+which the Co-operative Bank is prohibited under sub-section (1) to make
+unsecured loans and advances] in which any of its Directors is interested as
+Director or Managing Agent or Guarantor.
+(3) If, on examination of any return submitted
+under sub-section (2), it appears to the Reserve Bank that any loans or
+advances referred to in that sub-section are being granted to the detriment of
+the interests of the depositors of the Co-operative Bank, the Reserve Bank may,
+by order in writing, prohibit the Co-operative Bank from granting any such
+further loans or advances or impose such restrictions on the grant thereof as
+it thinks fit, and may by like order direct the Co-operative Bank to secure
+repayment of such loans or advances within such time as may be specified in the
+order."];
+(m) in section 20A, in sub-section (1).-
+(i) the words and
+figures "Notwithstanding anything to the contrary contained in section 293
+of the Companies Act, 1956 (1 of 1956)" shall be omitted;
+(ii) in clause (a),
+for the words "any of its Directors" the words" any of its past
+or present directors" shall be substituted.]
+(n) in section 21, in sub-section (2), in
+clause (c) and (d), for the words "any one company, firm, association of
+persons or individual", the words "any one party" shall be
+substituted;
+(o) in section 22:-
+(i) for sub-sections
+(1) and (2), the following sub-sections shall be substituted, namely,-
+"(1) Save as
+hereinafter provided, no co-operative society shall carry on banking business
+in  India unless:-
+(a) it is
+a primary credit society, or
+(b) it is a
+Co-operative Bank and holds a license issued in that behalf by the Reserve
+Bank, subject to such conditions, if any, as the Reserve Bank may deem fit to
+impose:
+PROVIDED that nothing in this
+sub-section shall apply to a co-operative society, not being a primary credit
+society or a Co-operative Bank carrying on banking business at the commencement
+of the Banking Laws (Application to Co-operative Societies) Act, 1965 (23 of
+1965), for a period of one year from such commencement.
+(2) Every co-operative
+society carrying on business as Co-operative Bank at the commencement of the
+Banking Laws (Application to Co-operative Societies) Act, 1965 (23 of 1965),
+shall before the expiry of three months from such commencement, every
+Co-operative Bank which comes into existence as a result of the division of any
+other co-operative society carrying on business as a Co-operative Bank, or the
+amalgamation of two or more co-operative societies carrying on banking business
+shall, before the expiry of three months from its so coming into existence,
+every primary credit society which becomes a Primary Co-operative Bank after
+such commencement shall before the expiry of three months from the date on
+which it so becomes a Primary Co-operative Bank and every co-operative society
+other than a primary credit society shall before commencing banking business in
+India, apply in writing to the Reserve Bank for a license under this section:
+PROVIDED that nothing in
+clause (b) of sub-section (1) shall be deemed to prohibit,-
+(i) a co-operative
+society carrying on business as a Co-operative Bank at the commencement of the
+Banking Laws (Application to Co-operative Societies) Act, 1965 (23 of 1965); or
+(ii) a Co-operative
+Bank which has come into existence as a result of the division of any other
+co-operative societies carrying on business as a Co-operative Bank, or the
+amalgamation of two or more co-operative societies carrying on banking business
+at the commencement of the Banking Laws (Application to Co-operative Societies)
+Act, 1965 (23 of 1965), or at any time thereafter; or
+(iii) a primary credit
+society which becomes a Primary Co-operative Bank after such commencement, from
+carrying on banking business until it is granted a license in pursuance of this
+section or is, by a notice in writing notified by the Reserve Bank that the
+license cannot be granted to it.]
+253[(ii) sub-section
+(3A) shall be omitted;
+(iii) in sub-section
+(4),in clause (iii), the words, brackets, figures and letters "and sub-
+section (3A)" shall be omitted;]
+(p) 273[in section 23-
+(i) for sub-section
+(1), the following sub-section shall be substituted, namely-
+"(1) Without
+obtaining the prior permission of the Reserve Bank, no Co-operative Bank shall
+open a new place of business or change otherwise than within the same city,
+town or village, the location of an existing place of business:
+PROVIDED that nothing in this
+sub-section shall apply to-
+(a) the opening for a
+period not exceeding one month of a temporary place of business within a city,
+town or village or the environs thereof within which the Co-operative Bank
+already has a place of business, for the purpose of affording banking
+facilities to the public on the occasion of an exhibition, a conference or a
+mela or any other like occasion;
+(b) the 280[opening or
+changing the location of branches] by a Central Co-operative Bank within the
+area of its operation.";
+253[(ii) after
+sub-section (4), the following sub-section shall be inserted, namely,-
+"(4A) Any
+Co-operative Bank other than a Primary Co-operative Bank requiring the
+permission of the Reserve Bank under this section shall forward its application
+to the Reserve Bank though the National Bank which shall give its comments on
+the merits of the application and send it to the Reserve Bank:
+PROVIDED that the Co-operative
+Bank shall also send an advance copy of the application directly to the Reserve
+Bank."];
+275[(q) in section 24:-
+(i) in sub-section
+(1), the words "After the expiry of two years from the commencement of
+this Act", shall be omitted;
+(ii) for sub-sections
+(2) and (2A), the following sub-section shall be substituted, namely: -
+"(2) In computing
+the amount for the purposes of sub-section (1),-
+(a) any balances
+maintained in India by a Co-operative Bank in current account with the Reserve
+Bank or by way of net balance in current accounts, and in the case of a
+Scheduled State Co-opera6ve Bank, also the balance required under section 42 of
+the Reserve Bank of India Act, 1934 (2 of 1934), to be so maintained;
+(b) any balances
+maintained by a Central Co-operative Bank with the State Co-operative Bank of
+the State concerned, and
+(c) any balances
+maintained by a Primary Co-operative Bank with Central Co-operative Bank of the
+district concerned or with the State Co-operative Bank of the State concerned,
+shall be deemed to be cash maintained in India.
+(2A) (a)
+Notwithstanding anything contained in sub-section (1) or in sub-section (2),
+after the expiry of two years from the commencement of the Banking Laws
+(Application to Co-operative Societies) Act, 1965 (23 of 1965), or of such
+further period not exceeding one year as the Reserve Bank having regard to the
+interests of the Co-operative Bank concerned, may think fit in any particular
+case to allow-
+(i) a Scheduled State Co-operative Bank, in
+addition to the cash reserve which it is required to maintain under section 18,
+shall maintain in India, in cash, or in gold valued at a price not exceeding
+the current market price or in unencumbered approved securities valued at a
+price determined in accordance with such one or more of, or combination of, the
+following methods of valuation, namely, valuation with reference to cost price,
+market price, book value or face value as may be specified by the Reserve Bank
+from time to time, an amount which shall not, at the close of business on any
+day, be less than twenty-five per cent or such other percentage not exceeding
+forty per cent as the Reserve Bank may, from time to time, by notification in
+the Official Gazette, specify, of the total of its demand and time liabilities
+in India, as on the last Friday of the second preceding fortnight.
+(b) In computing the amount for the purpose of
+clause (a), the following shall be deemed to be cash maintained in India namely,-
+(i) any balance
+maintained by a Scheduled State Co-operative Bank with the Reserve Bank in
+excess of the balance required to be maintained by it under section 42 of the
+Reserve Bank of India Act, 1934 (2 of 1934);
+(ii) any cash or
+balances maintained in India by a Co-operative Bank, other than a Scheduled
+State Co-operative Bank, with itself or with the State Co-operative Bank of the
+State concerned, or in current account with the Reserve Bank or by way of net
+balance in current accounts and, in the case of a Primary Co-operative Bank
+also any balances maintained with the Central Co-operative Bank of the district
+concerned, in excess of the aggregate of the cash or balances required to be
+maintained under section 18;
+(iii) any net balance
+in current accounts.
+Explanation: For the purposes of this sub-section-
+(a) approved securities, or a portion thereof,
+representing investment of monies of Agricultural Credit Stabilization Fund to
+a Co-operative Bank shall not be deemed to be unencumbered approved securities;
+(b) in case a Co-operative Bank has taken an
+advance against any balance maintained with the State Co-operative Bank of the State
+concerned or with the Central Co-operative Bank of the district concerned, such
+balance to the extent to which it has been drawn against or availed of shall
+not be deemed to be cash maintained in India;
+(c) for the purpose of clause (a), the market
+price of an approved security shall be the price as on the date of the issue of
+the notification or as on any earlier or later date, as may be notified from
+time to time by the Reserve Bank in respect of any class or classes of
+securities;
+(iii) in sub-section (3), for the proviso, the
+following proviso shall be substituted, namely-
+"PROVIDED that every Co-operative
+Bank, other than a Primary Co-operative Bank, shall also furnish within the
+said period, a copy of the said return to the National Bank.";
+(iv) in sub-section (6), in clause (a), for
+the words "fourteen days", the words "thirty days" shall be
+substituted.];
+(qq) after section 24, the following section
+shall be inserted, namely,-
+"24. Power to exempt-Without prejudice to
+the provisions of Section 53, the Reserve Bank may, by notification in the
+Official Gazette declare that, for such period and subject to such conditions
+as may be specified in such notification the whole or any part of the
+provisions of section 18 or section 24, as may be specified therein, shall not
+apply to any Co-operative Bank or class of Co-operative Banks, with reference
+to all or any of the offices of such Co-operative Bank or banks, or with
+reference to the whole or any part of the assets and liabilities of such
+Co-operative Bank or banks."];
+(r) Section 25 shall be omitted;
+(ri) in the second proviso to section 26, for
+the expression "Regional Rural Bank", the expression
+"Co-operative Bank, other than a primary Co-operative Bank shall be
+substituted;
+(rii) in section 27, for sub-section (3), the
+following sub-section shall be substituted, namely,-
+"(3) Every Co-operative Bank, other than
+a Primary Co-operative Bank shall submit a copy of the return which it submits
+to the Reserve Bank, under sub-section (1) also to the National Bank and the
+powers exercisable by the Reserve Bank under sub-section (2) may also be
+exercised by the National Bank in relation to Co-operative Banks, other than
+Primary Co-operative Bank."];
+(s) for sections 29 and 30, the following
+section shall be substituted, namely,
+"29. Accounts and balance-sheet-(1) At
+the expiration of each year ending with the 30th day of June or at the
+expiration of a period of twelve months ending with such date as the Central
+Government may, by notification in the Official Gazette, specify in this
+behalf, every Co-operative Bank, in respect of all business transacted by it,
+shall prepare with reference to that. year 283[for the period] a balance-sheet
+and profit and loss account as on the last working day of the year 283[or the
+period] in the Forms set out in the Third Schedule or as near thereto as
+circumstances admit:
+PROVIDED that with a view to facilitating the
+transition from one period of accounting to another period of accounting under
+this sub-section, the Central Government may, by order published in the
+Official Gazette, make such provisions as it considers necessary or expedient
+for the preparation of, or for other matters relating to the balance-sheet or
+profit and loss account in respect of the concerned year or period, as the case
+may be.
+(2) The balance-sheet and profit and loss
+account shall be signed by the manager or the principal officer of the bank and
+where there are more than three Directors of the bank, by at least three of
+those Directors, or where there are not more than three Directors, by all the
+Directors.
+(3) The Central Government, after giving not
+less than three months 'notice of its intention so to do by a notification in
+the Official Gazette, may from time to time by a like notification amend the
+Forms set out in the Third Schedule.";
+(t) in section 31,-
+(i) for words
+"within three months" and "of three months", the words
+"within six months" and "of six months" shall,
+respectively, be substituted;
+(ii) for the second
+proviso, the following proviso shall be substituted namely:
+"PROVIDED FURTHER that a
+Co-operative Bank, other than a Primary Co-operative Bank shall furnish such
+returns also to the National Bank."];
+(u) Sections 32 to 34 shall be omitted;
+(v) in section 34A, sub-section (3) shall be
+omitted;
+(w) in section 35,-
+(i) in sub-section
+(1),
+(a) for the words and
+figures, "section 235 of the Companies Act, 1956 (1 of 1956)", the
+words "any law relating to co-operative societies for the time being in
+force" shall be substituted;
+(b) the following
+proviso shall be inserted at the end, namely,-
+"PROVIDED that the Reserve Bank
+may, if it considers it necessary or expendient so to do, cause an inspection
+to be made of a Primary Co-operative Bank under this sub-section by one or more
+officers of a State Co-operative Bank in the State in which such primary
+co-operative Bank is registered."];
+(ii) in sub-section (4), clause (b) shall be
+omitted;
+(iii) after sub-section (4), the following
+sub-section shall be inserted, namely-
+"(4A) Without prejudice to the provisions
+of sub-section (4), the Reserve Bank may, if it considers it necessary or
+expedient so to do supply a copy of the report on any inspection or scrutiny to
+the State Co-operative Bank and the Registrar of Co-operative Societies of the
+State in which the bank which has been inspected or whose affairs have been
+scrutinized is registered."];
+(IV) in sub-section (6), for the expression
+"Regional Rural Banks" and "Regional Rural Bank", wherever
+they occur, the expressions "Co-operative Banks other than primary
+Co-operative Banks". and "Co-operative Bank other than a primary
+Co-operative Bank" shall, respectively be substituted];
+(V)] the Explanation shall be omitted;
+(x) in section 35A, in sub-section (1), in
+clause (c), for the words "any banking company", the words "the
+banking business of any Co-operative Bank" shall be substituted;
+(y) section 35B shall be omitted;
+(z) in section 36 in sub-section (1):-
+(a) clause (b) shall
+be omitted;
+(b) for clause (d),
+the following clause shall be substituted, namely,-
+"(d) at any time
+if it is satisfied that for the reorganization or expansion of co-`perative
+credit on sound lines it is necessary so to do, by an order in writing and on
+such terms and conditions as may be specified therein-
+(i) depute one or more
+of its officers to watch the proceedings at any meeting of the Board of
+Directors of the Co-operative Bank or of any other body constituted by it and
+require the Co-operative Bank to give an opportunity to the officer so deputed
+to be heard at such meeting and to offer such advice on such matters as the
+officer may consider necessary or proper for the reorganization and expansion
+of co-operative credit on sound lines, and also require such officer to send a
+report of such proceedings to the Reserve Bank;
+(ii) appoint one or
+more of its officers to observe the manner in which the affairs of the
+Co-operative Bank or its offices or branches are being conducted and make a
+report thereon;"];
+(za) in section 36A-
+(i) for sub-section
+(1), the following sub-section shall be substituted, namely,-
+"(1) The
+provisions of section 11, section 18 and section 24 shall not apply to a
+Co-operative Bank which has been refused a license under section 22 or whose
+license has been cancelled under that section or which is or has been
+prohibited or precluded from accepting deposits by virtue of any order made
+under this Act or of any alteration made in its bye-laws.";
+(ii) after sub-section
+(2), the following sub-section shall be inserted, namely,-
+"(3) Subject to
+the provisions of sub-sections (1) and (2), a co-operative society carrying on
+business as a Primary Co-operative Bank at the commencement of the Banking Laws
+(Application to Co-operative Societies) Act, 1965 (23 of 1965), or a
+co-operative society which becomes a Primary Co-operative Bank after such
+commencement shall, notwithstanding that it does not at any time thereafter
+satisfy the requirements of the definition of Primary Co-operative Bank in
+clause (ccv) of section 5], continue to be a Primary Co-operative Bank within
+the meaning of this Act, and may, with the approval of the Reserve Bank and
+subject to such terms and conditions as the Reserve Bank may specify in that
+behalf continue to carry on the business of banking.";
+(zaa) in section 36AD, sub-section (3) shall
+be omitted;]
+(zb) Part IIA 258[Part II, Part III, except
+sub-sections (1), (2) and (3) of section 45, and Part IIIA except section 45W
+shall be omitted;
+(zc) in section 46-
+(i) in sub-section
+(4), the word "or" occurring at the end of clause (i) and clause (ii)
+shall be omitted;
+(ii) in clause (a) of
+the Explanation, after the words "includes a", the words "co-operative
+society" shall be inserted;]
+(zd) in section 47, the words, brackets,
+figures and letters "sub-section (5) of section 36AA or" shall be
+omitted;
+(ze) section 49 shall be omitted;
+(zf) in section 49A, for the proviso, the
+following proviso shall be substituted, namely,-
+"PROVIDED that nothing contained
+in this section shall apply to,-
+(a) a primary credit society;
+(b) any other co-operative society accepting
+such deposits at the commencement of the Banking Laws (Application to Co-operative
+Societies) Act, 1965 (23 of 1965), for a period of one year from the date of
+such commencement; and
+(c) any savings bank scheme run by the
+government." ;
+(zg) sections 49B and 49C shall be omitted;
+(zh) in section 50, the figures and letters
+"10, 12A, 16", "35B", and "43A" shall be omitted;
+(zi) section 51 shall be omitted;
+(zj) in section 52-
+(i) in sub-section(2),
+the words, figures and letter, "and the form in which the official
+liquidator may file lists of debtors to the court having jurisdiction under
+
+## Part III or Part IIIA and the particulars which such lists may contain"
+
+shall be omitted;
+(ii) sub-section (4)
+shall be omitted; 289[(zji) in section 54, after the expression "Reserve
+Bank", where it occurs, the expression "or the National Bank"
+shall be inserted.;]
+(zk) for section 55 and the First Schedule,
+the following section shall be substituted, namely:-
+"55. Act 18 of 1891 and Act 46 of 1949 to
+apply in relation to Co-operative Banks—
+(1) The Bankers"
+Books Evidence Act, 1891 shall apply in relation to a Co-operative Bank as it
+applies in relation to a bank as defined in section 2 of that Act.
+(2) The Banking
+Companies (Legal Practitioner's Client's Accounts) Act, 1949 shall apply in
+relation to a Co-operative Bank as it applies in relation to a banking company
+as defined in section 2 of that Act.";
+(zl) For Schedule III and Schedule IV, the
+following Schedule shall be substituted, namely:
+Banking Regulation Act, 1949
+
+6. Form and business in which banking
+companies may engage
+(1) In addition to the business of banking, a
+banking company may engage in any one or more of the following forms of
+business, namely,-
+(a) the borrowing,
+raising, or taking up of money; the lending or advancing of money either upon
+or without security; and drawing, making, accepting, discounting, buying,
+selling, collecting and dealing in bills of exchange, hundies, promissory
+notes, coupons, drafts, bill of lading, railway receipts, warrants, debentures,
+certificates, scrips and other instruments, and securities whether transferable
+or negotiable or not; the granting and issuing of letters of credit, travelers'
+cheques and circular notes; the buying, selling and dealing in bullion and
+specie; the buying and selling of foreign exchange including foreign bank
+notes; the acquiring, holding, issuing on commission, underwriting and dealing
+in stock, funds, shares, debentures, debenture stock, bonds, obligations,
+securities and investments of all kinds; the purchasing and selling of bonds,
+scrips or other forms of securities on behalf of constituents or others; the
+negotiating of loan and advances; the receiving of all kinds of bonds, scrips
+or valuables on deposit or for safe custody or otherwise; the providing of safe
+deposit vaults; the collecting and transmitting of money and securities;
+(b) acting as agents
+for any government or local authority or any other person or persons; the
+carrying on of agency business of any description including the clearing and
+forwarding of goods, giving of receipts and discharges and otherwise acting as
+an attorney on behalf of customers, but excluding the business of a 30[Managing
+Agent or Secretary and Treasurer] of a company;
+(c) contracting for
+public and private loans and negotiating and issuing the same;
+(d) the effecting,
+insuring, guaranteeing, underwriting, participating in managing and carrying
+out of any issue, public or private, of State, municipal or other loans or of
+shares, stock, debentures or debenture stock of any company, corporation or
+association and the lending of money for the purpose of any such issue;
+(e) carrying on and
+transacting every kind of guarantee and indemnity business;
+(f) managing, selling
+and realizing any property which may come into the possession of the company in
+satisfaction or part satisfaction of any of its claims;
+(g) acquiring and holding
+and generally dealing with any property or any right, title or interest in any
+such property which may form the security or part of the security for any loans
+or advances or which may be connected with any such security;
+(h) undertaking and
+executing trusts;
+(i) undertaking the
+administration of estates as executor, trustee or otherwise;
+(j) establishing and
+supporting or aiding in the establishment and support of associations,
+institutions, funds, trusts, and conveniences calculated to benefit employees
+or ex-employees of the company or the dependents or connections of such
+persons; granting pension and allowances and making payments towards insurance;
+subscribing to or guaranteeing moneys for charitable or benevolent object or
+for any exhibition or for any public, general or useful object;
+(k) the acquisition,
+construction, maintenance and alteration of any building or works necessary or
+convenient for the purpose of the company;
+(l) selling,
+improving, managing, developing, exchanging, leasing, mortgaging, disposing of
+or turning into account or otherwise dealing with all or any part of the
+property and rights of the company;
+(m) doing all such
+other things as are incidental or conducive to the promotion or advancement of
+the business of the company;
+(o) any other form of
+business which the Central Government may, by notification in the Official
+Gazette, specify as a form of business in which it is lawful for a banking
+company to engage.
+(2) No banking company shall engage in any form
+of business other than those referred to in sub-section (1).
+Banking Regulation Act, 1949
+
+7. Use of words "bank", "banker", "banking" or "banking company"
+(1) No company other than a banking company
+shall use as part of its name 15[or, in connection with its business] any of
+the words "bank", "banker" or "banking" and no
+company shall carry on the business of banking in India unless it uses as part
+of its name at least one of such words.
+(2) No firm, individual or group of
+individuals shall, for the purpose of carrying on any business, use as part of
+its or his name any of the words "bank", "banking" or
+"banking company".
+(3) Nothing in this section shall apply to-
+(a) a subsidiary of a
+banking company formed for one or more of the purposes mentioned in sub-section
+(1) of section 19, whose name indicates that it is a subsidiary of that banking
+company;
+(b) any association of
+banks formed for the protection of their mutual interests and registered under
+section 25 of the Companies Act, 1956 (1 of 1956).]
+Banking Regulation Act, 1949
+
+8. Prohibition of trading
+Notwithstanding anything contained in section
+6 or in any contract, no banking company shall directly or indirectly deal in
+the buying or selling or bartering of goods, except in connection with the
+realization of security given to or held by it, or engage in any trade, or buy,
+sell or barter goods for others otherwise than in connection with bills of
+exchange received for collection or negotiation or with such of its business as
+is referred to in clause (i) of sub-section (1) of section 6:
+PROVIDED that this section shall not apply to
+any such business as is specified in pursuance of clause (o) of sub-section (1)
+of section 6.
+Explanation: For the purposes of this section,
+"goods" means every kind of movable property, other than actionable
+claims, stock, shares, money, bullion and specie and all instruments referred
+to in clause (a) of sub-section (1) of section 6.
+Banking Regulation Act, 1949
+
+9. Disposal of non-banking assets
+Notwithstanding anything contained in section
+6, no banking company shall hold any immovable property howsoever acquired,
+except such as is required for its own use, for any period exceeding seven years
+from the acquisition thereof or from the commencement of this Act, whichever is
+later or any extension of such period as in this section provided, and such
+property shall be disposed of within such period or extended period, as the case
+may be:
+PROVIDED that the banking company may, within the
+period of seven years as aforesaid, deal or trade in any such property for the
+purpose of facilitating the disposal thereof:
+PROVIDED FURTHER that the Reserve Bank
+may in any particular case extend the aforesaid period of seven years by such
+period not exceeding five years where it is satisfied that such extension would
+be in the interests of the depositors of the banking company.

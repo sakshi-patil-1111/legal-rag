@@ -1,0 +1,12 @@
+{
+    "document_id": "constitution_of_india.txt",
+    "status": "PASS",
+    "errors": [],
+    "warnings": [],
+    "stats": {
+        "total_blocks": 64,
+        "parts": 1,
+        "chapters": 1,
+        "sections": 30
+    }
+}

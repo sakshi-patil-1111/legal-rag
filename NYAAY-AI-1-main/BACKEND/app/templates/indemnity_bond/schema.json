@@ -1,0 +1,9 @@
+{
+  "mandatory_fields": [
+    "executant_name",
+    "beneficiary_name",
+    "reason_for_indemnity",
+    "maximum_liability_amount"
+  ],
+  "optional_fields": []
+}

@@ -1,0 +1,427 @@
+{
+  "HOMEBUYER": {
+    "query": "Developer delayed possession by 4 years, refuses to refund money or pay interest. Force majeure clause being misused. RERA provisions and Supreme Court precedent.",
+    "sc_query_used": "Supreme Court precedent Delay in possession builder refund with interest under RERA Section 18",
+    "sc_candidates_ranked": [
+      {
+        "rank": 1,
+        "source_name": "INDIA CARBON LTD., ETC. v. THE STATE OF ASSAM",
+        "case_name": "INDIA CARBON LTD., ETC. v. THE STATE OF ASSAM",
+        "domain": "Constitutional & Administrative",
+        "score": 0.8065704107284546
+      },
+      {
+        "rank": 2,
+        "source_name": "INDIA CARBON LTD., ETC. v. THE STATE OF ASSAM",
+        "case_name": "INDIA CARBON LTD., ETC. v. THE STATE OF ASSAM",
+        "domain": "Constitutional & Administrative",
+        "score": 0.015516228973865509
+      },
+      {
+        "rank": 3,
+        "source_name": "PRATIBHA PROCESSORS & ORS. v. UNION OF INDIA & ORS.",
+        "case_name": "PRATIBHA PROCESSORS & ORS. v. UNION OF INDIA & ORS.",
+        "domain": "Constitutional & Administrative",
+        "score": -0.6909911632537842
+      },
+      {
+        "rank": 4,
+        "source_name": "R.K. MOHAMMED UBAIDULLAH & ORS. v. HAJEE C.ABDUL WAHAB (D) & ORS.",
+        "case_name": "R.K. MOHAMMED UBAIDULLAH & ORS. v. HAJEE C.ABDUL WAHAB (D) & ORS.",
+        "domain": "Constitutional & Administrative",
+        "score": -1.924147605895996
+      },
+      {
+        "rank": 5,
+        "source_name": "DLF HOME DEVELOPERS LIMITED v. RAJAPURA HOMES PRIVATE LIMITED",
+        "case_name": "DLF HOME DEVELOPERS LIMITED v. RAJAPURA HOMES PRIVATE LIMITED",
+        "domain": "Constitutional & Administrative",
+        "score": -2.02073073387146
+      },
+      {
+        "rank": 6,
+        "source_name": "PRATIBHA PROCESSORS & ORS. v. UNION OF INDIA & ORS.",
+        "case_name": "PRATIBHA PROCESSORS & ORS. v. UNION OF INDIA & ORS.",
+        "domain": "Constitutional & Administrative",
+        "score": -2.5488579273223877
+      },
+      {
+        "rank": 7,
+        "source_name": "DLF HOME DEVELOPERS LIMITED v. RAJAPURA HOMES PRIVATE LIMITED",
+        "case_name": "DLF HOME DEVELOPERS LIMITED v. RAJAPURA HOMES PRIVATE LIMITED",
+        "domain": "Constitutional & Administrative",
+        "score": -2.9948010444641113
+      },
+      {
+        "rank": 8,
+        "source_name": "DLF HOME DEVELOPERS LIMITED v. RAJAPURA HOMES PRIVATE LIMITED",
+        "case_name": "DLF HOME DEVELOPERS LIMITED v. RAJAPURA HOMES PRIVATE LIMITED",
+        "domain": "Constitutional & Administrative",
+        "score": -3.2644028663635254
+      },
+      {
+        "rank": 9,
+        "source_name": "DENA BANK v. BHIKHABHAI PRABHUDAS PAREKH & CO. & ORS.",
+        "case_name": "DENA BANK v. BHIKHABHAI PRABHUDAS PAREKH & CO. & ORS.",
+        "domain": "Constitutional & Administrative",
+        "score": -3.7744810581207275
+      },
+      {
+        "rank": 10,
+        "source_name": "DLF HOME DEVELOPERS LIMITED v. RAJAPURA HOMES PRIVATE LIMITED",
+        "case_name": "DLF HOME DEVELOPERS LIMITED v. RAJAPURA HOMES PRIVATE LIMITED",
+        "domain": "Constitutional & Administrative",
+        "score": -6.341098308563232
+      }
+    ],
+    "final_context_total": 8,
+    "final_context_sc": 5,
+    "final_context_sc_names": [
+      "INDIA CARBON LTD., ETC. v. THE STATE OF ASSAM",
+      "DLF HOME DEVELOPERS LIMITED v. RAJAPURA HOMES PRIVATE LIMITED",
+      "DLF HOME DEVELOPERS LIMITED v. RAJAPURA HOMES PRIVATE LIMITED",
+      "DLF HOME DEVELOPERS LIMITED v. RAJAPURA HOMES PRIVATE LIMITED",
+      "INDIA CARBON LTD., ETC. v. THE STATE OF ASSAM"
+    ],
+    "answer": "## Executive Summary\n\n* **Refund and Interest Rights**: If a promoter fails to complete or give possession of an apartment by the specified date, an allottee wishing to withdraw is entitled under **RERA Section 18** to a full refund of the amount received, along with interest and compensation [2].\n* **Force Majeure Limitations**: A force majeure clause only extends timelines for the specific period that the qualifying event subsists, provided the seller takes reasonable steps to mitigate its impact [3, 4, 9]; it cannot be arbitrarily misused to excuse indefinite delays.\n* **Statutory Nature of Interest**: Provisions for levying and charging interest on delayed payments or refunds are substantive laws that require explicit statutory backing [1, 20].\n* **Missing Authorities**: The available retrieval does not contain specific Supreme Court precedents directly addressing the interplay between RERA Section 18 and force majeure misuse, nor specific consumer protection jurisprudence on builder refusal of refunds; the analysis is restricted to the text of RERA Section 18 [2] and contract clauses from the retrieved materials [3, 4, 9].\n\n## Detailed Answer\n\n### 1. Delay in Possession and Builder Refund with Interest Under RERA Section 18\nUnder Section 18 of the Real Estate (Regulation and Development) Act, 2016 (RERA), if a promoter fails to complete or is unable to give possession of an apartment, plot, or building in accordance with the terms of the agreement for sale by the specified date, the allottee has the right to withdraw from the project [2]. If the allottee chooses to withdraw, the promoter is liable on demand to return the amount received with interest at the prescribed rate, along with applicable compensation, without prejudice to any other available remedy [2].\n\n### 2. Misuse of Force Majeure Clause in Builder-Buyer Agreements\nContractual and statutory frameworks permit timeline extensions due to force majeure events only under strict conditions [3, 4, 9]. Specifically, the timeline for project completion or construction obligations is extended only for the exact period that the force majeure event subsists, and such extension is contingent upon the seller taking reasonable steps to mitigate or minimize the impact of the event [3, 4, 9]. Misusing a force majeure clause beyond the actual subsistence of the event or without taking mitigating steps does not legally justify an indefinite delay in handing over possession.\n\n### 3. Legal Nature of Interest and Statutory Frameworks\nThe Supreme Court of India has established that provisions for charging or levying interest are substantive laws rather than mere procedural rules [1, 20]. Interest cannot be arbitrarily imposed or denied without a substantive statutory provision authorizing it [1, 20]. Under RERA Section 18, the statutory right to demand a return of the amount with interest upon a builder's default is a substantive remedy [2]. \n\n*(Note: The indexed corpus does not contain specific Supreme Court precedents directly ruling on the misuse of force majeure in delayed possession disputes under RERA.)*\n\n### 4. Consumer Protection and Builder Refusal\nWhile the retrieved text lists unfair trade practices under the Consumer Protection Act\u2014such as refusing to refund consideration for deficient services within stipulated periods or thirty days [5, 8]\u2014the available retrieval does not contain specific case law or provisions addressing a builder's refusal to issue refunds under consumer protection forums. Relief for delayed possession and refund refusals primarily operates through the statutory mandate of RERA Section 18 [2].\n\n## Next Steps\n1. **Issue Formal Demand**: Send a formal written demand to the developer citing RERA Section 18, requesting the immediate return of all principal amounts paid along with statutory interest and compensation due to the four-year delay [2].\n2. **Review Force Majeure Claims**: Examine the developer's justification for invoking the force majeure clause to verify whether a genuine, qualifying event actually subsisted for the duration claimed and whether the developer fulfilled their legal duty to mitigate the impact [3, 4, 9].\n3. **Approach Regulatory Authorities**: If the developer refuses to pay or wrongfully withholds the refund, file a formal complaint before the State Real Estate Regulatory Authority (RERA) seeking a refund and interest under Section 18 [2].\n\n## Relevant Authorities\n* Real Estate (Regulation and Development) Act, 2016 \u2014 Section 18 [2]\n* Supreme Court rulings on substantive provisions of interest (India Canada Ltd. v. State of Assam; J.K. Synthetics Ltd. v. Commercial Taxes Officer) [1, 20]\n* Supreme Court construction contract considerations (DLF Home Developers Limited v. Rajapura Homes Private Limited) [3, 4, 9]"
+  },
+  "ADVERSE_POSSESSION": {
+    "query": "What is the limitation period for adverse possession? Does permissive possession turn into hostile possession? Include Supreme Court precedent.",
+    "sc_query_used": "Supreme Court precedent Limitation period for adverse possession under Indian Limitation Act 1963",
+    "sc_candidates_ranked": [
+      {
+        "rank": 1,
+        "source_name": "Case: None v. Unknown Respondent",
+        "case_name": "Case: None v. Unknown Respondent",
+        "domain": "Constitutional & Administrative",
+        "score": 0.5976850986480713
+      },
+      {
+        "rank": 2,
+        "source_name": "Case: None v. Unknown Respondent",
+        "case_name": "Case: None v. Unknown Respondent",
+        "domain": "Constitutional & Administrative",
+        "score": 0.047519784420728683
+      },
+      {
+        "rank": 3,
+        "source_name": "Case: None v. Unknown Respondent",
+        "case_name": "Case: None v. Unknown Respondent",
+        "domain": "Constitutional & Administrative",
+        "score": -1.3484399318695068
+      },
+      {
+        "rank": 4,
+        "source_name": "Case: None v. Unknown Respondent",
+        "case_name": "Case: None v. Unknown Respondent",
+        "domain": "Constitutional & Administrative",
+        "score": -1.5129384994506836
+      },
+      {
+        "rank": 5,
+        "source_name": "Case: None v. Unknown Respondent",
+        "case_name": "Case: None v. Unknown Respondent",
+        "domain": "Constitutional & Administrative",
+        "score": -2.140200138092041
+      },
+      {
+        "rank": 6,
+        "source_name": "Case: None v. Unknown Respondent",
+        "case_name": "Case: None v. Unknown Respondent",
+        "domain": "Constitutional & Administrative",
+        "score": -2.6824088096618652
+      },
+      {
+        "rank": 7,
+        "source_name": "DLF HOME DEVELOPERS LIMITED v. RAJAPURA HOMES PRIVATE LIMITED",
+        "case_name": "DLF HOME DEVELOPERS LIMITED v. RAJAPURA HOMES PRIVATE LIMITED",
+        "domain": "Constitutional & Administrative",
+        "score": -3.0060715675354004
+      },
+      {
+        "rank": 8,
+        "source_name": "DAVINDER KUMAR v. JAGDISH SINGH",
+        "case_name": "DAVINDER KUMAR v. JAGDISH SINGH",
+        "domain": "Constitutional & Administrative",
+        "score": -3.785176992416382
+      },
+      {
+        "rank": 9,
+        "source_name": "JAGDISH MAVJI TANK v. HARRESH NAVNITRAI MEHTA",
+        "case_name": "JAGDISH MAVJI TANK v. HARRESH NAVNITRAI MEHTA",
+        "domain": "Constitutional & Administrative",
+        "score": -6.658102035522461
+      },
+      {
+        "rank": 10,
+        "source_name": "JAGBHIR SINGH v. P.K. TRIPATHI, CHIEF SECY., GOVT OF NCT OF DELHI .",
+        "case_name": "JAGBHIR SINGH v. P.K. TRIPATHI, CHIEF SECY., GOVT OF NCT OF DELHI .",
+        "domain": "Constitutional & Administrative",
+        "score": -7.2130045890808105
+      }
+    ],
+    "final_context_total": 15,
+    "final_context_sc": 8,
+    "final_context_sc_names": [
+      "Case: None v. Unknown Respondent",
+      "Case: None v. Unknown Respondent",
+      "Case: None v. Unknown Respondent",
+      "Case: None v. Unknown Respondent",
+      "Case: None v. Unknown Respondent",
+      "Case: None v. Unknown Respondent",
+      "Case: None v. Unknown Respondent",
+      "PANCHUGOPAL BARUA & ORS. v. UMESH CHANDRA GOSWAMI & ORS."
+    ],
+    "answer": "## Executive Summary\n\n* The available retrieval does not contain sufficient direct authority specifying the exact limitation period under the Indian Limitation Act, 1963 for adverse possession, as the relevant Schedule provisions are absent from the indexed corpus.\n* The available retrieval does not contain sufficient Supreme Court precedent or direct statutory provisions addressing whether or how permissive possession converts into hostile or adverse possession.\n* For any legal assessment regarding adverse possession or limitation periods, consult the specific articles of the Schedule to the Limitation Act, 1963 and established property jurisprudence.\n\n## Detailed Answer\n\nThe retrieved authorities in the corpus primarily address matters concerning lease agreements under the West Bengal Premises Tenancy Act, 1956 [1], contract limitations and company deed executions [2], general provisions of the Limitation Act, 1963 such as section definitions and savings clauses [5, 6, 9, 10, 12, 13], specific property dispute limitation periods under the Chit Funds Act, 1982 [18], and execution proceedings under the Code of Civil Procedure, 1908 [11, 16] or specific tenancy and agricultural land acts [14, 15, 17, 19]. \n\nBecause the indexed corpus lacks text containing the specific articles regarding adverse possession (such as Article 65 of the Limitation Act, 1963) or Supreme Court precedents discussing the direct conversion of permissive possession into adverse possession, this response cannot supply those missing legal rules, sections, or case names without violating the strict requirement to avoid hallucination and rely solely on retrieved text. \n\n* **Limitation Period for Adverse Possession:** The retrieved text does not contain the specific schedule or article governing the limitation period for adverse possession. (Missing Authority: Limitation Act, 1963, Schedule, Article 65).\n* **Permissive vs. Hostile Possession:** The retrieved text does not provide authority or Supreme Court precedent addressing the conversion of permissive possession into hostile or adverse possession. (Missing Authority: Supreme Court judgments on permissive user and adverse possession)."
+  },
+  "RAPE_CONSENT": {
+    "query": "What are the statutory presumptions regarding consent and absence of physical resistance in rape cases? What Supreme Court judgments establish the applicable principles?",
+    "sc_query_used": "Supreme Court precedent Section 114A Indian Evidence Act presumption of absence of consent in rape",
+    "sc_candidates_ranked": [
+      {
+        "rank": 1,
+        "source_name": "Case: None v. Unknown Respondent",
+        "case_name": "Case: None v. Unknown Respondent",
+        "domain": "Constitutional & Administrative",
+        "score": -0.22595925629138947
+      },
+      {
+        "rank": 2,
+        "source_name": "Case: None v. Unknown Respondent",
+        "case_name": "Case: None v. Unknown Respondent",
+        "domain": "Constitutional & Administrative",
+        "score": -0.6909001469612122
+      },
+      {
+        "rank": 3,
+        "source_name": "Case: None v. Unknown Respondent",
+        "case_name": "Case: None v. Unknown Respondent",
+        "domain": "Constitutional & Administrative",
+        "score": -1.2542657852172852
+      },
+      {
+        "rank": 4,
+        "source_name": "Case: None v. Unknown Respondent",
+        "case_name": "Case: None v. Unknown Respondent",
+        "domain": "Constitutional & Administrative",
+        "score": -1.7675942182540894
+      },
+      {
+        "rank": 5,
+        "source_name": "Case: None v. Unknown Respondent",
+        "case_name": "Case: None v. Unknown Respondent",
+        "domain": "Constitutional & Administrative",
+        "score": -2.67710280418396
+      },
+      {
+        "rank": 6,
+        "source_name": "NAVALSHANKAR ISHWARLAL DAVE AND ANR. v. Unknown Respondent",
+        "case_name": "NAVALSHANKAR ISHWARLAL DAVE AND ANR. v. Unknown Respondent",
+        "domain": "Constitutional & Administrative",
+        "score": -2.7847981452941895
+      },
+      {
+        "rank": 7,
+        "source_name": "State of M.P. RESPONDENT: Mishrilal (dead) & Ors. @ DATE OF JUDGMENT: 02/04/2003 BENCH: Y.K. SABHARWAL & H.K. SEMA JUDGMENT: SEMA,J. This appeal by special leave is preferred by the State against the ",
+        "case_name": "State of M.P. RESPONDENT: Mishrilal (dead) & Ors. @ DATE OF JUDGMENT: 02/04/2003 BENCH: Y.K. SABHARWAL & H.K. SEMA JUDGMENT: SEMA,J. This appeal by special leave is preferred by the State against the ",
+        "domain": "Constitutional & Administrative",
+        "score": -2.981421947479248
+      },
+      {
+        "rank": 8,
+        "source_name": "MADRU SINGH AND OTHERS v. STATE OF MADHYA PRADESH",
+        "case_name": "MADRU SINGH AND OTHERS v. STATE OF MADHYA PRADESH",
+        "domain": "Evidence Law",
+        "score": -4.960021018981934
+      },
+      {
+        "rank": 9,
+        "source_name": "State of West Bengal RESPONDENT: Kesoram Industries Ltd. and Ors. DATE OF JUDGMENT: 15/01/2004 BENCH: V.N.Khare CJI & R.C.Lahoti & B.N.Agarwal & S.B.Sinha & A.R.Lakshmanan JUDGMENT: JUDGMENT DELIVERED",
+        "case_name": "State of West Bengal RESPONDENT: Kesoram Industries Ltd. and Ors. DATE OF JUDGMENT: 15/01/2004 BENCH: V.N.Khare CJI & R.C.Lahoti & B.N.Agarwal & S.B.Sinha & A.R.Lakshmanan JUDGMENT: JUDGMENT DELIVERED",
+        "domain": "Civil & Procedural Law",
+        "score": -5.410986423492432
+      },
+      {
+        "rank": 10,
+        "source_name": "DEVENDRA SINGH SISODIYA v. RAMESH CHAND AGGARWAL .",
+        "case_name": "DEVENDRA SINGH SISODIYA v. RAMESH CHAND AGGARWAL .",
+        "domain": "Constitutional & Administrative",
+        "score": -6.168492317199707
+      }
+    ],
+    "final_context_total": 5,
+    "final_context_sc": 0,
+    "final_context_sc_names": [],
+    "answer": "## Executive Summary\n\n* **Presumption of Absence of Consent**: In prosecutions for specific aggravated forms of rape where sexual intercourse by the accused is proved, if the woman states in her evidence that she did not consent, the court **shall presume** that she did not consent [1, 2].\n* **Physical Resistance**: A woman who does not physically resist to an act of penetration **shall not** be regarded as consenting to the sexual activity solely by reason of that fact [3, 5].\n* **Immediate Steps**: The victim must report the incident to law authorities so that a medical examination can be promptly conducted by a registered medical practitioner within twenty-four hours in accordance with procedural mandates [10].\n* **Indexed Corpus Limitation**: The available retrieval does not contain Supreme Court judgments establishing the specific applicable principles or the text of Section 119 of the Bharatiya Sakshya Adhiniyam, 2023; therefore, analysis on those specific points cannot be provided from the corpus.\n\n## Detailed Answer\n\n### Statutory Presumptions Regarding Consent\n\nUnder the law, specific statutory provisions govern how courts must view consent during prosecutions for rape:\n\n* **Section 114A of the Indian Evidence Act, 1872**: In prosecutions for specified categories of rape under sub-section (2) of Section 376 of the Indian Penal Code, once sexual intercourse by the accused is proved and the question is whether it occurred without the woman's consent, if the woman testifies in court that she did not consent, the court **shall presume** that she did not give her consent [1, 2]. \n\n### Absence of Physical Resistance\n\nThe statutory definitions clarify that a lack of physical struggle does not legally imply consent:\n\n* **Definition of Consent and Lack of Resistance**: Consent is defined as an unequivocal voluntary agreement where a woman communicates willingness to participate in a specific sexual act through words, gestures, or any other verbal or non-verbal communication [3, 5]. \n* Crucially, the law provides that a woman who **does not physically resist** the act of penetration shall not, by reason of that fact alone, be regarded as consenting to the sexual activity [3, 5].\n\n### Supreme Court Precedents and Section 119 of the Bharatiya Sakshya Adhiniyam\n\nThe indexed corpus does not contain sufficient authority or text regarding Supreme Court precedents on the statutory presumption of consent in rape cases, nor does it contain the text of Section 119 of the Bharatiya Sakshya Adhiniyam. Consequently, direct analysis of these points cannot be provided from the retrieved authorities.\n\n### Next Steps\n\n* Ensure that any medical examination of a rape victim is conducted by a registered medical practitioner at a government or local authority hospital within twenty-four hours of receiving information relating to the offense, accompanied by proper consent [10].\n\n## Relevant Authorities\n\n* Indian Evidence Act, 1872, Section 114A [1, 2]\n* Indian Penal Code, 1860, Section 375 [3] / Bharatiya Nyaya Sanhita, 2023 [5]\n* Code of Criminal Procedure, 1973, Section 164A [10]"
+  },
+  "ILLEGAL_ARREST": {
+    "query": "Can a person be detained for more than 24 hours without being produced before a Magistrate? What are the grounds of arrest under CrPC/BNSS? Give Supreme Court judgments.",
+    "sc_query_used": "Supreme Court precedent Detention beyond 24 hours without Magistrate production Article 22 CrPC BNSS",
+    "sc_candidates_ranked": [
+      {
+        "rank": 1,
+        "source_name": "Case: None v. Unknown Respondent",
+        "case_name": "Case: None v. Unknown Respondent",
+        "domain": "Constitutional & Administrative",
+        "score": -1.4461760520935059
+      },
+      {
+        "rank": 2,
+        "source_name": "Case: None v. Unknown Respondent",
+        "case_name": "Case: None v. Unknown Respondent",
+        "domain": "Constitutional & Administrative",
+        "score": -1.7764043807983398
+      },
+      {
+        "rank": 3,
+        "source_name": "Case: None v. Unknown Respondent",
+        "case_name": "Case: None v. Unknown Respondent",
+        "domain": "Constitutional & Administrative",
+        "score": -2.020122528076172
+      },
+      {
+        "rank": 4,
+        "source_name": "Case: None v. Unknown Respondent",
+        "case_name": "Case: None v. Unknown Respondent",
+        "domain": "Constitutional & Administrative",
+        "score": -2.9928903579711914
+      },
+      {
+        "rank": 5,
+        "source_name": "Case: None v. Unknown Respondent",
+        "case_name": "Case: None v. Unknown Respondent",
+        "domain": "Constitutional & Administrative",
+        "score": -3.534773349761963
+      },
+      {
+        "rank": 6,
+        "source_name": "Case: None v. Unknown Respondent",
+        "case_name": "Case: None v. Unknown Respondent",
+        "domain": "Constitutional & Administrative",
+        "score": -4.075023651123047
+      },
+      {
+        "rank": 7,
+        "source_name": "Case: None v. Unknown Respondent",
+        "case_name": "Case: None v. Unknown Respondent",
+        "domain": "Constitutional & Administrative",
+        "score": -5.186522483825684
+      },
+      {
+        "rank": 8,
+        "source_name": "LIFE CONVICT BENGAL@KHOKA@ PRASANTA SEN v. B.K. SRIVASTAVA .",
+        "case_name": "LIFE CONVICT BENGAL@KHOKA@ PRASANTA SEN v. B.K. SRIVASTAVA .",
+        "domain": "Constitutional & Administrative",
+        "score": -5.459956169128418
+      },
+      {
+        "rank": 9,
+        "source_name": "NAVALSHANKAR ISHWARLAL DAVE AND ANR. v. Unknown Respondent",
+        "case_name": "NAVALSHANKAR ISHWARLAL DAVE AND ANR. v. Unknown Respondent",
+        "domain": "Constitutional & Administrative",
+        "score": -6.165404796600342
+      },
+      {
+        "rank": 10,
+        "source_name": "Case: None v. Unknown Respondent",
+        "case_name": "Case: None v. Unknown Respondent",
+        "domain": "Constitutional & Administrative",
+        "score": -6.314308166503906
+      }
+    ],
+    "final_context_total": 12,
+    "final_context_sc": 0,
+    "final_context_sc_names": [],
+    "answer": "## Executive Summary\n\n* **No detention beyond 24 hours** is legally permitted without producing the arrested person before the nearest Magistrate, excluding necessary travel time [4, 5, 20].\n\n* **Grounds of arrest** under criminal procedure require a police officer to have a reasonable complaint, credible information, or reasonable suspicion of a cognizable offence having been committed [8, 11].\n\n* **Immediate production** before a Magistrate is mandatory to obtain the authority for any further detention in custody beyond the initial 24-hour limit [3, 4, 5].\n\n* **Mandatory safeguards** require arresting officers to forthwith communicate the full particulars and grounds of arrest, inform the person of their right to bail, and notify a nominated person about the arrest [14].\n\n## Detailed Answer\n\n### 1. Detention Beyond 24 Hours Without Magistrate Production\nUnder constitutional and statutory provisions, no person arrested and detained in custody can be kept for more than twenty-four hours without being produced before the nearest Magistrate [4, 5, 20]. This 24-hour period excludes the time necessary for the journey from the place of arrest to the Magistrate's Court [4, 5, 20]. \n\nFurther detention beyond this 24-hour window is strictly prohibited unless authorized by a Magistrate via a special order (such as under Section 167 of the Code of Criminal Procedure, 1973) [3, 5, 20]. \n\n### 2. Grounds of Arrest\nA police officer may arrest a person without a warrant under specific statutory grounds, which generally include situations where a reasonable complaint has been made, credible information has been received, or a reasonable suspicion exists that the person has been concerned in a cognizable offence [8, 11]. \n\nWhen an arrest is made without a warrant, the police officer must adhere to strict procedural duties:\n* **Communication of Grounds:** The officer must forthwith communicate full particulars of the offence or other grounds for the arrest [14].\n* **Right to Bail and Legal Notice:** The arrested person must be informed of their entitlement to be released on bail (where applicable) and their right to have details of the arrest and place of detention communicated to a nominated friend, relative, or other person [14].\n* **Notice of Appearance:** In cases where an arrest is not immediately required under Section 41(1), a police officer must issue a notice of appearance directing the individual to appear before them [8, 11].\n\n### 3. Supreme Court Judgments and Additional Mandates\nRegarding Supreme Court guidance on arrest procedures and mandatory duties, the indexed corpus does not contain specific named Supreme Court case citations addressing the 24-hour detention limit (aside from general statutory interpretations found in the provided constitutional and statutory provisions). \n\nHowever, concerning the mandatory registration of First Information Reports (FIRs) and police duties regarding cognizable offences, the Supreme Court in *Lalita Kumari v. Government of Uttar Pradesh* emphasized that the registration of an FIR is mandatory under Section 154 of the CrPC if the information discloses a cognizable offence, leaving no discretion for a preliminary inquiry in such situations [15].\n\n## Next Steps\n* **Production Before Magistrate:** Ensure the detained individual is brought before the nearest Judicial or Executive Magistrate within the 24-hour window [2, 3, 4].\n* **Verification of Grounds:** Review the arrest memorandum and ensure that valid grounds under criminal procedure were communicated at the time of arrest [11, 14].\n* **Bail Application:** If the offence is bailable or if grounds for police or judicial custody are insufficient, immediately apply for bail or release [3, 6, 14].\n\n## Relevant Authorities\n* **Constitution of India:** Article 22(2) [4, 20]\n* **Code of Criminal Procedure, 1973:** Sections 41, 41A, 50, 50A, 56, 57, 167 [1, 2, 3, 5, 8, 10, 11, 14]\n* **Supreme Court of India:** *Lalita Kumari v. Government of Uttar Pradesh* [15]"
+  },
+  "NATURAL_JUSTICE": {
+    "query": "natural justice audi alteram partem disciplinary dismissal fair hearing adverse administrative action. what Supreme Court judgments govern these principles?",
+    "sc_query_used": "Supreme Court precedent natural justice audi alteram partem administrative action Supreme Court",
+    "sc_candidates_ranked": [
+      {
+        "rank": 1,
+        "source_name": "Case: None v. Unknown Respondent",
+        "case_name": "Case: None v. Unknown Respondent",
+        "domain": "Constitutional & Administrative",
+        "score": 0.42163869738578796
+      },
+      {
+        "rank": 2,
+        "source_name": "Case: None v. Unknown Respondent",
+        "case_name": "Case: None v. Unknown Respondent",
+        "domain": "Constitutional & Administrative",
+        "score": -1.3076053857803345
+      },
+      {
+        "rank": 3,
+        "source_name": "Case: None v. Unknown Respondent",
+        "case_name": "Case: None v. Unknown Respondent",
+        "domain": "Constitutional & Administrative",
+        "score": -2.3091847896575928
+      },
+      {
+        "rank": 4,
+        "source_name": "Case: None v. Unknown Respondent",
+        "case_name": "Case: None v. Unknown Respondent",
+        "domain": "Constitutional & Administrative",
+        "score": -3.4369616508483887
+      },
+      {
+        "rank": 5,
+        "source_name": "Case: None v. Unknown Respondent",
+        "case_name": "Case: None v. Unknown Respondent",
+        "domain": "Constitutional & Administrative",
+        "score": -3.8655691146850586
+      },
+      {
+        "rank": 6,
+        "source_name": "Rajasthan Housing Board and another RESPONDENT: G.S. Investments and another DATE OF JUDGMENT: 31/10/2006 BENCH: G.P. Mathur & A.K. Mathur JUDGMENT: J U D G M E N T CIVIL APPEAL NO. 4608 OF 2006 (Aris",
+        "case_name": "Rajasthan Housing Board and another RESPONDENT: G.S. Investments and another DATE OF JUDGMENT: 31/10/2006 BENCH: G.P. Mathur & A.K. Mathur JUDGMENT: J U D G M E N T CIVIL APPEAL NO. 4608 OF 2006 (Aris",
+        "domain": "Constitutional & Administrative",
+        "score": -5.779976844787598
+      },
+      {
+        "rank": 7,
+        "source_name": "Case: None v. Unknown Respondent",
+        "case_name": "Case: None v. Unknown Respondent",
+        "domain": "Constitutional & Administrative",
+        "score": -6.563985824584961
+      },
+      {
+        "rank": 8,
+        "source_name": "RAMA NARANG v. RAMESH NARANG",
+        "case_name": "RAMA NARANG v. RAMESH NARANG",
+        "domain": "Constitutional & Administrative",
+        "score": -7.815701484680176
+      },
+      {
+        "rank": 9,
+        "source_name": "ARVIND GARG v. RAMESH CHANDRA AGARWAL .",
+        "case_name": "ARVIND GARG v. RAMESH CHANDRA AGARWAL .",
+        "domain": "Constitutional & Administrative",
+        "score": -8.938538551330566
+      },
+      {
+        "rank": 10,
+        "source_name": "ARVIND GARG v. RAMESH CHANDRA AGARWAL .",
+        "case_name": "ARVIND GARG v. RAMESH CHANDRA AGARWAL .",
+        "domain": "Constitutional & Administrative",
+        "score": -9.878826141357422
+      }
+    ],
+    "final_context_total": 9,
+    "final_context_sc": 9,
+    "final_context_sc_names": [
+      "Case: None v. Unknown Respondent",
+      "Case: None v. Unknown Respondent",
+      "Case: None v. Unknown Respondent",
+      "Case: None v. Unknown Respondent",
+      "Rajasthan Housing Board and another RESPONDENT: G.S. Investments and another DATE OF JUDGMENT: 31/10/2006 BENCH: G.P. Mathur & A.K. Mathur JUDGMENT: J U D G M E N T CIVIL APPEAL NO. 4608 OF 2006 (Aris",
+      "Case: None v. Unknown Respondent",
+      "Case: None v. Unknown Respondent",
+      "Case: None v. Unknown Respondent",
+      "Case: None v. Unknown Respondent"
+    ],
+    "answer": "## Executive Summary\n\n* **Applicability to Administrative Actions**: The Supreme Court has firmly established that the principles of **natural justice**, including the right to a fair hearing, apply to administrative actions and inquiries involving civil consequences, and are no longer restricted solely to judicial or quasi-judicial proceedings [1, 3].\n\n* **The Rule Against Bias**: A cardinal principle of natural justice is **Nemo judex in causa sua** (no person shall be a judge in their own cause), requiring the deciding authority to remain completely impartial and free from personal, pecuniary, or official bias [4, 15].\n\n* **Prohibition of Dual Roles in Inquiries**: Disciplinary proceedings and dismissal orders are legally vitiated if an individual acts simultaneously as a witness against the delinquent employee and as a judge or member of the inquiry committee [4, 15].\n\n* **Scope of Judicial Review**: When reviewing administrative or disciplinary decisions, courts examine the reasonableness of the **decision-making process** and adherence to fairness rather than acting as an appellate court to substitute their own judgment [8, 9, 12].\n\n---\n\n### Detailed Answer\n\n#### 1. Application of Natural Justice and *Audi Alteram Partem* to Administrative Actions\nThe Supreme Court of India has repeatedly affirmed that the rules of natural justice\u2014including the maxim *audi alteram partem* (the right to be heard)\u2014form foundational and fundamental concepts of legal and administrative procedures [1, 3, 15]. \n\nEarlier jurisprudence in England and India held that compulsion of a hearing applied strictly to judicial or quasi-judicial proceedings and not to purely administrative functions [3]. However, this restrictive view was explicitly overruled. Landmark decisions such as *Maneka Gandhi v. Union of India*, *State of Orissa v. Binapani Dei*, and *A.K. Kraipak v. Union of India* established that even an administrative order or inquiry that entails civil consequences must be made consistently with the rules of natural justice [1, 3, 15]. Prof. Wade\u2019s treatise on Administrative Law has been cited to note that these principles apply to virtually the entire range of administrative powers to prevent miscarriages of justice [1, 4].\n\n#### 2. Disciplinary Dismissal, Fair Hearing, and the Rule Against Bias\nIn the context of disciplinary proceedings and dismissals, the Supreme Court enforces strict standards of fairness:\n* **Impartiality and No Bias:** Under the cardinal rule *nemo debet esse judex in propria causa* (no man shall be a judge in his own cause), a deciding authority must be unbiased [4, 15]. Personal bias\u2014such as a predisposition to decide for or against a party\u2014vitiates the proceedings [4, 15]. \n* **Prohibition on Acting as Both Witness and Judge:** A classic violation of natural justice occurs when an inquiry officer or committee member steps down to give evidence against a delinquent employee and subsequently resumes their role to complete the inquiry and issue a dismissal order [4]. Such actions breach foundational fairness and render the resulting dismissal invalid [4, 15].\n* **Fresh and Unbiased Inquiries:** When a court sets aside a flawed disciplinary or administrative inquiry due to pre-conceptions, bias, or procedural unfairness, a newly appointed inquiry officer must evaluate the material on record afresh without being influenced by previous inquiry reports [14].\n\n#### 3. Scope of Judicial Review in Administrative Actions\nWhile administrative authorities possess discretionary powers and the freedom to choose among alternative courses of action, their decisions are subject to judicial review under Articles 226 and 32 to ensure they are free from arbitrariness, mala fides, or procedural infirmities in the **decision-making process** [8, 9, 12]. Courts do not act as appellate bodies to re-weigh evidence, but they will intervene if an administrative or disciplinary action is so unfair, perverse, or unreasonable that no reasonable authority would have taken it [6, 9, 12].\n\n---\n\n### Relevant Authorities\n* **Supreme Court Case Law on Natural Justice & Administrative Actions:** *Maneka Gandhi v. Union of India* [1]; *State of Orissa v. Binapani Dei* [1]; *A.K. Kraipak v. Union of India* [1, 15]; *State of U.P. v. Mohd. Nooh* [4]; *Sterling Computers Ltd. v. M/s M.N. Publications Ltd.* [8]; *U.P. Financial Corporation v. Gem Cap (India) Pvt. Ltd.* [9]."
+  }
+}

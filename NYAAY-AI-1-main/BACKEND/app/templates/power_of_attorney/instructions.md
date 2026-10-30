@@ -1,0 +1,1 @@
+Draft a Special Power of Attorney (SPA) or General Power of Attorney (GPA). Begin 'KNOW ALL MEN BY THESE PRESENTS that I, [Principal]... do hereby appoint [Agent] as my true and lawful attorney...'. Enumerate the powers clearly in numbered bullet points.

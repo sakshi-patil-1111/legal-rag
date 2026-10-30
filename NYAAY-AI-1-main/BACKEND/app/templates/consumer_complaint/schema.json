@@ -1,0 +1,13 @@
+{
+  "mandatory_fields": [
+    "complainant_name",
+    "opposite_party_name",
+    "transaction_date",
+    "amount_paid",
+    "deficiency_in_service",
+    "relief_sought"
+  ],
+  "optional_fields": [
+    "bill_no"
+  ]
+}

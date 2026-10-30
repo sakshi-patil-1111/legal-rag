@@ -1,0 +1,11 @@
+{
+  "mandatory_fields": [
+    "deponent_name",
+    "father_or_spouse_name",
+    "age",
+    "address",
+    "purpose_of_affidavit",
+    "facts"
+  ],
+  "optional_fields": []
+}

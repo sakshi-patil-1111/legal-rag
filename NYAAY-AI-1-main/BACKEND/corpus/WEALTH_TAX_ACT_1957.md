@@ -1,0 +1,1103 @@
+---
+document_id: wealth_tax_act_1957.txt
+source_name: WEALTH_TAX_ACT_1957
+legal_domain: Tax Law
+act_name: Wealth Tax Act, 1957
+document_type: statute
+---
+
+# Wealth Tax Act, 1957
+
+The Wealth-Tax Act, 1957
+[Act, No. 27 of 1957]
+[12th September, 1957]
+An Act to provide for the levy of wealth-tax
+BE it enacted by Parliament in the Eighth Year of the Republic of India as follows: -
+1.
+- Short title, extent and commencement
+(1)
+This Act may be called the Wealth-Tax Act, 1957.
+(2)
+It extends to the whole of India.
+(3)
+It shall be deemed to have come into force on the 1st day of April, 1957.
+2.
+- Definitions
+In this Act, unless the context otherwise requires, -
+(b)
+"Appellate Tribunal" means the Appellate Tribunal constituted under section 252 of the Income-tax Act;
+(c)
+"assessee" means a person by whom wealth-tax or any other sum of money is payable under this Act, and includes-
+(i)
+every person in respect of whom any proceeding under this Act has been taken for the determination of wealth-tax payable by him or by any other person or the amount of refund due to him or such other person;
+(ii)
+every person who is deemed to be an assessee under this Act;
+(iii)
+every person who is deemed to be an assessee in default under this Act;
+(ca)
+"Assessing Officer" means the Deputy Commissioner of Income-tax or the Assistant Commissioner or the Income-tax Officer who is vested with the relevant jurisdiction by virtue of directions or orders issued under sub-section (1) or sub-section (2) of section 120 or any other provision of the Income-tax Act which apply for the purposes of wealth-tax under section 8 of this Act and also the Additional Commissioner or Additional Director or Joint Commissioner who is directed under clause (b) of sub-section (4) of the said section 120 to exercise or perform all or any of the powers and functions conferred on or assigned to the Assessing Officer under that Act;
+(cb)
+"assessment" includes re-assessment;
+(d)
+"assessment year" means the period of twelve months commencing on the 1st day of April every year;
+(e)
+"assets" includes property of every description, movable or immovable, but does not include, -
+(1)
+in relation to the assessment year commencing on the 1st day of April, 1969, or any earlier assessment year-
+(i)
+agricultural land and growing crops, grass or standing trees on such land;
+(ii)
+any building owned or occupied by a cultivator of or receiver of rent revenue out of, agricultural land;
+Provided that the building is on or in the immediate vicinity of the land and is a building which the cultivator or the receiver of rent or revenue by reason of his connection with the land requires as a dwelling-house or a store-house or an outhouse;
+(iii)
+animals;
+(iv)
+a right to any annuity in any case where the terms and conditions relating thereto preclude the commutation of any portion thereof into a lump sum grant;
+(v)
+any interest in property where the interest is available to an assessee for a period not exceeding six years from the date the interest vests in the assessee;
+(2)
+in relation to the assessment year commencing on the 1st day or April, 1970, or any subsequent assessment year but before the 1st day of April, 1993 -
+(i)
+animals;
+(ii)
+a right to any annuity (not being an annuity purchased by the assessee or purchased by any other person in pursuance of a contract with the assessee) in any case where the terms and conditions relating thereto preclude the commutation of any portion thereof into a lump sum grant;
+(iii)
+any interest in property where the interest is available to an assessee for a period not exceeding six years from the date the interest vests in the assessee:
+Provided that in relation to the assessment year commencing on the 1st day of April, 1981,and the assessment year commencing on the 1st day of April, 1982, this sub-clause shall have effect subject to the modification that for item (i) thereof, the following item shall be substituted namely: -
+"(i) (a) agricultural land other than land comprised in any tea, coffee, rubber or cardamom plantation;
+(b)
+any building owned or occupied by a cultivator of, or receiver of rent or revenue out of, agricultural land other than land comprised in any tea, coffee, rubber or cardamom plantation:
+(c)
+animals;":
+Provided that the building is on or in the immediate vicinity of the land and is a building, which the cultivator or the receiver of the rent or revenue by reason of his connection with the land requires as a dwelling-house or a store-house or an outhouse;
+Provided further that in relation to the assessment year commencing on the 1st day of April, 1983, or any subsequent assessment year, this sub-clause shall have effect subject to the modification that for item (i) thereof, the following item shall be substituted, namely: -
+"(i) (a) agricultural land and growing crops (including fruits on trees), grass or standing trees on such land;
+(b)
+one building or one group of buildings owned or occupied by a cultivator of, or receiver of rent or revenue out of, agricultural land:
+Provided that such building or group of buildings is on or in the immediate vicinity of the land and is a building which the cultivator or the receiver of rent or revenue by reason of his connection with the land requires as store-house or for keeping livestock;
+(c)
+animals;"
+Provided also that in relation to the State of Jammu and Kashmir, this sub-clause shall have effect subject to the modification that for the assets specified in item (i) of this sub-clause, the assets specified in items (i) to (iii) of sub-clause (1) shall be substituted and the other provisions of this Act shall be construed accordingly;
+(ea)
+"assets", in relation to the assessment year commencing on the 1st day of April, 1993, or any subsequent assessment year, means-
+(i)
+any building or land appurtenant thereto (hereinafter referred to as house"), whether used for residential or commercial purposes or for the purpose of maintaining a guest house or otherwise including a farm house situated within twenty-five kilometres from local limits of any municipality (whether known as Municipality, Municipal Corporation or by any other name) or a Cantonment Board, but does not include-
+(1)
+a house meant exclusively for residential purposes and which is allotted by a company to an employee or an officer or a director who is in whole-time employment, having a gross annual salary of less than ten lakh rupees;
+(2)
+any house for residential or commercial purposes which forms part of stock- In -trade;
+(3)
+any house which the assessee may occupy for the purposes of any business or profession carried on by him;
+(4)
+any residential property that has been let-out for a minimum period of three hundred days in the previous year;
+(5)
+any property in the nature of commercial establishments or complexes;
+(ii)
+motor cars (other than those used by the assessee in the business of running them on hire or as stock- In -trade);
+(iii)
+jewellery, bullion and furniture, utensils or any other article made wholly or partly of gold, silver, platinum or any other precious metal or any alloy containing one or more of such precious metals:
+Provided that where any of the said assets is used by the assessee as stock- In -trade, such asset shall be deemed as excluded from the assets specified in this sub-clause;
+(iv)
+yachts, boats and aircrafts (other than those used by the assessee for commercial purposes);
+(v)
+urban land;
+(vi)
+cash in hand, in excess of fifty thousand rupees, of individuals and Hindu undivided families and in the case of other persons any amount not recorded in the books of account.
+Explanation 1. - For the purposes of this clause, -
+(a)
+"jewellery" includes-
+(i)
+ornaments made of gold, silver, platinum or any other precious metal or any alloy containing one or more of such precious metals, whether or not containing any precious or semi-precious stones and whether or not worked or sewn into any wearing apparel;
+(ii)
+precious or semi-precious stones, whether or not set in any furniture, utensils or other article or worked or sewn into any wearing apparel;
+(b)
+"urban land" means land situate--
+(i)
+in any area which is comprised within the jurisdiction of a municipality (whether known as a municipality, municipal corporation, notified area committee, town area committee, town committee, or by any other name) or a cantonment board and which has a population of not less than ten thousand; or
+(ii)
+in any area within the distance, measured aerially,--
+(I)
+not being more than two kilometres, from the local limits of any municipality or cantonment board referred to in sub-clause (i) and which has a population of more than ten thousand but not exceeding one lakh; or
+(II)
+not being more than six kilometres, from the local limits of any municipality or cantonment board referred to in sub-clause (i) and which has a population of more than one lakh but not exceeding ten lakh; or
+(III)
+not being more than eight kilometres, from the local limits of any municipality or cantonment board referred to in sub-clause (i) and which has a population of more than ten lakh, but does not include land on which construction of a building is not permissible under any law for the time being in force in the area in which such land is situated or the land occupied by any building which has been constructed with the approval of the appropriate authority or any unused land held by the assessee for industrial purposes for a period of two years from the date of its acquisition by him or any land held by the assessee as stock- In -trade for a period of ten years from the date of its acquisition by him.
+Explanation.--For the purposes of clause (b) of Explanation 1, "population" means the population according to the last preceding census of which the relevant figures have been published before the date of valuation.
+Explanation 2. - For the removal of doubts, it is hereby declared that "Jewellery" does not include the Gold Deposit Bonds issued under the Gold Deposit Scheme, 1999 notified by the Central Government.
+(f)
+"Board" means the Central Board of Direct Taxes constituted under the Central Board of Revenue Act, 1963 (54 of 1963);
+(h)
+"company" shall have the meaning assigned to it in clause (17) of section 2 of the Income-tax Act;
+(ha)
+"co-operative society" means a co-operative society registered under the Co-operative Societies Act, 1912 (2 of 1912), or under any other law for the time being in force in any State for the registration of co-operative societies;
+(i)
+"executor" means an executor or administrator of the estate of a deceased person;
+(ia)
+"High Court", in relation to the Union territories of Dadra and Nagar Haveli and Goa, Daman and Diu, means the High Court at Bombay;
+(j)
+"Income-tax Act" means the Income-tax Act, 1961 (43 of 1961);
+(ka)
+"India" means the territory of India as referred to in article 1 of the Constitution, its territorial waters, seabed and subsoil underlying such waters, continental shelf, exclusive economic zone or any other maritime zone as referred to in the Territorial Waters, Continental Shelf, Exclusive Economic Zone and other Maritime Zones Act, 1976(80 of 1976), and the air space above its territory and territorial waters;
+(lb)
+"legal representative" has the meaning assigned to it in clause (11) of section 2 of the Code of Civil Procedure, 1908 (5 of 1908);
+(lc)
+"maximum marginal rate" means the rate of wealth-tax applicable in relation to the highest slab of wealth in the case of an individual as specified in Part I of Schedule I;
+(ld)
+"National Tax Tribunal" means the National Tax Tribunal established under section 3 of the National Tax Tribunal Act, 2005;
+(m)
+"net wealth" means the amount by which the aggregate value computed in accordance with the provisions of this Act of all the assets, wherever located, belonging to the assessee on the valuation date, including assets required to be included in his net wealth as on that date under this Act, is in excess of the aggregate value of all the debts owed by the assessee on the valuation date which have been incurred in relation to the said assets;
+(n)
+"prescribed" means prescribed by rules made under this Act;
+(o)
+"principal officer", used with reference to a company, means the secretary, manager, managing agent or managing director of the company, and includes any person connected with the management of the affairs of the company upon whom the Assessing Officer has served a notice of his intention of treating him as the principal officer thereof;
+(oa)
+"public servant" has the same meaning as in section 21 of the Indian Penal Code (45 of 1860);
+(oaa)
+"registered valuer" means a person registered as a valuer under section 34 AB;
+(ob)
+"regular assessment" means the assessment made under 'sub-section (3) or sub-section (5) of section 16;
+(p)
+"Ruler" means a Ruler as defined in clause (22) of Article 366 of the Constitution;
+(q)
+"valuation date", in relation to any year for which an assessment is to be made under this Act, means the last day of the previous year as defined in section 3 of the Income-tax Act if an assessment were to be made under that Act for that year:
+Provided that-
+(ii)
+in the case of a person who is not an assessee within the meaning of the Income-tax Act, the valuation date for the purposes of this Act shall be the 31st day of March immediately preceding the assessment year;
+(iii)
+where an assessment is made in pursuance of section 19A, the valuation date shall be the same valuation date as would have been adopted in respect of the net wealth of the deceased if he were alive;
+(r)
+"Valuation Officer" means a person appointed as a Valuation Officer under section 12A, and includes a Regional Valuation Officer, a District Valuation Officer and an Assistant Valuation Officer;
+(s)
+the expressions "Chief Commissioner, Director-General, Commissioner, Commissioner (Appeals), Director, Additional Director of Income-tax, Additional Commissioner of Income-tax, Joint Director, Joint Commissioner of Income-tax, Deputy Director, Deputy Commissioner, Assistant Commissioner, Assistant-Director, Income tax Officer, Inspector of Income-tax and Tax Recovery Officer shall have the meanings respectively assigned to them under section 2 of the Income-tax Act.
+3.
+- Charge of wealth-tax
+(1)
+Subject to the other provisions (including provisions for the levy of additional wealth-tax) contained in this Act, there shall be charged for every assessment year commencing on and from the first day of April, 1957but before the 1st day of April, 1993 , a tax (hereinafter referred to as wealth-tax) in respect of the net wealth on the corresponding valuation date of every individual, Hindu undivided family and company at the rate or rates specified in Schedule I.
+(2)
+Subject to the other provisions contained in this Act, there shall be charged for every assessment year commencing on and from the 1st day of April, 1993 but before the 1st day of April, 2016, wealth-tax in respect of the net wealth on the corresponding valuation date of every individual, Hindu undivided family and company, at the rate of one per cent, of the amount by which the net wealth exceeds fifteen lakh rupees.
+Provided that in the case of every assessment year commencing on and from the 1st day of April, 2010, the provisions of this section shall have effect as if for the words "fifteen lakh rupees", the words "thirty lakh rupees" had been substituted.
+4.
+- Net wealth to include certain assets
+(1)
+In computing the net wealth-
+(a)
+of an individual, there shall be included, as belonging to that individual, the value of assets which on the valuation date are held -
+(i)
+by the spouse of such individual to whom such assets have been transferred by the individual, directly or indirectly, otherwise than for adequate consideration or in connection with an agreement to live apart, or
+(ii)
+by a minor child, not being a minor child suffering from any disability of the nature specified in section 80U of the Income-tax Act or a married daughter, of such individual, , or
+(iii)
+by a person or association of persons to whom such assets have been transferred by the individual directly or indirectly, otherwise than for adequate consideration for the immediate or deferred benefit of the individual, his or her spouse or
+(iv)
+by a person or association of persons to whom such assets have been transferred by the individual otherwise than under an irrevocable transfer, or
+(v)
+by the son's wife, of such individual, to whom such assets have been transferred by the individual, directly or indirectly, on or after the 1st day of June, 1973, otherwise than for adequate consideration, or
+(vi)
+by a person or association of persons to whom such assets have been transferred by the individual, directly or indirectly, on or after the 1st day of June, 1973, otherwise than for adequate consideration for the immediate or deferred benefit of the son's wife, of such individual or both,
+whether the assets referred to in any of the sub-clauses aforesaid are held in the form in which they were transferred or otherwise:
+Provided that where the transfer of such assets or any part thereof is either chargeable to gift-tax under the Gift-tax Act, 1958 (18 of 1958), or is not chargeable under section 5 of that Act, for any assessment year commencing after the 31st day of March, 1964, but before the 1st day of April, 1972, the value of such assets or part thereof, as the case may be, shall not be included in computing the net wealth of the individual:
+Provided further that nothing contained in sub-clause (ii) shall apply in respect of such assets as have been acquired by the minor child out of his income referred to in the proviso to sub-section (1A) of section 64 of the Income-tax Act and which are held by him on the valuation date:
+Provided also that where the assets held by a minor child are to be included in computing the net wealth of an individual, such assets shall be included,
+(a)
+where the marriage of his parents subsists, in the net wealth of that parent whose net wealth excluding the assets of the minor child so includible under this sub-section) is greater; or
+(b)
+where the marriage of his parents does not subsist, in the net wealth of that parent who maintains the minor child in the previous year as defined in section 3 of the Income-tax Act,
+and where any such assets are once included in the net wealth of either parent, any such assets shall not be included in the net wealth of the other parent in any succeeding year unless the Assessing Officer is satisfied, after giving that parent an opportunity of being heard, that it is necessary so to do.
+(b)
+of an assessee who is a partner in a firm or a member of an association of persons (not being a co-operative housing society), there shall be included, as belonging to that assessee, the value of his interest in the assets of the firm or association determined in the manner laid down in Schedule III:
+Provided that where a minor is admitted to the benefits of partnership in a firm, the value of the interest of such minor in the firm, determined in the manner specified above, shall be included in the net wealth of the parent of the minor, so far as may be, in accordance with the provisions of the third proviso to clause (a).
+(IA)
+Where, in the case of an individual being a member of a Hindu undivided family, any property having been the separate property of the individual has, at any time after the, 31st day of December, 1969, been converted by the individual into property belonging to the family through the act of impressing such separate property with the character of properly belonging to the family or throwing it into the common stock of the family or been transferred by the individual, directly or indirectly, to the family otherwise than for adequate consideration (the property so converted or transferred being hereinafter referred to as the converted property), then, notwithstanding anything contained in any other provision of this Act or in any other law for the time being in force, for the purpose of computing the net wealth of the individual under this Act for any assessment year commencing on or after the 1st day of April, 1972,-
+(a)
+the individual shall be deemed to have transferred the converted property, through the family, to the members of the family for being held by them jointly;
+(b)
+the converted property or any part thereof shall be deemed to be assets belonging to the individual and not to the family;
+(c)
+where the converted property has been the subject-matter of a partition (whether partial or total) amongst the members of the family, the converted property or any part thereof which is received by the spouse of the individual on such partition shall be deemed to be assets transferred indirectly by the individual to the spouse and the provisions of sub-section (1) shall, so far as may be, apply accordingly:
+Provided that the property referred to in clause (b) or clause (c) shall, on being included in the net wealth of the individual be excluded from the net wealth of the family or, as the case may be, the spouse of the individual.
+(4)
+Nothing contained in clause (a) of sub-section (1) shall apply to any such transfer as is referred to therein made by an individual before the 1st day of April, 1956, and the value of any assets so transferred shall not be included in the computation of his net wealth.
+(4A)
+Notwithstanding anything in sub-section (4),nothing contained in clause (a) of sub-section (1) shall apply to any such transfer as is referred to therein made before the 1st day of April, 1963, by an individual who but for the extension of this Act to the Union territories of Dadra and Nagar Haveli, Goa, Daman and Diu, and Pondicherry, would not have been an assessee, and the value of any assets so transferred shall not be included in the computation of his net wealth.
+(5)
+The value of any assets transferred under an irrevocable transfer shall be liable to be included in computing the net wealth of the transferor as and when the power to revoke arises to him.
+(5A)
+Where a gift of money from one person to another is made by means of entries in the books of account maintained by the person making the gift or by an individual or a Hindu undivided family or a firm or an association of persons or body of individuals with whom or which he has business or other relationship, the value of such gift shall be liable to be included in computing the net wealth of the person making the gift unless he proves to the satisfaction of the Assessing Officer that the money has actually been delivered to the other person at the time the entries were made.
+(6)
+For the purposes of this Act, the holder of an impartible estate shall be deemed to be the individual owner of all the properties comprised in the estate.
+(7)
+Where the assessee is a member of a co-operative society, company or other association of persons and a building or part thereof is allotted or leased to him under a house building scheme of the society, company or association, as the case may be, the assessee shall, notwithstanding anything contained in this Act or any other law for the time being in force, be deemed to be the owner of such building or part and the value of such building or part shall be included in computing the net wealth of the assessee; and, in determining the value of such building or part, the value of any outstanding instalments of the amount payable under such scheme by the assessee to the society, company or association towards the cost of such building or part and the land appurtenant thereto shall, whether the amount so payable is described as such or in any other manner is such scheme, be deducted as a debt owed by him in relation to such building or part.
+(8)
+A person-
+(a)
+who is allowed to take or retain possession of any building or part thereof in part performance of a contract of the nature referred to in section 53A of the Transfer of Property Act, 1882;
+(b)
+who acquires any rights (excluding any rights by way of a lease from month to month or for a period not exceeding one year) in or with respect to any building or part thereof by virtue of any such transaction as is referred to in clause (f) of section 269UA of the Income-tax Act,
+shall be deemed to be the owner of that building or part thereof and the value of such building or part shall be included in computing the net wealth of such person
+Explanation.-For the purposes of this section, -
+(a)
+the expression "transfer" includes any disposition settlement, trust, covenant, agreement or arrangement;
+(aa)
+the expression "child" includes a step-child and an adopted child;
+(b)
+the expression "irrevocable transfer" includes a transfer of assets which, by the terms of the instrument effecting it, is not revocable for a period exceeding six years or during the lifetime of the transferee, and under which the transferor derives no direct or indirect benefit, but does not include a transfer of assets if such instrument--
+(i)
+contains any provision for the re-transfer, directly or indirectly, of the whole or any part of the assets or income there from to the transferor, or
+(ii)
+in any way gives the transferor a right to re-assume power, directly or indirectly, over the whole or any part of the assets or income there from; and
+(c)
+the expression "property" includes any interest in any property, movable or immovable, the proceeds of sale thereof and any money or investment for the time being representing the proceeds of sale thereof and where the property is converted into any other property by any method, such other property
+5.
+- Exemptions in respect of certain assets
+Wealth-tax shall not be payable by an assessee in respect of the following assets; and such assets shall not be included in the net wealth of the assessee--
+(i)
+any property held by him under trust or other legal obligation for any public purpose of a charitable or religious nature in India:
+Provided that nothing contained in this clause shall apply to any property forming part of any business, not being a business referred to in clause (a) or clause (b) of sub-section (4A) of section 11 of the Income-tax Act in respect of which separate books of account are maintained or a business carried on by an institution fund or trust referred to in clause (23B) or clause (23C) of section 10 of the Act;
+(ii)
+the interest of the assessee in the coparcenary property of any Hindu undivided family of which he is a member;
+(iii)
+any one building in the occupation of a Ruler, being a building which immediately before the commencement of the Constitution (Twenty-sixth Amendment) Act, 1971, was his official residence by virtue of a declaration by the Central Government under paragraph 13 of the Merged Slates (Taxation Concessions) Order, 1949, or paragraph 15 of the Part B States (Taxation Concessions) Order, 1950;
+(iv)
+jewellery in the possession of any Ruler, not being his personal property, which has been recognised before the commencement of this Act by the Central Government as his heirloom or, where no such recognition exists, which the Board may, subject to any rules that may be made by the Central Government in this behalf, recognise as his heirloom at the time of his first assessment to wealth-tax under this Act:
+Provided that in the case of jewellery recognised by the Central Government as aforesaid, such recognition shall be subject to the following conditions, namely: -
+(i)
+that the jewellery shall be permanently kept in India and shall not be removed outside India except for a purpose and period approved by the Board;
+(ii)
+that reasonable steps shall be taken for keeping the jewellery substantially in its original shape;
+(iii)
+that reasonable facilities shall be allowed to any officer of Government authorised by the Board in this behalf to examine the jewellery as and when necessary; and
+(iv)
+that if any of the conditions hereinbefore specified is not being duly fulfilled, the Board may, for reasons to be recorded in writing, withdraw the recognition retrospectively with effect from the date of commencement of clause (b) of section 5 of the Rulers of Indian States (Abolition of Privileges) Act, 1972 (54 of 1972), and in such a case, wealth-tax shall become payable by the Ruler for all the assessment years after such commencement for which the jewellery was exempted on account of the recognition.
+Explanation. -For the purposes of clause (iv) of the foregoing proviso, the fair market value of any jewellery on the date of the withdrawal of the recognition in respect thereof shall be deemed to be the fair market value of such jewellery on each successive valuation date relevant for the assessment years referred to in the said proviso:
+Provided further that the aggregate amount of wealth tax payable in respect of any jewellery under clause (iv) of the foregoing proviso for all the assessment years referred to therein shall not in any case exceed fifty per cent, of its fair market value on the valuation date relevant for the assessment year in which recognition was withdrawn;
+(v)
+in the case of an assessee, being a person of Indian origin or a citizen of India (hereafter in this clause referred to as such person) who was ordinarily residing in a foreign country and who, on leaving such country, has returned to India with the intention of permanently residing therein, moneys and the value of assets brought by him into India and the value of the assets acquired by him out of such moneys within one year immediately preceding the date of his return and at any time thereafter:
+Provided that this exemption shall apply only for a period of seven successive assessment year commencing with the assessment year next following the date on which such person returned to India.
+Explanation. - 1 A person shall be deemed to be of Indian origin if he, or either of his parents or any of his grandparents, was born is undivided India.
+Explanation 2. - For the removal of doubts, it is hereby declared that moneys standing to the credit of such person in a Non-resident (External) Account, in any bank in India in accordance with the Foreign Exchange Regulation Act, 1973 (46 of 1973) and any rules made thereunder, on the date of his return to India, shall be deemed to be moneys brought by him into India on that date
+(vi)
+one house or part of a house or a plot of land belonging to an individual or a Hindu undivided family:
+Provided that wealth-tax shall not be payable by an assessee in respect of an asset being a plot of land comprising an area of five hundred square metres or less.
+6.
+- Exclusion of assets and debts outside India
+In computing the net wealth of an individual who is not a citizen of India or of an individual or a Hindu undivided family not resident in India or resident but not ordinarily resident in India, or of a company not resident in India during the year ending on the valuation date-
+(i)
+the value of the assets and debts located outside India; and
+(ii)
+the value of the assets in India represented by any loans or debts owing to the assessee in any case where the interest, if any, payable on such loans or debts is not to be included in the total income of the assessee under section 10 of the Income-tax Act;
+shall not be taken into account.
+Explanation 1 . - An individual or a Hindu undivided family shall be deemed to be not resident in India or resident but not ordinarily resident in India during the year ending on the valuation date if in respect of that year the individual or the Hindu undivided family, as the case may be, is not resident in India or resident but not ordinarily resident in India within the meaning of the Income-tax Act.
+Explanation 1 A. - Where in the case of an individual the value of an asset in India is represented by any debt owing to hi m, being any moneys to his credit in a Non-resident (External) Account, the interest payable on which is not to be included in his total income under sub-clause (ii) of clause (4) of section 10 of the Income-tax Act, the provisions of this section shall, in relation to such asset, apply subject to the modification that the reference in this section to an individual not resident in India shall be construed as a reference to a person resident outside India as defined in clause (q) of section 2 of the Foreign Exchange Regulation Act, 1973 (46 of 1973).
+Explanation 2 . - A company shall be deemed to be resident in India during the year ending on the valuation date, if -
+(a)
+it is a company formed and registered under the Companies Act, 1956 ( 1 of 1956 ), or is an existing company within the meaning of that Act; or
+(b)
+during that year the control and management of its affairs is situated wholly in India.
+7.
+Value of assets how to be determined
+(1)
+Subject to the provisions of sub-section (2), the value of any asset, other than cash, for the purposes of this Act shall be its value as on the valuation date determined in the manner laid down in Schedule III.
+(2)
+The value of a house belonging to the assessee and exclusively used by him for residential purposes throughout the period of twelve months immediately preceding the valuation date, may, at the option of the assessee, be taken to be the value determined in the manner laid down in Schedule III as on the valuation date next following the date on which he became the owner of the house or the valuation date relevant to the assessment year commencing on the 1st day of April, 1971, whichever valuation date is later.
+Explanation. - For the purposes of this sub-section, -
+(i)
+where the house has been constructed by the assessee, he shall be deemed to have become the owner thereof on the date on which the construction of such house was completed:
+(ii)
+"house" includes a part of a house being an independent residential unit.
+8.
+Wealth-tax authorities and their jurisdiction.
+The income-tax authorities specified in section 116 of the Income-tax Act shall be the wealth-tax authorities for the purposes of this Act and every such authority shall exercise the powers and perform the functions of a wealth-tax authority under this Act in respect of any individual, Hindu undivided family or company, and for this purpose his jurisdiction under this Act shall be the same as he has under the Income-tax Act by virtue of orders or directions issued under section 120 of that Act (including orders or directions assigning concurrent jurisdiction) or under any other provision of that Act.
+Explanation. - For the purposes of this section, the wealth-tax authority having jurisdiction in relation to a person who is not an assessee within the meaning of the Income-tax Act shall be the wealth-tax authority having jurisdiction in respect of the area in which that person resides.
+9.
+Control of wealth-tax authorities
+Section 118 of the Income-tax Act and any notification issued thereunder shall apply in relation to the control of wealth-tax authorities as they apply in relation to the control of the corresponding income-tax authorities, except to the extent to which the Board may, by notification in the Official Gazette, otherwise direct in respect of any wealth-tax authority.
+10.
+Instructions to subordinate authorities
+(1)
+The Board may, from time to time, issue such orders, instructions and directions to other wealth-tax authorities as it may deem fit for the proper administration of this Act, and such authorities and all other persons employed in the execution of this Act, shall observe and follow such orders, instructions and directions of the Board:
+Provided that no such orders, instructions or directions shall be issued
+(a)
+so as to require any wealth-tax authority to make a particular assessment or to dispose of a particular case in a particular manner; or
+(b)
+so as to interfere with the discretion of the Deputy Commissioner (Appeals) or Commissioner (Appeals) in the exercise of his appellate functions.
+(2)
+Without prejudice to the generality of the foregoing power, -
+(a)
+the Board may, if it considers it necessary or expedient so to do, for the purpose of proper and efficient management of the work of assessment and collection of revenue, issue, from time to time (whether by way of relaxation of any of the provisions of sections 14, 15, 16, 17, 17B, 18 and 35 or otherwise), general or special orders in respect of any class of cases, setting forth directions or instructions (not being prejudicial to assessees) as to the guidelines, principles or procedures to be followed by other wealth-tax authorities in the work relating to assessment or collection of revenue or the initiation of proceedings for the imposition of penalties and any such order may, if the Board is of opinion that it is necessary in the public interest so to do, be published and circulated in the prescribed manner for general information;
+(b)
+the Board may, if it considers it desirable or expedient so to do for avoiding genuine hardship in any case or class of cases, by general or special order, authorise any wealth-tax authority not being a Deputy Commissioner (Appeals) or Commissioner (Appeals), to admit an application or claim for any exemption, deduction, refund or any other relief under this Act after the expiry of the period specified by or under this Act for making such application or claim and deal with the same on merits in accordance with law.
+11.
+Jurisdiction of Assessing Officers and power to transfer cases
+(1)
+The provisions of sections 124 and 127 of the Income-tax Act shall, so far as may be, apply for the purposes of this Act as they apply for the purposes of the Income-tax Act, subject to the modifications specified in sub-section (2).
+(2)
+The modifications referred to in sub-section (I) shall be the following, namely: -
+(a)
+in section 124 of the Income-tax Act,--
+(i)
+in sub-section (3), references to the provisions of the Income-tax Act shall be construed as references to the corresponding provisions of the Wealth-tax Act;
+(ii)
+sub-section (5) shall be omitted:
+(b)
+in section 127 of the Income-tax Act, in the Explanation below sub-section(4), references to proceedings under the Income-tax Act shall be construed as including references to proceedings under the Wealth-tax Act,
+12A.
+Appointment of Valuation Officers
+(1)
+The Central Government may appoint as many Valuation Officers as it thinks fit.
+(2)
+Subject to the rules and orders of the Central Government regulating the conditions of service of persons in public services and posts, a wealth-tax authority may appoint as many overseers, surveyors and assessors as may be necessary to assist the Valuation Officers in the performance of their functions.
+13A.
+Powers of Director-General or Director, Chief Commissioner or Commissioner and Joint Commissioner to make enquiries
+The Director-General or Director, the Chief Commissioner or Commissioner and the Joint Commissioner shall be competent to make any enquiry under this Act, and for this purpose shall have all the powers that an Assessing Officer has under this Act in relation to the making of enquiries.
+14.
+- Return of Wealth
+(1)
+Every person, if his net wealth or the net wealth of any other person in respect of which he is assessable under this Act on the valuation date exceeded the maximum amount which is not chargeable to wealth-tax, shall, on or before the due date, furnish a return of his net wealth or the net wealth of such other person as on that valuation date in the prescribed form and verified in the prescribed manner setting forth particulars of such net wealth and such other particulars as may be prescribed.
+Explanation . - In this sub- section , "due date" in relation to an assessee under this Act shall be the same date as that applicable to an assessee under the Income-tax Act under the Explanation to sub-section ( 1 ) of section 139 of the Income-tax Act.
+(2)
+Notwithstanding anything contained in any other provision of this Act, a return of net wealth which shows the net wealth below the maximum amount which is not chargeable to tax shall be deemed never to have been furnished:
+Provided that this sub-section shall not apply to a return furnished in response to a notice under section 17.
+14A.
+- Power of Board to dispense with furnishing documents, etc., with return of wealth
+The Board may make rules providing for a class or classes of persons who may not be required to furnish documents, statements, receipts, certificates, audit reports, reports of registered valuer or any other documents, which are otherwise under any other provisions of this Act, except section 14B, required to be furnished, along with the return but on demand to be produced before the Assessing Officer.
+14B.
+- Filing of return in electronic form
+The Board may make rules providing for--
+(a)
+the class or classes of persons who shall be required to furnish the return in electronic form;
+(b)
+the form and the manner in which the return in electronic form may be furnished;
+(c)
+the documents, statements, receipts, certificates, audit reports, reports of registered valuer or any other documents which may not be furnished along with the return in electronic form but shall be produced before the Assessing Officer on demand;
+(d)
+the computer resource or the electronic record to which the return in electronic form may be transmitted.
+15.
+Return after due date and amendment of return
+If any person has not furnished a return within the time allowed under sub-section (1) of section 14 or under a notice issued under clause (i) of sub-section (4) of section 16, or having furnished a return discovers any omission or wrong statement therein, he may furnish a return or a revised return, as the case may be, at any time before the expiry of one year from the end of the relevant assessment year or before the completion of the assessment, whichever is earlier:
+Provided that-
+(a)
+where such return or revised return relates to the assessment year commencing on the 1st day of April, 1987, or any earlier assessment year, it may be furnished at any time upto and inclusive of the 31st day of March, 1990, or before the completion of the assessment, whichever is earlier;
+(b)
+where such return or revised return relates to the assessment year commencing on the 1st day of April, 1988, it may be furnished at any time upto and inclusive of the 31st day of March, 1991, or before the completion of the assessment, whichever is earlier.
+15A.
+Return by whom to be signed. -
+The return made under section 14 or section 15 shall be signed and verified -
+(a)
+in the case of an individual,-
+(i)
+by the individual himself;
+(ii)
+where he is absent from India, by the individual himself or by some person duly authorised by him in this behalf;
+(iii)
+where he is mentally incapacitated from attending to his affairs, by his guardian or any other person competent to act on his behalf; and
+(iv)
+where, for any other reason, it is not possible for the individual to sign the return, by any person duly authorised by him in this behalf: Provided that in a case referred to in sub-clause (ii) or sub-clause (iv), the person signing the return holds a valid power of attorney from the individual to do so, which shall be attached to the return;
+(b)
+in the case of a Hindu undivided family, by the karta, and, where the karta is absent from India or is mentally incapacitated from attending to his affairs, by any other adult member of such family; and
+(c)
+in the case of a company, by the managing director thereof, or where for any unavoidable reason such managing director is not able to sign and verify the return or where there is no managing director, by any director thereof:
+Provided that where the company is not resident in India, the return may be signed and verified by a person who holds a valid power of attorney from such company to do so, which shall be attached to the return:
+Provided further that, -
+(a)
+where the company is being wound up, whether under the orders of the court or otherwise, or where any person has been appointed as the receiver of any assets of the company, the return shall be signed and verified by the liquidator referred to in sub-section (1) of section 178 of the Income-tax Act;
+(b)
+where the management of the company has been taken over by the Central Government or any State Government under any law, the return of the company shall be signed and verified by the principal officer thereof.
+15B.
+Self-assessment
+(1)
+Where any tax is payable on the basis of any return furnished under section 14 or section 15 or in response to a notice under clause (i) of sub-section (4) of section 16 or under section 17, after taking into account the amount of tax, if any, already paid under any provision of this Act, the assessee shall be liable to pay such tax, together with interest payable under any provision of this Act for any delay in furnishing the return, before furnishing the return and me return shall be accompanied by proof of payment of such tax and interest.
+Explanation. -Where the amount paid by the assessee under this sub-section falls short of the aggregate of the tax and interest as aforesaid, the amount so paid shall first be adjusted towards the interest payable as aforesaid and the balance, if any, shall be adjusted towards the tax payable.
+(2)
+After the regular assessment under section 16 has been made, any amount paid under sub-section (1) shall be deemed to have been paid towards such regular assessment.
+(3)
+If any assessee fails to pay the whole or any part of such tax or interest or both in accordance with the provisions of sub-section (1), he shall, without prejudice to any other consequences which he may incur, be deemed to be an assessee in default in respect of the tax or interest or both remaining unpaid and all the provisions of this Act shall apply accordingly.
+(4)
+The provisions of this section as they stood immediately before their amendment by the Direct Tax Laws (Amendment) Act, 1987 (4 of 1988), shall apply to and in relation to any assessment for the assessment year commencing on the 1st day of April, 1988, or any earlier assessment year and references in this section to the other provisions of this Act shall be construed as references to those provisions as for the time being in force and applicable to the relevant assessment year.
+16.
+Assessment
+(1)
+Where a return has been made under 14 or section 15 or in response to a notice under clause (i) of sub-section (4), -
+(i)
+if any tax or interest is found due on the basis of such return, after adjustment of any amount paid by way of tax or interest, then, without prejudice to the provisions of sub-section (2), an intimation shall be sent to the assessee specifying the sum so payable and such intimation shall be deemed to be a notice of demand issued under section 30 and all the provisions of this Act shall apply accordingly; and
+(ii)
+if any refund is due on the basis of such return, it shall be granted to the assessee and an intimation to this effect shall be sent to the assessee:
+Provided that except as otherwise provided in this sub-section, the acknowledgement of the return shall be deemed to be intimation under this sub-section where either no sum is payable by the assessee or no refund is due to him:
+Provided further that no intimation under this sub-section shall be sent after the expiry of two years from the end of the assessment year in which the net wealth was first assessable.
+(2)
+Where a return has been made under section 14 or section 15, or in response to a notice under clause (i) of sub-section (4) of this section, the Assessing Officer shall, if he considers it necessary or expedient to ensure that the assessee has not understated the net wealth or has not under-paid the tax in any manner serve on the assessee a notice requiring him, on a date to be specified therein, either to attend at the office of the Assessing Officer or to produce, or cause to be produced there, any evidence on which the assessee may rely in support of the return:
+Provided that no notice under this sub-section shall be served on the assessee after the expiry of twelve months from the end of the month in which the return is furnished.
+(3)
+On the day specified in the notice issued under sub-section (2) or as soon afterwards as may be, after hearing such evidence as the assessee may produce and such other evidence as the Assessing Officer may require on specified points, and after taking into account all relevant material which he has gathered, the Assessing Officer shall, by order in writing, assess the net wealth of the assessee and determine the sum payable by him on the basis of such assessment.
+(4)
+For the purposes of making an assessment under this Act, the Assessing Officer may serve, on any person who has made a return under section 14 or section 15 or in whose case the time allowed under sub-section (1) of section 14 for furnishing the return has expired, a notice requiring him, on a date to be specified therein-
+(i)
+where such person has not made a return within the time allowed under sub-section (1) of section 14 to furnish a return of his net wealth or the net wealth of any other person in respect of which he is assessable under this Act on the valuation date, in the prescribed form and verified in the prescribed manner, setting forth the particulars of such net wealth and such other particulars as may be prescribed, or
+(ii)
+to produce or cause to be produced such accounts, records or other documents as the Assessing Officer may require.
+(5)
+If any person -
+(a)
+fails to make the return required under sub-section (1) of section 14 and has not made a return or a revised return under section 15, or
+(b)
+fails to comply with all the terms of a notice issued under sub-section (2) or sub-section (4), the Assessing Officer, after taking into account, all relevant material which he has gathered, shall, after giving such person an opportunity of being heard, estimate the net wealth to the best of his judgment and determine the sum payable by the person on the basis of such assessment:
+Provided that such opportunity shall be given by the Assessing Officer by serving a notice calling upon the person to show cause, on a date and time to be specified in the notice, why the assessment should not be completed to the best of his judgment:
+Provided further that it shall not be necessary to give such opportunity in a case where a notice under sub-section (4) has been issued prior to the making of the assessment under this sub-section.
+(6)
+Where a regular assessment under sub-section (3) or sub-section (5) is made-
+(a)
+any tax or interest paid by the assessee under sub-section (1) shall be deemed to have been paid towards such regular assessment.
+(b)
+if no refund is due on regular assessment or the amount refunded under sub-section (1) exceeds the amount refundable on regular assessment, the whole or the excess amount so refunded shall be deemed to be tax payable by the assessee and the provisions of this Act shall apply accordingly.
+16A.
+Reference to Valuation Officer
+(1)
+For the purpose of making an assessment (including an assessment in respect of any assessment year commencing before the date of coming into force of this section) under this Act, where under the provisions of section 7 read with the rules made under this Act or, as the case may be, the rules made in Schedule III, the market value of any asset is to be taken into account in such assessment, the Assessing Officer may refer the valuation of any asset to a Valuation Officer -
+(a)
+in a case where the value of the asset as returned is in accordance with the estimate made by a registered valuer, if the Assessing Officer is of opinion that the value so returned is less than its fair market value;
+(b)
+in any other case, if the Assessing Officer is of opinion -
+(i)
+that the fair market value of the asset exceeds the value of the asset as returned by more than such percentage of the value of the asset as returned or by more than such amount as may be prescribed in this behalf; or
+(ii)
+that having regard to the nature of the asset and other relevant circumstances, it is necessary so to do.
+(2)
+For the purpose of estimating the value of any asset in pursuance of a reference under sub-section (1), the Valuation Officer may serve on the assessee a notice requiring him to produce or cause to be produced on a date specified in the notice such accounts, records or other documents as the Valuation Officer may require.
+(3)
+Where the Valuation Officer is of opinion that the value of the asset has been correctly declared in the return made by the assessee under section 14 or section 15, he shall pass an order in writing to that effect and send a copy of his order to the Assessing Officer and to the assessee.
+(4)
+Where the Valuation Officer is of opinion that the value of the asset is higher than the value declared in the return made by the assessee under section 14 or section 15, or where the asset is not disclosed or the value of the asset is not declared in such return or where no such return has been made, the Valuation Officer shall serve a notice on the assessee intimating the value which he proposes to estimate and giving the assessee an opportunity to state, on a date to be specified in the notice, his objections either in person or in writing before the Valuation Officer and to produce or cause to be produced on that date such evidence as the assessee may rely in support of his objections.
+(5)
+On the date specified in the notice under sub-section (4), or as soon thereafter as may be, after hearing such evidence as the assessee may produce and after considering such evidence as the Valuation Officer may require on any specified points and after taking into account all relevant material which he has gathered, the Valuation Officer shall, by order in writing, estimate the value of the asset and send a copy of his order to the Assessing Officer and to the assessee.
+(6)
+On receipt of the order under sub-section (3) or sub-section (5) from the Valuation Officer, the Assessing Officer shall, so far as the valuation of the asset in question is concerned, proceed to complete the assessment in conformity with the estimate of the Valuation Officer
+17.
+Wealth escaping assessment
+(1)
+If the Assessing Officer has reason to believe that the net wealth chargeable to tax in respect of which any person is assessable under this Act has escaped assessment for any assessment year (whether by reason of under-assessment or assessment at too low a rate or otherwise, he may, subject to the other provisions of this section and section 17A, serve on such person a notice requiring him to furnish within such period, as maybe specified in the notice, a return in the prescribed form and verified in the prescribed manner setting forth the net wealth in respect of which such person is assessable as on the valuation date mentioned in the notice, along with such other particulars as may be required by the notice, and may proceed to assess or reassess such net wealth and also any other net wealth chargeable to tax in respect of which such person is assessable, which has escaped assessment and which comes to his notice subsequently in the course of the proceedings under this section for the assessment year concerned (hereafter in this section referred to as the relevant assessment year), and the provisions of this Act shall, so far as maybe, apply as if the return were a return required to be furnished under section 14:
+Provided that where an assessment under sub-section (3) of section 16 or this section has been made, for the relevant assessment year, no action shall be taken under this section after the expiry of four years from the end of the relevant assessment year, unless any net wealth chargeable to tax has escaped assessment for such assessment year by reason of the failure on the part of the assessee to make a return under section14 or section 15 or in response to a notice issued under sub-section (4) of section 16 or this section or to disclose fully and truly all material facts necessary for his assessment for that assessment year:
+Provided further that the Assessing Officer shall, before issuing any notice under this sub-section, record his reasons for doing so.
+Provided also that nothing contained in the first proviso shall apply in a case where any net wealth in relation to any asset (including financial interest in any entity) located outside India chargeable to tax, has escaped assessment for any assessment year:
+Provided also that the Assessing Officer may assess or reassess such net wealth, other than the net wealth which is the subject matter of any appeal, reference or revision, which is chargeable to tax and has escaped assessment.
+Explanation.- Production before the Assessing Officer of account books or other evidence from which material evidence could with due diligence have been discovered by the Assessing Officer will not necessarily amount to disclosure within the meaning of the foregoing proviso.
+(1A)
+No notice under sub-section (1) shall be issued for the relevant assessment year, -
+(a)
+if four years have elapsed from the end of the relevant assessment year, unless the case falls under clause (b) or clause (c);
+(b)
+if four years, but not more than six years, have elapsed from the end of the relevant assessment year, unless the net wealth chargeable to tax which has escaped assessment amounts to or is likely to amount to rupees ten lakhs or more for that year.
+(c)
+if four years, but not more than sixteen years, have elapsed from the end of the relevant assessment year unless the net wealth in relation to any asset (including financial interest in any entity) located outside India, chargeable to tax, has escaped assessment for any assessment year.
+Explanation 1.- For the purposes of sub-section (1) and sub-section (1A), the following shall also be deemed to be cases where net wealth chargeable to tax has escaped assessment, namely: -
+(a)
+where no return of net wealth has been furnished by the assessee although his net wealth or the net wealth of any other person in respect of which he is assessable under this Act on the valuation date exceeded the maximum amount which is not chargeable to wealth-tax;
+(b)
+where a return of net wealth has been furnished by the assessee but no assessment has been made and it is noticed by the Assessing Officer that the assessee has understated the net wealth or has claimed excessive exemption or deduction in the return.
+(c)
+where a person is found to have any asset (including financial interest in any entity) located outside India.
+Explanation 2.--For the removal of doubts, it is hereby clarified that the provisions of this section, as amended by the Finance Act, 2012, shall also be applicable for any assessment year beginning on or before the 1st day of April, 2012.
+(1B)
+(a)
+In a case where an assessment under sub-section (3) of section 16 or sub-section (1) of this section has been made for the relevant assessment year, no notice shall be issued under sub-section (1) by an Assessing Officer, who is below the rank of Assistant Commissioner or Deputy Commissioner, unless the Joint Commissioner is satisfied on the reasons recorded by such Assessing
+Officer that it is a fit case for the issue of such notice:
+Provided that after the expiry of four years from the end of the relevant assessment year, no such notice shall be issued unless the Chief Commissioner or Commissioner is satisfied, on the reasons recorded by the Assessing Officer aforesaid, that it is a fit case for the issue of such notice.
+(b)
+In a case other than a case falling under clause (a), no notice shall be issued under sub-section (1) by an Assessing Officer, who is below the rank of Joint Commissioner, after the expiry of four years from the end of the relevant assessment year, unless the Joint Commissioner is satisfied, on the reasons recorded by such Assessing Officer, that it is a fit case for the issue of such notice.
+Explanation.-- For the removal of doubts, it is hereby declared that the Joint Commissioner, the Commissioner or the Chief Commissioner, as the case may be, being satisfied on the reasons recorded by the Assessing Officer about fitness of a case for the issue of notice, need not issue such notice himself.
+(2)
+Nothing contained in this section limiting the time within which any proceeding for assessment or reassessment maybe commenced, shall apply to an assessment or reassessment to be made on such person in consequence of or to give effect to any finding or direction contained in an order under section 23, 24, 25, 27 or 29 or by a court in any proceedings under any other law:
+Provided that the provisions of this sub-section shall not apply in any case where any such assessment or reassessment relates to an assessment year in respect of which an assessment or reassessment could not have been made at the time the order which was the subject-matter of the appeal, reference or revision, as the case may be, was made by reason of any provision limiting the time within which any action for assessment of reassessment may be taken.
+17A.
+Time-limit for completion of assessment and reassessment
+(1)
+No order of assessment shall be made under section 16 at any time after the expiry of two years from the end of the assessment year in which the net wealth was first assessable:
+Provided that,-
+(a)
+where the net wealth was first assessable in the assessment year commencing on the 1st day of April, 1987, or any earlier assessment year, such assessment may be made on or before the 31st day of March, 1991;
+(b)
+where the net wealth was first assessable in the assessment year commencing on the 1st day of April, 1988, such assessment may he made on or before the 31st day of March, 1992.
+Provided further that in case the assessment year in which the net wealth was first assessable is the assessment year commencing on or after the 1st day of April, 2004 but before the 1st day of April, 2010, the provisions of this sub-section shall have effect as if for the words "two years", the words "twenty-one months" had been substituted.
+(2)
+No order of assessment or reassessment shall be made under section 17 after the expiry of one year from the end of the financial year in which the notice under sub-section (1) of that section was served:
+Provided that where the notice under sub-section (1) of section 17 was served on or the 1st day of April, 1999,but before the 1st day of April, 2000, such assessment or reassessment may be made at any time up to the 31st day of March, 2002.
+Provided further that where the notice under sub-section (1) of section 17 was served on or after the 1st day of April, 2005 but before the 1st day of April, 2011, the provisions of this sub-section shall have effect as if for the words "one year", the words "nine months" had been substituted.
+(3)
+Notwithstanding anything contained in sub-sections (1) and (2), an order of fresh assessment in pursuance of an order passed on or after the 1st day of April, 1975, under section 23A, section 24 or section 25, setting aside or cancelling an assessment, may he made at any time before the expiry of two years from the end of the financial year in which the order under section 23A or section 24 is received by the Chief Commissioner or Commissioner or, as the case may be, the order under section 25 is passed by the Commissioner:
+Provided that where the order under Section 23A or section 24 is received by the Chief Commissioner or Commissioner or, as the case may be, the order under section 25 is passed by the Commissioner on or after the 1st day of April, 1999 but before the 1st day of April, 2000, such an order of fresh assessment may be made at any time up to the 3Ist day of March, 2002.
+Provided further that where the order under Section 23A or section 24 is received by the Chief Commissioner or Commissioner or, as the case may be, the order under section 25 is passed by the Commissioner, on or after the 1st day of April, 2005 but before the 1st day of April, 2011, the provisions of this subsection shall have effect as if for the words "one year", the words "nine months" had been substituted.
+(4)
+The provisions of sub-sections (1) and (2) shall not apply to the assessment or reassessment made on the assessee or any other person in consequence of, or to give effect to, any finding or direction contained in an order under section 23, section 24, section 25, Section 27 or section 29 or in an order of any court in a proceeding otherwise than by way of appeal or reference under this Act, and such assessment or reassessment may, subject ,to the provisions of sub-section (3), be completed at any time.
+Explanation 1. - In computing the period of limitation for the purposes of this section-
+(i)
+the time taken in reopening the whole or any part of the proceeding or in giving an opportunity to the assessee to be reheard under the proviso to section 39, or
+(ii)
+the period during which the assessment proceeding is stayed by an order or injunction of any court, or
+(iia)
+the period (not exceeding sixty days) commencing from the date on which the Assessing Officer received the declaration under sub-section (1) of section 18C and ending with the date on which the order under sub-section (3) of that section is made by him, or
+(iii)
+in a case where an application made before the Wealth-tax Settlement Commissioner under section 22C is rejected by it or is not allowed to be proceeded with by it, the period commencing from the date on which such application is made and ending with the date on which the order under sub-section (1) of section 22D is received by the Chief Commissioner or Commissioner under sub-section (2) of that section, shall be excluded:
+Provided that where immediately after the exclusion of the aforesaid time or period, the period of limitation referred to in sub-sections (1), (2) and (3) available to the Assessing Officer, for making an order of assessment or reassessment, as the case may be, is less than sixty days, such remaining period shall be extended to sixty days and the aforesaid period of limitation shall be deemed to be extended accordingly.
+Provided further that where a proceeding before the Settlement Commission abates under section 22HA, the period of limitation referred to in this section available to the Assessing Officer for making an order of assessment or reassessment, as the case may be, shall, after the exclusion of the period under sub-section (4) of section 22HA, be not less than one year; and where such period of limitation is less than one year, it shall be deemed to have been extended to one year.
+Explanation 2. -Where, by an order referred to in sub-section (4), any asset is excluded from the net wealth of one person and held to be the asset of another person, then, an assessment in respect of such asset on such other person shall, for the purposes of sub-section (2) of section 17 and this section, be deemed to be one made in consequence of, or to give effect to, any finding or direction, contained in the said order, provided such other person was given an opportunity of being heard before the said order was passed.
+17B.
+Interest for defaults in furnishing return of net wealth
+(1)
+Where the return of net wealth for any assessment year under sub-section (1) of section 14 or section 15, or in response to a notice under clause (i) of sub-section (4) of section 16, is furnished after the due date, or is not furnished, the assesses shall be liable to pay simple interest at the rate of one per cent two per cent, for every month or part of a month comprised in the period commencing on the date immediately following the due date, and,-
+(a)
+where the return is furnished after the due date, ending on the date of furnishing of the return, or
+(b)
+where no return has been furnished, ending on the date of completion of the assessment under sub-section (5) of section 16, on the amount of tax payable on the net wealth as determined under sub-section (1) of section 16 or on regular assessment.
+Explanation 1.- In this section, "due date" means the date specified in sub-section (1) of section 14 as applicable in the case of the assessee.
+Explanation 2.- In this sub-section, "tax payable on the net wealth as determined under sub-section (1) of section 16" shall not include the additional wealth-tax, if any, payable under section 16.
+Explanation 3.-Where, in relation to an assessment year, an assessment is made for the first time under section 17, the assessment so made shall be regarded as a regular assessment for the purposes of this section.
+Explanation 4.- In this sub-section, "tax payable on the net wealth as determined under sub-section (1) of section 16 or on regular assessment" shall, for the purposes of computing the interest payable under section 15B, be deemed to be tax payable on the net wealth as declared in the return.
+(2)
+The interest payable under sub-section (I) shall be reduced by the interest, if any, paid under section 15B towards the interest chargeable under this section.
+(3)
+Where the return of net wealth for any assessment year, required by a notice under sub-section (I) of section 17 issued after the determination of net wealth under sub-section (1) of section 16 or after the completion of an assessment under sub-section (3) or sub-section (5) of section 16 or section 17 is furnished after the expiry of the time allowed under such notice, or is not furnished, the assessee shall be liable to pay simple interest at the rate of one per cent, for every month or part of a month comprised in the period commencing on the day immediately following the expiry of the time allowed as aforesaid, and,-
+(a)
+where the return is furnished after the expiry of the time aforesaid, ending on the date of furnishing the return; or
+(b)
+where no return has been furnished, ending on the date of completion of the reassessment under section 17, on the amount by which the tax on the net wealth determined on the basis of such reassessment exceeds the tax on the net wealth as determined under sub-section (1) of section 16 or on the basis of the earlier assessment aforesaid.
+(4)
+Where, as a result of an order under section 23 or section 24 or section 25 or section 27 or section 29 or section 35 or any order of the Wealth-tax Settlement Commissioner under sub-section (4) of section 22D, the amount of tax on which interest was payable under this section has been increased or reduced, as the case may be, the interest shall be increased or reduced accordingly, and, -
+(i)
+in a case where the interest is increased, the Assessing Officer shall serve on the assessee a notice of demand in the prescribed form specifying the sum payable, and such notice of demand shall be deemed to be a notice under section 30 and the provisions of this Act shall apply accordingly, and
+(ii)
+in a case where the interest is reduced, the excess interest paid, if any, shall be refunded.
+(5)
+The provisions of this section shall apply in respect of assessments for the assessment year commencing on the 1st day of April, 1989 and subsequent assessment years.
+18.
+Penalty for failure to furnish returns, to comply with notices and concealment of assets, etc.
+(1)
+If the Assessing Officer, Joint Commissioner (Appeals), Commissioner (Appeals), Chief Commissioner or Commissioner or Appellate Tribunal in the course of any proceedings under this Act is satisfied that any person -
+(b)
+has failed to comply with a notice under sub-section (2) or sub-section (4) of section 16; or
+(c)
+has concealed the particulars of any assets or furnished inaccurate particulars of any assets or debts; he or it may, by order in writing, direct that such person shall pay by way of penalty-
+(ii)
+in the cases referred to in clause (b), in addition to the amount of wealth-tax payable by him, a sum which shall not be less than one thousand rupees but which may extend to twenty-five thousand rupees for each such failure;
+(iii)
+in the cases referred to in clause (c), in addition to any wealth-tax payable by him, a sum which shall not be less than, but which shall not exceed five times, the amount of tax sought to be evaded by reason of the concealment of particulars of any assets or the furnishing of inaccurate particulars in respect of any assets or debts:
+Provided that in the cases referred to in clause (b), no penalty shall be imposable if the person proves that there was a reasonable cause for the failure referred to in that clause.
+Explanation 1. -For the purposes of clause (iii) of this sub-section, the expression "the amount of tax sought to be evaded"-
+(a)
+in a case to which Explanation 3 applies, means the tax on the net wealth assessed;
+(b)
+in any other case, means the difference between the tax on the net wealth assessed and the tax that would have been chargeable had the net wealth assessed been reduced by the amount which represents the value of any assets in respect of which particulars have been concealed or inaccurate particulars have been furnished and of any debts in respect of which inaccurate particulars have been furnished.
+Explanation 2. - Where in respect of any facts material to the computation of the net wealth of any person under this Act,-
+(A)
+such person fails to offer an explanation or offers an explanation which is found by the Assessing Officer or the Deputy Commissioner (Appeals) or the Commissioner (Appeals), or the commissioner to be false, or
+(B)
+such person offers an explanation which he is notable to substantiate and fails to prove that such explanation is bona fide and that all the facts relating to the same and material to the computation of his net wealth have been disclosed by him, then, the amount added or disallowed in computing the net wealth of such person as a result thereof shall, for the purposes of clause (c) of this sub-section, be deemed to represent the value of the assets in respect of which particulars have been concealed.
+Explanation 3.- Whereany person fails, without reasonable cause, to furnish within the period specified in sub-section (1) of section 17A, a return of his net wealth which he is required to furnish under section 14 in respect of any assessment year commencing on or after the 1st day of April, 1989,and until the expiry of the period aforesaid, no notice has been issued to him under clause (i) of sub-section (4) of section 16 or sub-section (1) of section 17 and the Assessing Officer or the Deputy Commissioner (Appeals) or the Commissioner (Appeals) is satisfied that in respect of such assessment year such person has assessable net wealth, the such person shall, for the purposes of clause (c) of this sub-section, be deemed to have concealed the particulars of his assets or furnished inaccurate particulars of any assets" or debts in respect of such assessment year, notwithstanding that such person furnishes a return of his net wealth at any time after the expiry of either of the periods aforesaid applicable to him in pursuance of a notice under section 17.
+Explanation 4.- Wherethe value of any asset returned by any person is less than seventy per cent, of the value of such asset as determined in an assessment under section 16 or section 17, such person shall be deemed to have furnished inaccurate particulars of such asset within the meaning of clause (c) of this sub-section, unless he proves that the value of the asset as returned by him is the correct value.
+Explanation 5. -Wherein the course of a search under section 37A, the assessee is found to be the owner of any money, bullion, jewellery or other valuable article or thing (hereafter in this Explanation referred to as assets) and the assessee claims that such assets represent or form part of his net wealth, -
+(a)
+on any valuation date falling before the date of the search, but the return in respect of the net wealth on such date has not been furnished before the date of the search or, where such return has been furnished before the said date, such assets have not been declared in such return; or
+(b)
+on any valuation date falling on or after the date of the search, then, notwithstanding that such assets are declared by him in any return of net wealth furnished on or after the date of the search, he shall, for the purposes of imposition of a penalty under clause (c) of sub-section (1) of this section, be deemed to have concealed the particulars of such assets or furnished inaccurate particulars of such assets, unless-
+(1)
+such assets are recorded,
+(i)
+in a case falling under clause (a), before the date of the search; and (ii) in a case falling under clause (b), on or before such date, in the books of account, if any, maintained by him or such assets are otherwise disclosed to the Chief Commissioner or Commissioner before the said date; or (2) he, in the course of the search, makes a statement under sub-section (4) of section 37A that any money, bullion, jewellery or other valuable article or thing found in his possession or under his control, forms part of his net wealth which has not been disclosed so far in his return on net wealth to be furnished before the expiry of the time specified in sub-section (1) of section 14, and also specifies in the statement the manner in which such net wealth has been acquired and pays the tax, together with interest, if any, in respect of such net wealth.
+Explanation 6. -Where any adjustment is made in the wealth declared in the return under the proviso to clause (a) of sub-section (1) of section 16 and additional wealth-tax charged under that section, the provisions of this sub-section shall not apply in relation to the adjustments so made.
+(1A)
+Where any amount is added or disallowed in computing the net wealth of an assessee in any order of assessment or reassessment and the said order contains a direction for initiation of penalty proceedings under clause (c) of sub-section (1), such an order of assessment or reassessment shall be deemed to constitute satisfaction of the Assessing Officer for initiation of the penalty proceedings under the said clause (c).
+(2)
+No order shall be made under sub-section (1) unless the person concerned has been given a reasonable opportunity of being heard.
+(3)
+No order imposing a penalty under sub-section (1) shall be made,-
+(i)
+by the Income-tax Officer, where the penalty exceeds ten thousand rupees;
+(ii)
+by the Assistant Commissioner, where the penalty exceeds twenty thousand rupees except with the prior approval of the Deputy Commissioner.
+(4)
+A Deputy Commissioner (Appeals), a Commissioner (Appeals), a Chief Commissioner or Commissioner or the Appellate Tribunal on making an order under this section imposing a penalty, shall forthwith send a copy of the same to the Assessing Officer.
+(5)
+No order imposing a penalty under this section shall be passed-
+(i)
+in a case where the assessment to which the proceedings for imposition of penalty relate is the subject-matter of an appeal to the Joint Commissioner (Appeals) or the Commissioner (Appeals) under section 23 or an appeal to the Appellate Tribunal under sub-section (2) of section 24, after the expiry of the financial year in which the proceedings, in the course of which action for the imposition of penalty has been initiated are completed, or six months from the end of the month in which the order of the Joint Commissioner (Appeals) or the Commissioner (Appeals) or, as the case may be, the Appellate Tribunal is received by the Chief Commissioner or Commissioner, whichever is later;
+(ii)
+in a case where the relevant assessment is the subject-matter of revision under sub-section (2) of section 25,after the expiry of six months from the end of the month in which such order or revision is passed;
+(iii)
+in any other case, after the expiry of the financial year in which the proceedings, in the course of which action for the imposition of penalty has been initiated, are completed, or six months from the end of the month in which action for imposition of penalty is initiated, whichever period expires later.
+Explanation. - In computing the period of limitation for the purpose of this section, -
+(i)
+any period during which the immunity granted under section 22H remained in force;
+(ii)
+the time taken in giving an opportunity to the assessee to be reheard under the proviso to section 39; and
+(iii)
+any period during which a proceeding under this section for the levy of penalty is stayed by an order or injunction of any court, shall be excluded.
+(6)
+The provisions of this section as they stood immediately before their amendment by the Direct Tax Laws (Amendment) Act 1989, shall apply to and in relation to any assessment for the assessment year commencing on the 1st day of April, 1988, or any earlier assessment year and references in this section to the other provisions of this Act shall be construed as references to those provisions as for the time being in force and applicable to the relevant assessment year.
+18AA.
+Penalty for failure to answer questions, sign statements, furnish information, allow inspections, etc.-
+(1)
+If any person, -
+(a)
+being legally bound to state the truth of any matter touching the subject of his assessment, refuses to answer any question put to him by a wealth-tax authority in the exercise of his powers under this Act; or
+(b)
+refuses to sign any statement made by him in the course of any proceedings under this Act, which a wealth-tax authority may legally require him to sign; or
+(c)
+to whom a summons is issued under sub-section (1) of section 37 either to attend to give evidence or produce books of account or other documents at a certain place and time, omits to attend or produce the books of account or documents at the place and time, he shall pay, by way of penalty, a sum which shall not be less than five hundred rupees but which may extend to ten thousand rupees for each such default or failure:
+Provided that no penalty shall be imposable under clause (c) if the person proves that there was reasonable cause for the said failure.
+(2)
+If a person fails to furnish in due time any statement or information which such person is bound to furnish to the Assessing Officer under section 38, he shall pay, by way of penalty, a sum which shall not be less than one hundred rupees but which may extend to two hundred rupees for every day during which the failure continues:
+Provided that no penalty shall be imposable under this sub-section if the person proves that there was reasonable cause for the said failure.
+(3)
+Any penalty imposable under sub-section (1) or sub-section (2) shall be imposed -
+(a)
+in a case where the contravention, failure or default in respect of which such penalty is imposable occurs in the course of any proceeding before a wealth-tax authority not lower in rank than a Joint Director or a Joint Commissioner, by such wealth-tax authority;
+(b)
+in any other case, by the Joint Director or the Joint Commissioner.
+(4)
+No order under this section shall be passed by any wealth-tax authority referred to in sub-section (3) unless the person on whom the penalty is proposed to be imposed has been heard, or has been given a reasonable opportunity of being heard in the matter, by such authority.
+Explanation.- In this section, "wealth-tax authority" includes a Director General, Director, Joint Director, Assistant Director or Deputy Director and a Valuation Officer while exercising the powers vested in a court under the Code of Civil Procedure, 1908 (5 of 1908), when trying a suit in respect of the matters specified in sub-section (1) of section 37.
+18B.
+Power to reduce or waive penalty in certain cases. -
+(1)
+Notwithstanding anything contained in this Act, the Commissioner may, in his discretion, whether on his own motion or otherwise, -
+(ii)
+reduce or waive the amount of penalty imposed or imposable on a person under clause (iii) of sub-section (1) of section 18, if he is satisfied that such person, -
+(b)
+in the case referred to in clause (ii), has, prior to the detection by the Assessing Officer, of the concealment of particulars of assets or of the inaccuracy of particulars furnished in respect of any asset or debt in respect of which the penalty is imposable, voluntarily and in good faith made full and true disclosure of such particulars, and also has co-operated in any inquiry relating to the assessment of his net wealth and has either paid or made satisfactory arrangements for the payment of any tax or interest payable inconsequence of an order passed under this Act in respect of the relevant assessment year.
+Explanation l.- For the purposes of this sub-section, a person shall be deemed to have made full and true disclosure of the particulars of his assets or debts in any case where the excess of net wealth assessed over the net wealth returned is of such a nature as not to attract the provisions of clause(c) of sub-section (1) of section 18.
+Explanation 2. - (2) Notwithstanding anything contained in sub-section (1), if in a case falling under clause (c) of sub-section (1) of section 18, the net wealth in respect of which the penalty is imposed or imposable for the relevant assessment year, or, where such disclosure relates to more than one assessment year, the net wealth for anyone of the relevant assessment years, exceeds five hundred thousand rupees, no order reducing or waiving the penalty under sub-section (1) shall be made by the Commissioner except with the previous approval of the Chief Commissioner, or Director-General, as the case may be.
+(3)
+Where an order has been made under sub-section (1) in favour of any person, whether such order relates to one or more assessment years, he shall not be entitled to any relief under this section in relation to any other assessment year at any time after the making of such order:
+Provided that where an order has been made in favour of any person under sub-section (1) on or before the 24th day of July, 1991, such person shall be entitled to further relief only once in relation to other assessment year or years if he makes an application to the wealth-tax authority referred to in sub-section (4) at any time before the 1st day of April, 1992.
+(4)
+Without prejudice to the powers conferred on him by any other provision of this Act, the Commissioner may, on an application made in this behalf by an assessee, and after recording his reasons for so doing, reduce or waive the amount of any penalty payable by the assessee under this Act or stay or compound any proceeding for the recovery of any such amount, if he is satisfied that-
+(i)
+to do otherwise would cause genuine hardship to the assessee, having regard to the circumstances of the case, and
+(ii)
+the assessee has co-operated in any inquiry relating to the assessment or any proceeding for the recovery of any amount due from him.
+(5)
+Every order made under this section shall be final and shall not be called into question by any court or any other authority.
+(6)
+The provisions of this section as they stood immediately before their amendment by the Direct Tax Laws (Amendment) Act, 1989, shall apply to and in relation to any assessment for the assessment year commencing on the 1st day of April, 1988, or any earlier assessment year, and references in this section to the other provisions of this Act shall be construed as references to those provisions as for the time being in force and applicable to the relevant assessment year.
+18BA.
+Power of Commissioner to grant immunity from penalty -
+(1)
+A person may make an application to the Commissioner for granting immunity from penalty, if–
+(a)
+he has made an application for settlement under section 22C and the proceedings for settlement have abated under section 22HA; and
+(b)
+the penalty proceedings have been initiated under this Act.
+(2)
+The application to the Commissioner under sub-section (1) shall not be made after the imposition of penalty after abatement.
+(3)
+The Commissioner may, subject to such conditions as he may think fit to impose, grant to the person immunity from the imposition of any penalty under this Act, if he is satisfied that the person has, after the abatement, co-operated with the wealth-tax authority in the proceedings before him and has made a full and true disclosure of his net wealth and the manner in which such net wealth has been derived.
+(4)
+The immunity granted to a person under sub-section (3) shall stand withdrawn, if such person fails to comply with any condition subject to which the immunity was granted and thereupon the provisions of this Act shall apply as if such immunity had not been granted.
+(5)
+The immunity granted to a person under sub-section (3) may, at any time, be withdrawn by the Commissioner, if he is satisfied that such person had, in the course of any proceedings, after abatement, concealed any particulars, material to the assessment, from the wealth-tax authority or had given false evidence, and thereupon such person shall become liable to the imposition of any penalty under this Act to which such person would have been liable, had not such immunity been granted.
+18C.
+- Procedure when assessee claims identical question of law is pending before High Court or Supreme Court
+(1)
+Notwithstanding anything contained in this Act, where an assessee claims that any question of law arising in his case for an assessment year which is pending before the Assessing Officer or any appellate authority (such case being hereafter in this section referred to as the relevant case) is identical with a question of law arising in his case for another assessment year which is pending before the High Court or the Supreme Court on a reference under section 27 or in appeal under section 27A before the High Court or in appeal before the Supreme Court under section 29 (such case being hereafter in this section referred to as the other case), he may furnish to the Assessing Officer or the appellate authority, as the case may be, a declaration in the prescribed form and verified in the prescribed manner, that if the Assessing Officer or the appellate authority, as the case may be, agrees to apply to the relevant case the final decision on the question of law in the other case, he shall not raise such question of law in the relevant case in appeal before any appellate authority or in appeal before the High Court under section 27A or the Supreme Court under section 29.
+(2)
+Where a declaration under sub-section (1) is furnished to any appellate authority, the appellate authority shall call for a report from the Assessing Officer on the correctness of the claim made by the assessee and, where the Assessing Officer makes a request to the appellate authority to give him an opportunity of being heard in the matter, the appellate authority shall allow him such opportunity.
+(3)
+The Assessing Officer or the appellate authority, as the case may be, may, by order in writing, -
+(i)
+admit the claim of the assessee if he or it is satisfied that the question of law arising in the relevant case is identical with the question of law in the other case; or
+(ii)
+reject the claim if he or it is not so satisfied.
+(4)
+Where a claim is admitted under sub-section (3)-
+(a)
+the Assessing Officer or, as the case may be, the appellate authority may make an order disposing of the relevant case without awaiting the final decision on the question of law in the other case; and
+(b)
+the assessee shall not be entitled to raise, in relation to the relevant case, such question of law in appeal before any appellate authority or in appeal before the High Court under section 27A or the Supreme Court under section 29.
+(5)
+Where the decision on the question of law in the other case, becomes final, it shall be applied to the relevant case and the Assessing Officer or the appellate authority, as the case may be, shall, if necessary, amend the order referred to in clause (a) of sub-section (4) conformably to such decision.
+(6)
+An order under sub-section (3) shall be final and shall not be called in question in any proceeding by way of appeal, reference or revision under this Act.
+Explanation.- In this section, -
+(a)
+"appellate authority" means the Deputy Commissioner (Appeals), or the Commissioner (Appeals) or the Appellate Tribunal;
+(b)
+"case", in relation to an assessee, means any proceeding under this Act for the assessment of the net wealth of the assessee or for the imposition of any penalty on him.
+19.
+- Tax of deceased person payable by legal representative
+(1)
+Where a person dies, his executor, administrator or other legal representative shall be liable to pay out of the estate of the deceased person, to the extent to which the estate is capable of meeting the charge, the wealth-tax assessed as payable by such person, or any sum, which would have been payable by hi m under this Act if he had not died.
+(2)
+Where a person dies without having furnished a return under the provisions of section 14 or after having furnished a return which the Assessing Officer has reason to believe to be incorrect or incomplete, the Assessing Officer may make an assessment of the net wealth of such person and determine the wealth-tax payable by the person on the basis of such assessment, and for this purpose may, by the issue of the appropriate notice which would have had to be served upon the deceased person if he had survived, require from the executor, administrator or other legal representative of the deceased person any accounts, documents or other evidence which might under the provisions of section 16 have been required from the deceased person.
+(3)
+The provisions of sections 14 , 15 and 17 shall apply to an executor, administrator or other legal representative as they apply to any person referred to in those sections.
+19A.
+Assessment in the case of executors. -
+(1)
+Subject to as hereinafter provided, the net wealth of the estate of a deceased person shall be chargeable to tax in the hands of the executor or executors.
+(2)
+The executor or executors shall for the purposes of this Act be treated as an individual.
+(3)
+The status of the executor or executors shall for the purposes of this Act as regards residence and citizenship be the same as that of the deceased on the valuation date immediately preceding his death.
+(4)
+The assessment of an executor under this section shall be made separately from any assessment that may be made on him in respect of his own net wealth or on the net wealth of the deceased under section 19.
+(5)
+Separate assessments shall be made under this section in respect of the net wealth as on each valuation date as is included in the period from the date of the death of the deceased to the date of complete distribution to the beneficiaries of the estate according to their several interests.
+(6)
+In computing the net wealth on any valuation date under this section, any assets of the estate distributed to, or applied to the benefit of, any specific legatee of the estate prior to that valuation date shall be excluded, but the assets so excluded shall, to the extent such assets are held by the legatee on any valuation date, be included in the net wealth of such specific legatee on the valuation date.
+Explanation. - In this section, "executor" includes an administrator or other person administering the estate of a deceased person.
+20.
+- Assessment after partition of a Hindu Undivided Family
+(1)
+Where at the time of making an assessment, it is brought to the notice of the 3Assessing Officer that a partition has taken place among the members of a Hindu undivided family, and the 3Assessing Officer, after inquiry, is satisfied that the joint family property has been partitioned as a whole among the various members or group of members in definite portions, he shall record an order to that effect and shall make assessment on the net wealth of the undivided family as such for the assessment year or years, including the year relevant to the previous year in which the partition has taken place, if the partition has taken place on the last day of the previous year and each member or group of members shall be liable jointly and severally for the tax assessed on the net wealth of the joint family as such.
+(2)
+Where the 3Assessing Officer is not so satisfied, he may, by order, declare that such family shall be deemed for the purposes of this Act to continue to be a Hindu undivided family liable to be assessed as such.
+20A.
+Assessment after partial partition of a, Hindu Undivided Family
+Where a partial partition has taken place after the 31st day of December, 1978, among the members of a Hindu undivided family hitherto assessed as undivided, -
+(a)
+such family shall continue to be liable to be assessed under this Act as if no such partial partition had taken place;
+(b)
+each member or group of members of such family immediately before such partial partition and the family shall be jointly and severally liable for any tax, penalty, interest, fine or other sum payable under this Act by the family in respect of any period, whether before or after such partial partition,;
+(c)
+the several liability of any member or group of members aforesaid shall be computed according to the portion of the joint family property allotted to him or it at such partial partition, and the provisions of this Act shall apply accordingly.
+Explanation. -For the purposes of this section, "partial partition" shall have the meaning assigned to it in clause (b) of the Explanation to section 171 of the Income-tax Act.
+21.
+- Assessment when assets are held by courts of wards, administrators-general, etc.
+(1)
+Subject to the provisions of sub-section(1A), in the case of assets chargeable to tax under this Act, which are held by a court of wards or an administrator-general or an official trustee or any receiver or manager or any other person, by whatever name called, appointed under any order of a court to manage property on behalf of another, or any trust appointed under a trust declared by a duly executed instrument in writing, whether testamentary or otherwise (including a trustee under a valid deed of wakf), the wealth-tax shall be levied upon and recoverable from the court of wards, administrator-general, official trustee, receiver, manager or trustee, as the case may be, in the like manner and to the same extent as it would believable upon and recoverable from the person on whose behalf or for whose benefit the assets are held, and the provisions of this Act shall apply accordingly.
+Explanation. -A trust which is not declared by a duly executed instrument in writing (including a valid deed of wakf) shall be deemed, for the purposes of this sub-section, to be a trust declared by a duly executed instrument in writing if a statement in writing, signed by the trustee or trustees, setting out the purpose or purposes of the trust, particulars as to the trustee or trustees, the beneficiary or beneficiaries and the trust property, is forwarded to the Assessing Officer -
+(i)
+where the trust has been declared before the 1st day of June, 1981, within a period of three months from that day; and
+(ii)
+in any other case, within three months from the date of declaration of the trust.
+(1A)
+Where the value or aggregate value of the interest or interests of the person or persons on whose behalf or for whose benefit such Assets are held falls short of the value of any such assets, then, in addition to the wealth-tax leviable and recoverable under sub-section (1), the wealth-tax shall be levied upon and recovered from the court of wards, administrator-general, official trustee, receiver, manager or other person or trustee aforesaid in respect of the value of such assets, to the extent it exceeds the value or aggregate value of such interest or interests, as if such excess value were the net wealth of an individual who is a citizen of India and resident in India for the purposes of this Act, and--
+(i)
+at the rates specified in Part I of Schedule I; or
+(ii)
+at the rate of three per cent., whichever course would be more beneficial to the revenue.
+(2)
+Nothing contained in sub-section (1) shall prevent either the direct assessment of the person on whose behalf or for whose benefit the assets above referred to are held, or the recovery from such person of the tax payable in respect of such assets.
+(3)
+Where the guardian or trustee of any person being a minor, lunatic or idiot holds any assets on behalf or for the benefit of such beneficiary, the tax under this Act shall be levied upon and recoverable from such guardian or trustee, as the case may he, in the like manner and to the same extent as it would be leviable upon and recoverable from any such beneficiary if of full age, of sound mind and in direct ownership of such assets.
+(4)
+Notwithstanding anything contained in the foregoing provisions of this section, where the shares of the persons on whose behalf or for whose benefit any such assets are held are indeterminate or unknown, the wealth-tax shall be levied upon and recovered from the court of wards, administrator-general, official trustee, receiver, manager, or other person aforesaid , as the case may be, in the like manner and to the same extent as it would be leviable upon and recoverable from an individual who is a citizen of India and resident in India for the purposes of this Act, and-
+(a)
+at the rates specified in Part I of Schedule I or
+(b)
+at the rate of three per cent., whichever course would be more beneficial to the revenue:
+Provided that in a case where--
+(i)
+such assets are held under a trust declared by any person by will and such trust is the only trust so declared by him; or
+(ia)
+none of the beneficiaries has net wealth exceeding the amount not chargeable to wealth-tax in the case of an individual who is a citizen of India and resident in India for the purposes of this Act or is a beneficiary under any other trust; or
+(ii)
+such assets are held under a trust created before the 1st day of March, 1970, by a non-testamentary instrument and the Assessing Officer is satisfied, having regard to all the circumstances existing at the relevant time, that the trust was created bonafide exclusively for the benefit of the relatives of the settlor or where the settlor is a Hindu undivided family, exclusively for the benefit of the members of such family, in circumstances where such relatives or members were mainly dependent on the settlor for their support and maintenance; or
+(iii)
+such assets are held by the trustees on behalf of a provident fund, superannuation fund, gratuity fund, pension fund or any other fund created bonafide by a person carrying on a business or profession exclusively for the benefit of persons employed in such business or profession, wealth-tax shall be charged at the rates specified in Part I of Schedule I
+Explanation 1. - For the purposes of this sub-section, the shares of the persons on whose behalf or for whose benefit any such assets are held shall be deemed to be indeterminate or unknown unless the shares of the persons on whose behalf or for whose benefit such assets are held on the relevant valuation date are expressly stated in the order of the court or instrument of trust or deed of wakf, as the case may be, and are ascertainable as such on the date of such order, instrument or deed.
+Explanation 2. - Notwithstanding anything contained in section 5, in computing the net wealth for the purposes of this sub-section or sub-section (4A) in any case, not being a case referred to in the proviso to this sub-section, any assets referred to in clauses (xv), (xvi), (xxii),(xxiii), (xxiv), (xxv), (xxvi), (xxvii), (xxviii) and (xxix), of sub-section (I) of that section shall not be excluded.
+(4A)
+Notwithstanding anything contained in this section, where the assets chargeable to tax under this Act are held by a trustee under an oral trust, the wealth-tax shall be levied upon and recovered from such trustee in the like manner and to the same extent as it would be leviable upon and recoverable from an individual who is a citizen of India and resident in India for the purposes of this Act, and-
+(a)
+at the rates specified in Part I of Schedule I; or
+(b)
+at the rate of three per cent, whichever course would be more beneficial to the revenue.
+Explanation.-For the purposes of this sub-section, "oral trust" means a trust which is not declared by a duly executed instrument in writing (including a valid deed of wakf) and which is not deemed under the Explanation to sub-section (1) to be a trust declared by a duly executed instrument in writing.
+(5)
+Any person who pays any sum by virtue of the provisions of this section in respect of the net wealth of any beneficiary shall be entitled to recover the sum so paid from such beneficiary, and may retain out of any assets that he may hold on behalf or for the benefit of such beneficiary, an amount equal to the sum so paid.
+Explanation.- In this section, the term "beneficiary" means any person including a minor, lunatic or idiot on whose behalf or for whose benefit assets are held by any other person.
+(6)
+Nothing contained in this section shall apply to and in relation to any assessment for the assessment year commencing on the 1st day of April, 1993, or any subsequent assessment year.
+21A.
+Assessment in cases of diversion of property, or of income from property, held under trust for public charitable or religious purposes
+Notwithstanding anything contained in clause (1) of section 5, where any property is held under trust for any public purpose of a charitable or religious nature in India, and
+(i)
+any part of such property or any income of such trust whether derived from such property or from voluntary contributions referred to in sub-clause (iia) of clause (24) of section 2 of the Income-tax Act, being a trust created on or after the 1st day of April, 1962 enures, directly or indirectly, for the benefit of any person referred to in sub-section (3) of section 13 of the Income-tax Act, or
+(ii)
+any part of the income of the trust whether derived from such property or from voluntary contributions referred to in sub-clause (iia) of clause (24) of section 2 of the Income-tax Act, being a trust created on or after the 1st day of April, 1962 enures, directly or indirectly, for the benefit of any person referred to in sub-section (3) of section 13 of the said Act, or
+(iii)
+any funds of the trust are invested or deposited, or any shares in a company are held by the trust, in contravention of the provisions of clause (d) of sub-section (1) of section 13 of the Income-tax Act wealth-tax shall be leviable upon, and recoverable from the trustee or manager (by whatever name called) in the like manner and to the same extent as if the property were held by an individual who is a citizen of India and resident in India for the purposes of this Act, :
+Provided that in the case of a trust created before the 1st day of April, 1962, the provisions of clause (i) shall not apply to any use or application, whether directly or indirectly, of any part of such property or any income of such trust for the benefit of any person referred to in sub-section (3) of section 13 of the Income-tax Act if such use or application is by way of compliance with a mandatory term of the trust:
+Provided further that,-
+(a)
+in the case of any association referred to in clause (21) of section 10 of the Income-tax Act,--
+(1)
+for the words, brackets, letter and figures "in contravention of the provisions of clause (d) of sub-section (1) of section 13 of the Income-tax Act," the words, brackets and figures "in contravention of the provisions contained in the proviso to clause (21) of section 10 of the Income-tax Act" has been substituted; and
+(2)
+for the words "at the maximum marginal rate", the words and figures" at the rates specified in sub-section (2) of section 3"had been substituted;
+(b)
+in the case of any institution, fund or trust referred to in clause (22) or clause (22A) or clause (23B) or clause (23C) of section 10 of the Income-tax Act, the provisions of clauses (i) to (iii) shall not apply.
+Explanation.-For the purposes of this section, -
+(a)
+any part of the property or income of a trust shall be deemed to have been used or applied for the benefit of any person referred to in sub¬section (3) of section 13 of the Income-tax Act in every case in which it can be so deemed to have been used or applied within the meaning of clause (c) of sub-section (1) of that section at any time during the period of twelve months ending with the relevant valuation date;
+(b)
+"trust" includes any other legal obligation.
+21AA.
+Assessment when assets are held by certain associations of persons. -
+(1)
+Where assets chargeable to tax under this Act are held by an association of persons, other than a company or co-operative society or society registered under the Societies Registration Act, 1860 (21 of 1860), or under any law corresponding to that Act in force in any part of India, and the individual shares of the members of the said association in the income or assets or both of the said association on the date of its formation or at any time thereafter are indeterminate or unknown, the wealth-tax shall be levied upon and recovered from such association in the like manner and to the same extent as it would be leviable upon and recoverable from an individual who is a citizen of India and resident in India for the purposes of this Act
+(2)
+Where any business or profession carried on by an association of persons referred to in sub-section (1) has been discontinued or where such association of persons is dissolved, the Assessing Officer shall make an assessment of the net wealth of the association of persons as if no such discontinuance or dissolution had taken place and all the provisions of this Act, including the provisions relating to the levy of penalty or any other sum chargeable under any provision of this Act, so far as may be, shall apply to such assessment.
+(3)
+Without prejudice to the generality of the provisions of sub-section (2), if the Assessing Officer or the Deputy Commissioner (Appeals) or the Commissioner (Appeals) in the course of any proceedings under this Act in respect of any such association of persons as is referred to in sub-section (1) is satisfied that the association of persons was guilty of any of the acts specified in section 18 or section 18A, he may impose or direct the imposition of a penalty in accordance with the provisions of the said sections.
+(4)
+Every person who was at the time of such discontinuance or dissolution a member of the association of persons, and the legal representative of any such person who is deceased, shall be jointly and severally liable for the amount of tax, penalty or other sum payable, and all the provisions of this Act, so far as may be, shall apply to any such assessment or imposition of penalty or other sum.
+(5)
+Where such discontinuance or dissolution takes place after any proceedings in respect of an assessment year have commenced, the proceedings may be continued against the persons referred to in sub-section (4) from the stage at which the proceedings stood at the time of such discontinuance or dissolution, and all the provisions of this Act shall, so far as may be, apply accordingly.
+22.
+- Assessment of persons residing outside India
+(1)
+Where the person liable to tax under this Act resides outside India, the tax may be levied upon and recovered from his agent, and the agent shall be deemed to be, for all the purposes of this Act, the assessee in respect of such tax.
+(2)
+Any person employed by or on behalf of a person referred to in sub-section (1) or through whom such person is in the receipt of any income, profits or gains, or who is in possession or has custody of any asset of such person and upon whom0;the Assessing Officer has caused a notice to be served of his intention of treating him as the agent of such person shall, for the purposes of sub-section (1), be deemed to be the agent of such person.
+(3)
+No person shall be deemed to be the agent of any person residing outside India unless he has had an opportunity of being heard by the 50aAssessingOfficer as to his being treated as such.
+(4)
+Any agent, who, as such, pays any sum under this Act, shall be entitled to recover the sum so paid from the person on whose behalf it is paid or to retain out of any moneys that may be in his possession or may come to him in his capacity as such agent, an amount equal to the sum so paid.
+(5)
+Any agent, or any person who apprehends that he may be assessed as an agent, may retain out of money payable by him to the person residing outside India on whose behalf he is liable to pay tax (hereinafter in this section referred to as the principal), a sum equal to his estimated liability under this section, and in the event of any disagreement between the principal and such agent or person, as to the amount to be so retained, such agent or person may secure from the Assessing Officer a certificate staling the amount to be so retained pending final settlement of the liability, and the certificate so obtained shall be his warrant for retaining that amount.
+(6)
+The amount recoverable from such agent or person at the time of final settlement shall not exceed the amount specified in such certificate, except to the extent to which such agent or person may at such time have in his hands additional assets of the principal.
+(6B)
+The Settlement Commission may, at any time within a period of six months from the date of the order, with a view to rectifying any mistake apparent from the record, amend any order passed by it under sub-section (4):
+Provided that an amendment which has the effect of modifying the liability of the applicant shall not be made under this sub-section unless the Settlement Commission has given notice to the applicant and the Commissioner of its intention to do so and has allowed the applicant and the Commissioner an opportunity of being heard.
+(7)
+Notwithstanding anything contained in this section, any arrears of tax due from a person residing outside India may be recovered also in accordance with the provisions of this Act from any assets of such person which are or may at anytime come within India.
+22A.
+Definitions
+In this Chapter, unless the context otherwise requires, -
+(a)
+"Bench" means a Bench of the Settlement Commission;
+(b)
+"case" means any proceeding for assessment under this Act, of any person in respect of any assessment year or assessment years which may be pending before an Assessing Officer on the date on which an application under sub-section (1) of section 22C is made:
+Explanation.--For the purposes of this clause--
+(i)
+a proceeding for assessment or reassessment referred to in section 17 shall, in case where a notice under the said section is issued but not on the basis of search under section 37A or requisition under section 37B, be deemed to have commenced from the date on which a notice under section 17 is issued;
+(ii)
+a proceeding for making fresh assessment in pursuance of an order under section 23A or section 24 or section 25, setting aside or cancelling an assessment shall be deemed to have been commenced from the date on which such order, setting aside or cancelling an assessment was passed;
+(iii)
+a proceeding for assessment or reassessment for any of the assessment years, in consequence of a search initiated under section 37A or requisition made under section 37B, shall be deemed to have commenced on the date of issue of notice initiating such proceedings and concluded on the date on which the assessment is made;
+(iv)
+a proceeding for assessment for an assessment year, other than the proceeding of assessment or reassessment referred to in clause (i) or clause (ii) or clause (iii), shall be deemed to have commenced from the 1st day of the assessment year and concluded on the date on which the assessment is made;
+(c)
+"Chairman" means the Chairman of the Settlement Commission
+(d)
+"Member" means a Member of the Settlement Commission, and includes the Chairman and a Vice-Chairman;
+(e)
+"Settlement Commission" means the Income-tax Settlement Commission constituted under section 245B of the Income-tax Act;
+(f)
+"Vice-Chairman" means a Vice-Chairman of the Settlement Commission and includes a Member who is senior amongst the Members of a Bench;
+(g)
+"Wealth-tax authority" means an income-tax authority specified in section 116 of the Income-tax Act who is treated as a Wealth-tax authority under section 8.
+22B.
+- Wealth-tax Settlement Commission
+(1)
+The Central Government shall constitute a Commission to be called the Wealth-tax Settlement Commission for the settlement of cases under this Chapter.
+(2)
+The Settlement Commission shall consist of a Chairman and as many Vice-Chairmen and other members as the Central Government thinks fit and shall function within the Department of the Central Government dealing with direct taxes.
+(3)
+The Chairman, Vice-Chairman and other members of the Settlement Commission shall be appointed by the Central Government from amongst persons of integrity and outstanding ability, having special knowledge of, and experience in, problems relating to direct taxes and business accounts:
+Provided that, where a member of the Board is appointed as the Chairman, Vice-Chairman or as a member of the Settlement Commission, he shall cease to be a member of the Board.
+22BA.
+Jurisdiction and powers of Settlement Commission. -
+(1)
+Subject to the other provisions of this Chapter, the jurisdiction, powers and authority of the Settlement Commission may be exercised by Benches thereof.
+(2)
+Subject to the other provisions of this section, a Bench shall be presided over by the Chairman or a Vice-Chairman and shall consist of two other Members.
+(3)
+The Bench for which the Chairman is the Presiding Officer shall be the principal Bench and the other Benches shall be known as additional Benches.
+(4)
+Notwithstanding anything contained in sub-sections (1) and (2), the Chairman may authorise the Vice-Chairman or other Member appointed to one Bench to discharge also the functions of the Vice-Chairman or, as the case may be, other Member of another Bench.
+(5)
+Notwithstanding anything contained in the foregoing provisions of this section, and subject to any rules that may be made in this behalf, when one of the persons constituting a Bench (whether such person be the Presiding Officer or other Member of the Bench) is unable to discharge his functions owing to absence, illness or any other cause or in the event of the occurrence of any vacancy either in the office of the Presiding Officer or in the office of one or the other Members of the Bench, the remaining two persons may function as the Bench and if the Presiding Officer of the Bench is not one of the remaining two persons, the senior among the remaining persons shall act as the Presiding Officer of the Bench:
+Provided that if at any stage of the hearing of any case or matter, it appears to the Presiding Officer that the case or matter is of such a nature that it ought to be heard by a Bench consisting of three Members, the case or matter may be referred by the Presiding Officer of such Bench to the Chairman for transfer to such Bench as the Chairman may deem fit.
+(5A)
+Notwithstanding anything contained in the foregoing provisions of this section the Chairman may, for the disposal of any particular case, constitute a Special Bench consisting of more than three Members.
+(6)
+Subject to the other provisions of this Chapter, the places at which the principal Bench and the additional Benches shall ordinarily sit, shall be such as the Central Government may, by notification in the Official Gazette, specify and the Special Bench shall sit at a place to be fixed by the Chairman.
+22BB.
+- Vice-Chairman to act as Chairman or to discharge his functions in certain circumstances
+(1)
+In the event of the occurrence of any vacancy in the office of the Chairman by reason of his death, resignation or otherwise, the Vice-Chairman or, as the case may be, such one of the Vice-Chairmen as the Central Government may, by notification in the Official Gazette, authorise in this behalf, shall act as the Chairman until the date on which a new Chairman, appointed in accordance with the provisions of this Chapter to fill such vacancy, enters upon his office.
+(2)
+When the Chairman is unable to discharge his functions owing to absence, illness or any other cause, the Vice-Chairman or, as the case may be, such one of the Vice-Chairmen as the Central Government may, by notification in the Official Gazette, authorise in this behalf, shall discharge the functions of the Chairman until the date on which the Chairman resumes his duties.
+22BC.
+- Power of Chairman to transfer cases from one Bench to another
+On the application of the assessee or the Chief Commissioner or Commissioner and after notice to them, and after hearing such of them as may desire to be heard, or on his own motion without such notice, the Chairman may transfer any case pending before one Bench, for disposal, to another Bench.
+22BD.
+- Decision to be by majority
+If the Members of a Bench differ in opinion on any point, the point shall be decided according to the opinion of the majority, if there is a majority, but if the Members are equally divided, they shall state the point or points on which, they differ, and make a reference to the Chairman who shall either hear the point or points himself or refer the case for hearing on such point or points by one or more of the other Members of the Settlement Commission and such point or points shall be decided according to the opinion of the majority of the Members of the Settlement Commission who have heard the case, including those who first heard it.
+22C.
+- Application for settlement of cases
+(1)
+An assessee may, at any stage of a case relating to him, make an application in such form and in such manner as may be prescribed, and containing a full and true disclosure of his wealth which has not been disclosed before the Assessing Officer, the manner in which such wealth has been derived, the additional amount of wealth-tax payable on such wealth and such other particulars as may be prescribed, to the Settlement Commission to have the case settled and any such application shall be disposed of in the manner hereinafter provided:
+Provided that no such application shall be made unless the assessee has furnished the return of wealth which he is or was required to furnish under any of the provisions of this Act.
+(1A)
+For the purposes of sub-section (1) of this section and sub-sections (2A) to (2D) of section 22D, the additional amount of wealth-tax payable in respect of the wealth disclosed in an application made under sub-section (1) of this section shall be the amount calculated in accordance with the provisions of sub-sections (IB) to (ID).
+(1B)
+Where the wealth disclosed in the application relates to only one previous year, -
+(i)
+if the applicant has not furnished a return in respect of the net wealth of that year (whether or not an assessment has been made in respect of the net wealth of that year), then, except in a case covered by clause (iii),wealth-tax shall be calculated on the wealth disclosed in the application as if such wealth were the net wealth;
+(ii)
+if the applicant has furnished a return in respect of the net wealth of that year (whether or not an assessment has been made in pursuance of such return), wealth tax shall be calculated on the aggregate of the net wealth returned and the wealth disclosed in the application as if such aggregate were the net wealth;
+(iii)
+if the proceeding pending before the wealth-tax authority is in the nature of a proceeding for reassessment of the applicant under section 17 or by way of appeal or revision in connection with such reassessment, and the applicant has not furnished a return in respect of the net wealth of that year in the course of such proceeding for reassessment, wealth-tax shall be calculated on the aggregate of the net wealth as assessed in the earlier proceeding for assessment under section 16 or section 17 and the wealth disclosed in the application as if such aggregate were the net wealth.
+(1C)
+The additional amount of wealth-tax payable in respect of the wealth disclosed in the application relating to the previous year referred to in sub-section (1B) shall be;
+(a)
+in a case referred to in clause (i) of that sub-section, the amount of wealth-tax calculated under that clause;
+(b)
+in a case referred to in clause (ii) of that sub-section, the amount of wealth-tax calculated under that clause as reduced by the amount of wealth-tax calculated on the net wealth returned for that year;
+(c)
+in a case referred to in clause (iii) of that sub-section, the amount of wealth-tax calculated under that clause as reduced by the amount of wealth-tax calculated on the net wealth assessed in the earlier proceeding for assessment under section/ 16 or section 17.
+(1D)
+Where the wealth disclosed in the application relates to more than one assessment year, the additional amount of wealth-tax payable in respect of the wealth disclosed for each of the years shall first be calculated in accordance with the provisions of sub-sections (IB) and (IC) and the aggregate of the amount so arrived at in respect of each of the years for which the application has been made under sub-section (1) shall be the additional amount of wealth-tax payable in respect of the wealth disclosed in the application.
+(IE)
+Where any books of account or other documents belonging to an assessee are seized under section 37 A, the assessee shall not be entitled to make an application under sub-section (e) before the expiry of one hundred and twenty days from the date of the seizure.
+(2)
+Every application made under sub-section (1) shall be accompanied by such fees as may be prescribed.
+(3)
+An application made under sub-section (1) shall not be allowed to be withdrawn by the applicant.
+(4)
+An assessee shall, on the date on which he makes an application under sub-section (1) to the Settlement Commission, also intimate the Assessing Officer in the prescribed manner of having made such application to the said Commission.
+22D.
+- Procedure on receipt of an application under section 22C
+(1)
+on receipt of an application under section 22C, the Settlement Commission shall, within seven days from the date of receipt of the application, issue a notice to the applicant requiring him to explain as to why the application made by him be allowed to be proceeded with, and on hearing the applicant, the Settlement Commission shall, within a period of fourteen days from the date of the application, by an order in writing, reject the application or allow the application to be proceeded with:
+Provided that where no order has been passed within the aforesaid period by the Settlement Commission, the application shall be deemed to have been allowed to be proceeded with.
+Provided further that the Commissioner shall furnish the report within a period of one hundred and twenty days of the receipt of communication from the Settlement Commission in case of all applications made under section 22C on or after the date on which the Finance (No.2) Act, 1991, receives the assent of the President and if the Commissioner fails to furnish the report within the said period, the Settlement Commission may make the order without such report.
+(2)
+A copy of every order under sub-section (1) shall be sent to the applicant and to the Commissioner.
+(2A)
+Where an application was made under section 22C\before the 1st day of June, 2007 but an order under the provisions of sub-section (1) of this section, as they stood immediately before their amendment by the Finance Act, 2007, has not been made before the 1st day of June, 2007, such application shall be deemed to have been allowed to be proceeded with if the additional wealth-tax on the wealth disclosed in such application and the interest thereon is paid on or before the 31st day of July, 2007.
+Explanation.-- In respect of the application referred to in this sub-section, the 31st day of July, 2007 shall be deemed to be the date of the order of rejection or allowing the application to be proceeded with under sub-section (1).
+(2B)
+The Settlement Commission shall,--
+(i)
+in respect of an application which is allowed to be proceeded with under sub-section (1), within thirty days from the date on which the application was made; or
+(ii)
+in respect of an application referred to in sub-section (2A) which is deemed to have been allowed to be proceeded with under that subsection, on or before the 7th day of August, 2007, call for a report from the Commissioner, and the Commissioner shall furnish the report within a period of thirty days of the receipt of communication from the Settlement Commission.
+(2C)
+Where a report of the Commissioner called for under sub-section (2B) has been furnished within the period specified therein, the Settlement Commission may, on the basis of the material contained in such report and within a period of fifteen days of the receipt of the report, by an order in writing, declare the application in question as invalid, and shall send the copy of such order to the applicant and the Commissioner:
+Provided that an application shall not be declared invalid unless an opportunity has been given to the applicant of being heard:
+Provided further that where the Commissioner has not furnished the report within the aforesaid period, the Settlement Commission shall proceed further in the matter without the report of the Commissioner.
+(2D)
+Where an application was made under sub-section (1) of section 22C before the 1st day of June, 2007 and an order under the provisions of subsection (1) of this section, as they stood immediately before their amendment by the Finance Act, 2007, allowing the application to have been proceeded with, has been passed before the 1st day of June, 2007, but an order under the provisions of sub-section (4), as they stood immediately before their amendment by the Finance Act, 2007, was not passed before the 1st day of June, 2007, such application shall not be allowed to be further proceeded with unless the additional wealth-tax on the wealth disclosed in such application and the interest thereon, is, notwithstanding any extension of time already granted by the Settlement Commission, paid on or before the 31st day of July, 2007.
+(3)
+The Settlement Commission, in respect of--
+(i)
+an application which has not been declared invalid under subsection (2C); or
+(ii)
+an application referred to in sub-section (2D) which has been allowed to be further proceeded with under that sub-section, may call for the records from the Commissioner and after examination of such records, if the Settlement Commission is of the opinion that any further enquiry or investigation in the matter is necessary, it may direct the Commissioner to make or cause to be made such further enquiry or investigation and furnish a report on the matters covered by the application and any other matter relating to the case, and the Commissioner shall furnish the report within a period of ninety days of the receipt of communication from the Settlement Commission:
+Provided that where the Commissioner does not furnish his report within the aforesaid period, the Settlement Commission may proceed to pass an order under subsection (4) without such report.
+(4)
+After examination of the records and the report of the Commissioner, if any, received under--
+(i)
+sub-section (2B) or sub-section (3), or
+(ii)
+the provisions of sub-section (1), as they stood immediately before their amendment by the Finance Act, 2007, and after giving an opportunity to the applicant and to the Commissioner to be heard, either in person or through a representative duly authorised in this behalf, and after examining such further evidence as may be placed before it or obtained by it, the Settlement Commission may, in accordance with the provisions of this Act, pass such order, as it thinks fit, on the matters covered by the application and any other matter relating to the case not covered by the application, but referred to in the report of the Commissioner.
+(4A)
+The Settlement Commission shall pass an order under sub-section (4),--
+(i)
+in respect of an application referred to in sub-section (2A) or subsection (2D), on or before the 31st day of March, 2008;
+(ii)
+in respect of an application made on or after the 1st day of June, 2007 but before the 1st day of June, 2010, within twelve months from the end of the month in which the application was made.
+(iii)
+in respect of an application made on or after the 1st day of June, 2010, within eighteen months from the end of the month in which the application was made.
+(5)
+Subject to the provisions of section 22BA, the materials brought on record before the Settlement Commission shall be considered by the members of the concerned Bench before passing any order under sub-section (4) and, in relation to the passing of such order, the provisions of section 22BD shall apply.
+(6)
+Every order passed under sub-section (4) shall provide for the terms of settlement including any demand by way of tax, penalty or interest, the manner in which any sum due under the settlement shall be paid and all other matters to make the settlement effective and shall also provide that the settlement shall be void if it is subsequently found by the Settlement Commission that it has been obtained by fraud or misrepresentation of facts.
+(6A)
+Where any tax payable in pursuance of an order under sub-section (4) is not paid by the assessee within thirty-five days of the receipt of a copy of the order by him, then, whether or not the Settlement Commission has extended the time for payment of such tax or has allowed payment thereof by instalments, the assessee shall be liable to pay simple interest at one and one-fourth per cent for every month or part of a month on the amount remaining unpaid from the date or expiry of the period of thirty-five days aforesaid.
+(6B)
+The Settlement Commission may, at any time within a period of six months from the date of the order, with a view to rectifying any mistake apparent from the record, amend any order passed by it under sub-section (4):
+Provided that an amendment which has the effect of modifying the liability of the applicant shall not be made under this sub-section unless the Settlement Commission has given notice to the applicant and the Commissioner of its intention to do so and has allowed the applicant and the Commissioner an opportunity of being heard.
+(7)
+Where a settlement becomes void as provided in sub-section (6) the proceedings with respect to the matters covered by the settlement shall be deemed to have been revived from the stage at which the application was allowed to be proceeded with by the Settlement Commission and the Wealth-lax authority concerned may, notwithstanding anything contained in any other provision of this Act, complete such proceedings at any time before the expiry of two years from the end of the financial year in which the settlement became void.
+(8)
+, For the removal of doubts, it is hereby declared that nothing contained in section 17A shall apply to any order passed under sub-section (4) or to any order or assessment or reassessment required to be made by the Assessing Officer in pursuance of any directions contained in such order passed by the Settlement Commission.
+22DD.
+Power of Settlement Commission to order provisional attachment to protect revenue. -
+(1)
+Where, during the pendency of any proceeding before it, the Settlement Commission is of the opinion that for the purpose of protecting the interests of the revenue it is necessary so to do, it may, by order, attach provisionally any property belonging to the applicant in the manner provided in the Second Schedule to the Income-tax Act as made applicable to this Act by section 32:
+Provided that where a provisional attachment made under section 34C is pending immediately before an application is made under section 22C, an order under this sub-section shall continue such provisional attachment upto the period upto which an order made under section 34C would have continued if such application had not been made:
+Provided further that where the Settlement Commission passes an order under this sub-section after the expiry of the period referred to in the preceding proviso, the provisions of sub-section (2) shall apply to such order as if the said order had originally been passed by the Settlement Commission.
+(2)
+Every provisional attachment made by the Settlement Commission under sub-section (1) shall cease to have effect after the expiry of a period of six months from the date of the order made under sub-section (1):
+Provided that the Settlement Commission may, for reasons to be recorded in writing, extend the aforesaid period by such further period or periods as it thinks fit, so, however, that the total period of extension shall no! in any case exceed two years.
+22E.
+- Power of Settlement Commission to re-open completed proceedings
+If the Settlement Commission is of the opinion (the reasons for such opinion to be recorded by it in writing) that, for the proper disposal of the case pending before it, it is necessary or expedient to re-open any proceeding connected with the case, but which has been completed under this Act by any Wealth-tax authority before the application under section 22C was made, it may, with the concurrence of the applicant, re-open such proceeding and pass such order thereon as it thinks fit as if the case in relation to which the application for settlement had been made by the applicant under that section covered such proceeding also:
+Provided that no proceeding shall be reopened by the Settlement Commission under this section if the period between the end of the assessment year to which such a proceeding relates and the date of application for settlement under section 22C exceeds nine years.
+Provided further that no proceeding shall be reopened by the Settlement Commission under this section in a case where an application under section 22C is made on or after the 1st day of June, 2007.
+22F.
+- Powers and procedure of Settlement Commission
+(1)
+In addition to the powers conferred on the Settlement Commission under this Chapter, it shall have all the powers which are vested in a Wealth-tax authority under this Act.
+(2)
+Where an application made under section 22C has been allowed to be proceeded with under section 22D, the Settlement Commission shall, until an order is passed under sub-section (4) of section 22D, have, subject to the provisions of sub-section (3) of that section, exclusive jurisdiction to exercise the powers and perform the functions of a Wealth-tax authority under this Act in relation to the case.
+Provided that where an application has been made under section 22C on or after the 1st day of June, 2007, the Settlement Commission shall have such exclusive jurisdiction from the date on which the application was made:
+Provided further that where--
+(i)
+an application made on or after the 1st day of June, 2007, is rejected under sub-section (1) of section 22D; or
+(ii)
+an application is not allowed to be proceeded with under sub-section (2A) of section 22D, or, as the case may be, is declared invalid under sub-section (2C) of that section; or
+(iii)
+an application is not allowed to be further proceeded with under sub-section (2D) of section 22D,
+the Settlement Commission, in respect of such application shall have such exclusive jurisdiction up to the date on which the application is rejected, or, not allowed to be proceeded with, or, declared invalid, or, not allowed to be further proceeded with, as the case may be.
+(3)
+Notwithstanding anything contained in sub-section (2) and in the absence of any express direction to the contrary by the Settlement Commission, nothing contained in this section shall affect the operation of any other provision of this Act requiring the applicant to pay tax on the basis of self assessment in relation to the matters before the Settlement Commission.
+(4)
+For the removal of doubt, it is hereby declared that, in the absence of any express direction by the Settlement Commission to the contrary, nothing in this Chapter, shall affect the operation of the provisions of this Act insofar as they relate to any matters other than those before the Settlement Commission.
+(7)
+The Settlement Commission shall, subject to the provisions of this Chapter, have power to regulate its own procedure and the procedure of Benches thereof in all matters arising out of its exercise of its powers or of the discharge of its functions, including the places at which the Benches shall hold their sittings.
+22G.
+- Inspection, etc., of reports
+No person shall be entitled to inspect, or obtain copies of, any reports made by any Wealth-tax Authority to the Settlement Commission; but the Settlement Commission may, in its discretion, furnish copies thereof to any such person on an application made to it in this behalf and on payment of the prescribed fee:
+Provided that, for the purpose of enabling any person whose case is under consideration to rebut any evidence brought on the record against him in any such report, the Settlement Commission shall, on an application made in this behalf and on payment of the prescribed fee by such person, furnish him with a certified copy of any such report or part thereof relevant for the purpose.
+22H.
+- Powers of Settlement Commission to grant Immunity from prosecution
+(1)
+The Settlement Commission may, if it is satisfied that any person who made the application for settlement under section 22C has co-operated with the Settlement Commission in the proceedings before it and has made a full and true disclosure of his net wealth and the manner in which such wealth has been acquired, grant to such person, subject to such conditions as it may think fit to impose, immunity from prosecution for any offence under this Act or under the Indian Penal Code (45 of 1860) or under any other Central Act for the time being in force and also (either wholly or in part) from the imposition of any penalty under this Act, with respect to the case covered by the settlement:
+Provided that no such immunity shall be granted by the Settlement Commission in cases where the proceedings for the prosecution for any such offence have been instituted before the date of receipt of the application under section 22C.
+Provided further that the Settlement Commission shall not grant immunity from prosecution for any offence under the Indian Penal Code(45 of 1860) or under any Central Act other than this Act and Income-tax Act, 1961(43 of 1961) to a person who makes an application under section 22C on or after the 1st day of June, 2007.
+(1A)
+An immunity granted to a person under sub-section (1) shall stand withdrawn if such person fails to pay any sum specified in the order of settlement passed under sub-section (4) of section 22D within the time specified in such order or within such further time as may be allowed by the Settlement Commission, or fails to comply with any other condition subject to which the immunity was granted and thereupon the provisions of this Act shall apply as if such immunity had not been granted.
+(2)
+An immunity granted to a person under sub-section (1) may, at any time, be withdrawn by the Settlement Commission, if it is satisfied that such person had, in the course of the settlement proceedings, concealed any particulars material to the settlement or had given false evidence, and thereupon such person may be tried for the offence with respect to which the immunity was granted or for any other offence of which he appears to have been guilty in connection with the settlement and shall also become liable to the imposition of any penalty under this Act to which such person would have been liable, had no such immunity been granted.
+22HA.
+Abatement of the proceeding before Settlement Commission.--
+(1)
+Where --
+(i)
+an application made under section 22C on or after the 1st day of June, 2007 has been rejected under sub-section (1) of section 22D; or
+(ii)
+an application made under section 22C has not been allowed to be proceeded with under sub-section (2A) or further proceeded with under sub-section (2D) of section 22D; or
+(iii)
+an application made under section 22C has been declared as invalid under sub-section (2C) of section 22D; or
+(iv)
+in respect of any other application made under section 22C, an order under sub-section (4) of section 22D has not been passed within the time or period specified under sub-section (4A) of section 22D,
+the proceedings before the Settlement Commission shall abate on the specified date.
+Explanation.--For the purposes of this sub-section, "specified date" means--
+(a)
+in respect of an application referred to in clause (i), the date on which the application was rejected;
+(b)
+in respect of an application referred to in clause (ii), the 31st day of July, 2007;
+(c)
+in respect of an application referred to in clause (iii) the last day of the month in which the application was declared invalid;
+(d)
+in respect of an application referred to in clause (iv), on the date on which the time or period specified in sub-section (4A) of section 22D expires.
+(2)
+Where a proceeding before the Settlement Commission abates, the Assessing Officer, or, as the case may be, any other Wealth-tax authority before whom the proceeding at the time of making the application was pending, shall dispose of the case in accordance with the provisions of this Act as if no application under section 22C had been made.
+(3)
+For the purposes of sub-section (2), the Assessing Officer, or, as the case may be, other Wealth-tax authority, shall be entitled to use all the material and other information produced by the assessee before the Settlement Commission or the results of the inquiry held or evidence recorded by the Settlement Commission in the course of the proceedings before it, as if such material, information, inquiry and evidence had been produced before the Assessing Officer or other Wealth-tax authority or held or recorded by him in the course of the proceedings before him.
+(4)
+For the purposes of the time-limit under sections 17A, 32, and 35 and for the purposes of payment of interest under section 34A, in case referred to in sub-section (2), the period commencing on and from the date of the application to the Settlement Commission under section 22C and ending with "specified date" referred to in sub-section (1) shall be excluded.
+22HAA.
+Credit for tax paid in case of abatement of proceedings.--
+Where an application made under section 22C on or after the 1st day of June, 2007, is rejected under sub-section (1) of section 22D, or any other application made under section 22C is not allowed to be proceeded with under sub-section (2A) of section 22D or is declared invalid under subsection (2C) of section 22D or has not been allowed to be further proceeded with under sub-section (2D) of section 22D or an order under sub-section (4) of section 22D has not been passed within the time or period specified under sub-section (4A) of section 22D, the Assessing Officer shall allow the credit for the tax and interest paid on or before the date of making the application or during the pendency of the case before the Settlement Commission.
+22I.
+- Order of Settlement to be conclusive
+Every order of settlement passed under sub-section (4) of Section 22D shall be conclusive as to the matters stated therein and no matter covered by such order shall, save as otherwise provided in this Chapter, be re-opened in any proceeding under this Act or under any other law for the time being in force.
+22J.
+- Recovery of sums due under order of settlement
+Any sum specified in an order of settlement passed under sub-section (4) of section 22D may, subject to such conditions, if any, as may be specified therein, be recovered, and any penalty for default in making payment of such sum may be imposed and recovered in accordance with the provisions of section 32 by the Assessing Officer having jurisdiction over the person who made the application for settlement under section 22C.

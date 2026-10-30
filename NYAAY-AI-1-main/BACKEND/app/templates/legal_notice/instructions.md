@@ -1,0 +1,1 @@
+Draft a formal legal notice sent by an advocate on behalf of a client. Use the header 'REGD. A.D. / SPEED POST'. Address the recipient formally. Narrate facts clearly, state the legal grievance, and explicitly state the demand and the deadline (e.g. 15 days) failing which legal action will be initiated.

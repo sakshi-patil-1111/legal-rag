@@ -1,0 +1,50 @@
+{
+  "avg_latency_s": 8.101,
+  "avg_seeded_latency_s": 4.054,
+  "rows": [
+    {
+      "id": "T1_rape_consent",
+      "sub_queries": 3,
+      "explicit_sc": true,
+      "latency_s": 10.765,
+      "seeded_latency_s": 6.337,
+      "returned": 20,
+      "sc_in_result": 12,
+      "seeded_returned": 20,
+      "seeded_sc": 11
+    },
+    {
+      "id": "T3_homebuyer_rera",
+      "sub_queries": 3,
+      "explicit_sc": true,
+      "latency_s": 8.672,
+      "seeded_latency_s": 3.722,
+      "returned": 20,
+      "sc_in_result": 11,
+      "seeded_returned": 20,
+      "seeded_sc": 11
+    },
+    {
+      "id": "S1_anticipatory_bail",
+      "sub_queries": 2,
+      "explicit_sc": false,
+      "latency_s": 5.93,
+      "seeded_latency_s": 3.223,
+      "returned": 20,
+      "sc_in_result": 11,
+      "seeded_returned": 20,
+      "seeded_sc": 9
+    },
+    {
+      "id": "S4_consumer_defective",
+      "sub_queries": 2,
+      "explicit_sc": false,
+      "latency_s": 7.039,
+      "seeded_latency_s": 2.934,
+      "returned": 20,
+      "sc_in_result": 2,
+      "seeded_returned": 20,
+      "seeded_sc": 3
+    }
+  ]
+}

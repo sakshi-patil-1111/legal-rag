@@ -1,0 +1,15 @@
+{
+    "start_time": 1783160999,
+    "documents_processed": 3,
+    "documents_skipped": 97,
+    "total_chunks_created": 5,
+    "total_embeddings_created": 5,
+    "corpus_coverage": {
+        "Information_Technology_Act": 1,
+        "judgment_kesavananda_bharati": 2,
+        "judgment_lalita_kumari": 2
+    },
+    "errors": [],
+    "end_time": 1783161009,
+    "total_processing_time_seconds": 10
+}

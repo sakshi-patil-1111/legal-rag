@@ -1,0 +1,70 @@
+{
+  "RAPE_CONSENT": {
+    "total_context_chunks": 5,
+    "sc_chunks": 0,
+    "answer_preview": "## Executive Summary\n\n* In a prosecution for specified categories of rape, once sexual intercourse by the accused is proved and the victim states in her evidence that she did not consent, **the court shall presume the absence of consent**.\n* The law explicitly provides that a woman who **does not physically resist** the act of penetration shall not, by that reason alone, be regarded as consenting to the sexual activity.\n* Evidence regarding the character of the victim or her previous sexual expe...",
+    "unsupported_flag": false,
+    "sc_sources": []
+  },
+  "ILLEGAL_ARREST": {
+    "total_context_chunks": 13,
+    "sc_chunks": 4,
+    "answer_preview": "## Executive Summary\n\n- **Detention Limit**: No person arrested without a warrant can be detained in police custody for more than **twenty-four hours** without being produced before the nearest Magistrate, excluding necessary journey time [4, 7, 8, 12].\n\n- **Magistrate Authorization**: Further detention beyond 24 hours requires a special order or authorization from a Judicial or Executive Magistrate under Section 167 of the Code of Criminal Procedure [2, 4, 8].\n\n- **Grounds of Arrest**: Arrests ...",
+    "unsupported_flag": false,
+    "sc_sources": [
+      "Case: None v. Unknown Respondent",
+      "Case: None v. Unknown Respondent",
+      "Case: None v. Unknown Respondent",
+      "Case: None v. Unknown Respondent"
+    ]
+  },
+  "HOMEBUYER": {
+    "total_context_chunks": 10,
+    "sc_chunks": 9,
+    "answer_preview": "## Executive Summary\n\n* A promoter who fails to complete or is unable to give possession of an apartment by the specified date is liable on demand to return the amount received with interest and compensation if the allottee wishes to withdraw from the project.\n\n* Provisions in a statute or agreement empowering authorities to levy interest or manage project timelines are construed strictly, and a party invoking a force majeure clause must take reasonable steps to mitigate its impact.\n\n* To seek r...",
+    "unsupported_flag": false,
+    "sc_sources": [
+      "Case: None v. Unknown Respondent",
+      "Case: None v. Unknown Respondent",
+      "Case: None v. Unknown Respondent",
+      "DLF HOME DEVELOPERS LIMITED v. RAJAPURA HOMES PRIVATE LIMITED",
+      "DLF HOME DEVELOPERS LIMITED v. RAJAPURA HOMES PRIVATE LIMITED",
+      "DLF HOME DEVELOPERS LIMITED v. RAJAPURA HOMES PRIVATE LIMITED",
+      "DLF HOME DEVELOPERS LIMITED v. RAJAPURA HOMES PRIVATE LIMITED",
+      "Case: None v. Unknown Respondent",
+      "DLF HOME DEVELOPERS LIMITED v. RAJAPURA HOMES PRIVATE LIMITED"
+    ]
+  },
+  "NATURAL_JUSTICE": {
+    "total_context_chunks": 8,
+    "sc_chunks": 8,
+    "answer_preview": "## Executive Summary\n\n* **Disciplinary authorities possess the power to disagree** with an enquiring officer's findings, provided they record written reasons for their disagreement [1, 7].\n* **Administrative and quasi-judicial actions** that entail civil consequences must strictly comply with the foundational rules of natural justice and fair play [5, 6].\n* **No further opportunity of hearing** is mandated by law solely because a disciplinary authority disagrees with an enquiring officer before ...",
+    "unsupported_flag": false,
+    "sc_sources": [
+      "Case: None v. Unknown Respondent",
+      "Case: None v. Unknown Respondent",
+      "Case: None v. Unknown Respondent",
+      "Case: None v. Unknown Respondent",
+      "Case: None v. Unknown Respondent",
+      "Case: None v. Unknown Respondent",
+      "Case: None v. Unknown Respondent",
+      "Case: None v. Unknown Respondent"
+    ]
+  },
+  "ADVERSE_POSSESSION": {
+    "total_context_chunks": 17,
+    "sc_chunks": 8,
+    "answer_preview": "## Executive Summary\n\n- **Adverse Possession Limitation**: The indexed corpus does not contain the specific limitation period provided in Article 65 of the Schedule to the Limitation Act, 1963, as the text of Article 65 itself is missing from the retrieved authorities, though related limitation provisions are present.\n- **Permissive Possession Status**: The available retrieval contains no direct legal rules explaining whether or how permissive possession converts into hostile adverse possession ...",
+    "unsupported_flag": false,
+    "sc_sources": [
+      "Case: None v. Unknown Respondent",
+      "Case: None v. Unknown Respondent",
+      "Case: None v. Unknown Respondent",
+      "Case: None v. Unknown Respondent",
+      "Case: None v. Unknown Respondent",
+      "Case: None v. Unknown Respondent",
+      "PANCHUGOPAL BARUA & ORS. v. UMESH CHANDRA GOSWAMI & ORS.",
+      "Case: None v. Unknown Respondent"
+    ]
+  }
+}

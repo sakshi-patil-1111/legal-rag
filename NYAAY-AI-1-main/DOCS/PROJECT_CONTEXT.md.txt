@@ -1,0 +1,37 @@
+Project Name:
+NYAAY AI
+
+Goal:
+AI-powered legal assistant for Indian judiciary.
+
+MVP Features:
+1. Landing Page
+2. Login / Signup
+3. Firebase Authentication
+4. Dashboard
+5. Know Your Kanoon
+6. Upload & Chat
+7. DocHub
+8. Counter Argument Generator
+9. Chat History
+10. User Profile
+
+Frontend:
+React
+JavaScript
+Tailwind CSS
+
+Backend:
+FastAPI
+
+Database:
+SQLite
+
+Authentication:
+Firebase Authentication
+
+AI:
+Gemini API
+
+RAG:
+LangChain + ChromaDB

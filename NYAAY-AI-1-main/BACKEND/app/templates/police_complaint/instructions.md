@@ -1,0 +1,1 @@
+Draft a formal criminal complaint to the Station House Officer (SHO). Begin with 'To, The Station House Officer, [Police Station], [District]'. Subject should clearly state the offenses. The body must chronologically narrate the incident.

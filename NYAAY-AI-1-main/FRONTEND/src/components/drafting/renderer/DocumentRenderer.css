@@ -1,0 +1,130 @@
+/* DocumentRenderer.css - Strict Presentation Rules */
+
+.ast-document-canvas {
+  background-color: white;
+  color: black;
+  /* Font families and sizes are passed in via inline styles from RENDERING_RULES */
+  text-align: justify;
+}
+
+.ast-title {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 16pt;
+}
+
+.ast-heading {
+  font-weight: bold;
+  text-align: center;
+  font-size: 12pt;
+  margin-top: 0;
+  margin-bottom: 10pt;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  page-break-after: avoid;
+}
+
+.ast-subject {
+  margin-top: 0;
+  margin-bottom: 18pt;
+  text-align: justify;
+}
+
+.ast-paragraph {
+  margin-top: 0;
+  margin-bottom: 18pt;
+  text-align: justify;
+}
+
+.ast-numbered-paragraph {
+  display: flex;
+  margin-bottom: 18pt;
+  text-align: justify;
+}
+
+.ast-number {
+  width: 24pt;
+  flex-shrink: 0;
+}
+
+.ast-text {
+  flex-grow: 1;
+}
+
+.ast-metadata-table,
+.ast-parties-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20pt;
+}
+
+.ast-metadata-table td,
+.ast-parties-table td {
+  border: 1px solid black;
+  padding: 5pt;
+  font-size: 10pt;
+  vertical-align: top;
+}
+
+.ast-metadata-label {
+  width: 120pt;
+  font-weight: bold;
+}
+
+.ast-parties-table {
+  font-size: 11pt;
+}
+
+.ast-signature-block {
+  text-align: right;
+  margin-top: 40pt;
+}
+
+.ast-closing {
+  margin-bottom: 40pt;
+}
+
+.ast-signature-unit {
+  margin-bottom: 20pt;
+}
+
+.ast-signature-name {
+  font-weight: bold;
+  margin: 0;
+}
+
+.ast-signature-role {
+  margin: 0;
+}
+
+.ast-verification-block {
+  margin-top: 16pt;
+  page-break-inside: avoid;
+}
+
+.ast-annexure-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20pt;
+}
+
+.ast-annexure-table td {
+  border: 1px solid black;
+  padding: 5pt;
+  font-size: 12pt;
+  vertical-align: top;
+}
+
+.ast-annexure-label {
+  width: 120pt;
+  font-weight: bold;
+}
+
+.ast-page-break {
+  page-break-before: always;
+  /* Visual indicator in web preview */
+  border-top: 2px dashed #ccc;
+  margin-top: 32pt;
+  margin-bottom: 32pt;
+}

@@ -1,0 +1,1 @@
+Draft a sworn affidavit. Begin with 'I, [Name], son/wife of [Name], aged [Age], residing at [Address], do hereby solemnly affirm and state as follows:'. Use numbered paragraphs starting with 'That...'. Conclude with a Verification clause: 'Verified at [Place] on this [Date] that the contents of paragraphs 1 to X are true and correct to my knowledge and belief.'

@@ -1,0 +1,15 @@
+---
+document_id: mock_act.txt
+source_name: MOCK_ACT
+legal_domain: Test Law
+act_name: Mock Testing Act, 2026
+document_type: statute
+---
+
+# Mock Testing Act, 2026
+
+This is a mock act for testing the new NYAAY AI orchestrator pipeline.
+It contains enough text to pass the minimum character validation threshold.
+The quick brown fox jumps over the lazy dog.
+Section 1. Short title and commencement. This Act may be called the Mock Testing Act, 2026.
+Section 2. Definitions. In this Act, unless the context otherwise requires, "mock" means simulated for testing purposes.

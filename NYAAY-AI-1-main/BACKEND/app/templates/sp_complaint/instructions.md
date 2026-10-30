@@ -1,0 +1,1 @@
+Draft a complaint to the Superintendent of Police under Section 154(3) CrPC / corresponding BNSS section, when the local SHO refuses to register an FIR. State that a prior complaint was made but no action was taken.

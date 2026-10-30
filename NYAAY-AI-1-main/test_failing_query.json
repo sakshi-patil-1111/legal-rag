@@ -1,0 +1,90 @@
+{
+  "answer": "### Legal Issue\n[Identify the core legal problem or question presented by the user.]\nA municipal authority has repeatedly failed to collect garbage, leading to accumulated waste, foul smell, sanitation problems, and grave or widespread danger to public health, while the user has preserved various proofs of complaints and media.\n\n### Applicable Law\n[Identify the relevant law, statute, or constitutional provision that applies, e.g., \"Sale of Goods Act, 1930 \u2014 Section X\".]\nSupreme Court of India jurisprudence regarding the statutory duty of authorities to maintain public order, prevent danger to public health, and address activities causing grave or widespread danger to life, property, or public health [7].\n\n### Legal Position\n[Synthesize the legal position based on the retrieved provisions. Explain what the law establishes.]\nThe retrieved text establishes that activities causing or likely to cause harm, danger, alarm, a feeling of insecurity among the general public, or a grave/widespread danger to life, property, or public health adversely affect public order [7]. Designated authorities\u2014such as District Magistrates and Commissioners of Police\u2014have a statutory duty to maintain public order and deal swiftly with situations where public order or public health is affected or apprehended to be affected by dangerous or anti-social activities/conditions [7].\n\n### Application to Facts\n[Explain how those provisions relate to the user's specific scenario.]\nThe accumulation of garbage over several weeks causing foul smell and serious sanitation problems constitutes a grave or widespread danger to public health [7]. While the user has approached the municipal helpline and local ward office, the established legal framework recognizes that situations affecting public health require swift and effective action by authorities having a statutory duty to protect the public [7].\n\n### Evidence / Reasoning\n[Provide concise reasoning linking the facts to the law, citing specific evidence from the retrieved text, e.g., \"Section X provides that...\"]\nThe reasoning is derived from the principle that actions or conditions resulting in a grave or widespread danger to public health adversely affect the public order and community well-being [7]. The state and local authorities are recognized as having the satisfaction and duty to curb conditions that cause harm or danger to public health, allowing designated officers to move swiftly where public health is affected [7]. The user's collected evidence (photographs, videos, complaint numbers, dates, and communications) serves to substantiate the existence of this public health hazard and the administrative inaction.\n\n### Remedies / Next Steps\n[Only provide remedies supported by the retrieved sources. If none, state what is missing or that the retrieved provisions do not establish a specific remedy for the facts provided.]\nThe retrieved sources establish that designated authorities (such as District Magistrates and Commissioners of Police) have a statutory duty to move swiftly when public health or public order is affected [7]. However, the specific civil remedies, writ procedures, or statutory municipal grievance sections are not contained in the provided text. Therefore, the retrieved text does not detail an exact step-by-step municipal escalation hierarchy or court remedy outside of identifying that authorities have a statutory duty to deal with conditions causing danger to public health.\n\n### Relevant Authorities\n[List the citations in a meaningful way, e.g., \"[1] Sale of Goods Act, 1930 \u2014 Section X -> Read relevant provision\"]\n- [7] Supreme Court of India, None v. None \u2014 Regarding statutory duties of authorities to swiftly address conditions causing harm, danger, or grave/widespread danger to public health and public order.",
+  "citations": [
+    {
+      "marker": "[1]",
+      "text_snippet": "[BHARATIYA_NYAYA_SANHITA_2023]\n## ( b ) without prejudice to the power of the Court to order forfeiture of the bond. CHAPTER XV\nOF OFFENCES AFFECTING ...",
+      "source_name": "BHARATIYA_NYAYA_SANHITA_2023",
+      "article_or_section": "Unknown",
+      "legal_domain": "Criminal Law",
+      "retrieval_method": "hybrid",
+      "similarity_score": 0.030555555555555555,
+      "retrieval_rank": 1,
+      "chunk_used_by_llm": true,
+      "metadata": {
+        "document_id": "BHARATIYA_NYAYA_SANHITA_2023.md",
+        "type": "statute",
+        "source_name": "BHARATIYA_NYAYA_SANHITA_2023",
+        "tenant_id": "global",
+        "ingestion_timestamp": 1783094733,
+        "act_name": "Bharatiya Nyaya Sanhita, 2023",
+        "legal_domain": "Criminal Law",
+        "file_hash": "220da7e887163265343fa04e0ba69dbc5074b8b0268bc0022a3a17593637f397",
+        "retrieval_method": "hybrid",
+        "rrf_rank": 5,
+        "rrf_score": 0.030555555555555555,
+        "reranker_score": -1.0390006303787231
+      },
+      "full_relevant_text": "[BHARATIYA_NYAYA_SANHITA_2023]\n## ( b ) without prejudice to the power of the Court to order forfeiture of the bond. CHAPTER XV\nOF OFFENCES AFFECTING THE PUBLIC HEALTH, SAFETY, CONVENIENCE, DECENCY AND MORALS\n270. Aperson is guilty of a public nuisance who does any act or is guilty of an illegal omission which causes any common injury, danger or annoyance to the public or to the people in general who dwell or occupy property in the vicinity, or which must necessarily cause injury, obstruction, danger or annoyance to persons who may have occasion to use any public right but a common nuisance is not excused on the ground that it causes some convenience or advantage.\nOmission to apprehend, or sufferance of escape, on part of public servant, in cases not otherwise provided for.\nResistance or obstruction to lawful apprehension or escape or rescue in cases not otherwise provided for.\nViolation of condition of remission of punishment.\nIntentional insult or interruption to public servant sitting in judicial proceeding.\nPersonation of assessor.\nFailure by person released on bail bond or bond to appear in Court.\nPublic nuisance.\nNegligent act likely to spread infection of disease dangerous to life.\nMalignant act likely to spread infection of disease dangerous to life.\nDisobedience to quarantine rule.\nAdulteration of food or drink intended for sale.\nSale of noxious food or drink.\nAdulteration of drugs.\nSale of adulterated drugs.\nSale of drug as a different drug or preparation.\nFouling water of public spring or reservoir."
+    },
+    {
+      "marker": "[7]",
+      "text_snippet": "Case: None v. None\nCourt: Supreme Court of India\n\nif any  of  the\nactivities by any person referred to in the sub-section  (4)\ndirectly or indirectly,...",
+      "source_name": "Case: None v. Unknown Respondent",
+      "article_or_section": "Unknown",
+      "legal_domain": "",
+      "retrieval_method": "dense",
+      "similarity_score": 0.015151515151515152,
+      "retrieval_rank": 7,
+      "chunk_used_by_llm": true,
+      "metadata": {
+        "case_number": "-",
+        "source_file": "case_43.json",
+        "bench": "RAMASWAMY,K.",
+        "petitioner": "Case: None",
+        "source_name": "Case: None v. Unknown Respondent",
+        "source_type": "judgment",
+        "respondent": "Unknown Respondent",
+        "case_id": "SC_case_43",
+        "judgment_date": "12-05-1993",
+        "case_name": "Case: None v. Unknown Respondent",
+        "authority_type": "judicial",
+        "total_chunks": 16,
+        "chunk_index": 9,
+        "articles_cited": "Art.22",
+        "sections_cited": "S.21, S.15, S.3, S.9, S.14, S.3 PASA\nwas  a  negation of satisfact, S.12, S.11, S.21 General Clauses Act, S.2, S.21 General  Clauses Act, S.13, S.21 General  Clauses  Act, S.21 General Clause Act",
+        "court_level": "Supreme Court",
+        "jurisdiction": "India",
+        "retrieval_method": "dense",
+        "rrf_rank": 16,
+        "rrf_score": 0.015151515151515152,
+        "reranker_score": -3.7327072620391846
+      },
+      "full_relevant_text": "Case: None v. None\nCourt: Supreme Court of India\n\nif any  of  the\nactivities by any person referred to in the sub-section  (4)\ndirectly or indirectly, is causing or is likely to cause any\nharm,  danger  or alarm or feeling of insecurity  among  the\n\nhttp://JUDIS.NIC.IN \nSUPREME COURT OF INDIA\nPage 9 of 16 \ngeneral  public  or  any  action  thereof  or  a  grave   or\nwidespread  danger  to  life,  property  or  public  health.\nTherefore,  the Act postulates satisfaction on the  part  of\nthe   State  Govt.  that  the  dangerous  and  anti   social\nactivities of any of the aforestated persons shall be deemed\nto be acting prejudicial to the maintenance of public  order\nwhether  the person is engaged in or is  making  preparation\nfor  unaging in any activities enumerated in the  definition\nclauses  and the public order shall be deemed to  have  been\naffected adversely or shall be deemed likely to be  affected\nadversely if the activities directly or indirectly,  causing\nor  is likely to cause any harm, danger or alarm or  feeling\nof  insecurity  among  the general  public  or  any  section\nthereof of a grave or widespread danger to life,property  or\npublic health.  In the counter affidavit filed on behalf  of\nthe  State in the High Court and consideration  thereof  the\nHigh Court held that \"the situation was found prevailing  in\nthe  State  in  the  year  1985  where  the  impact  of  the\nactivities of various persons mentioned in the preamble with\nreference  to  their respective, activities  has  heightened\nfrom  being  anti-social  and  dangerous  activities  to  be\nprejudicial  to  the maintenance of public order\".   It  is,\nwith  a  view,  to  curb  those  dangerous  or  anti  social\nactivities, the Govt. considered it appropriate to delegate\n 687\nthe  power  under sub-s. (2) of sec. 3  to  the  \"authorised\nofficer\"  and the Govt. has stated in the notification  that\n\"having regard to the circumstances prevailing or likely  to\nprevail  in  any  area  within  the  local  limits  of   the\njurisdiction of each of the District Magistrate specified in\nthe  schedule  annexed  thereto, the  Govt.  of  Gujarat  is\nsatisfied  that  it is necessary so to do\"  and  accordingly\nexercised  the power under sub-s.(2) of sec.3  and  directed\nthe authorised officers i.e. the District Magistrate of each\nDistrict  specified  in  the schedule  and  also  the  three\nCommissioners  of Police in the respective  Corporations  to\nexercise  within  their local limits  of  jurisdiction,  the\npower conferred by sub-s. (1) of sec.3. It is seen that  the\ndangerous  or  anti  social  activities  are   legislatively\nrecognised  to be prejudicial to the maintenance  of  public\norder.   The enumerated activities hereinbefore referred  to\nare  not  isolated but being indulged in from time  to  time\nadversely  affecting the public order and even  tempo.   The\nDist.    Magistrate  concerned,  being  the  highest   Dist.\nOfficer  on the spot and the Commissioner of Police  in  the\ncities  have  statutory  duty  to  maintain  public   order.\nTherefore, with a view to have then effectively dealt  with,\nto   move  swiftly  where  public  order  is   affected   or\napprehended  and  to take action  expeditiously  instead  of\nlaying  information  with  the Govt. on  each  occasion  and\neagerly  awaiting  action at State Govt.  level,  the  State\nGovt. having exercised the power under s. 3 (2) conferred on\nthe Dist.  Magistrate or the Commissioner the power to order\ndetention under s.3(1) when he considers or deems  necessary\nto  detain  any person involved in any of the  dangerous  or\nanti    social    activities    enumerated     hereinbefore,\nprejudicially affecting or \"likely to affect the maintenance\nof  public  order\".   The  later  clause  lay  emphasis   on\nimmediacy and promptitude and the authorised officer on  the\nspot is the best Judge to subjectively satisfy himself  from\nthe  facts and ground situation and take preventive  measure\nto  maintain public order.  The reliance by Shri  Ganesh  on\nthe  decision of this Court reported in A.K Roy v. Union  of\nIndia & Anr.  AIR 1982 SC 710, para72 has no application  in\nview of the factual background in this Act.  So long as  the"
+    }
+  ],
+  "confidence": {
+    "level": "\ud83d\udfe0 Limited",
+    "reason": "Only indirect or related authorities were retrieved. The conclusion relies on analogy."
+  },
+  "advanced_metadata": {
+    "authorities_retrieved": 7,
+    "authorities_used": 2,
+    "statutes_used": 0,
+    "sc_judgments_used": 0,
+    "average_retrieval_score": 0.0271,
+    "highest_retrieval_score": 0.0329,
+    "retrieval_time": 40.98,
+    "generation_time": 4.18,
+    "corpus_coverage": "High",
+    "reasoning_confidence_score": 100
+  },
+  "metrics": {
+    "embedding_time": 5.62,
+    "retrieval_time": 40.98,
+    "prompt_construction_time": 0.01,
+    "model_processing_time": 4.18,
+    "retry_delay_time": 0.0,
+    "total_latency": 58.5
+  }
+}

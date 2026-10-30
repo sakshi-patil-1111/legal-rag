@@ -1,0 +1,10 @@
+{
+  "mandatory_fields": [
+    "applicant_name",
+    "authority_designation",
+    "department",
+    "grievance",
+    "relief_sought"
+  ],
+  "optional_fields": []
+}

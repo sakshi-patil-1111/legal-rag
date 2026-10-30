@@ -1,0 +1,13 @@
+﻿# generated runtime state / caches (regenerable)
+BACKEND/chroma_db_backup/
+BACKEND/uploads/
+BACKEND/audit_results.json
+
+# python noise
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# secrets
+.env

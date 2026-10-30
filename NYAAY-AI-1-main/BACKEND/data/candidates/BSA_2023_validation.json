@@ -1,0 +1,12 @@
+{
+    "document_id": "BSA_2023.txt",
+    "status": "PASS",
+    "errors": [],
+    "warnings": [],
+    "stats": {
+        "total_blocks": 7,
+        "parts": 2,
+        "chapters": 2,
+        "sections": 3
+    }
+}

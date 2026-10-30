@@ -1,0 +1,1 @@
+Draft an Indemnity Bond. Begin with 'THIS DEED OF INDEMNITY is made at [Place] on [Date] by...'. Clearly state that the executant agrees to indemnify and hold harmless the beneficiary from all losses, damages, or claims arising out of the specified reason.

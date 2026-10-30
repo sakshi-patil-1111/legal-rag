@@ -1,0 +1,52 @@
+[
+    {
+        "query_id": "T1_rape_consent",
+        "sc_count": 10,
+        "latency": 16.42565369606018
+    },
+    {
+        "query_id": "T2_illegal_detention",
+        "sc_count": 4,
+        "latency": 4.595369100570679
+    },
+    {
+        "query_id": "T3_homebuyer_rera",
+        "sc_count": 8,
+        "latency": 4.614271640777588
+    },
+    {
+        "query_id": "T4_natural_justice",
+        "sc_count": 5,
+        "latency": 4.585995674133301
+    },
+    {
+        "query_id": "T5_adverse_possession",
+        "sc_count": 8,
+        "latency": 4.672655820846558
+    },
+    {
+        "query_id": "S1_anticipatory_bail",
+        "sc_count": 8,
+        "latency": 4.0025177001953125
+    },
+    {
+        "query_id": "S2_murder",
+        "sc_count": 3,
+        "latency": 4.228010654449463
+    },
+    {
+        "query_id": "S3_fir_refusal",
+        "sc_count": 8,
+        "latency": 4.369553804397583
+    },
+    {
+        "query_id": "S4_consumer_defective",
+        "sc_count": 0,
+        "latency": 3.3878355026245117
+    },
+    {
+        "query_id": "S5_fundamental_rights",
+        "sc_count": 9,
+        "latency": 3.9653499126434326
+    }
+]

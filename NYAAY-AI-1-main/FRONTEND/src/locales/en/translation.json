@@ -1,0 +1,222 @@
+{
+  "protectedRoute": {
+    "restoringSession": "Restoring session",
+    "restoringSessionMsg": "Restoring your session…"
+  },
+  "civicNavigator": {
+    "tabs": {
+      "navigator": "Case Dossier",
+      "evidence": "Evidence Checklist",
+      "action_plan": "Action Plan",
+      "scheme_reader": "Schemes",
+      "bare_acts": "Bare Acts",
+      "form_filler": "Form Filler"
+    },
+    "savedDossiers": "Saved Dossiers",
+    "newCase": "New case",
+    "closeSavedDossiers": "Close saved dossiers",
+    "noDocketsYet": "No dockets yet",
+    "runAQuery": "Run a query, then save the dossier it produces to keep it here.",
+    "header": {
+      "dispatch": "// CIVIC NAVIGATOR DISPATCH",
+      "pipeline": "ZERO-HALLUCINATION RAG PIPELINE"
+    },
+    "input": {
+      "placeholder": "Example: Municipal Corporation ignored my RTI application filed 40 days ago regarding road tender expenses... Or: Landlord gave 7 days eviction notice over WhatsApp...",
+      "label": "DESCRIBE CIVIC / LEGAL DISPUTE IN PLAIN LANGUAGE:"
+    },
+    "button": {
+      "execute": "EXECUTE CASE SEARCH"
+    },
+    "benchmark": {
+      "title": "BENCHMARK DISPUTES:",
+      "rti": "RTI 38-Day Delay",
+      "consumer": "Consumer Warranty Refusal",
+      "tenant": "Tenant 7-Day Notice"
+    }
+  },
+  "docHub": {
+    "errors": {
+      "describeSituation": "Please describe the situation first.",
+      "loginRequired": "Please sign in to generate a draft.",
+      "generateDraft": "An error occurred while generating the draft.",
+      "unexpected": "Unexpected response from server.",
+      "failedGenerate": "Failed to generate draft. Please try again.",
+      "failedEdit": "Failed to edit draft.",
+      "failedPdf": "Failed to generate PDF.",
+      "failedDocx": "Failed to generate DOCX."
+    },
+    "toasts": {
+      "updatedToV": "Updated to V{{version}}",
+      "generatingPdf": "Generating PDF...",
+      "generatingDocx": "Generating DOCX...",
+      "draftCopied": "Draft text copied to clipboard!"
+    },
+    "document": {
+      "party": "Party",
+      "noContent": "No document content was returned. Please try again with more details.",
+      "verification": "VERIFICATION",
+      "date": "Date:",
+      "place": "Place:",
+      "annexures": "ANNEXURES",
+      "subject": "SUBJECT"
+    },
+    "ui": {
+      "dashboard": "\u2190 Dashboard",
+      "legalDrafting": "LEGAL DRAFTING",
+      "documentDrafting": "Document Drafting",
+      "filingReady": "Filing-ready, in seconds.",
+      "generateDescription": "Generate production-grade, filing-ready legal documents.",
+      "step1Label": "STEP 01",
+      "step1Desc": "1. Describe Dispute",
+      "step2Label": "STEP 02",
+      "step2Desc": "2. Schema Validation",
+      "step3Label": "STEP 03",
+      "step3Desc": "3. Review & Download",
+      "step1Title": "STEP 1 OF 3 // INPUT",
+      "describeSituationTitle": "Describe the Situation",
+      "explainIssue": "Explain your issue in plain language. The AI will determine the correct document type and format it appropriately.",
+      "placeholder": "E.g., I bought a washing machine from SuperStore on 12th Jan 2024 for 25000 INR. It stopped working after a week. They are refusing to replace it or refund my money...",
+      "analyzeDraft": "Analyze & Draft Document \u2192",
+      "applyingEdits": "APPLYING EDITS...",
+      "analysingFacts": "ANALYSING FACTS...",
+      "redrafting": "Re-drafting the document based on your instructions.",
+      "identifyingType": "Identifying the correct document type and retrieving legal formats.",
+      "step2Title": "STEP 2 OF 3 // DETAILS REQUIRED",
+      "missingInfo": "Missing Information",
+      "weIdentified": "We've identified that you need a ",
+      "toDraft": ". To draft a legally sound document, please provide the following essential details.",
+      "enter": "Enter ",
+      "back": "Back",
+      "generateFinalDraft": "Generate Final Draft",
+      "draftV": "DRAFT v{{version}}",
+      "print": "Print",
+      "pdf": "PDF",
+      "docx": "DOCX",
+      "editDraft": "Edit Draft",
+      "copyText": "Copy Text",
+      "startOver": "Start Over",
+      "editPlaceholder": "E.g., Make the 3rd paragraph more aggressive, add my middle name...",
+      "applyEdit": "Apply Edit"
+    }
+  },
+  "legalReasoning": {
+    "title": "Legal Reasoning",
+    "subtitle": "LEGAL STRATEGY",
+    "emptyState": {
+      "eyebrow": "CASE STRATEGY",
+      "titleLine1": "Build both sides",
+      "titleLine2": "of your case.",
+      "subtitle": "Arguments, risk, statute \u2014 all in one session.",
+      "action1": "Contract Dispute",
+      "action2": "Eviction Notice",
+      "action3": "BNS Analysis"
+    },
+    "reasoning": "Reasoning...",
+    "placeholder": "Ask a legal question, request drafting modifications..."
+  },
+  "uploadChat": {
+    "title": "Document Chat",
+    "subtitle": "DOCUMENT ANALYSIS",
+    "errors": {
+      "unsupportedFile": "Only PDF and DOCX files are supported.",
+      "sizeLimit": "File size exceeds the 10MB limit.",
+      "uploadFailed": "Failed to upload document.",
+      "queryFailed": "Failed to get an answer."
+    },
+    "emptyState": {
+      "eyebrow": "DOCUMENT UPLOAD",
+      "titleLine1": "Upload a document.",
+      "titleLine2": "Ask it anything.",
+      "subtitle": "Upload a PDF or DOCX to extract clauses and red flags."
+    },
+    "processing": "PROCESSING DOCUMENT CLAUSES",
+    "extracting": "Extracting sections, covenants & statutory red flags...",
+    "changeBtn": "Change",
+    "uploadBtn": "Upload & Extract",
+    "selectFileBtn": "Select File",
+    "dragDrop": "Drag & drop PDF or DOCX here \u00b7 max 10MB",
+    "analysing": "Analysing...",
+    "placeholder": "Ask a question about this document..."
+  },
+  "chatInput": {
+    "placeholder": "Describe your legal situation...",
+    "footerDisclaimer": "NYAAY AI \u00b7 Grounded in 93 Indian Bare Acts \u00b7 Verify before filing"
+  },
+  "chatSidebar": {
+    "pinned": "Pinned",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "previous7Days": "Previous 7 days",
+    "older": "Older",
+    "noMatches": "No matches for \"{{query}}\".",
+    "noSessionsYet": "No sessions yet",
+    "startNewQuery": "Start a new query to begin your case file history.",
+    "newConversation": "New Conversation",
+    "caseHistory": "Case history",
+    "pastSessions": "Past Sessions",
+    "searchSessions": "Search sessions...",
+    "deleteSessionTitle": "Delete this session?",
+    "deleteSessionBody": "\"{{title}}\" and its messages will be removed. This cannot be undone.",
+    "delete": "Delete",
+    "keepIt": "Keep it",
+    "unpin": "Unpin",
+    "pin": "Pin",
+    "rename": "Rename",
+    "deleteAction": "Delete",
+    "thisConversation": "this conversation",
+    "unpinSession": "unpin that session",
+    "pinSession": "pin that session",
+    "renameSession": "rename that session",
+    "deleteSession": "delete that session",
+    "failureMessage": "Could not {{action}}. Check your connection and try again."
+  },
+  "messageBubble": {
+    "you": "YOU",
+    "yourQuery": "YOUR QUERY",
+    "nyaayAnalysis": "NYAAY AI // CASE ANALYSIS"
+  },
+  "toast": {
+    "dismiss": "Dismiss"
+  },
+  "confirmationModal": {
+    "confirm": "Confirm",
+    "cancel": "Cancel"
+  },
+  "formFiller": {
+    "header": {
+      "agent": "CONVERSATIONAL FORM-FILLER AGENT",
+      "title": "Guided Intake & Live Auto-Form Generator"
+    },
+    "label": {
+      "targetForm": "Target Form:"
+    },
+    "ai": {
+      "title": "AI Legal Intake Officer",
+      "active": "Interactive Q&A Active"
+    },
+    "preview": {
+      "title": "Official Statutory Form Preview"
+    }
+  },
+  "landing": {
+    "liveProof": "LIVE PROOF",
+    "liveProofTitle": "Sub-500ms Time-to-First-Token in Action",
+    "problemArchitecture": "PROBLEM STATEMENT ARCHITECTURE",
+    "empoweringTitle": "Empowering Citizens Across 4 Civic Dimensions",
+    "rtiAgent": "RTI Drafting Agent",
+    "rightsNavigator": "Rights Navigator",
+    "schemeReader": "Scheme Eligibility Reader",
+    "conversationalFormFiller": "Conversational Form-Filler"
+  },
+  "citationPill": {
+    "defaultExcerpt": "Statutory provision under {{act}} specifying enforceable rights, mandatory procedures, and limitation terms.",
+    "tooltipTitle": "Click to view statutory source annotation",
+    "groundedStatuteTrace": "GROUNDED STATUTORY TRACE",
+    "hallucinationTrace": "✓ 0% Hallucination Trace",
+    "inspectStatute": "Inspect Statute"
+  },
+  "loadingSpinner": {
+    "loading": "Loading"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "mandatory_fields": [
+    "complainant_name",
+    "sp_office_location",
+    "previous_complaint_details",
+    "brief_facts"
+  ],
+  "optional_fields": []
+}

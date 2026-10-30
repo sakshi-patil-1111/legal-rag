@@ -1,0 +1,35 @@
+{
+    "document_id": "bharatiya_nyaya_sanhita_2023.txt",
+    "status": "PASS",
+    "errors": [],
+    "warnings": [
+        "Possible missing section between 86 and 88",
+        "Possible missing section between 88 and 100",
+        "Possible missing section between 100 and 147",
+        "Possible missing section between 150 and 152",
+        "Possible missing section between 154 and 156",
+        "Possible missing section between 156 and 159",
+        "Possible missing section between 160 and 169",
+        "Possible missing section between 170 and 176",
+        "Possible missing section between 177 and 188",
+        "Possible missing section between 188 and 198",
+        "Possible missing section between 200 and 205",
+        "Possible missing section between 205 and 226",
+        "Possible missing section between 227 and 255",
+        "Possible missing section between 255 and 257",
+        "Possible missing section between 259 and 265",
+        "Possible missing section between 265 and 268",
+        "Possible missing section between 268 and 270",
+        "Possible missing section between 270 and 282",
+        "Possible missing section between 290 and 298",
+        "Possible missing section between 300 and 306",
+        "Possible missing section between 306 and 335",
+        "Possible missing section between 335 and 339"
+    ],
+    "stats": {
+        "total_blocks": 47,
+        "parts": 0,
+        "chapters": 0,
+        "sections": 46
+    }
+}

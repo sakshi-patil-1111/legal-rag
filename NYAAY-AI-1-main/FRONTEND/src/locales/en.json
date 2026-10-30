@@ -1,0 +1,862 @@
+{
+    "nav": {
+        "home": "Home",
+        "dashboard": "Dashboard",
+        "civicNavigator": "Civic Navigator",
+        "kanoonQA": "Kanoon Q&A",
+        "docChat": "Doc Chat",
+        "drafting": "Drafting",
+        "reasoning": "Reasoning",
+        "dockets": "Dockets",
+        "signOut": "Sign out",
+        "signingOut": "Signing out…",
+        "signIn": "Sign in",
+        "getStarted": "Get started"
+    },
+    "common": {
+        "translationUnavailable": "Translation unavailable - showing English response.",
+        "loading": "Loading..."
+    },
+    "civic": {
+        "status": {
+            "reading": "Reading your legal question...",
+            "retrieving": "Retrieving relevant statutes...",
+            "composing": "Composing dossier...",
+            "translating": "Translating to {{lang}}..."
+        }
+    },
+    "uploadChat": {
+        "title": "Document Chat",
+        "subtitle": "DOCUMENT ANALYSIS",
+        "errors": {
+            "unsupportedFile": "Only PDF and DOCX files are supported.",
+            "sizeLimit": "File size exceeds the 10MB limit.",
+            "uploadFailed": "Failed to upload document.",
+            "queryFailed": "Failed to get an answer."
+        },
+        "emptyState": {
+            "eyebrow": "DOCUMENT UPLOAD",
+            "titleLine1": "Upload a document.",
+            "titleLine2": "Ask it anything.",
+            "subtitle": "Upload a PDF or DOCX to extract clauses and red flags."
+        },
+        "processing": "PROCESSING DOCUMENT CLAUSES",
+        "extracting": "Extracting sections, covenants & statutory red flags...",
+        "changeBtn": "Change",
+        "uploadBtn": "Upload & Extract",
+        "selectFileBtn": "Select File",
+        "dragDrop": "Drag & drop PDF or DOCX here · max 10MB",
+        "analysing": "Analysing...",
+        "placeholder": "Ask a question about this document..."
+    },
+    "civicNavigator": {
+        "tabs": {
+            "navigator": "Case Dossier",
+            "evidence": "Evidence Checklist",
+            "action_plan": "Action Plan",
+            "scheme_reader": "Schemes",
+            "bare_acts": "Bare Acts",
+            "form_filler": "Form Filler"
+        },
+        "savedDossiers": "Saved Dossiers",
+        "newCase": "New case",
+        "closeSavedDossiers": "Close saved dossiers",
+        "noDocketsYet": "No dockets yet",
+        "runAQuery": "Run a query, then save the dossier it produces to keep it here.",
+        "header": {
+            "dispatch": "// CIVIC NAVIGATOR DISPATCH",
+            "pipeline": "ZERO-HALLUCINATION RAG PIPELINE"
+        },
+        "input": {
+            "placeholder": "Example: Municipal Corporation ignored my RTI application filed 40 days ago regarding road tender expenses... Or: Landlord gave 7 days eviction notice over WhatsApp...",
+            "label": "DESCRIBE CIVIC / LEGAL DISPUTE IN PLAIN LANGUAGE:"
+        },
+        "button": {
+            "execute": "EXECUTE CASE SEARCH"
+        },
+        "benchmark": {
+            "title": "BENCHMARK DISPUTES:",
+            "rti": "RTI 38-Day Delay",
+            "consumer": "Consumer Warranty Refusal",
+            "tenant": "Tenant 7-Day Notice"
+        }
+    },
+    "docHub": {
+        "errors": {
+            "describeSituation": "Please describe the situation first.",
+            "loginRequired": "Please sign in to generate a draft.",
+            "generateDraft": "An error occurred while generating the draft.",
+            "unexpected": "Unexpected response from server.",
+            "failedGenerate": "Failed to generate draft. Please try again.",
+            "failedEdit": "Failed to edit draft.",
+            "failedPdf": "Failed to generate PDF.",
+            "failedDocx": "Failed to generate DOCX."
+        },
+        "toasts": {
+            "updatedToV": "Updated to V{{version}}",
+            "generatingPdf": "Generating PDF...",
+            "generatingDocx": "Generating DOCX...",
+            "draftCopied": "Draft text copied to clipboard!"
+        },
+        "document": {
+            "party": "Party",
+            "noContent": "No document content was returned. Please try again with more details.",
+            "verification": "VERIFICATION",
+            "date": "Date:",
+            "place": "Place:",
+            "annexures": "ANNEXURES"
+        },
+        "ui": {
+            "dashboard": "← Dashboard",
+            "legalDrafting": "LEGAL DRAFTING",
+            "documentDrafting": "Document Drafting",
+            "filingReady": "Filing-ready, in seconds.",
+            "generateDescription": "Generate production-grade, filing-ready legal documents.",
+            "step1Label": "STEP 01",
+            "step1Desc": "1. Describe Dispute",
+            "step2Label": "STEP 02",
+            "step2Desc": "2. Schema Validation",
+            "step3Label": "STEP 03",
+            "step3Desc": "3. Review & Download",
+            "step1Title": "STEP 1 OF 3 // INPUT",
+            "describeSituationTitle": "Describe the Situation",
+            "explainIssue": "Explain your issue in plain language. The AI will determine the correct document type and format it appropriately.",
+            "placeholder": "E.g., I bought a washing machine from SuperStore on 12th Jan 2024 for 25000 INR. It stopped working after a week. They are refusing to replace it or refund my money...",
+            "analyzeDraft": "Analyze & Draft Document →",
+            "applyingEdits": "APPLYING EDITS...",
+            "analysingFacts": "ANALYSING FACTS...",
+            "redrafting": "Re-drafting the document based on your instructions.",
+            "identifyingType": "Identifying the correct document type and retrieving legal formats.",
+            "step2Title": "STEP 2 OF 3 // DETAILS REQUIRED",
+            "missingInfo": "Missing Information",
+            "weIdentified": "We've identified that you need a ",
+            "toDraft": ". To draft a legally sound document, please provide the following essential details.",
+            "enter": "Enter ",
+            "back": "Back",
+            "generateFinalDraft": "Generate Final Draft",
+            "draftV": "DRAFT v{{version}}",
+            "print": "Print",
+            "pdf": "PDF",
+            "docx": "DOCX",
+            "editDraft": "Edit Draft",
+            "copyText": "Copy Text",
+            "startOver": "Start Over",
+            "editPlaceholder": "E.g., Make the 3rd paragraph more aggressive, add my middle name...",
+            "applyEdit": "Apply Edit"
+        }
+    },
+    "legalReasoning": {
+        "title": "Legal Reasoning",
+        "subtitle": "LEGAL STRATEGY",
+        "emptyState": {
+            "eyebrow": "CASE STRATEGY",
+            "titleLine1": "Build both sides",
+            "titleLine2": "of your case.",
+            "subtitle": "Arguments, risk, statute — all in one session.",
+            "action1": "Contract Dispute",
+            "action2": "Eviction Notice",
+            "action3": "BNS Analysis"
+        },
+        "reasoning": "Reasoning...",
+        "placeholder": "Ask a legal question, request drafting modifications..."
+    },
+    "chatInput": {
+        "placeholder": "Describe your legal situation...",
+        "footerDisclaimer": "NYAAY AI · Grounded in 93 Indian Bare Acts · Verify before filing"
+    },
+    "chatSidebar": {
+        "pinned": "Pinned",
+        "today": "Today",
+        "yesterday": "Yesterday",
+        "previous7Days": "Previous 7 days",
+        "older": "Older",
+        "noMatches": "No matches for \"{{query}}\".",
+        "noSessionsYet": "No sessions yet",
+        "startNewQuery": "Start a new query to begin your case file history.",
+        "newConversation": "New Conversation",
+        "caseHistory": "Case history",
+        "pastSessions": "Past Sessions",
+        "searchSessions": "Search sessions...",
+        "deleteSessionTitle": "Delete this session?",
+        "deleteSessionBody": "\"{{title}}\" and its messages will be removed. This cannot be undone.",
+        "delete": "Delete",
+        "keepIt": "Keep it",
+        "unpin": "Unpin",
+        "pin": "Pin",
+        "rename": "Rename",
+        "deleteAction": "Delete",
+        "thisConversation": "this conversation",
+        "unpinSession": "unpin that session",
+        "pinSession": "pin that session",
+        "renameSession": "rename that session",
+        "deleteSession": "delete that session",
+        "failureMessage": "Could not {{action}}. Check your connection and try again."
+    },
+    "messageBubble": {
+        "you": "YOU",
+        "yourQuery": "YOUR QUERY",
+        "nyaayAnalysis": "NYAAY AI // CASE ANALYSIS"
+    },
+    "toast": {
+        "dismiss": "Dismiss"
+    },
+    "confirmationModal": {
+        "confirm": "Confirm",
+        "cancel": "Cancel"
+    },
+    "formFiller": {
+        "header": {
+            "agent": "AI Form Assistant",
+            "title": "Guided Intake & Live Auto-Form Generator"
+        },
+        "label": {
+            "targetForm": "Target Form:"
+        },
+        "ai": {
+            "title": "AI Legal Intake Officer",
+            "active": "Interactive Q&A Active"
+        },
+        "preview": {
+            "title": "Official Statutory Form Preview"
+        },
+        "error": {
+            "processAnswer": "Something went wrong while processing that answer. Please try sending it again.",
+            "downloadPdf": "Could not generate the PDF. The document service may be unavailable - try DOCX, or download the plain-text copy.",
+            "downloadDocx": "Could not generate the DOCX. The document service may be unavailable - try PDF, or download the plain-text copy."
+        },
+        "title": "Guided Intake & Live Auto-Form Generator",
+        "subtitle": "Answer simple plain-language questions and watch the official government & court form populate in real time.",
+        "intakeOfficer": "AI Legal Intake Officer",
+        "status": {
+            "qaActive": "Interactive Q&A Active"
+        },
+        "progress": {
+            "of": "of",
+            "fieldsCompleted": "required fields completed"
+        },
+        "tip": "Tip:",
+        "useSampleText": "Use sample text",
+        "placeholder": {
+            "complete": "Form complete",
+            "typeAnswer": "Type your answer..."
+        },
+        "button": {
+            "submitAnswer": "Submit answer",
+            "copied": "Copied",
+            "copyText": "Copy Text",
+            "pdf": "PDF",
+            "docx": "DOCX",
+            "txt": "TXT",
+            "print": "Print"
+        },
+        "footer": {
+            "grounded": "Grounded in Indian Central/State Gazette Rules",
+            "targetAuthority": "Target Authority:"
+        }
+    },
+    "landing": {
+        "liveProof": "LIVE PROOF",
+        "liveProofTitle": "Sub-500ms Time-to-First-Token in Action",
+        "problemArchitecture": "PROBLEM ARCHITECTURE",
+        "empoweringTitle": "Empowering Citizens Across 4 Civic Dimensions",
+        "rtiAgent": "RTI Drafting Agent",
+        "rightsNavigator": "Rights Navigator",
+        "schemeReader": "Scheme Eligibility Reader",
+        "conversationalFormFiller": "Conversational Form-Filler",
+        "hero": {
+            "badge": "Grounded in statute — every answer cites the Act it came from",
+            "title1": "Not Just a Legal Engine.",
+            "title2": "A Companion to Justice. ⚖️",
+            "subtitle": "From laws to landmark judgments — making India’s legal knowledge easier to find, understand, and access.",
+            "cta_start": "Describe your problem",
+            "cta_explore": "Browse the 93 Bare Acts",
+            "civic_empowerment": "Civic empowerment",
+            "build_id": "NYAAY-RAG-2026",
+            "acts_indexed": "93 Indian Bare Acts indexed",
+            "fast_answers": "100% Statute-Grounded Answers",
+            "try_label": "TRY:",
+            "try_rti_query": "I filed an RTI application 38 days ago with the Municipal Corporation regarding road repair tender. No response received.",
+            "try_eviction_query": "Landlord sent a WhatsApp message giving me 7 days to vacate despite full rent paid and active lease agreement.",
+            "tile1": {
+                "title": "Free, and no lawyer needed to start",
+                "desc": "Describe the problem in plain Hindi or English."
+            },
+            "tile2": {
+                "title": "Every claim traced to a statute",
+                "desc": "Hybrid retrieval across 93 Acts — meaning and keyword search, fused."
+            },
+            "tile3": {
+                "title": "You leave with a filled-in draft",
+                "desc": "Notice, RTI or appeal — ready to print and post."
+            },
+            "tile4": {
+                "title": "Dense + sparse hybrid search",
+                "desc": "Chroma vectors fused with BM25 keyword matching across 93 Bare Acts."
+            },
+            "tile5": {
+                "title": "Zero hallucinated citations",
+                "desc": "Every legal claim is traced to an exact Section of an Act — verifiable before filing."
+            },
+            "planes": {
+                "caption1": "Statutes ranked against your problem",
+                "caption2": "Click any plane to inspect"
+            }
+        },
+        "stats": {
+            "acts": "Acts & Statutes",
+            "sc": "SC Judgments",
+            "schemes": "Govt Schemes"
+        },
+        "fallback": {
+            "title": "3D STATUTORY ARRAY",
+            "subtitle": "Loading 93 Indian Bare Acts model…"
+        },
+        "scenarios": {
+            "rti": {
+                "domain": "RTI",
+                "title": "Municipal Road Tender RTI Delayed 38 Days",
+                "query": "I filed an RTI application 38 days ago with the Municipal Corporation requesting road repair tender details and contractor payment logs. No response received.",
+                "statute": "RTI Act 2005 (Sec 7 & 19)",
+                "badge": "DEEMED REFUSAL"
+            },
+            "consumer": {
+                "domain": "CONSUMER",
+                "title": "Authorized Dealer Refused Laptop Warranty",
+                "query": "Authorized service center rejected warranty repair on my 4-month-old laptop claiming customer fault without technical diagnostic inspection.",
+                "statute": "Consumer Protection Act 2019 (Sec 2(11) & 84)",
+                "badge": "UNFAIR PRACTICE"
+            },
+            "workplace": {
+                "domain": "WORKPLACE",
+                "title": "Company Withholding Statutory Gratuity & Relieving Letter",
+                "query": "I resigned after 6 years of continuous service. Company HR is refusing to disburse my statutory gratuity and withholding my relieving letter.",
+                "statute": "Payment of Gratuity Act 1972 (Sec 4 & 7)",
+                "badge": "STATUTORY GRATUITY"
+            },
+            "tenant": {
+                "domain": "TENANT",
+                "title": "Landlord Issued 7-Day WhatsApp Eviction Notice",
+                "query": "Landlord sent a WhatsApp message giving me 7 days to vacate apartment despite full rent paid on time and active lease agreement in force.",
+                "statute": "TPA 1882 (Sec 106) & SRA (Sec 6)",
+                "badge": "UNLAWFUL EVICTION"
+            },
+            "rera": {
+                "domain": "RERA",
+                "title": "Builder Delayed Apartment Possession 18 Months",
+                "query": "Promoter delayed handover of apartment by 18 months beyond RERA registered completion date and refuses to pay statutory monthly interest.",
+                "statute": "RERA 2016 (Sec 18)",
+                "badge": "STATUTORY COMPENSATION"
+            },
+            "badge": "TEST GROUNDED DISPUTES",
+            "benchmark": "5 BENCHMARK SCENARIOS",
+            "title": "Common Civic Scenarios",
+            "subtitle": "Select any benchmark scenario to test real-world statutory grounding.",
+            "scroll_left": "Scroll left",
+            "scroll_right": "Scroll right",
+            "launch": "LAUNCH",
+            "grounded": "GROUNDED:",
+            "ready": "READY"
+        },
+        "arch": {
+            "part1": {
+                "name": "Problem & Rights",
+                "badge": "GROUNDED STATUTE",
+                "title": "Statutory Shield & Rights Identification",
+                "description": "Zero-hallucination extraction of enforceable citizen rights directly mapped to exact legislative Sections from the 93 Indian Bare Acts.",
+                "dossierHighlight": "Section 7(2) RTI Act: Deemed Refusal invokes immediate First Appellate Authority jurisdiction without fresh fees."
+            },
+            "part2": {
+                "name": "Evidence Required",
+                "badge": "AUDIT CHECKLIST",
+                "title": "Evidentiary Threshold & Verification (BSA 2023)",
+                "description": "Defines mandatory vs supporting documentation required before any tribunal or magistrate, calculating audit readiness before filing.",
+                "dossierHighlight": "Mandatory: Speed Post Tracking Acknowledgment Slip proving delivery + Section 63 BSA Electronic Certificate."
+            },
+            "part3": {
+                "name": "Relevant Authority",
+                "badge": "JURISDICTION MAP",
+                "title": "Specific Officer & Multi-Tier Escalation",
+                "description": "Pinpoints the precise designated officer, appellate forum, official e-filing portal (e-Daakhil / RTI Online / Rent Court), and fee schedule.",
+                "dossierHighlight": "Tier 2: First Appellate Authority (FAA) — Mandatory 30-day speaking order timeline."
+            },
+            "part4": {
+                "name": "Action Plan",
+                "badge": "LIMITATION TIMELINE",
+                "title": "Day 1 → Day 30 Phased Milestone Stepper",
+                "description": "Chronological execution steps tied strictly to statutory limitation deadlines under the Limitation Act 1963 and respective procedural codes.",
+                "dossierHighlight": "Day 31 Expiry: File Memorandum of First Appeal within 30 days of statutory default."
+            },
+            "part5": {
+                "name": "Document Generation",
+                "badge": "SINGLE-PASS ENGINE",
+                "title": "Dynamic Legal Draft with Placeholder Tokens",
+                "description": "Instant production of actionable legal notices, affidavits, RTI appeals, and tenant replies formatted to judicial standards with highlighted editable tags.",
+                "dossierHighlight": "Memorandum of Appeal under Sec 19(1) with bracketed placeholders ready to print, copy, and post."
+            }
+        },
+        "proof": {
+            "live_proof": "LIVE PROOF",
+            "title": "Multi-Layer Retrieval & Synthesis in Action",
+            "description": "Watch real citizen grievances type in, route through deterministic legal classifiers, fuse Chroma dense + BM25 sparse vectors, and stream into the 5-part invariant dossier."
+        },
+        "pillars": {
+            "title": "Empowering Citizens Across 4 Civic Dimensions",
+            "subtitle": "Turning opaque bureaucracy, scattered legislation, and legal intimidation into accessible, grounded, and automated citizen action.",
+            "rti": {
+                "name": "RTI Drafting Agent",
+                "desc": "Converts plain-language citizen questions into legally formatted RTI Form A applications and Sec 19 First Appeals directed to the exact Public Information Officer.",
+                "cta": "Draft RTI Application",
+                "badge": "FORM A & FIRST APPEAL",
+                "preset_query": "I filed an RTI application 38 days ago with the Municipal Corporation requesting road repair tender details. No response received."
+            },
+            "rights": {
+                "name": "Rights Navigator",
+                "desc": "Translates messy disputes (tenant evictions, consumer defects, unpaid wages) into simple terms backed by citations from 93 Bare Acts and evidence checklists.",
+                "cta": "Explore Rights Dossier",
+                "badge": "EVIDENCE & 93 ACTS",
+                "preset_query": "Authorized service center rejected warranty repair on my 4-month-old laptop claiming customer fault without technical diagnostic inspection."
+            },
+            "schemes": {
+                "name": "Scheme Eligibility Reader",
+                "desc": "Answers eligibility questions in plain language across healthcare, housing, pensions, and gig worker funds with benefit calculators and document lists.",
+                "cta": "Check Welfare Schemes",
+                "badge": "WELFARE BENEFIT CALCULATOR",
+                "preset_query": "Ayushman Bharat PMJAY scheme eligibility criteria"
+            },
+            "form": {
+                "name": "Conversational Form-Filler",
+                "desc": "Interviews the user in plain English or Hinglish and auto-populates the official legal/civic form in real-time side-by-side ready for filing.",
+                "cta": "Live Interactive Intake",
+                "badge": "HINGLISH INTAKE ENGINE",
+                "preset_query": "File RTI Form A"
+            },
+            "active": "● ACTIVE",
+            "preview": {
+                "rti": {
+                    "label": "PREVIEW // RTI FORM A MEMORANDUM",
+                    "sec": "SEC 6(1) & SEC 19(1)",
+                    "title": "MEMORANDUM OF FIRST APPEAL",
+                    "to": "To:",
+                    "to_authority": "[First Appellate Authority, Municipal Corporation]",
+                    "ready": "✓ PRE-FORMATTED LEGAL DRAFT READY TO PRINT & FILE"
+                },
+                "rights": {
+                    "label": "PREVIEW // RIGHTS & EVIDENCE DOSSIER",
+                    "badge": "93 BARE ACT CITATION",
+                    "act": "Consumer Protection Act 2019 · Sec 84",
+                    "item1": "Mandatory: Tax Invoice",
+                    "item2": "Mandatory: Job-Sheet",
+                    "item3": "Supporting: Sec 63 BSA Cert"
+                },
+                "schemes": {
+                    "label": "PREVIEW // WELFARE SCHEME EVALUATOR",
+                    "badge": "BENEFIT CALCULATOR",
+                    "scheme_name": "Ayushman Bharat PM-JAY Scheme",
+                    "coverage": "STATUTORY COVERAGE: ₹5,00,000 / FAMILY / YEAR",
+                    "eligibility": "Eligible: Deprivation D1-D7 criteria under SECC 2011 + Ration Card holder status.",
+                    "required": "Required: Aadhaar + SECC Household ID + Empanelled Hospital list."
+                },
+                "form": {
+                    "label": "PREVIEW // CONVERSATIONAL INTAKE ENGINE",
+                    "badge": "HINGLISH & ENGLISH",
+                    "ready": "✓ SIDE-BY-SIDE AUTO-POPULATED OFFICIAL LEGAL FORM"
+                }
+            },
+            "module_prefix": "CIVIC MODULE 0",
+            "launch": "LAUNCH THIS MODULE"
+        },
+        "dossier": {
+            "badge": "STRUCTURED OUTPUT STANDARD",
+            "title": "The Five-Part Case Dossier",
+            "subtitle": "Unlike generic chatbots that hallucinate citations, NYAAY AI structures every legal solution into an invariant, courtroom-tested shape.",
+            "part_prefix": "PART 0",
+            "step_prefix": "STEP ",
+            "step_of": " OF 5",
+            "section_prefix": "SECTION 0",
+            "grounded_view": "GROUNDED DOSSIER VIEW",
+            "retrieval_annotation": "// REAL-TIME RETRIEVAL ANNOTATION",
+            "sectors": "SECTORS: RTI • CONSUMER • TENANT • RERA",
+            "test_module": "TEST THIS MODULE"
+        },
+        "repository": {
+            "badge": "KNOWLEDGE BASE",
+            "title": "Explore the 93 Indian Bare Acts Catalog",
+            "subtitle": "From the Constitution of India to the Consumer Protection Act 2019, Transfer of Property Act 1882, and modern procedural enactments.",
+            "cta": "OPEN 93 ACTS REPOSITORY"
+        },
+        "scroll_reveal": {
+            "badge": "CIVIC REALITY & PROBLEM STATEMENT",
+            "line1": "A citizen enters with raw real-world distress.",
+            "line2": "Bureaucracy buries rights under ninety-three disconnected statutes.",
+            "line3": "The law already protects you — most people just cannot find the path through it.",
+            "footer1": "NYAAY ENGINE: RETRIEVAL-AUGMENTED STATUTORY DOSSIER",
+            "footer2": "DETERMINISTIC JURISDICTION ROUTING"
+        }
+    },
+    "footer": {
+        "brand": {
+            "description": "Turns a civic or legal problem into a grounded, actionable case dossier — every claim traced back to the Bare Act it came from.",
+            "badge": "OOSC 4.0 · Civic & Legal Empowerment"
+        },
+        "tools": {
+            "heading": "Legal & Civic Tools",
+            "civic": "Civic Navigator",
+            "kanoon": "Kanoon Q&A",
+            "docdrafting": "Document Drafting",
+            "docchat": "Document Chat",
+            "reasoning": "Legal Reasoning"
+        },
+        "nav": {
+            "heading": "Navigation",
+            "home": "Home",
+            "dashboard": "Dashboard",
+            "signin": "Sign in",
+            "signup": "Create account"
+        },
+        "acts": {
+            "heading": "93 Grounded Bare Acts",
+            "rti": {
+                "title": "RTI Act, 2005",
+                "desc": "Sec 7(1) & Sec 19 Appellate Forum"
+            },
+            "explore": "EXPLORE →",
+            "cpa": {
+                "title": "Consumer Protection Act, 2019",
+                "desc": "Defect & Deficiency Remedies"
+            },
+            "bns": {
+                "title": "Bharatiya Nyaya Sanhita, 2023",
+                "desc": "Updated Statutory Provisions"
+            }
+        },
+        "disclaimer": {
+            "bold": "This is not legal advice.",
+            "text": "NYAAY AI is not a law firm and is not enrolled with any Bar Council. Output is machine-generated and can be wrong — verify it before you rely on it, and consult a licensed advocate for anything consequential.",
+            "link": "Read the full disclaimer"
+        },
+        "bottom": {
+            "copyright": "NYAAY AI · Grounded Legal OS",
+            "terms": "Terms of Service",
+            "privacy": "Privacy Policy",
+            "disclaimer": "Legal Disclaimer",
+            "github": "GitHub"
+        }
+    },
+    "drafting": {
+        "noLayoutAST": "No layout AST provided.",
+        "startOver": "Start Over",
+        "back": "Back",
+        "template": "Template",
+        "selectTemplate": "Select letterhead template",
+        "watermark": "Watermark",
+        "selectWatermark": "Select watermark",
+        "letterheadSettings": "Letterhead Settings",
+        "zoomOut": "Zoom out",
+        "zoomIn": "Zoom in",
+        "fullscreen": "Fullscreen",
+        "print": "Print",
+        "downloadPdf": "Download PDF",
+        "pdf": "PDF",
+        "downloadDocx": "Download DOCX",
+        "docx": "DOCX",
+        "copyText": "Copy text",
+        "copy": "Copy",
+        "editDraft": "Edit draft",
+        "edit": "Edit",
+        "letterheadModalTitle": "Letterhead & Document Settings",
+        "close": "Close",
+        "letterheadMode": "Letterhead Mode",
+        "nameFirmName": "Name / Firm Name",
+        "namePlaceholder": "e.g. Adv. Ramesh Sharma / Sharma & Associates",
+        "line2": "Line 2 (Designation / Specialisation)",
+        "line2Placeholder": "e.g. Advocates & Legal Consultants",
+        "enrollmentNoLabel": "Enrollment Number",
+        "enrollmentPlaceholder": "e.g. MH/1234/2015",
+        "address": "Address",
+        "addressPlaceholder": "Chamber / Office Address",
+        "contact": "Contact (Phone / Email)",
+        "contactPlaceholder": "+91 98765 43210 | advocate@email.com",
+        "refNumber": "Reference Number",
+        "autoGenerate": "Auto-generate",
+        "manual": "Manual",
+        "hide": "Hide",
+        "refPlaceholder": "e.g. FIRM/LN/2026/001",
+        "defaultTemplate": "Default Template",
+        "defaultWatermark": "Default Watermark",
+        "cancel": "Cancel",
+        "saveSettings": "Save Settings"
+    },
+    "kanoon": {
+        "supremeCourtJudgment": "Supreme Court Judgment",
+        "statute": "Statute",
+        "constitution": "Constitution",
+        "legalAuthority": "Legal Authority",
+        "readRelevantJudgment": "Read relevant judgment passage",
+        "readRelevantProvision": "Read relevant provision",
+        "readRelevantPassage": "Read relevant passage",
+        "court": "Court",
+        "judgmentDate": "Judgment date",
+        "bench": "Bench",
+        "citation": "Citation",
+        "caseNumber": "Case number",
+        "petitioner": "Petitioner",
+        "respondent": "Respondent",
+        "caseId": "Case ID",
+        "actCode": "Act/Code",
+        "sectionArticle": "Section/Article",
+        "chapter": "Chapter",
+        "jurisdiction": "Jurisdiction",
+        "authority": "Authority",
+        "sourceType": "Source type",
+        "textNotAvailable": "Text not available.",
+        "completeRetrievedPassage": "Complete Retrieved Passage",
+        "sourceMetadata": "Source Metadata",
+        "groundedStatuteAnalysis": "GROUNDED STATUTE ANALYSIS",
+        "executiveSummary": "Executive Summary",
+        "sub500ms": "SUB-500ms TTFT",
+        "detailedStatutoryAnalysis": "Detailed Statutory Analysis",
+        "keyProvisions": "Key Provisions & Sections",
+        "relevantPrecedents": "Relevant Precedents & Judicial Rulings",
+        "sourcesAndAuthorities": "Sources & Statutory Authorities",
+        "statutoryDisclaimer": "Statutory Disclaimer:",
+        "error": {
+            "failedToGetAnswer": "Failed to get an answer. Please try again."
+        },
+        "exampleQuestion1": "Can my landlord evict me without notice?",
+        "exampleQuestion2": "What are my rights during police questioning?",
+        "exampleQuestion3": "What is anticipatory bail?",
+        "header": {
+            "legalResearch": "LEGAL RESEARCH",
+            "title": "Know Your Kanoon"
+        },
+        "emptyState": {
+            "eyebrow": "KANOON Q&A",
+            "titleLine1": "Ask any legal question.",
+            "titleLine2": "Get a statute-grounded answer.",
+            "subtitle": "Indian law, grounded in statute."
+        },
+        "status": {
+            "retrieving": "Retrieving..."
+        },
+        "input": {
+            "placeholder": "E.g., Can my landlord evict me without notice?"
+        }
+    },
+    "reasoning": {
+        "kanoonQA": "Kanoon Q&A",
+        "draftLegalNotice": "Draft Legal Notice",
+        "chatWithDocuments": "Chat with Documents"
+    },
+    "dashboard": {
+        "counselor": "Counselor",
+        "tools": {
+            "civic": {
+                "workflow": "CASE INTAKE",
+                "name": "Civic Navigator",
+                "desc": "RTI, Consumer, Tenant — 5-part dossiers from 93 Bare Acts."
+            },
+            "kanoon": {
+                "workflow": "STATUTE RESEARCH",
+                "name": "Kanoon Q&A",
+                "desc": "Statute-grounded answers to Indian law questions."
+            },
+            "drafting": {
+                "workflow": "DOCUMENT DRAFTING",
+                "name": "Legal Drafting",
+                "desc": "Generate Affidavits, Notices, RTI Applications."
+            },
+            "docchat": {
+                "workflow": "CONTRACT ANALYSIS",
+                "name": "Document Chat",
+                "desc": "Upload a contract — extract clauses, identify red flags."
+            },
+            "reasoning": {
+                "workflow": "LITIGATION STRATEGY",
+                "name": "Legal Reasoning",
+                "desc": "Build arguments, evaluate litigation risk."
+            }
+        },
+        "stamp": "DASHBOARD",
+        "welcome": "Welcome back,",
+        "journey": {
+            "title": "CIVIC LEGAL OPERATING SYSTEM // 5-STEP JOURNEY",
+            "subtitle": "INTAKE → STRATEGY",
+            "step": "STEP"
+        },
+        "account": {
+            "title": "CASE FILE ACCOUNT",
+            "email": "EMAIL",
+            "role": "ROLE",
+            "joined": "JOINED",
+            "lastsync": "LAST SYNC",
+            "status": "NYAAY RAG Engine · Connected"
+        }
+    },
+    "convergence": {
+        "header": {
+            "title": "THE CONVERGENCE // 93 → 34 → 1",
+            "subtitle": "Deterministic Statutory Lock"
+        },
+        "status": {
+            "standby": "STANDBY"
+        },
+        "button": {
+            "running": "CONVERGING...",
+            "idle": "CONVERGE ACTS"
+        },
+        "benchmarks": "BENCHMARKS:",
+        "footer": {
+            "trace": "0% Hallucination · 100% Statutory Trace",
+            "open": "Open in Civic Navigator"
+        }
+    },
+    "citationPill": {
+        "tooltipTitle": "Click to view statutory source annotation",
+        "groundedStatuteTrace": "GROUNDED STATUTORY TRACE",
+        "hallucinationTrace": "✓ 0% Hallucination Trace",
+        "inspectStatute": "Inspect Statute"
+    },
+    "loadingSpinner": {
+        "loading": "Loading"
+    },
+    "bareActs": {
+        "statutoryRepository": "STATUTORY REPOSITORY // 93 BARE ACTS",
+        "indianLegislativeDatabase": "INDIAN LEGISLATIVE DATABASE",
+        "groundingIndexTitle": "Indian Bare Acts Grounding Index",
+        "allCategories": "ALL CATEGORIES",
+        "catCivicRights": "Civic & Information Rights",
+        "catConsumerCommercial": "Consumer & Commercial",
+        "catPropertyHousing": "Property & Tenancy",
+        "catConstitutional": "Constitutional Charter",
+        "catPenalProcedural": "Procedural & Penal",
+        "catEnvironmentalLabor": "Environmental & Labor",
+        "categoryPrefix": "Category:",
+        "sections": "SECTIONS",
+        "queryThisAct": "QUERY THIS ACT"
+    },
+    "schemeReader": {
+        "badge": "STATUTORY & WELFARE ENTITLEMENT READER",
+        "title": "Government Scheme & Welfare Eligibility Reader",
+        "description": "Navigating scattered government gazettes and complex criteria made simple. Enter your situation in plain language to instantly verify your legitimate entitlements, calculation formulas, required documents, and direct application portals.",
+        "filterByProfile": "Filter by Profile:",
+        "persona": {
+            "all": "All Citizens",
+            "gigWorker": "🛵 Gig & Informal Worker",
+            "farmer": "🌾 Farmer / Landholder",
+            "women": "👩 Women & Daughters",
+            "senior": "👴 Senior Citizens (60+ / 70+)",
+            "lowIncomeUrban": "🏙️ Urban EWS / Hawkers"
+        },
+        "audit": {
+            "title": "Instant Plain-Language Audit",
+            "ageLabel": "Applicant Age (Years)",
+            "agePlaceholder": "e.g. 34 (or 70 for senior health)",
+            "incomeLabel": "Annual Household Income (₹)",
+            "incomePlaceholder": "e.g. 240000 (₹2.4 Lakhs/yr)",
+            "occupationLabel": "Primary Occupation / Category",
+            "selectOccupation": "Select Occupation...",
+            "occGig": "Gig / Delivery / Freelance Worker",
+            "occSalaried": "Private Sector Salaried (5+ Yrs)",
+            "occFarmer": "Cultivator / Landowning Farmer",
+            "occVendor": "Street Vendor / Hawkers",
+            "occUnorganized": "Construction / Domestic Worker",
+            "occSenior": "Senior Citizen (Retired / BPL)",
+            "submit": "Run Entitlement Audit",
+            "resultTitle": "Audit Result:",
+            "programsMatch": "Welfare Programs Match",
+            "resultDesc": "Based on your parameters, you meet threshold criteria for programs highlighted in the reader."
+        },
+        "categoriesTitle": "Statutory Categories",
+        "category": {
+            "all": "All Statutory Schemes",
+            "housing": "🏠 Housing & Rural Development",
+            "agriculture": "🌾 Agriculture & Food",
+            "health": "🏥 Healthcare, Maternity & Welfare",
+            "pension": "👵 Pensions & Social Security",
+            "financial": "💰 Financial Inclusion & Insurance",
+            "skills": "🎓 Entrepreneurship, Skills & Education"
+        },
+        "dbtNote": {
+            "title": "Direct Benefit Transfer (DBT) Note",
+            "desc": "All statutory monetary entitlements in India require your bank account to be Aadhaar-seeded via NPCI mapper. You can verify seeding at your bank branch or via UIDAI portal."
+        },
+        "noResults": "No welfare schemes matched your search criteria.",
+        "resetFilters": "Reset all filters",
+        "statutoryBenefit": "Statutory Benefit",
+        "targetBeneficiaries": "Target Beneficiaries",
+        "maxEntitlementCap": "Max Entitlement Cap",
+        "mandatoryEligibilityRules": "Mandatory Eligibility Rules",
+        "statutoryIneligibility": "Statutory Ineligibility / Exclusions",
+        "mandatoryDocumentation": "Mandatory Documentation Packet",
+        "applicationProcedure": "Application Procedure & Portal Path",
+        "officialHelpline": "Official Helpline:",
+        "officialPortal": "Official Portal",
+        "fillFormLive": "Fill Form Live"
+    },
+    "login": {
+        "badge": "CASE FILE ACCESS",
+        "signInTo": "Sign in to",
+        "yourCaseFile": "your case file.",
+        "signInContinue": "Sign in to continue to",
+        "typedKept": " What you typed has been preserved.",
+        "destCivic": "Civic Navigator",
+        "destKanoon": "Know Your Kanoon",
+        "destUpload": "Document Chat",
+        "destDocHub": "Drafting Hub",
+        "destReasoning": "Legal Reasoning",
+        "destDashboard": "Dashboard",
+        "emailLabel": "Email address",
+        "emailPlaceholder": "advocate@chamber.in or citizen@domain.in",
+        "passwordLabel": "Password",
+        "hidePassword": "Hide password",
+        "showPassword": "Show password",
+        "signingIn": "Signing in…",
+        "signInButton": "Sign in",
+        "or": "OR",
+        "continueWithGoogle": "Continue with Google",
+        "noAccount": "Don't have an account?",
+        "createOne": "Create one",
+        "fillFields": "Please enter both email and password.",
+        "signInFailed": "Failed to sign in. Please check your credentials.",
+        "googleFailed": "Google sign-in failed. Please try again."
+    },
+    "signup": {
+        "badge": "CREATE CASE FILE",
+        "openYour": "Open your",
+        "caseFile": "citizen case file.",
+        "freeHackathon": "Free for citizens, researchers, and legal aid clinics.",
+        "createContinue": "Create an account to continue saving your queries.",
+        "fullNameLabel": "Full name",
+        "fullNamePlaceholder": "Justice Citizen",
+        "emailLabel": "Email address",
+        "emailPlaceholder": "citizen@domain.in",
+        "passwordLabel": "Password",
+        "passwordPlaceholder": "At least 6 characters",
+        "hidePassword": "Hide password",
+        "showPassword": "Show password",
+        "longEnough": "6+ characters (good)",
+        "moreCharsNeeded": "{{count}} more character needed",
+        "confirmPasswordLabel": "Confirm password",
+        "confirmPasswordPlaceholder": "Repeat password",
+        "creatingAccount": "Creating account…",
+        "createAccountButton": "Create account",
+        "or": "OR",
+        "continueWithGoogle": "Continue with Google",
+        "byCreating": "By creating an account you agree to our",
+        "terms": "Terms of Service",
+        "privacy": "Privacy Policy",
+        "and": "and",
+        "disclaimer": "Legal Disclaimer",
+        "notLawFirm": " NYAAY AI is not a law firm.",
+        "alreadyHaveAccount": "Already have an account?",
+        "signIn": "Sign in",
+        "nameRequired": "Full name is required",
+        "emailRequired": "Email address is required",
+        "emailInvalid": "Enter a valid email address",
+        "passwordMin": "Password must be at least 6 characters",
+        "repeatPassword": "Please repeat your password",
+        "passwordsNotMatch": "Passwords do not match",
+        "createFailed": "Failed to create account. Please try again.",
+        "googleFailed": "Google sign-up failed. Please try again."
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "mandatory_fields": [
+    "sender_name",
+    "recipient_name",
+    "recipient_address",
+    "cause_of_action",
+    "demand",
+    "deadline_in_days"
+  ],
+  "optional_fields": []
+}

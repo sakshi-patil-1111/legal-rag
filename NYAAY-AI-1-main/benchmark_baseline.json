@@ -1,0 +1,830 @@
+{
+    "Criminal": [
+        {
+            "rank": 1,
+            "source_name": "judgment_lalita_kumari",
+            "act_name": "judgment lalita kumari",
+            "case_name": null,
+            "type": "statute",
+            "method": "sparse",
+            "rrf_score": 0.016666666666666666
+        },
+        {
+            "rank": 2,
+            "source_name": "REGISTRATION_ACT_1908",
+            "act_name": "Registration Act, 1908",
+            "case_name": null,
+            "type": "statute",
+            "method": "hybrid",
+            "rrf_score": 0.02967032967032967
+        },
+        {
+            "rank": 3,
+            "source_name": "judgment_lalita_kumari",
+            "act_name": "judgment lalita kumari",
+            "case_name": null,
+            "type": "statute",
+            "method": "sparse",
+            "rrf_score": 0.01639344262295082
+        },
+        {
+            "rank": 4,
+            "source_name": "REGISTRATION_ACT_1908",
+            "act_name": "Registration Act, 1908",
+            "case_name": null,
+            "type": "statute",
+            "method": "dense",
+            "rrf_score": 0.016666666666666666
+        },
+        {
+            "rank": 5,
+            "source_name": "CODE_OF_CRIMINAL_PROCEDURE_1973",
+            "act_name": "Code of Criminal Procedure, 1973",
+            "case_name": null,
+            "type": "statute",
+            "method": "dense",
+            "rrf_score": 0.017868852459016395
+        },
+        {
+            "rank": 6,
+            "source_name": "REGISTRATION_ACT_1908",
+            "act_name": "Registration Act, 1908",
+            "case_name": null,
+            "type": "statute",
+            "method": "dense",
+            "rrf_score": 0.015625
+        },
+        {
+            "rank": 7,
+            "source_name": "REGISTRATION_ACT_1908",
+            "act_name": "Registration Act, 1908",
+            "case_name": null,
+            "type": "statute",
+            "method": "dense",
+            "rrf_score": 0.015873015873015872
+        },
+        {
+            "rank": 8,
+            "source_name": "REGISTRATION_ACT_1908",
+            "act_name": "Registration Act, 1908",
+            "case_name": null,
+            "type": "statute",
+            "method": "hybrid",
+            "rrf_score": 0.028258706467661692
+        },
+        {
+            "rank": 9,
+            "source_name": "CODE_OF_CRIMINAL_PROCEDURE_1973",
+            "act_name": "Code of Criminal Procedure, 1973",
+            "case_name": null,
+            "type": "statute",
+            "method": "dense",
+            "rrf_score": 0.017580645161290324
+        },
+        {
+            "rank": 10,
+            "source_name": "CODE_OF_CRIMINAL_PROCEDURE_1973",
+            "act_name": "Code of Criminal Procedure, 1973",
+            "case_name": null,
+            "type": "statute",
+            "method": "dense",
+            "rrf_score": 0.015352112676056339
+        }
+    ],
+    "Constitutional": [
+        {
+            "rank": 1,
+            "source_name": "Case: None v. Unknown Respondent",
+            "act_name": null,
+            "case_name": "Case: None v. Unknown Respondent",
+            "type": "Unknown",
+            "method": "hybrid",
+            "rrf_score": 0.025779967159277502
+        },
+        {
+            "rank": 2,
+            "source_name": "RIGHT_TO_INFORMATION_ACT_2005",
+            "act_name": "Right to Information Act, 2005",
+            "case_name": null,
+            "type": "statute",
+            "method": "dense",
+            "rrf_score": 0.015873015873015872
+        },
+        {
+            "rank": 3,
+            "source_name": "RIGHT_TO_INFORMATION_ACT_2005",
+            "act_name": null,
+            "case_name": null,
+            "type": "statute",
+            "method": "dense",
+            "rrf_score": 0.015625
+        },
+        {
+            "rank": 4,
+            "source_name": "RIGHT_TO_INFORMATION_ACT_2005",
+            "act_name": "Right to Information Act, 2005",
+            "case_name": null,
+            "type": "statute",
+            "method": "dense",
+            "rrf_score": 0.015151515151515152
+        },
+        {
+            "rank": 5,
+            "source_name": "LIFE CONVICT BENGAL@KHOKA@ PRASANTA SEN v. B.K. SRIVASTAVA .",
+            "act_name": null,
+            "case_name": "LIFE CONVICT BENGAL@KHOKA@ PRASANTA SEN v. B.K. SRIVASTAVA .",
+            "type": "Unknown",
+            "method": "hybrid",
+            "rrf_score": 0.025320462098433298
+        },
+        {
+            "rank": 6,
+            "source_name": "MENTAL_HEALTHCARE_ACT_2017",
+            "act_name": "Mental Healthcare Act, 2017",
+            "case_name": null,
+            "type": "statute",
+            "method": "dense",
+            "rrf_score": 0.016129032258064516
+        },
+        {
+            "rank": 7,
+            "source_name": "WILDLIFE_PROTECTION_ACT_1972",
+            "act_name": "Wildlife Protection Act, 1972",
+            "case_name": null,
+            "type": "statute",
+            "method": "sparse",
+            "rrf_score": 0.015625
+        },
+        {
+            "rank": 8,
+            "source_name": "MENTAL_HEALTHCARE_ACT_2017",
+            "act_name": "Mental Healthcare Act, 2017",
+            "case_name": null,
+            "type": "statute",
+            "method": "hybrid",
+            "rrf_score": 0.028588564574170333
+        },
+        {
+            "rank": 9,
+            "source_name": "EASEMENTS_ACT_1882",
+            "act_name": "Easements Act, 1882",
+            "case_name": null,
+            "type": "statute",
+            "method": "sparse",
+            "rrf_score": 0.015384615384615385
+        },
+        {
+            "rank": 10,
+            "source_name": "MENTAL_HEALTHCARE_ACT_2017",
+            "act_name": "Mental Healthcare Act, 2017",
+            "case_name": null,
+            "type": "statute",
+            "method": "hybrid",
+            "rrf_score": 0.032539682539682535
+        }
+    ],
+    "Employment": [
+        {
+            "rank": 1,
+            "source_name": "Case: None v. Unknown Respondent",
+            "act_name": null,
+            "case_name": "Case: None v. Unknown Respondent",
+            "type": "Unknown",
+            "method": "hybrid",
+            "rrf_score": 0.03306010928961749
+        },
+        {
+            "rank": 2,
+            "source_name": "Case: None v. Unknown Respondent",
+            "act_name": null,
+            "case_name": "Case: None v. Unknown Respondent",
+            "type": "Unknown",
+            "method": "hybrid",
+            "rrf_score": 0.030834914611005692
+        },
+        {
+            "rank": 3,
+            "source_name": "Case: None v. Unknown Respondent",
+            "act_name": null,
+            "case_name": "Case: None v. Unknown Respondent",
+            "type": "Unknown",
+            "method": "sparse",
+            "rrf_score": 0.015873015873015872
+        },
+        {
+            "rank": 4,
+            "source_name": "Case: None v. Unknown Respondent",
+            "act_name": null,
+            "case_name": "Case: None v. Unknown Respondent",
+            "type": "Unknown",
+            "method": "sparse",
+            "rrf_score": 0.015625
+        },
+        {
+            "rank": 5,
+            "source_name": "Case: None v. Unknown Respondent",
+            "act_name": null,
+            "case_name": "Case: None v. Unknown Respondent",
+            "type": "Unknown",
+            "method": "sparse",
+            "rrf_score": 0.015384615384615385
+        },
+        {
+            "rank": 6,
+            "source_name": "Case: None v. Unknown Respondent",
+            "act_name": null,
+            "case_name": "Case: None v. Unknown Respondent",
+            "type": "Unknown",
+            "method": "sparse",
+            "rrf_score": 0.016666666666666666
+        },
+        {
+            "rank": 7,
+            "source_name": "Case: None v. Unknown Respondent",
+            "act_name": null,
+            "case_name": "Case: None v. Unknown Respondent",
+            "type": "Unknown",
+            "method": "dense",
+            "rrf_score": 0.015873015873015872
+        },
+        {
+            "rank": 8,
+            "source_name": "Case: None v. Unknown Respondent",
+            "act_name": null,
+            "case_name": "Case: None v. Unknown Respondent",
+            "type": "Unknown",
+            "method": "hybrid",
+            "rrf_score": 0.027046783625730993
+        },
+        {
+            "rank": 9,
+            "source_name": "Case: None v. Unknown Respondent",
+            "act_name": null,
+            "case_name": "Case: None v. Unknown Respondent",
+            "type": "Unknown",
+            "method": "hybrid",
+            "rrf_score": 0.0315136476426799
+        },
+        {
+            "rank": 10,
+            "source_name": "CODE_OF_CIVIL_PROCEDURE_1908",
+            "act_name": "Code of Civil Procedure, 1908",
+            "case_name": null,
+            "type": "statute",
+            "method": "hybrid",
+            "rrf_score": 0.026916221033868093
+        }
+    ],
+    "Consumer": [
+        {
+            "rank": 1,
+            "source_name": "CONSUMER_PROTECTION_ACT_2019",
+            "act_name": "Consumer Protection Act, 2019",
+            "case_name": null,
+            "type": "statute",
+            "method": "hybrid",
+            "rrf_score": 0.030464135021097048
+        },
+        {
+            "rank": 2,
+            "source_name": "CONSUMER_PROTECTION_ACT_2019",
+            "act_name": null,
+            "case_name": null,
+            "type": "statute",
+            "method": "sparse",
+            "rrf_score": 0.01639344262295082
+        },
+        {
+            "rank": 3,
+            "source_name": "CONSUMER_PROTECTION_ACT_2019",
+            "act_name": "Consumer Protection Act, 2019",
+            "case_name": null,
+            "type": "statute",
+            "method": "hybrid",
+            "rrf_score": 0.0259205500381971
+        },
+        {
+            "rank": 4,
+            "source_name": "CONSUMER_PROTECTION_ACT_2019",
+            "act_name": null,
+            "case_name": null,
+            "type": "statute",
+            "method": "hybrid",
+            "rrf_score": 0.024448419797257006
+        },
+        {
+            "rank": 5,
+            "source_name": "CONSUMER_PROTECTION_ACT_2019",
+            "act_name": "Consumer Protection Act, 2019",
+            "case_name": null,
+            "type": "statute",
+            "method": "hybrid",
+            "rrf_score": 0.030977112676056337
+        },
+        {
+            "rank": 6,
+            "source_name": "CONSUMER_PROTECTION_ACT_2019",
+            "act_name": null,
+            "case_name": null,
+            "type": "statute",
+            "method": "hybrid",
+            "rrf_score": 0.029273504273504274
+        },
+        {
+            "rank": 7,
+            "source_name": "CONSUMER_PROTECTION_ACT_2019",
+            "act_name": "Consumer Protection Act, 2019",
+            "case_name": null,
+            "type": "statute",
+            "method": "hybrid",
+            "rrf_score": 0.03200746965452848
+        },
+        {
+            "rank": 8,
+            "source_name": "CONSUMER_PROTECTION_ACT_2019",
+            "act_name": null,
+            "case_name": null,
+            "type": "statute",
+            "method": "hybrid",
+            "rrf_score": 0.030117753623188408
+        },
+        {
+            "rank": 9,
+            "source_name": "CONSUMER_PROTECTION_ACT_2019",
+            "act_name": "Consumer Protection Act, 2019",
+            "case_name": null,
+            "type": "statute",
+            "method": "hybrid",
+            "rrf_score": 0.03175774134790528
+        },
+        {
+            "rank": 10,
+            "source_name": "CONSUMER_PROTECTION_ACT_2019",
+            "act_name": null,
+            "case_name": null,
+            "type": "statute",
+            "method": "hybrid",
+            "rrf_score": 0.029827662395050816
+        }
+    ],
+    "Property/Tenancy": [
+        {
+            "rank": 1,
+            "source_name": "DELHI_RENT_CONTROL_ACT_1958",
+            "act_name": "Delhi Rent Control Act, 1958",
+            "case_name": null,
+            "type": "statute",
+            "method": "hybrid",
+            "rrf_score": 0.03266209933936873
+        },
+        {
+            "rank": 2,
+            "source_name": "DELHI_RENT_CONTROL_ACT_1958",
+            "act_name": "Delhi Rent Control Act, 1958",
+            "case_name": null,
+            "type": "statute",
+            "method": "hybrid",
+            "rrf_score": 0.03424731182795699
+        },
+        {
+            "rank": 3,
+            "source_name": "MAHARASHTRA_RENT_CONTROL_ACT_1999",
+            "act_name": "Maharashtra Rent Control Act, 1999",
+            "case_name": null,
+            "type": "statute",
+            "method": "sparse",
+            "rrf_score": 0.016769230769230772
+        },
+        {
+            "rank": 4,
+            "source_name": "MAHARASHTRA_RENT_CONTROL_ACT_1999",
+            "act_name": null,
+            "case_name": null,
+            "type": "statute",
+            "method": "sparse",
+            "rrf_score": 0.015151515151515152
+        },
+        {
+            "rank": 5,
+            "source_name": "MAHARASHTRA_RENT_CONTROL_ACT_1999",
+            "act_name": "Maharashtra Rent Control Act, 1999",
+            "case_name": null,
+            "type": "statute",
+            "method": "hybrid",
+            "rrf_score": 0.03343061955965182
+        },
+        {
+            "rank": 6,
+            "source_name": "MAHARASHTRA_RENT_CONTROL_ACT_1999",
+            "act_name": null,
+            "case_name": null,
+            "type": "statute",
+            "method": "hybrid",
+            "rrf_score": 0.03149801587301587
+        },
+        {
+            "rank": 7,
+            "source_name": "MAHARASHTRA_RENT_CONTROL_ACT_1999",
+            "act_name": "Maharashtra Rent Control Act, 1999",
+            "case_name": null,
+            "type": "statute",
+            "method": "sparse",
+            "rrf_score": 0.01626865671641791
+        },
+        {
+            "rank": 8,
+            "source_name": "DELHI_RENT_CONTROL_ACT_1958",
+            "act_name": "Delhi Rent Control Act, 1958",
+            "case_name": null,
+            "type": "statute",
+            "method": "sparse",
+            "rrf_score": 0.01703125
+        },
+        {
+            "rank": 9,
+            "source_name": "Case: None v. Unknown Respondent",
+            "act_name": null,
+            "case_name": "Case: None v. Unknown Respondent",
+            "type": "Unknown",
+            "method": "hybrid",
+            "rrf_score": 0.02368937482478273
+        },
+        {
+            "rank": 10,
+            "source_name": "MAHARASHTRA_RENT_CONTROL_ACT_1999",
+            "act_name": "Maharashtra Rent Control Act, 1999",
+            "case_name": null,
+            "type": "statute",
+            "method": "dense",
+            "rrf_score": 0.015352112676056339
+        }
+    ],
+    "Municipal": [
+        {
+            "rank": 1,
+            "source_name": "DELHI_RENT_CONTROL_ACT_1958",
+            "act_name": "Delhi Rent Control Act, 1958",
+            "case_name": null,
+            "type": "statute",
+            "method": "sparse",
+            "rrf_score": 0.016666666666666666
+        },
+        {
+            "rank": 2,
+            "source_name": "MAHARASHTRA_RENT_CONTROL_ACT_1999",
+            "act_name": "Maharashtra Rent Control Act, 1999",
+            "case_name": null,
+            "type": "statute",
+            "method": "sparse",
+            "rrf_score": 0.01639344262295082
+        },
+        {
+            "rank": 3,
+            "source_name": "MAHARASHTRA_RENT_CONTROL_ACT_1999",
+            "act_name": null,
+            "case_name": null,
+            "type": "statute",
+            "method": "sparse",
+            "rrf_score": 0.016129032258064516
+        },
+        {
+            "rank": 4,
+            "source_name": "CONSTITUTION_OF_INDIA",
+            "act_name": "Constitution of India",
+            "case_name": null,
+            "type": "statute",
+            "method": "sparse",
+            "rrf_score": 0.01626865671641791
+        },
+        {
+            "rank": 5,
+            "source_name": "CONSTITUTION_OF_INDIA",
+            "act_name": "Constitution of India",
+            "case_name": null,
+            "type": "statute",
+            "method": "sparse",
+            "rrf_score": 0.01703125
+        },
+        {
+            "rank": 6,
+            "source_name": "MAHARASHTRA_RENT_CONTROL_ACT_1999",
+            "act_name": "Maharashtra Rent Control Act, 1999",
+            "case_name": null,
+            "type": "statute",
+            "method": "dense",
+            "rrf_score": 0.016129032258064516
+        },
+        {
+            "rank": 7,
+            "source_name": "MAHARASHTRA_RENT_CONTROL_ACT_1999",
+            "act_name": null,
+            "case_name": null,
+            "type": "statute",
+            "method": "dense",
+            "rrf_score": 0.015873015873015872
+        },
+        {
+            "rank": 8,
+            "source_name": "MAHARASHTRA_RENT_CONTROL_ACT_1999",
+            "act_name": "Maharashtra Rent Control Act, 1999",
+            "case_name": null,
+            "type": "statute",
+            "method": "dense",
+            "rrf_score": 0.016666666666666666
+        },
+        {
+            "rank": 9,
+            "source_name": "MAHARASHTRA_RENT_CONTROL_ACT_1999",
+            "act_name": null,
+            "case_name": null,
+            "type": "statute",
+            "method": "dense",
+            "rrf_score": 0.01639344262295082
+        },
+        {
+            "rank": 10,
+            "source_name": "MAHARASHTRA_RENT_CONTROL_ACT_1999",
+            "act_name": "Maharashtra Rent Control Act, 1999",
+            "case_name": null,
+            "type": "statute",
+            "method": "dense",
+            "rrf_score": 0.015384615384615385
+        }
+    ],
+    "Administrative": [
+        {
+            "rank": 1,
+            "source_name": "COMPANIES_ACT_2013",
+            "act_name": "Companies Act, 2013",
+            "case_name": null,
+            "type": "statute",
+            "method": "sparse",
+            "rrf_score": 0.015151515151515152
+        },
+        {
+            "rank": 2,
+            "source_name": "Case: None v. Unknown Respondent",
+            "act_name": null,
+            "case_name": "Case: None v. Unknown Respondent",
+            "type": "Unknown",
+            "method": "sparse",
+            "rrf_score": 0.01639344262295082
+        },
+        {
+            "rank": 3,
+            "source_name": "Case: None v. Unknown Respondent",
+            "act_name": null,
+            "case_name": "Case: None v. Unknown Respondent",
+            "type": "Unknown",
+            "method": "hybrid",
+            "rrf_score": 0.02694394213381555
+        },
+        {
+            "rank": 4,
+            "source_name": "BHARATIYA_NYAYA_SANHITA_2023",
+            "act_name": "Bharatiya Nyaya Sanhita, 2023",
+            "case_name": null,
+            "type": "statute",
+            "method": "dense",
+            "rrf_score": 0.016666666666666666
+        },
+        {
+            "rank": 5,
+            "source_name": "JAGDISH MAVJI TANK v. HARRESH NAVNITRAI MEHTA",
+            "act_name": null,
+            "case_name": "JAGDISH MAVJI TANK v. HARRESH NAVNITRAI MEHTA",
+            "type": "Unknown",
+            "method": "sparse",
+            "rrf_score": 0.016666666666666666
+        },
+        {
+            "rank": 6,
+            "source_name": "REPRESENTATION_OF_THE_PEOPLE_ACT_1951",
+            "act_name": "Representation of the People Act, 1951",
+            "case_name": null,
+            "type": "statute",
+            "method": "sparse",
+            "rrf_score": 0.017580645161290324
+        },
+        {
+            "rank": 7,
+            "source_name": "PREVENTION_OF_CORRUPTION_ACT_1988",
+            "act_name": "Prevention of Corruption Act, 1988",
+            "case_name": null,
+            "type": "statute",
+            "method": "sparse",
+            "rrf_score": 0.01626865671641791
+        },
+        {
+            "rank": 8,
+            "source_name": "INDIAN_CONTRACT_ACT_1872",
+            "act_name": "Indian Contract Act, 1872",
+            "case_name": null,
+            "type": "statute",
+            "method": "sparse",
+            "rrf_score": 0.015873015873015872
+        },
+        {
+            "rank": 9,
+            "source_name": "ST. JOHN’S TEACHER TRAINING INSTITUTE(FOR WOMEN). MADURAI ET v. Unknown Respondent",
+            "act_name": null,
+            "case_name": "ST. JOHN’S TEACHER TRAINING INSTITUTE(FOR WOMEN). MADURAI ET v. Unknown Respondent",
+            "type": "Unknown",
+            "method": "sparse",
+            "rrf_score": 0.015384615384615385
+        },
+        {
+            "rank": 10,
+            "source_name": "PRATIBHA PROCESSORS & ORS. v. UNION OF INDIA & ORS.",
+            "act_name": null,
+            "case_name": "PRATIBHA PROCESSORS & ORS. v. UNION OF INDIA & ORS.",
+            "type": "Unknown",
+            "method": "sparse",
+            "rrf_score": 0.015625
+        }
+    ],
+    "Homebuyer": [
+        {
+            "rank": 1,
+            "source_name": "DLF HOME DEVELOPERS LIMITED v. RAJAPURA HOMES PRIVATE LIMITED",
+            "act_name": null,
+            "case_name": "DLF HOME DEVELOPERS LIMITED v. RAJAPURA HOMES PRIVATE LIMITED",
+            "type": "Unknown",
+            "method": "hybrid",
+            "rrf_score": 0.030886196246139225
+        },
+        {
+            "rank": 2,
+            "source_name": "DLF HOME DEVELOPERS LIMITED v. RAJAPURA HOMES PRIVATE LIMITED",
+            "act_name": null,
+            "case_name": "DLF HOME DEVELOPERS LIMITED v. RAJAPURA HOMES PRIVATE LIMITED",
+            "type": "Unknown",
+            "method": "hybrid",
+            "rrf_score": 0.027419354838709678
+        },
+        {
+            "rank": 3,
+            "source_name": "Case: None v. Unknown Respondent",
+            "act_name": null,
+            "case_name": "Case: None v. Unknown Respondent",
+            "type": "Unknown",
+            "method": "dense",
+            "rrf_score": 0.015384615384615385
+        },
+        {
+            "rank": 4,
+            "source_name": "CUSTOMS_ACT_1962",
+            "act_name": "Customs Act, 1962",
+            "case_name": null,
+            "type": "statute",
+            "method": "hybrid",
+            "rrf_score": 0.026500526500526502
+        },
+        {
+            "rank": 5,
+            "source_name": "SPECIFIC_RELIEF_ACT_1963",
+            "act_name": "Specific Relief Act, 1963",
+            "case_name": null,
+            "type": "statute",
+            "method": "sparse",
+            "rrf_score": 0.016129032258064516
+        },
+        {
+            "rank": 6,
+            "source_name": "Case: None v. Unknown Respondent",
+            "act_name": null,
+            "case_name": "Case: None v. Unknown Respondent",
+            "type": "Unknown",
+            "method": "hybrid",
+            "rrf_score": 0.025353016688061617
+        },
+        {
+            "rank": 7,
+            "source_name": "INDIA CARBON LTD., ETC. v. THE STATE OF ASSAM",
+            "act_name": null,
+            "case_name": "INDIA CARBON LTD., ETC. v. THE STATE OF ASSAM",
+            "type": "Unknown",
+            "method": "sparse",
+            "rrf_score": 0.015625
+        },
+        {
+            "rank": 8,
+            "source_name": "LIMITATION_ACT_1963",
+            "act_name": "Limitation Act, 1963",
+            "case_name": null,
+            "type": "statute",
+            "method": "hybrid",
+            "rrf_score": 0.0260840108401084
+        },
+        {
+            "rank": 9,
+            "source_name": "CODE_OF_CIVIL_PROCEDURE_1908",
+            "act_name": "Code of Civil Procedure, 1908",
+            "case_name": null,
+            "type": "statute",
+            "method": "sparse",
+            "rrf_score": 0.015873015873015872
+        },
+        {
+            "rank": 10,
+            "source_name": "SPECIFIC_RELIEF_ACT_1963",
+            "act_name": "Specific Relief Act, 1963",
+            "case_name": null,
+            "type": "statute",
+            "method": "sparse",
+            "rrf_score": 0.015151515151515152
+        }
+    ],
+    "Supreme Court precedent": [
+        {
+            "rank": 1,
+            "source_name": "Case: None v. Unknown Respondent",
+            "act_name": null,
+            "case_name": "Case: None v. Unknown Respondent",
+            "type": "Unknown",
+            "method": "hybrid",
+            "rrf_score": 0.03225806451612903
+        },
+        {
+            "rank": 2,
+            "source_name": "Case: None v. Unknown Respondent",
+            "act_name": null,
+            "case_name": "Case: None v. Unknown Respondent",
+            "type": "Unknown",
+            "method": "sparse",
+            "rrf_score": 0.015151515151515152
+        },
+        {
+            "rank": 3,
+            "source_name": "Case: None v. Unknown Respondent",
+            "act_name": null,
+            "case_name": "Case: None v. Unknown Respondent",
+            "type": "Unknown",
+            "method": "hybrid",
+            "rrf_score": 0.03125
+        },
+        {
+            "rank": 4,
+            "source_name": "Case: None v. Unknown Respondent",
+            "act_name": null,
+            "case_name": "Case: None v. Unknown Respondent",
+            "type": "Unknown",
+            "method": "sparse",
+            "rrf_score": 0.015384615384615385
+        },
+        {
+            "rank": 5,
+            "source_name": "Case: None v. Unknown Respondent",
+            "act_name": null,
+            "case_name": "Case: None v. Unknown Respondent",
+            "type": "Unknown",
+            "method": "sparse",
+            "rrf_score": 0.016666666666666666
+        },
+        {
+            "rank": 6,
+            "source_name": "Case: None v. Unknown Respondent",
+            "act_name": null,
+            "case_name": "Case: None v. Unknown Respondent",
+            "type": "Unknown",
+            "method": "hybrid",
+            "rrf_score": 0.032539682539682535
+        },
+        {
+            "rank": 7,
+            "source_name": "Case: None v. Unknown Respondent",
+            "act_name": null,
+            "case_name": "Case: None v. Unknown Respondent",
+            "type": "Unknown",
+            "method": "hybrid",
+            "rrf_score": 0.031544957774465976
+        },
+        {
+            "rank": 8,
+            "source_name": "Case: None v. Unknown Respondent",
+            "act_name": null,
+            "case_name": "Case: None v. Unknown Respondent",
+            "type": "Unknown",
+            "method": "hybrid",
+            "rrf_score": 0.029418126757516764
+        },
+        {
+            "rank": 9,
+            "source_name": "CODE_OF_CIVIL_PROCEDURE_1908",
+            "act_name": "Code of Civil Procedure, 1908",
+            "case_name": null,
+            "type": "statute",
+            "method": "hybrid",
+            "rrf_score": 0.02668564312399929
+        },
+        {
+            "rank": 10,
+            "source_name": "RAMA NARANG v. RAMESH NARANG",
+            "act_name": null,
+            "case_name": "RAMA NARANG v. RAMESH NARANG",
+            "type": "Unknown",
+            "method": "dense",
+            "rrf_score": 0.015873015873015872
+        }
+    ]
+}

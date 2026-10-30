@@ -1,0 +1,50 @@
+[
+  {
+    "t_first_token": 19.85,
+    "t_complete": 19.85,
+    "chunks": 1,
+    "chars": 5627,
+    "metrics": {
+      "embedding_time": 6.49,
+      "retrieval_time": 6.46,
+      "prompt_construction_time": 0.13,
+      "ttft": 3.35,
+      "model_processing_time": 6.77,
+      "output_tokens": 1406,
+      "total_latency": 19.85
+    },
+    "q": "What are the conditions for granting anticipatory bail?"
+  },
+  {
+    "t_first_token": 15.99,
+    "t_complete": 15.99,
+    "chunks": 1,
+    "chars": 5523,
+    "metrics": {
+      "embedding_time": 5.23,
+      "retrieval_time": 4.35,
+      "prompt_construction_time": 0.07,
+      "ttft": 2.8,
+      "model_processing_time": 6.35,
+      "output_tokens": 1380,
+      "total_latency": 15.99
+    },
+    "q": "I paid 80 lakh to a builder for a flat in 2019. Possess"
+  },
+  {
+    "t_first_token": 12.24,
+    "t_complete": 12.24,
+    "chunks": 1,
+    "chars": 7647,
+    "metrics": {
+      "embedding_time": 3.2,
+      "retrieval_time": 2.22,
+      "prompt_construction_time": 0.03,
+      "ttft": 1.93,
+      "model_processing_time": 6.79,
+      "output_tokens": 1911,
+      "total_latency": 12.24
+    },
+    "q": "I bought a defective product. Under the Consumer Protec"
+  }
+]

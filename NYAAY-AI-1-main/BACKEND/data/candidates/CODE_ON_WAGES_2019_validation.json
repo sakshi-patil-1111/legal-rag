@@ -1,0 +1,14 @@
+{
+    "document_id": "code_on_wages_2019.txt",
+    "status": "PASS",
+    "errors": [],
+    "warnings": [
+        "Possible missing section between 38 and 40"
+    ],
+    "stats": {
+        "total_blocks": 78,
+        "parts": 0,
+        "chapters": 9,
+        "sections": 68
+    }
+}

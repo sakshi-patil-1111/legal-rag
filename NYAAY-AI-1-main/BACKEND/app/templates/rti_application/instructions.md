@@ -1,0 +1,1 @@
+Draft an application under the Right to Information Act, 2005. Address it to the Public Information Officer (PIO). Provide a clear, bulleted list of the exact information sought. Conclude with a statement that the fee has been paid.

@@ -1,0 +1,44 @@
+[
+    {
+        "query": "What are the essential elements of a valid contract under the Indian Contract Act?",
+        "expected_domain": "Commercial",
+        "expected_statutes": ["Indian Contract Act"],
+        "difficulty": "Easy"
+    },
+    {
+        "query": "Can a person be arrested by the police without a warrant for a cognizable offence under the BNSS?",
+        "expected_domain": "Criminal Procedure",
+        "expected_statutes": ["Bharatiya Nagarik Suraksha Sanhita"],
+        "difficulty": "Easy"
+    },
+    {
+        "query": "What is the principle of res judicata and when does it apply?",
+        "expected_domain": "Civil Procedure",
+        "expected_statutes": ["Code of Civil Procedure"],
+        "difficulty": "Medium"
+    },
+    {
+        "query": "What are the valid grounds for divorce under the Hindu Marriage Act?",
+        "expected_domain": "Family",
+        "expected_statutes": ["Hindu Marriage Act, 1955"],
+        "difficulty": "Medium"
+    },
+    {
+        "query": "How is electronic evidence treated under the BSA compared to the old Evidence Act?",
+        "expected_domain": "Evidence",
+        "expected_statutes": ["Bharatiya Sakshya Adhiniyam"],
+        "difficulty": "Hard"
+    },
+    {
+        "query": "What are the consumer rights regarding product liability in India?",
+        "expected_domain": "Consumer",
+        "expected_statutes": ["Consumer Protection Act"],
+        "difficulty": "Easy"
+    },
+    {
+        "query": "Can fundamental rights be amended by the Parliament?",
+        "expected_domain": "Constitutional",
+        "expected_statutes": ["Constitution of India", "Kesavananda Bharati"],
+        "difficulty": "Hard"
+    }
+]

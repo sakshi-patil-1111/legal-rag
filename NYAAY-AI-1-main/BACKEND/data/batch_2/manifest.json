@@ -1,0 +1,639 @@
+[
+  {
+    "file": "constitution_of_india.txt",
+    "domain": "Constitutional & Administrative",
+    "act_name": "Constitution of India",
+    "type": "statute",
+    "source_xml": "Constitution of India.xml"
+  },
+  {
+    "file": "right_to_information_act_2005.txt",
+    "domain": "Constitutional & Administrative",
+    "act_name": "Right to Information Act, 2005",
+    "type": "statute",
+    "source_xml": "The Right to Information Act, 2005.xml"
+  },
+  {
+    "file": "prevention_of_corruption_act_1988.txt",
+    "domain": "Constitutional & Administrative",
+    "act_name": "Prevention of Corruption Act, 1988",
+    "type": "statute",
+    "source_xml": "The Prevention of Corruption Act, 1988.xml"
+  },
+  {
+    "file": "lokpal_and_lokayuktas_act_2013.txt",
+    "domain": "Constitutional & Administrative",
+    "act_name": "Lokpal and Lokayuktas Act, 2013",
+    "type": "statute",
+    "source_xml": "The Lokpal And Lokayuktas Act, 2013.xml"
+  },
+  {
+    "file": "administrative_tribunals_act_1985.txt",
+    "domain": "Constitutional & Administrative",
+    "act_name": "Administrative Tribunals Act, 1985",
+    "type": "statute",
+    "source_xml": "The Administrative Tribunals Act, 1985.xml"
+  },
+  {
+    "file": "citizenship_act_1955.txt",
+    "domain": "Constitutional & Administrative",
+    "act_name": "Citizenship Act, 1955",
+    "type": "statute",
+    "source_xml": "The Citizenship Act, 1955.xml"
+  },
+  {
+    "file": "representation_of_the_people_act_1951.txt",
+    "domain": "Constitutional & Administrative",
+    "act_name": "Representation of the People Act, 1951",
+    "type": "statute",
+    "source_xml": "The Representation of the People Act, 1951.xml"
+  },
+  {
+    "file": "indian_penal_code_1860.txt",
+    "domain": "Criminal Law",
+    "act_name": "Indian Penal Code, 1860",
+    "type": "statute",
+    "source_xml": "The Indian Penal Code, 1860.xml"
+  },
+  {
+    "file": "code_of_criminal_procedure_1973.txt",
+    "domain": "Criminal Law",
+    "act_name": "Code of Criminal Procedure, 1973",
+    "type": "statute",
+    "source_xml": "The Code of Criminal Procedure, 1973.xml"
+  },
+  {
+    "file": "indian_evidence_act_1872.txt",
+    "domain": "Criminal Law",
+    "act_name": "Indian Evidence Act, 1872",
+    "type": "statute",
+    "source_xml": "The Indian Evidence Act, 1872.xml"
+  },
+  {
+    "file": "protection_of_children_from_sexual_offences_act_2012.txt",
+    "domain": "Criminal Law",
+    "act_name": "Protection of Children from Sexual Offences  Act, 2012",
+    "type": "statute",
+    "source_xml": "The Protection of Children from Sexual Offences Act, 2012.xml"
+  },
+  {
+    "file": "arms_act_1959.txt",
+    "domain": "Criminal Law",
+    "act_name": "Arms Act, 1959",
+    "type": "statute",
+    "source_xml": "The Arms Act, 1959.xml"
+  },
+  {
+    "file": "prevention_of_money_laundering_act_2002.txt",
+    "domain": "Criminal Law",
+    "act_name": "Prevention of Money Laundering Act , 2002",
+    "type": "statute",
+    "source_xml": "The Prevention Of Money-Laundering Act, 2002.xml"
+  },
+  {
+    "file": "foreigners_act_1946.txt",
+    "domain": "Criminal Law",
+    "act_name": "Foreigners Act, 1946",
+    "type": "statute",
+    "source_xml": "The Foreigners Act, 1946.xml"
+  },
+  {
+    "file": "explosives_act_1884.txt",
+    "domain": "Criminal Law",
+    "act_name": "Explosives Act, 1884",
+    "type": "statute",
+    "source_xml": "The Explosives Act, 1884.xml"
+  },
+  {
+    "file": "code_of_civil_procedure_1908.txt",
+    "domain": "Civil & Procedural Law",
+    "act_name": "Code of Civil Procedure, 1908",
+    "type": "statute",
+    "source_xml": "The Code Of Civil Procedure, 1908.xml"
+  },
+  {
+    "file": "limitation_act_1963.txt",
+    "domain": "Civil & Procedural Law",
+    "act_name": "Limitation Act, 1963",
+    "type": "statute",
+    "source_xml": "The Limitation Act, 1963.xml"
+  },
+  {
+    "file": "arbitration_and_conciliation_act_1996.txt",
+    "domain": "Civil & Procedural Law",
+    "act_name": "Arbitration and Conciliation Act, 1996",
+    "type": "statute",
+    "source_xml": "The Arbitration And Conciliation Act, 1996.xml"
+  },
+  {
+    "file": "legal_services_authorities_act_1987.txt",
+    "domain": "Civil & Procedural Law",
+    "act_name": "Legal Services Authorities Act, 1987",
+    "type": "statute",
+    "source_xml": "The Legal Services Authorities Act, 1987.xml"
+  },
+  {
+    "file": "contempt_of_courts_act_1971.txt",
+    "domain": "Civil & Procedural Law",
+    "act_name": "Contempt of Courts Act, 1971",
+    "type": "statute",
+    "source_xml": "The Contempt Of Courts Act, 1971.xml"
+  },
+  {
+    "file": "court_fees_act_1870.txt",
+    "domain": "Civil & Procedural Law",
+    "act_name": "Court Fees Act, 1870",
+    "type": "statute",
+    "source_xml": "The Court-Fees Act, 1870.xml"
+  },
+  {
+    "file": "oaths_act_1969.txt",
+    "domain": "Civil & Procedural Law",
+    "act_name": "Oaths Act, 1969",
+    "type": "statute",
+    "source_xml": "The Oaths Act, 1969.xml"
+  },
+  {
+    "file": "indian_contract_act_1872.txt",
+    "domain": "Contract & Commercial Law",
+    "act_name": "Indian Contract Act, 1872",
+    "type": "statute",
+    "source_xml": "The Indian Contract Act, 1872.xml"
+  },
+  {
+    "file": "sale_of_goods_act_1930.txt",
+    "domain": "Contract & Commercial Law",
+    "act_name": "Sale of Goods Act, 1930",
+    "type": "statute",
+    "source_xml": "The Sale Of Goods Act, 1930.xml"
+  },
+  {
+    "file": "negotiable_instruments_act_1881.txt",
+    "domain": "Contract & Commercial Law",
+    "act_name": "Negotiable Instruments Act, 1881",
+    "type": "statute",
+    "source_xml": "The Negotiable Instruments Act, 1881.xml"
+  },
+  {
+    "file": "partnership_act_1932.txt",
+    "domain": "Contract & Commercial Law",
+    "act_name": "Partnership Act, 1932",
+    "type": "statute",
+    "source_xml": "The Indian Partnership Act, 1932.xml"
+  },
+  {
+    "file": "limited_liability_partnership_act_2008.txt",
+    "domain": "Contract & Commercial Law",
+    "act_name": "Limited Liability Partnership Act, 2008",
+    "type": "statute",
+    "source_xml": "The Limited Liability Partnership Act, 2008.xml"
+  },
+  {
+    "file": "companies_act_2013.txt",
+    "domain": "Contract & Commercial Law",
+    "act_name": "Companies Act, 2013",
+    "type": "statute",
+    "source_xml": "The Companies Act, 2013.xml"
+  },
+  {
+    "file": "insolvency_and_bankruptcy_code_2016.txt",
+    "domain": "Contract & Commercial Law",
+    "act_name": "Insolvency and Bankruptcy Code , 2016",
+    "type": "statute",
+    "source_xml": "Insolvency And Bankruptcy Code, 2016.xml"
+  },
+  {
+    "file": "competition_act_2002.txt",
+    "domain": "Contract & Commercial Law",
+    "act_name": "Competition Act, 2002",
+    "type": "statute",
+    "source_xml": "The Competition Act, 2002.xml"
+  },
+  {
+    "file": "specific_relief_act_1963.txt",
+    "domain": "Contract & Commercial Law",
+    "act_name": "Specific Relief Act, 1963",
+    "type": "statute",
+    "source_xml": "The Specific Relief Act, 1963.xml"
+  },
+  {
+    "file": "transfer_of_property_act_1882.txt",
+    "domain": "Property & Real Estate",
+    "act_name": "Transfer of Property Act, 1882",
+    "type": "statute",
+    "source_xml": "The Transfer Of Property Act, 1882.xml"
+  },
+  {
+    "file": "registration_act_1908.txt",
+    "domain": "Property & Real Estate",
+    "act_name": "Registration Act, 1908",
+    "type": "statute",
+    "source_xml": "The Registration Act, 1908.xml"
+  },
+  {
+    "file": "indian_stamp_act_1899.txt",
+    "domain": "Property & Real Estate",
+    "act_name": "Indian Stamp Act, 1899",
+    "type": "statute",
+    "source_xml": "The Indian Stamp Act, 1899.xml"
+  },
+  {
+    "file": "easements_act_1882.txt",
+    "domain": "Property & Real Estate",
+    "act_name": "Easements Act, 1882",
+    "type": "statute",
+    "source_xml": "The Indian Easements Act, 1882.xml"
+  },
+  {
+    "file": "government_grants_act_1895.txt",
+    "domain": "Property & Real Estate",
+    "act_name": "Government Grants Act, 1895",
+    "type": "statute",
+    "source_xml": "The Government Grants Act, 1895.xml"
+  },
+  {
+    "file": "hindu_marriage_act_1955.txt",
+    "domain": "Family Law",
+    "act_name": "Hindu Marriage Act, 1955",
+    "type": "statute",
+    "source_xml": "The Hindu Marriage Act, 1955.xml"
+  },
+  {
+    "file": "hindu_succession_act_1956.txt",
+    "domain": "Family Law",
+    "act_name": "Hindu Succession Act, 1956",
+    "type": "statute",
+    "source_xml": "The Hindu Succession Act, 1956.xml"
+  },
+  {
+    "file": "hindu_minority_and_guardianship_act_1956.txt",
+    "domain": "Family Law",
+    "act_name": "Hindu Minority and Guardianship Act, 1956",
+    "type": "statute",
+    "source_xml": "The Hindu Minority And Guardianship Act, 1956.xml"
+  },
+  {
+    "file": "christian_marriage_act_1872.txt",
+    "domain": "Family Law",
+    "act_name": "Christian Marriage Act, 1872",
+    "type": "statute",
+    "source_xml": "The Indian Christian Marriage Act, 1872.xml"
+  },
+  {
+    "file": "parsi_marriage_and_divorce_act_1936.txt",
+    "domain": "Family Law",
+    "act_name": "Parsi Marriage and Divorce Act, 1936",
+    "type": "statute",
+    "source_xml": "The Parsi Marriage And Divorce Act, 1936.xml"
+  },
+  {
+    "file": "special_marriage_act_1954.txt",
+    "domain": "Family Law",
+    "act_name": "Special Marriage Act, 1954",
+    "type": "statute",
+    "source_xml": "The Special Marriage Act, 1954.xml"
+  },
+  {
+    "file": "foreign_marriage_act_1969.txt",
+    "domain": "Family Law",
+    "act_name": "Foreign Marriage Act, 1969",
+    "type": "statute",
+    "source_xml": "The Foreign Marriage Act, 1969.xml"
+  },
+  {
+    "file": "guardians_and_wards_act_1890.txt",
+    "domain": "Family Law",
+    "act_name": "Guardians and Wards Act, 1890",
+    "type": "statute",
+    "source_xml": "The Guardians And Wards Act, 1890.xml"
+  },
+  {
+    "file": "protection_of_women_from_domestic_violence_act_2005.txt",
+    "domain": "Family Law",
+    "act_name": "Protection of Women from Domestic Violence Act, 2005",
+    "type": "statute",
+    "source_xml": "The Protection of Women from Domestic Violence Act, 2005.xml"
+  },
+  {
+    "file": "dowry_prohibition_act_1961.txt",
+    "domain": "Family Law",
+    "act_name": "Dowry Prohibition Act, 1961",
+    "type": "statute",
+    "source_xml": "The Dowry Prohibition Act, 1961.xml"
+  },
+  {
+    "file": "maintenance_and_welfare_of_parents_and_senior_citizens_act_2007.txt",
+    "domain": "Family Law",
+    "act_name": "Maintenance and Welfare of Parents and Senior Citizens Act, 2007",
+    "type": "statute",
+    "source_xml": "The Maintenance And Welfare Of Parents And Senior Citizens Act, 2007.xml"
+  },
+  {
+    "file": "prohibition_of_child_marriage_act_2006.txt",
+    "domain": "Family Law",
+    "act_name": "Prohibition of Child Marriage Act, 2006",
+    "type": "statute",
+    "source_xml": "The Prohibition of Child Marriage Act, 2006.xml"
+  },
+  {
+    "file": "employees_state_insurance_act_1948.txt",
+    "domain": "Labour & Employment",
+    "act_name": "Employees' State Insurance Act, 1948",
+    "type": "statute",
+    "source_xml": "The Employees' State Insurance Act, 1948.xml"
+  },
+  {
+    "file": "maternity_benefit_act_1961.txt",
+    "domain": "Labour & Employment",
+    "act_name": "Maternity Benefit Act, 1961",
+    "type": "statute",
+    "source_xml": "The Maternity Benefit Act, 1961.xml"
+  },
+  {
+    "file": "payment_of_gratuity_act_1972.txt",
+    "domain": "Labour & Employment",
+    "act_name": "Payment of Gratuity Act, 1972",
+    "type": "statute",
+    "source_xml": "The Payment Of Gratuity Act, 1972.xml"
+  },
+  {
+    "file": "bureau_of_indian_standards_act_2016.txt",
+    "domain": "Consumer & Product Liability",
+    "act_name": "Bureau of Indian Standards Act, 2016",
+    "type": "statute",
+    "source_xml": "The Bureau Of Indian Standards Act, 2016.xml"
+  },
+  {
+    "file": "legal_metrology_act_2009.txt",
+    "domain": "Consumer & Product Liability",
+    "act_name": "Legal Metrology Act, 2009",
+    "type": "statute",
+    "source_xml": "The Legal Metrology Act, 2009.xml"
+  },
+  {
+    "file": "food_safety_and_standards_act_2006.txt",
+    "domain": "Consumer & Product Liability",
+    "act_name": "Food Safety and Standards Act , 2006",
+    "type": "statute",
+    "source_xml": "The Food Safety And Standards Act, 2006.xml"
+  },
+  {
+    "file": "drugs_and_cosmetics_act_1940.txt",
+    "domain": "Consumer & Product Liability",
+    "act_name": "Drugs and Cosmetics Act, 1940",
+    "type": "statute",
+    "source_xml": "The Drugs And Cosmetics Act, 1940.xml"
+  },
+  {
+    "file": "patents_act_1970.txt",
+    "domain": "Intellectual Property",
+    "act_name": "Patents Act, 1970",
+    "type": "statute",
+    "source_xml": "The Patents Act, 1970.xml"
+  },
+  {
+    "file": "copyright_act_1957.txt",
+    "domain": "Intellectual Property",
+    "act_name": "Copyright Act, 1957",
+    "type": "statute",
+    "source_xml": "The Copyright Act, 1957.xml"
+  },
+  {
+    "file": "trade_marks_act_1999.txt",
+    "domain": "Intellectual Property",
+    "act_name": "Trade Marks Act, 1999",
+    "type": "statute",
+    "source_xml": "The Trade Marks Act, 1999.xml"
+  },
+  {
+    "file": "designs_act_2000.txt",
+    "domain": "Intellectual Property",
+    "act_name": "Designs Act, 2000",
+    "type": "statute",
+    "source_xml": "The Designs Act, 2000.xml"
+  },
+  {
+    "file": "protection_of_plant_varieties_and_farmers_rights_act_2001.txt",
+    "domain": "Intellectual Property",
+    "act_name": "Protection of Plant Varieties and Farmers' Rights Act, 2001",
+    "type": "statute",
+    "source_xml": "The Protection Of Plant Varieties And Farmers\u2019 Rights Act, 2001.xml"
+  },
+  {
+    "file": "semiconductor_integrated_circuits_layout_design_act_2000.txt",
+    "domain": "Intellectual Property",
+    "act_name": "Semiconductor Integrated Circuits Layout-Design Act, 2000",
+    "type": "statute",
+    "source_xml": "The Semiconductor Integrated Circuits Layout-Design Act, 2000.xml"
+  },
+  {
+    "file": "information_technology_act_2000.txt",
+    "domain": "Cyber, Data & Technology",
+    "act_name": "Information Technology Act, 2000",
+    "type": "statute",
+    "source_xml": "The Information Technology Act, 2000.xml"
+  },
+  {
+    "file": "income_tax_act_1961.txt",
+    "domain": "Tax Law",
+    "act_name": "Income Tax Act, 1961",
+    "type": "statute",
+    "source_xml": "Income Tax Act.xml"
+  },
+  {
+    "file": "customs_act_1962.txt",
+    "domain": "Tax Law",
+    "act_name": "Customs Act, 1962",
+    "type": "statute",
+    "source_xml": "The Customs Act, 1962.xml"
+  },
+  {
+    "file": "wealth_tax_act_1957.txt",
+    "domain": "Tax Law",
+    "act_name": "Wealth Tax Act, 1957",
+    "type": "statute",
+    "source_xml": "The Wealth-Tax Act, 1957.xml"
+  },
+  {
+    "file": "reserve_bank_of_india_act_1934.txt",
+    "domain": "Banking & Finance",
+    "act_name": "Reserve Bank of India Act, 1934",
+    "type": "statute",
+    "source_xml": "The Reserve Bank of India Act, 1934.xml"
+  },
+  {
+    "file": "foreign_exchange_management_act_1999.txt",
+    "domain": "Banking & Finance",
+    "act_name": "Foreign Exchange Management Act , 1999",
+    "type": "statute",
+    "source_xml": "The Foreign Exchange Management Act, 1999.xml"
+  },
+  {
+    "file": "payment_and_settlement_systems_act_2007.txt",
+    "domain": "Banking & Finance",
+    "act_name": "Payment and Settlement Systems Act, 2007",
+    "type": "statute",
+    "source_xml": "The Payment And Settlement Systems Act, 2007.xml"
+  },
+  {
+    "file": "chit_funds_act_1982.txt",
+    "domain": "Banking & Finance",
+    "act_name": "Chit Funds Act, 1982",
+    "type": "statute",
+    "source_xml": "The Chit Funds Act, 1982.xml"
+  },
+  {
+    "file": "wildlife_protection_act_1972.txt",
+    "domain": "Environment & Land",
+    "act_name": "Wildlife Protection Act, 1972",
+    "type": "statute",
+    "source_xml": "The Wild Life (Protection) Act, 1972.xml"
+  },
+  {
+    "file": "biological_diversity_act_2002.txt",
+    "domain": "Environment & Land",
+    "act_name": "Biological Diversity Act, 2002",
+    "type": "statute",
+    "source_xml": "The Biological Diversity Act, 2002.xml"
+  },
+  {
+    "file": "mental_healthcare_act_2017.txt",
+    "domain": "Healthcare",
+    "act_name": "Mental Healthcare Act, 2017",
+    "type": "statute",
+    "source_xml": "The Mental Healthcare Act, 2017.xml"
+  },
+  {
+    "file": "transplantation_of_human_organs_and_tissues_act_1994.txt",
+    "domain": "Healthcare",
+    "act_name": "Transplantation of Human Organs and Tissues Act, 1994",
+    "type": "statute",
+    "source_xml": "The Transplantation Of Human Organs and Tissues Act, 1994.xml"
+  },
+  {
+    "file": "medical_termination_of_pregnancy_act_1971.txt",
+    "domain": "Healthcare",
+    "act_name": "Medical Termination of Pregnancy Act, 1971",
+    "type": "statute",
+    "source_xml": "The Medical Termination Of Pregnancy Act, 1971.xml"
+  },
+  {
+    "file": "epidemic_diseases_act_1897.txt",
+    "domain": "Healthcare",
+    "act_name": "Epidemic Diseases Act, 1897",
+    "type": "statute",
+    "source_xml": "The Epidemic Diseases Act, 1897.xml"
+  },
+  {
+    "file": "right_of_children_to_free_and_compulsory_education_act_2009.txt",
+    "domain": "Education",
+    "act_name": "Right of Children to Free and Compulsory Education  Act, 2009",
+    "type": "statute",
+    "source_xml": "The Right of Children to Free and Compulsory Education Act, 2009.xml"
+  },
+  {
+    "file": "university_grants_commission_act_1956.txt",
+    "domain": "Education",
+    "act_name": "University Grants Commission Act, 1956",
+    "type": "statute",
+    "source_xml": "The University Grants Commission Act, 1956.xml"
+  },
+  {
+    "file": "all_india_council_for_technical_education_act_1987.txt",
+    "domain": "Education",
+    "act_name": "All India Council for Technical Education  Act, 1987",
+    "type": "statute",
+    "source_xml": "All India Council For Technical Education Act, 1987.xml"
+  },
+  {
+    "file": "transfer_of_property_act_1882.txt",
+    "domain": "Tenant & Housing",
+    "act_name": "Transfer of Property Act, 1882",
+    "type": "statute",
+    "source_xml": "The Transfer Of Property Act, 1882.xml"
+  },
+  {
+    "file": "essential_commodities_act_1955.txt",
+    "domain": "Agriculture",
+    "act_name": "Essential Commodities Act, 1955",
+    "type": "statute",
+    "source_xml": "The Essential Commodities Act, 1955.xml"
+  },
+  {
+    "file": "seeds_act_1966.txt",
+    "domain": "Agriculture",
+    "act_name": "Seeds Act, 1966",
+    "type": "statute",
+    "source_xml": "The Seeds Act, 1966.xml"
+  },
+  {
+    "file": "indian_divorce_act_1869.txt",
+    "domain": "Family Law",
+    "act_name": "Indian Divorce Act, 1869",
+    "type": "statute",
+    "source": "huggingface:mratanusarkar/Indian-Laws"
+  },
+  {
+    "file": "code_on_wages_2019.txt",
+    "domain": "Labour & Employment",
+    "act_name": "Code on Wages, 2019",
+    "type": "statute",
+    "source": "huggingface:mratanusarkar/Indian-Laws"
+  },
+  {
+    "file": "consumer_protection_act_2019.txt",
+    "domain": "Consumer & Product Liability",
+    "act_name": "Consumer Protection Act, 2019",
+    "type": "statute",
+    "source": "huggingface:mratanusarkar/Indian-Laws"
+  },
+  {
+    "file": "central_goods_and_services_tax_act_2017.txt",
+    "domain": "Tax Law",
+    "act_name": "Central Goods and Services Tax  Act, 2017",
+    "type": "statute",
+    "source": "huggingface:mratanusarkar/Indian-Laws"
+  },
+  {
+    "file": "integrated_goods_and_services_tax_act_2017.txt",
+    "domain": "Tax Law",
+    "act_name": "Integrated Goods and Services Tax  Act, 2017",
+    "type": "statute",
+    "source": "huggingface:mratanusarkar/Indian-Laws"
+  },
+  {
+    "file": "banking_regulation_act_1949.txt",
+    "domain": "Banking & Finance",
+    "act_name": "Banking Regulation Act, 1949",
+    "type": "statute",
+    "source": "huggingface:mratanusarkar/Indian-Laws"
+  },
+  {
+    "file": "national_medical_commission_act_2019.txt",
+    "domain": "Healthcare",
+    "act_name": "National Medical Commission Act, 2019",
+    "type": "statute",
+    "source": "huggingface:mratanusarkar/Indian-Laws"
+  },
+  {
+    "file": "maharashtra_rent_control_act_1999.txt",
+    "domain": "Tenant & Housing",
+    "act_name": "Maharashtra Rent Control Act, 1999",
+    "type": "statute",
+    "source": "huggingface:mratanusarkar/Indian-Laws"
+  },
+  {
+    "file": "delhi_rent_control_act_1958.txt",
+    "domain": "Tenant & Housing",
+    "act_name": "Delhi Rent Control Act, 1958",
+    "type": "statute",
+    "source": "huggingface:mratanusarkar/Indian-Laws"
+  },
+  {
+    "file": "bharatiya_nyaya_sanhita_2023.txt",
+    "domain": "Criminal Law",
+    "act_name": "Bharatiya Nyaya Sanhita, 2023",
+    "type": "statute",
+    "source": "github:daslearning-org/ai-indian-law"
+  }
+]

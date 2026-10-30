@@ -1,0 +1,146 @@
+{
+    "manifest_version": "1.0",
+    "last_updated": "2026-06-30T14:41:03.699520Z",
+    "corpus_stats": {
+        "total_acts": 5,
+        "total_chunks": 5,
+        "total_embeddings": 5,
+        "domains_covered": [
+            "Criminal Law",
+            "Contract & Commercial",
+            "Civil & Procedural",
+            "Property & Real Estate",
+            "Constitutional & Administrative"
+        ],
+        "batches_completed": [
+            "batch_01"
+        ]
+    },
+    "acts": {
+        "Constitution_of_India": {
+            "document_id": "Constitution_of_India",
+            "act_name": "Constitution Of India",
+            "short_name": "Constitution_of_India",
+            "legal_domain": "Constitutional & Administrative",
+            "practice_areas": [
+                "Constitutional Rights"
+            ],
+            "jurisdiction": "Central",
+            "applicable_states": [
+                "All"
+            ],
+            "act_year": "India",
+            "version": "1.0",
+            "sha256_hash": "8858f27cfe8df283f258e9055ae7d748acd580a57d8ccbe7495febbe09ca9b49",
+            "ingestion_batch": "batch_01",
+            "validation_status": "PASS",
+            "quality_score": 90,
+            "human_reviewed": true,
+            "production_approved": true,
+            "embedded": true,
+            "chunk_count": 1,
+            "document_type": "Act",
+            "embedding_count": 1
+        },
+        "Indian_Contract_Act_1872": {
+            "document_id": "Indian_Contract_Act_1872",
+            "act_name": "Indian Contract Act 1872",
+            "short_name": "Indian_Contract_Act_1872",
+            "legal_domain": "Contract & Commercial",
+            "practice_areas": [
+                "General Contract"
+            ],
+            "jurisdiction": "Central",
+            "applicable_states": [
+                "All"
+            ],
+            "act_year": "1872",
+            "version": "1.0",
+            "sha256_hash": "4dcfd80d2df143711ace7eef0f3984f815c7a96e71bb845b94b78e59a92bd300",
+            "ingestion_batch": "batch_01",
+            "validation_status": "PASS",
+            "quality_score": 90,
+            "human_reviewed": true,
+            "production_approved": true,
+            "embedded": true,
+            "chunk_count": 1,
+            "document_type": "Act",
+            "embedding_count": 1
+        },
+        "CPC_1908": {
+            "document_id": "CPC_1908",
+            "act_name": "Cpc 1908",
+            "short_name": "CPC_1908",
+            "legal_domain": "Civil & Procedural",
+            "practice_areas": [
+                "Civil Procedure"
+            ],
+            "jurisdiction": "Central",
+            "applicable_states": [
+                "All"
+            ],
+            "act_year": "1908",
+            "version": "1.0",
+            "sha256_hash": "feedf67c1becc01d9adc5fd50eb179b712e4bfbe2f2d71f3b6c3eb05ab6f2d7e",
+            "ingestion_batch": "batch_01",
+            "validation_status": "PASS",
+            "quality_score": 90,
+            "human_reviewed": true,
+            "production_approved": true,
+            "embedded": true,
+            "chunk_count": 1,
+            "document_type": "Act",
+            "embedding_count": 1
+        },
+        "Transfer_of_Property_Act_1882": {
+            "document_id": "Transfer_of_Property_Act_1882",
+            "act_name": "Transfer Of Property Act 1882",
+            "short_name": "Transfer_of_Property_Act_1882",
+            "legal_domain": "Property & Real Estate",
+            "practice_areas": [
+                "Property Transfer"
+            ],
+            "jurisdiction": "Central",
+            "applicable_states": [
+                "All"
+            ],
+            "act_year": "1882",
+            "version": "1.0",
+            "sha256_hash": "c3b9be007502eefe0f20c91cc1fc0b092bef77874d7975bf7515510cb8abf124",
+            "ingestion_batch": "batch_01",
+            "validation_status": "PASS",
+            "quality_score": 90,
+            "human_reviewed": true,
+            "production_approved": true,
+            "embedded": true,
+            "chunk_count": 1,
+            "document_type": "Act",
+            "embedding_count": 1
+        },
+        "Evidence_Act_1872": {
+            "document_id": "Evidence_Act_1872",
+            "act_name": "Evidence Act 1872",
+            "short_name": "Evidence_Act_1872",
+            "legal_domain": "Criminal Law",
+            "practice_areas": [
+                "Evidence"
+            ],
+            "jurisdiction": "Central",
+            "applicable_states": [
+                "All"
+            ],
+            "act_year": "1872",
+            "version": "1.0",
+            "sha256_hash": "379befc7f78483dc346efff85d02170876239f738bba2fbba90361d1dae5ff15",
+            "ingestion_batch": "batch_01",
+            "validation_status": "PASS",
+            "quality_score": 90,
+            "human_reviewed": true,
+            "production_approved": true,
+            "embedded": true,
+            "chunk_count": 1,
+            "document_type": "Act",
+            "embedding_count": 1
+        }
+    }
+}

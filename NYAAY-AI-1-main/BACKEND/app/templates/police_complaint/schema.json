@@ -1,0 +1,14 @@
+{
+  "mandatory_fields": [
+    "complainant_name",
+    "incident_date",
+    "incident_location",
+    "police_station",
+    "accused_name_or_description",
+    "brief_facts"
+  ],
+  "optional_fields": [
+    "witnesses",
+    "evidence"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "mandatory_fields": [
+    "declarant_name",
+    "father_name",
+    "address",
+    "declaration_subject"
+  ],
+  "optional_fields": []
+}

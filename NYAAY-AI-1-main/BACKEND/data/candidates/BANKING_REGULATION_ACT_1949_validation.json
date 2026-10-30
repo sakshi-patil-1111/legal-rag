@@ -1,0 +1,12 @@
+{
+    "document_id": "banking_regulation_act_1949.txt",
+    "status": "PASS",
+    "errors": [],
+    "warnings": [],
+    "stats": {
+        "total_blocks": 60,
+        "parts": 1,
+        "chapters": 0,
+        "sections": 56
+    }
+}
