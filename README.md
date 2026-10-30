@@ -61,9 +61,16 @@ Kaggle T4 (fp16, queries capped at 2048 tokens).
 | BM25 + recursive-512 | 11.5% | 12.9% | 17.2% | 19.8% |
 | + cross-encoder rerank | 10.0% | 10.5% | 13.8% | 14.6% |
 | **Qwen3-Embedding-0.6B + recursive-512** | **12.6%** | **15.2%** | — | — |
+| BM25 bigram + recursive-512 | 10.6% | 12.6% | 20.1% | 27.1% |
+| **BM25 5-gram (whole doc)** | — | — | **20.7%** | **39.9%** |
 
 Qwen3 is the first dense model to beat BM25 on statute retrieval. PCR numbers
 for Qwen3 pending. Test split: BM25 + recursive-512 gets 12.9% LSR / 17.9% PCR F1.
+
+5-gram BM25 nearly reproduces the IL-PCSR paper's best lexical PCR row under
+their best-k protocol: F1@2 32.2% vs. 33.3%, MAP 39.9% vs. 44.0%, MRR 57.3%
+vs. 58.6%. The bigram variant does not reproduce their paragraph-level LSR
+row (12.3% vs. 18.6% best-k F1).
 
 ## Tests
 
