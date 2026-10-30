@@ -107,17 +107,23 @@ def main() -> None:
             for tok, wt in w.items():
                 inv.setdefault(tok, []).append((ci, float(wt)))
 
-        q_out = model.encode(
-            [q.text for q in dq],
-            batch_size=4,
-            max_length=4096,
-            return_dense=True,
-            return_sparse=True,
-            return_colbert_vecs=True,
-        )
-        q_dense = q_out["dense_vecs"]
-        q_lex = q_out["lexical_weights"]
-        q_col = q_out["colbert_vecs"]
+        # encode queries in small batches; colbert lazily in the rerank phase
+        # (a full-corpus batch of 4096-len colbert vecs OOMs host RAM)
+        q_dense_l, q_lex_l = [], []
+        QB = 16
+        for i in range(0, len(dq), QB):
+            qb = model.encode(
+                [q.text for q in dq[i : i + QB]],
+                batch_size=2,
+                max_length=4096,
+                return_dense=True,
+                return_sparse=True,
+                return_colbert_vecs=False,
+            )
+            q_dense_l.append(qb["dense_vecs"])
+            q_lex_l.extend(qb["lexical_weights"])
+        q_dense = np.concatenate(q_dense_l)
+        q_lex = q_lex_l
 
         # doc-level dedup helper
         def dedup_chunk_ranking(chunk_order, k):
@@ -195,7 +201,15 @@ def main() -> None:
 
         col_rankings = []
         for qi in range(len(dq)):
-            qv = torch.tensor(q_col[qi], dtype=torch.float32)
+            qc = model.encode(
+                [dq[qi].text],
+                batch_size=1,
+                max_length=4096,
+                return_dense=False,
+                return_sparse=False,
+                return_colbert_vecs=True,
+            )["colbert_vecs"][0]
+            qv = torch.tensor(qc, dtype=torch.float32)
             scores = []
             for ci in pools[qi]:
                 dv = torch.tensor(col_vecs[ci], dtype=torch.float32)
