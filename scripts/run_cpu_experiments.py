@@ -176,36 +176,33 @@ def main() -> None:
     top_k = args.top_k
     rankings: list[list[str]] = []
 
+    label = "base"
     if args.experiment == "base":
         for q in queries_raw:
             hits = retrieve(model, shingles(word_tokens(full_query(q)), args.ngram), top_k)
             rankings.append([doc_ids[i] for i, _ in hits])
-        show("base", macro_eval(rankings, truths))
-        return
-
-    if args.experiment == "roles":
+    elif args.experiment == "roles":
         roles = ROLE_PRESETS.get(args.roles) or args.roles.split(",")
+        label = f"roles={args.roles}"
         for q in queries_raw:
             hits = retrieve(model, shingles(word_tokens(role_query(q, roles)), args.ngram), top_k)
             rankings.append([doc_ids[i] for i, _ in hits])
-        show(f"roles={args.roles}", macro_eval(rankings, truths))
-        return
-
-    # ---- PRF ----
-    for qi, q in enumerate(queries_raw):
-        q_toks = shingles(word_tokens(full_query(q)), args.ngram)
-        first = retrieve(model, q_toks, args.top_d)
-        doc_idx = [i for i, _ in first]
-        q_set = set(q_toks)
-        pool: Counter = Counter()
-        for di in doc_idx:
-            pool.update(doc_toks[di])
-        expansion = [t for t, _ in pool.most_common(50) if t not in q_set][: args.expand]
-        second = retrieve(model, q_toks + expansion, top_k)
-        rankings.append([doc_ids[i] for i, _ in second])
-        if (qi + 1) % 100 == 0:
-            print(f"  prf {qi + 1}/{len(queries_raw)}", flush=True)
-    show(f"prf d={args.top_d} e={args.expand}", macro_eval(rankings, truths))
+    else:
+        label = f"prf d={args.top_d} e={args.expand}"
+        for qi, q in enumerate(queries_raw):
+            q_toks = shingles(word_tokens(full_query(q)), args.ngram)
+            first = retrieve(model, q_toks, args.top_d)
+            doc_idx = [i for i, _ in first]
+            q_set = set(q_toks)
+            pool: Counter = Counter()
+            for di in doc_idx:
+                pool.update(doc_toks[di])
+            expansion = [t for t, _ in pool.most_common(50) if t not in q_set][: args.expand]
+            second = retrieve(model, q_toks + expansion, top_k)
+            rankings.append([doc_ids[i] for i, _ in second])
+            if (qi + 1) % 100 == 0:
+                print(f"  prf {qi + 1}/{len(queries_raw)}", flush=True)
+    show(label, macro_eval(rankings, truths))
 
     out = {
         "experiment": args.experiment,
