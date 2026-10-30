@@ -8,7 +8,7 @@ Configuration via environment variables in .env:
   GEMINI_API_KEY=...
   LLM_BASE_URL=http://localhost:11434/v1  (for Ollama)
   LLM_API_KEY=...                          (for OpenAI-compatible)
-  LLM_MODEL=gemini-2.5-flash              (or llama3.2:3b for Ollama)
+  LLM_MODEL=gemini-3.8-flash              (or llama3.2:3b for Ollama)
 """
 
 import json
@@ -43,7 +43,7 @@ class LLMProvider:
         self.provider = provider or os.getenv("LLM_PROVIDER", "gemini")
         self.api_key = api_key or os.getenv("GEMINI_API_KEY") or os.getenv("LLM_API_KEY", "")
         self.base_url = base_url or os.getenv("LLM_BASE_URL", "")
-        self.model = model or os.getenv("LLM_MODEL", "gemini-2.5-flash")
+        self.model = model or os.getenv("LLM_MODEL", "gemini-3.8-flash")
 
     def generate(
         self,

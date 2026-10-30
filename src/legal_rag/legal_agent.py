@@ -93,10 +93,13 @@ class LegalAgent:
         self.snippet_chars = snippet_chars
 
     def _route(self, case_text: str) -> dict[str, str]:
-        resp = self.llm.generate(
-            f"Case description:\n{case_text[:6000]}", system=ROUTE_SYSTEM,
-            temperature=0.0, max_tokens=300,
-        )
+        try:
+            resp = self.llm.generate(
+                f"Case description:\n{case_text[:6000]}", system=ROUTE_SYSTEM,
+                temperature=0.0, max_tokens=300,
+            )
+        except Exception:
+            return {task: case_text[:2000] for task in self.retrievers}
         plan = _extract_json(resp.text) or {}
         queries = {}
         for task in self.retrievers:
@@ -135,7 +138,10 @@ class LegalAgent:
             f"Case description:\n{case_text[:4000]}\n\n"
             f"Retrieved candidates:\n" + "\n".join(summary_parts)
         )
-        resp = self.llm.generate(prompt, system=REFLECT_SYSTEM, temperature=0.0, max_tokens=300)
+        try:
+            resp = self.llm.generate(prompt, system=REFLECT_SYSTEM, temperature=0.0, max_tokens=300)
+        except Exception:
+            return None
         verdict = _extract_json(resp.text) or {}
         if verdict.get("sufficient"):
             return None
@@ -164,7 +170,12 @@ class LegalAgent:
             f"Retrieved evidence ({sum(len(v) for v in evidence.values())} docs):\n\n"
             + "\n\n".join(blocks)
         )
-        resp = self.llm.generate(prompt, system=SYNTH_SYSTEM, temperature=0.2, max_tokens=1500)
+        try:
+            resp = self.llm.generate(prompt, system=SYNTH_SYSTEM, temperature=0.2, max_tokens=1500)
+        except Exception as exc:
+            return {"issue": "", "analysis": f"LLM synthesis unavailable: {exc}",
+                    "suggested_action": "", "applicable_statutes": [],
+                    "supporting_precedents": []}
         dossier = _extract_json(resp.text)
         if dossier is None:
             return {"issue": "", "analysis": resp.text, "suggested_action": "",
