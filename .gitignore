@@ -44,6 +44,7 @@ results/**/*_precedent.json
 # local reference dirs
 BTech_Latex_Report/
 arXiv-2511.00268v1/
+NYAAY-AI-1-main/
 
 # latex build output
 report.pdf

@@ -1,3 +1,5 @@
+import hashlib
+from pathlib import Path
 from typing import Any
 
 import bm25s
@@ -6,13 +8,27 @@ from .base import Retriever
 
 
 class BM25Retriever(Retriever):
-    def __init__(self, k1: float = 1.6, b: float = 0.7, ngram: int = 1):
+    def __init__(
+        self,
+        k1: float = 1.6,
+        b: float = 0.7,
+        ngram: int = 1,
+        cache_dir: str | Path | None = None,
+    ):
         super().__init__()
         self.k1 = k1
         self.b = b
         self.ngram = ngram
+        self.cache_dir = Path(cache_dir) if cache_dir else None
         self._bm25: bm25s.BM25 | None = None
         self._corpus: list[str] = []
+
+    def _cache_path(self) -> Path:
+        h = hashlib.sha256()
+        h.update(f"k1={self.k1};b={self.b};ngram={self.ngram}".encode())
+        for t in self._corpus:
+            h.update(t.encode())
+        return self.cache_dir / f"bm25_{h.hexdigest()[:24]}"
 
     def _tokenize(self, texts: list[str]):
         if self.ngram <= 1:
@@ -31,9 +47,17 @@ class BM25Retriever(Retriever):
         self.items = items
         self._chunk_ids = [self._chunk_id(d) for d in items]
         self._corpus = [self._text(d) for d in items]
+        if self.cache_dir is not None:
+            cache_path = self._cache_path()
+            if cache_path.exists():
+                self._bm25 = bm25s.BM25.load(str(cache_path), show_progress=False)
+                return
         tokens = self._tokenize(self._corpus)
         self._bm25 = bm25s.BM25(k1=self.k1, b=self.b)
         self._bm25.index(tokens, show_progress=False)
+        if self.cache_dir is not None:
+            cache_path.mkdir(parents=True, exist_ok=True)
+            self._bm25.save(str(cache_path), show_progress=False)
 
     def _retrieve(self, query: str, top_k: int) -> list[tuple[int, float]]:
         k = min(top_k, len(self.items))
