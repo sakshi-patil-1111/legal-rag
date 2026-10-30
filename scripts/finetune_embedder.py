@@ -91,6 +91,10 @@ def main() -> None:
         tokenizer_kwargs={"padding_side": "left"},
     )
     model.max_seq_length = args.max_length
+    try:
+        model[0].auto_model.gradient_checkpointing_enable()
+    except Exception as e:
+        print(f"[warn] gradient checkpointing unavailable: {e}", flush=True)
 
     train_ds = Dataset.from_dict(
         {"anchor": [a for a, _ in pairs], "positive": [b for _, b in pairs]}
@@ -101,9 +105,13 @@ def main() -> None:
         output_dir=str(Path(args.out) / "ckpt"),
         num_train_epochs=args.epochs,
         per_device_train_batch_size=args.batch,
+        gradient_accumulation_steps=2,
         learning_rate=args.lr,
+        optim="adafactor",
         warmup_ratio=0.05,
         fp16=True,
+        gradient_checkpointing=True,
+        gradient_checkpointing_kwargs={"use_reentrant": False},
         logging_steps=50,
         save_strategy="no",
         report_to=[],
