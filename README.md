@@ -89,21 +89,30 @@ no vendor SDK):
 | Hybrid RRF | 8.3% | 9.5% | 10.1% | 15.3% |
 | BM25 + recursive-512 | 11.5% | 12.9% | 17.2% | 19.8% |
 | + cross-encoder rerank | 10.0% | 10.5% | 13.8% | 14.6% |
-| **Qwen3-Embedding-0.6B + recursive-512** | **12.6%** | **15.2%** | — | — |
+| **Qwen3-Embedding-0.6B + recursive-512** | **12.6%** | **15.2%** | 10.5% | 17.1% |
 | BM25 bigram + recursive-512 | 10.6% | 12.6% | 20.1% | 27.1% |
 | **BM25 5-gram (whole doc)** | — | — | **20.7%** | **39.9%** |
+| **Hybrid RRF (5-gram BM25 + Qwen3-0.6B)** | **14.1%** | **18.2%** | 19.4% | 30.3% |
 
-Qwen3 is the first dense model to beat BM25 on statute retrieval. PCR numbers
-for Qwen3 pending. Test split: BM25 + recursive-512 gets 12.9% LSR / 17.9% PCR F1.
+Qwen3 is the first dense model to beat BM25 on statute retrieval. Test split:
+BM25 + recursive-512 gets 12.9% LSR / 17.9% PCR F1.
 
 5-gram BM25 nearly reproduces the IL-PCSR paper's best lexical PCR row under
 their best-k protocol: F1@2 32.2% vs. 33.3%, MAP 39.9% vs. 44.0%, MRR 57.3%
 vs. 58.6%. The bigram variant does not reproduce their paragraph-level LSR
 row (12.3% vs. 18.6% best-k F1).
 
-In flight: ngram-5 BM25 + Qwen3-Embedding hybrid RRF on PCR (Kaggle kernel
-`legal-rag-hybrid-pcr`, config `stage_c2_hybrid_ngram_qwen3.json`), and a
-standalone Qwen3 PCR run (`stage_b2b_qwen3_pcr.json`).
+The hybrid is a tale of two tasks. On **LSR** it is our best method (F1@10
+14.1%, MAP 18.2%, MRR 39.4%) — dense and lexical legs complement each other on
+statutes. On **PCR** the same fusion *dilutes*: Qwen3-0.6B ranks precedents
+weakly (MAP 17.1%), so RRF pulls the strong 5-gram BM25 leg down (best-k F1
+24.3% vs. 32.2% for BM25 alone). Fusion only helps when both legs are
+comparable in strength.
+
+In flight on Modal (A10G × 6): Qwen3-0.6B PCR, the two hybrids above re-run,
+**Qwen3-Embedding-4B** dense + hybrid, `bge-reranker-v2-m3` cross-encoder
+rerank of the hybrid top-50, and a `gpt-6-luna` listwise LLM rerank —
+see `modal_app.py`.
 
 ## Tests
 
