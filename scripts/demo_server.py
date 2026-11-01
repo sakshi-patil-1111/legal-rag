@@ -49,8 +49,8 @@ TOP_K = 8
 app = FastAPI(title="NYAAY-legal-rag demo")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173",
-                   "http://localhost:3000", "http://127.0.0.1:3000"],
+    allow_origins=["*"],  # local demo — the browser preview proxy can use
+                          # any port as its origin
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -258,7 +258,117 @@ def _synth_pipeline(case_text: str, tasks: tuple = TASKS):
     return evidence, dossier, warnings, trace
 
 
-def _nyaay_content(dossier: dict, evidence: dict) -> str:
+_STOPWORDS = {"that", "with", "this", "from", "have", "been", "what",
+              "were", "they", "their", "which", "when", "will", "shall",
+              "into", "under", "over", "case", "about", "there", "then",
+              "than", "them", "also", "such", "only", "some", "other"}
+
+
+def _relevant_excerpt(text: str, query: str, max_sents: int = 2,
+                      width: int = 420) -> str:
+    """Pick the sentences of *text* sharing the most content terms with
+    *query* — a cheap stand-in for true passage highlighting."""
+    import re
+    sents = re.split(r"(?<=[.!?;])\s+", " ".join(text.split()))
+    qterms = {w.lower() for w in re.findall(r"[A-Za-z]{4,}", query)}
+    qterms -= _STOPWORDS
+    if not qterms or not sents:
+        return " ".join(text.split())[:width]
+    scored = sorted(
+        sents,
+        key=lambda s: len(qterms & {w.lower()
+                                    for w in re.findall(r"[A-Za-z]{4,}", s)}),
+        reverse=True,
+    )
+    top = [s for s in scored[:max_sents]]
+    # restore document order for readability
+    top = [s for s in sents if s in top]
+    return " … ".join(top)[:width]
+
+
+def _web_fallback(query_text: str, n: int = 5) -> tuple[list, str | None]:
+    """External supplementary retrieval via the OpenAI-compatible
+    Responses API with the ``web_search_preview`` tool. Returns
+    (sources, context_text): sources are the emitted URL citations,
+    context_text is the model's web-grounded answer. Falls back to a
+    keyless Wikipedia search when the API call fails."""
+    import os
+    import urllib.parse
+    import urllib.request
+
+    key = os.getenv("OPENAI_API_KEY") or os.getenv("LLM_API_KEY")
+    base = (os.getenv("LLM_BASE_URL")
+            or "https://api.openai.com/v1").rstrip("/")
+    model = getattr(_state.get("llm"), "model", None) \
+        or os.getenv("LLM_MODEL", "gpt-6-luna")
+    if key:
+        payload = {
+            "model": model,
+            "input": (
+                "Using authoritative public sources (legislation, "
+                "regulators, courts, official commentary), briefly answer "
+                "this legal question and cite your sources: "
+                + " ".join(query_text.split()[:120])),
+            "tools": [{"type": "web_search_preview"}],
+        }
+        try:
+            req = urllib.request.Request(
+                f"{base}/responses",
+                data=json.dumps(payload).encode(),
+                headers={"Authorization": f"Bearer {key}",
+                         "Content-Type": "application/json"})
+            data = json.loads(
+                urllib.request.urlopen(req, timeout=90).read())
+            text, sources = "", []
+            for item in data.get("output", []):
+                if item.get("type") != "message":
+                    continue
+                for c in item.get("content", []):
+                    if c.get("type") == "output_text":
+                        text = c.get("text", "")
+                        for a in c.get("annotations", []):
+                            if a.get("type") == "url_citation":
+                                u = a.get("url", "")
+                                sources.append({
+                                    "title": a.get("title") or u,
+                                    "excerpt": urllib.parse.urlparse(u)
+                                    .netloc.replace("www.", ""),
+                                    "url": u})
+            seen, uniq = set(), []
+            for s in sources:
+                if s["url"] not in seen:
+                    seen.add(s["url"])
+                    uniq.append(s)
+            if text or uniq:
+                return uniq[:n], text.strip() or None
+        except Exception as exc:  # noqa: BLE001
+            print(f"[web_fallback] responses api failed: {exc}",
+                  flush=True)
+
+    # Keyless backup: Wikipedia REST search (AND-matched; coarse).
+    import re as _re
+    q = urllib.parse.quote(" ".join(query_text.split()[:30]))
+    url = ("https://en.wikipedia.org/w/rest.php/v1/search/page"
+           f"?q={q}&limit={n}")
+    try:
+        req = urllib.request.Request(
+            url, headers={"User-Agent": "legal-rag-demo/1.0"})
+        data = json.loads(urllib.request.urlopen(req, timeout=10).read())
+    except Exception as exc:  # noqa: BLE001
+        print(f"[web_fallback] wikipedia failed: {exc}", flush=True)
+        return [], None
+    out = [{
+        "title": p.get("title", ""),
+        "excerpt": _re.sub(r"<[^>]+>", "", p.get("excerpt", ""))[:300],
+        "url": "https://en.wikipedia.org/wiki/"
+               + p.get("key", p.get("title", "").replace(" ", "_")),
+    } for p in data.get("pages", [])[:n]]
+    return out, None
+
+
+def _nyaay_content(dossier: dict, evidence: dict, case_text: str,
+                   external: list | None = None,
+                   supplementary: str | None = None) -> str:
     """Adapt our compact dossier to the rich section schema that
     NYAAY's LegalAnalysisRenderer expects."""
     statutes = [
@@ -279,20 +389,45 @@ def _nyaay_content(dossier: dict, evidence: dict) -> str:
     n_s = len(evidence.get("statute", {}))
     n_p = len(evidence.get("precedent", {}))
     issue = dossier.get("issue", "")
+
+    retrieved_sources = []
+    for task in TASKS:
+        hits = evidence.get(task, {})
+        if isinstance(hits, dict):
+            hits = sorted(hits.items(), key=lambda kv: kv[1],
+                          reverse=True)
+        for did, score in list(hits)[:3]:
+            title = _state["doc_titles"][task].get(did, "")
+            retrieved_sources.append({
+                "id": did,
+                "corpus": task,
+                "bm25_score": f"{float(score):.2f}",
+                "title": title[:100] or did,
+                "excerpt": _relevant_excerpt(
+                    _state["doc_texts"][task].get(did, ""), case_text),
+            })
+
+    grounding = (
+        f"Grounded on {n_s} retrieved statutes and {n_p} retrieved "
+        f"precedents from the IL-PCSR corpus; every citation above was "
+        "validated against the retrieved document set."
+    )
+    if external:
+        grounding += (" Corpus evidence was weak — see the external "
+                      "references below, which are NOT corpus-grounded.")
+
     doc = {
         "executive_summary": issue,
         "primary_legal_issues": [issue] if issue else [],
         "applicable_statutes": statutes,
         "judicial_precedents": precedents,
         "evidence_analysis": dossier.get("analysis", ""),
-        "litigation_strategy": dossier.get("suggested_action", ""),
-        "confidence_summary": (
-            f"Grounded on {n_s} retrieved statutes and {n_p} retrieved "
-            f"precedents from the IL-PCSR corpus; every citation above was "
-            "validated against the retrieved document set."
-        ),
+        "retrieved_sources": retrieved_sources,
+        "confidence_summary": grounding,
+        "external_sources": external or [],
+        "supplementary_context": supplementary or "",
     }
-    return json.dumps({k: v for k, v in doc.items() if v != []})
+    return json.dumps({k: v for k, v in doc.items() if v not in ([], "")})
 
 
 def _citations_payload(dossier: dict) -> list:
@@ -336,9 +471,32 @@ def reasoning_generate(req: ReasoningReq):
         }
         convs.append(conv)
 
-    evidence, dossier, warnings, _trace = _synth_pipeline(req.user_facts)
-    content = _nyaay_content(dossier, evidence)
+    evidence, dossier, warnings, trace = _synth_pipeline(req.user_facts)
     citations = _citations_payload(dossier)
+
+    # Weak-evidence gate: no validated citations, or the strongest BM25
+    # hit is noise-level -> fetch external public references.
+    top_score = 0.0
+    for hits in evidence.values():
+        seq = hits.items() if isinstance(hits, dict) else hits
+        for _did, s in seq:
+            top_score = max(top_score, float(s))
+    external, supplementary = [], None
+    if not citations or top_score < 8.0:
+        external, supplementary = _web_fallback(req.user_facts)
+        if external or supplementary:
+            warnings = list(warnings) + [
+                f"low corpus evidence (citations={len(citations)}, "
+                f"top_score={top_score:.1f}) — {len(external)} external "
+                "references fetched via web search; NOT corpus-grounded"]
+            from legal_rag.legal_agent import AgentStep
+            trace.append(AgentStep(
+                "web_fallback",
+                {"reason": "weak corpus evidence",
+                 "sources": len(external)}, 0.0))
+
+    content = _nyaay_content(dossier, evidence, req.user_facts,
+                             external, supplementary)
     analysis_id = str(uuid.uuid4())
 
     conv["messages"].append({"role": "user", "content": req.user_facts,

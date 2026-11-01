@@ -16,7 +16,9 @@ import {
   ChevronDown,
   ChevronUp,
   CheckCircle2,
-  Lock
+  Lock,
+  Library,
+  Globe
 } from 'lucide-react';
 import CitationPill from '../common/CitationPill';
 import StreamingText from '../common/StreamingText';
@@ -31,8 +33,10 @@ const SECTION_ICONS = {
   arguments_against: <ShieldAlert className="w-4 h-4 text-amber-700" />,
   evidence_analysis: <FileText className="w-4 h-4 text-ink-muted" />,
   risk_assessment: <AlertCircle className="w-4 h-4 text-amber-700" />,
-  litigation_strategy: <Target className="w-4 h-4 text-accent" />,
+  retrieved_sources: <Library className="w-4 h-4 text-blue-700" />,
   confidence_summary: <Scale className="w-4 h-4 text-emerald-700" />,
+  external_sources: <Globe className="w-4 h-4 text-amber-700" />,
+  supplementary_context: <Globe className="w-4 h-4 text-amber-700" />,
   cross_module_links: <ArrowRight className="w-4 h-4 text-accent" />
 };
 
@@ -46,8 +50,10 @@ const SECTION_TITLES = {
   arguments_against: "Arguments Against (Opposing Position)",
   evidence_analysis: "Evidentiary Analysis (BSA 2023)",
   risk_assessment: "Litigation Risk & Exposure Evaluation",
-  litigation_strategy: "Strategic Phased Action Plan",
+  retrieved_sources: "Retrieved Evidence & Relevant Passages",
   confidence_summary: "Confidence & Statutory Grounding Score",
+  external_sources: "External References (Not Corpus-Grounded)",
+  supplementary_context: "Supplementary Context (External Sources)",
   cross_module_links: "Next Steps & Execution Modules"
 };
 
@@ -286,7 +292,7 @@ const LegalAnalysisRenderer = ({ content }) => {
             title={SECTION_TITLES[key]}
             icon={SECTION_ICONS[key] || <FileText className="w-4 h-4 text-ink-muted" />}
             content={parsedData[key]}
-            defaultOpen={key === 'applicable_statutes' || key === 'risk_assessment'}
+            defaultOpen={key === 'applicable_statutes' || key === 'retrieved_sources' || key === 'external_sources'}
           />
         );
       })}
