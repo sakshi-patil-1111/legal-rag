@@ -69,9 +69,27 @@ def _build():
     cache_dir = project_root / "data" / "cache"
     chunker = RecursiveChunker(size=512, overlap=50)
     retrievers, doc_texts, doc_titles, queries = {}, {}, {}, {}
+    extra_path = project_root / "data" / "raw" / "extra_corpus" / \
+        "statutes.jsonl"
     for task in TASKS:
         qs, docs = load_il_pcsr(data_root, "dev", task)
         queries[task] = qs
+        if task == "statute" and extra_path.exists():
+            import json as _json
+
+            from legal_rag.schemas import LegalDocument
+            extra = [
+                LegalDocument(
+                    doc_id=d["doc_id"], doc_type="statute",
+                    title=d["title"], raw_text=d["raw_text"],
+                    source="extra_corpus",
+                    metadata={"section_heading":
+                              d.get("section_heading", "")})
+                for d in map(_json.loads, extra_path.open())
+            ]
+            docs = docs + extra
+            print(f"[init] +{len(extra):,} expanded-corpus statute "
+                  f"sections", flush=True)
         doc_texts[task] = {d.doc_id: d.raw_text for d in docs}
         doc_titles[task] = {d.doc_id: d.title for d in docs}
         h = hashlib.sha256()
@@ -433,9 +451,10 @@ def _nyaay_content(dossier: dict, evidence: dict, case_text: str,
             })
 
     grounding = (
-        f"Grounded on {n_s} retrieved statutes and {n_p} retrieved "
-        f"precedents from the IL-PCSR corpus; every citation above was "
-        "validated against the retrieved document set."
+        f"Grounded on {n_s} retrieved statute sections and {n_p} "
+        "retrieved precedents (IL-PCSR benchmark corpus + expanded "
+        "central-act corpus); every citation above was validated "
+        "against the retrieved document set."
     )
     if external:
         grounding += (" Corpus evidence was weak — see the external "

@@ -139,7 +139,7 @@ class LegalAgent:
             f"Retrieved candidates:\n" + "\n".join(summary_parts)
         )
         try:
-            resp = self.llm.generate(prompt, system=REFLECT_SYSTEM, temperature=0.0, max_tokens=300)
+            resp = self.llm.generate(prompt, system=REFLECT_SYSTEM, temperature=0.0, max_tokens=800)
         except Exception:
             return None
         verdict = _extract_json(resp.text) or {}
@@ -171,7 +171,7 @@ class LegalAgent:
             + "\n\n".join(blocks)
         )
         try:
-            resp = self.llm.generate(prompt, system=SYNTH_SYSTEM, temperature=0.2, max_tokens=1500)
+            resp = self.llm.generate(prompt, system=SYNTH_SYSTEM, temperature=0.2, max_tokens=4000)
         except Exception as exc:
             return {"issue": "", "analysis": f"LLM synthesis unavailable: {exc}",
                     "suggested_action": "", "applicable_statutes": [],

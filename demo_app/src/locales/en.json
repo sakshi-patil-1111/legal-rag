@@ -152,7 +152,7 @@
       "eyebrow": "CASE STRATEGY",
       "titleLine1": "Build both sides",
       "titleLine2": "of your case.",
-      "subtitle": "Evidence-grounded legal analysis over the IL-PCSR corpus.",
+      "subtitle": "Evidence-grounded legal analysis over Indian central acts and IL-PCSR precedents.",
       "action1": "Contract Dispute",
       "action2": "Eviction Notice",
       "action3": "BNS Analysis"
@@ -162,7 +162,7 @@
   },
   "chatInput": {
     "placeholder": "Describe your legal situation...",
-    "footerDisclaimer": "NYAAY AI · Grounded in IL-PCSR: 936 statutes · 3,183 precedents · Verified citations"
+    "footerDisclaimer": "NYAAY AI · 303 central acts + IL-PCSR precedents · Verified citations"
   },
   "chatSidebar": {
     "pinned": "Pinned",
