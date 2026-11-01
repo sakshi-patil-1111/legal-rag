@@ -416,12 +416,17 @@ def _nyaay_content(dossier: dict, evidence: dict, case_text: str,
         grounding += (" Corpus evidence was weak — see the external "
                       "references below, which are NOT corpus-grounded.")
 
+    # The first card is THE ANSWER: framed issue + corpus-grounded
+    # analysis; external context appended when the web fallback fired.
+    answer = f"**Issue.** {issue}\n\n{dossier.get('analysis', '')}"
+    if supplementary:
+        answer += ("\n\n**External context (not corpus-grounded).** "
+                   + supplementary)
+
     doc = {
-        "executive_summary": issue,
-        "primary_legal_issues": [issue] if issue else [],
+        "executive_summary": answer,
         "applicable_statutes": statutes,
         "judicial_precedents": precedents,
-        "evidence_analysis": dossier.get("analysis", ""),
         "retrieved_sources": retrieved_sources,
         "confidence_summary": grounding,
         "external_sources": external or [],

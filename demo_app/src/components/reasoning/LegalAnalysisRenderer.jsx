@@ -26,12 +26,10 @@ import StreamingText from '../common/StreamingText';
 const SECTION_ICONS = {
   executive_summary: <Target className="w-4 h-4 text-accent" />,
   chronological_timeline: <FileText className="w-4 h-4 text-ink-muted" />,
-  primary_legal_issues: <Scale className="w-4 h-4 text-accent" />,
   applicable_statutes: <Landmark className="w-4 h-4 text-blue-700" />,
   judicial_precedents: <Gavel className="w-4 h-4 text-ink" />,
   arguments_for: <ShieldCheck className="w-4 h-4 text-emerald-700" />,
   arguments_against: <ShieldAlert className="w-4 h-4 text-amber-700" />,
-  evidence_analysis: <FileText className="w-4 h-4 text-ink-muted" />,
   risk_assessment: <AlertCircle className="w-4 h-4 text-amber-700" />,
   retrieved_sources: <Library className="w-4 h-4 text-blue-700" />,
   confidence_summary: <Scale className="w-4 h-4 text-emerald-700" />,
@@ -41,14 +39,12 @@ const SECTION_ICONS = {
 };
 
 const SECTION_TITLES = {
-  executive_summary: "Executive Summary",
+  executive_summary: "Answer",
   chronological_timeline: "Chronological Timeline",
-  primary_legal_issues: "Primary Legal Issues",
   applicable_statutes: "Applicable Statutes & Grounded Sections",
   judicial_precedents: "Judicial Precedents & Case Law",
   arguments_for: "Arguments in Favor (Your Position)",
   arguments_against: "Arguments Against (Opposing Position)",
-  evidence_analysis: "Evidentiary Analysis (BSA 2023)",
   risk_assessment: "Litigation Risk & Exposure Evaluation",
   retrieved_sources: "Retrieved Evidence & Relevant Passages",
   confidence_summary: "Confidence & Statutory Grounding Score",
@@ -229,17 +225,7 @@ const LegalAnalysisRenderer = ({ content }) => {
         />
       )}
 
-      {/* 2. Primary Legal Issues */}
-      {parsedData.primary_legal_issues && (
-        <AnalysisCard 
-          title={SECTION_TITLES.primary_legal_issues}
-          icon={SECTION_ICONS.primary_legal_issues}
-          content={parsedData.primary_legal_issues}
-          defaultOpen={true}
-        />
-      )}
-
-      {/* 3. SIGNATURE TWO-COLUMN FOR / AGAINST COMPARATIVE SPLIT */}
+      {/* 2. SIGNATURE TWO-COLUMN FOR / AGAINST COMPARATIVE SPLIT */}
       {hasBothArguments && (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {/* FOR Column */}
@@ -282,7 +268,7 @@ const LegalAnalysisRenderer = ({ content }) => {
 
       {/* 4. Other Analysis Sections */}
       {Object.keys(SECTION_TITLES).map(key => {
-        if (key === 'executive_summary' || key === 'primary_legal_issues' || key === 'cross_module_links') return null;
+        if (key === 'executive_summary' || key === 'cross_module_links') return null;
         if (hasBothArguments && (key === 'arguments_for' || key === 'arguments_against')) return null;
         if (!parsedData[key]) return null;
 
