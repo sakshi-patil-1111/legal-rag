@@ -30,7 +30,11 @@ REFLECT_SYSTEM = (
     "You are the reflection component of a legal case-analysis agent. "
     "Given a case description and the candidates retrieved so far, decide "
     "whether the evidence is sufficient to answer. If not, provide refined "
-    "search queries. Respond with JSON only: "
+    "search queries. Retrieval is lexical (BM25 over section text): write "
+    "queries using the doctrinal terms and phrases likely to appear inside "
+    "the relevant statutory or judicial text — e.g. 'culpable homicide "
+    "intention of causing death' rather than section numbers, which do not "
+    "appear in section bodies. Respond with JSON only: "
     '{"sufficient": true|false, "statute": "<query or null>", '
     '"precedent": "<query or null>"}.'
 )
@@ -125,7 +129,12 @@ class LegalAgent:
 
     def _reflect(
         self, case_text: str, evidence: dict[str, dict[str, float]],
-    ) -> dict[str, str] | None:
+    ) -> tuple[bool, dict[str, str]]:
+        """Judge retrieval sufficiency; on failure propose refined queries.
+
+        Returns (sufficient, refined_queries). Errors and unparseable
+        verdicts fail open as sufficient — an LLM outage must not mark
+        good evidence insufficient."""
         summary_parts = []
         for task, ev in evidence.items():
             titles = self.doc_titles.get(task, {})
@@ -141,16 +150,16 @@ class LegalAgent:
         try:
             resp = self.llm.generate(prompt, system=REFLECT_SYSTEM, temperature=0.0, max_tokens=800)
         except Exception:
-            return None
+            return True, {}
         verdict = _extract_json(resp.text) or {}
-        if verdict.get("sufficient"):
-            return None
+        if verdict.get("sufficient", True):
+            return True, {}
         refined = {}
         for task in self.retrievers:
             q = verdict.get(task)
             if isinstance(q, str) and q.strip():
                 refined[task] = q.strip()
-        return refined or None
+        return False, refined
 
     def _synthesize(
         self, case_text: str, evidence: dict[str, dict[str, float]],
@@ -216,13 +225,13 @@ class LegalAgent:
 
         for rnd in range(1, self.max_extra_rounds + 1):
             t0 = time.perf_counter()
-            refined = self._reflect(case_text, evidence)
+            sufficient, refined = self._reflect(case_text, evidence)
             trace.append(AgentStep(
                 "reflect",
-                {"round": rnd, "sufficient": refined is None, "refined": refined},
+                {"round": rnd, "sufficient": sufficient, "refined": refined},
                 time.perf_counter() - t0,
             ))
-            if refined is None:
+            if sufficient or not refined:
                 break
             t0 = time.perf_counter()
             self._retrieve(refined, evidence)

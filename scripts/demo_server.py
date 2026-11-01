@@ -250,9 +250,10 @@ def _conv_summary(c: dict) -> dict:
 
 def _synth_pipeline(case_text: str, tasks: tuple = TASKS):
     """Raw-text retrieval + LLM synthesis — the config our ablations
-    recommend — with a reflection gate on borderline retrieval: when the
-    top hit is weak the LLM judges sufficiency and may re-route with
-    refined queries before synthesis. Returns
+    recommend — plus an agentic retry loop: the LLM judges retrieval
+    sufficiency on every query, reformulates and re-retrieves once when
+    it finds the evidence lacking, and only then is weak evidence routed
+    to the web fallback. Returns
     (evidence, dossier, warnings, trace, insufficient)."""
     from legal_rag.legal_agent import AgentStep
     agent = LegalAgent(
@@ -270,24 +271,32 @@ def _synth_pipeline(case_text: str, tasks: tuple = TASKS):
                         "counts": {t: len(e) for t, e in evidence.items()}},
                        time.perf_counter() - t0)]
 
-    # Reflection gate — one extra LLM call only when retrieval looks
-    # borderline, keeping strong cases on the fast path.
-    top = 0.0
-    for hits in evidence.values():
-        for _d, s in hits.items():
-            top = max(top, float(s))
-    insufficient = False
-    if top < 15.0:
+    # Agentic retry loop — the LLM judges whether the retrieved evidence
+    # actually answers the query (score-blind: BM25 can rank the wrong
+    # act highly). On a negative verdict it writes refined queries for
+    # one re-retrieval round, then re-judges the merged evidence. The
+    # post-retry verdict drives the web fallback downstream.
+    t0 = time.perf_counter()
+    sufficient, refined = agent._reflect(case_text, evidence)
+    trace.append(AgentStep(
+        "reflect",
+        {"round": 1, "sufficient": sufficient, "refined": refined},
+        time.perf_counter() - t0))
+    if not sufficient and refined:
         t0 = time.perf_counter()
-        refined = agent._reflect(case_text, evidence)
-        insufficient = refined is not None
-        if refined:
-            agent._retrieve({t: q for t, q in refined.items()
-                             if t in tasks}, evidence)
+        agent._retrieve({t: q for t, q in refined.items()
+                         if t in tasks}, evidence)
         trace.append(AgentStep(
-            "reflect",
-            {"sufficient": not insufficient, "refined": bool(refined)},
+            "retrieve",
+            {"queries": refined,
+             "counts": {t: len(e) for t, e in evidence.items()}},
             time.perf_counter() - t0))
+        t0 = time.perf_counter()
+        sufficient, _ = agent._reflect(case_text, evidence)
+        trace.append(AgentStep(
+            "reflect", {"round": 2, "sufficient": sufficient},
+            time.perf_counter() - t0))
+    insufficient = not sufficient
 
     t0 = time.perf_counter()
     dossier = agent._synthesize(case_text, evidence)
