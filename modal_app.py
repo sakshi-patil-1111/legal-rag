@@ -26,6 +26,7 @@ image = (
         "bm25s>=0.2",
         "torch",
         "sentence-transformers>=3.0",
+        "accelerate>=1.1.0",
         "tqdm",
         "python-dotenv",
         "datasets",
@@ -120,6 +121,56 @@ def run_experiment(config_name: str) -> dict:
     if proc.returncode != 0:
         raise RuntimeError(f"{config_name} failed rc={proc.returncode}: {proc.stderr[-2000:]}")
     return {"config": config_name, "tail": proc.stdout[-3000:]}
+
+
+@app.function(
+    image=image,
+    gpu="A10G",
+    volumes={"/vol/data": data_vol, "/vol/out": results_vol, "/vol/hf": hf_vol},
+    env={"HF_HOME": "/vol/hf/hub"},
+    secrets=[modal.Secret.from_name("legal-rag-hf")],
+    timeout=6 * 3600,
+)
+def run_finetune(model: str = "Qwen/Qwen3-Embedding-0.6B",
+                 epochs: int = 1, batch: int = 4) -> dict:
+    """Contrastive FT on the train split + dev eval (A10G 24GB headroom)."""
+    import os
+    import subprocess
+    import sys
+
+    os.makedirs("/app/data/raw", exist_ok=True)
+    if not os.path.exists("/app/data/raw/il_pcsr"):
+        os.symlink("/vol/data/il_pcsr", "/app/data/raw/il_pcsr")
+    if not os.path.exists("/app/results"):
+        os.symlink("/vol/out", "/app/results")
+
+    proc = subprocess.run(
+        [sys.executable, "scripts/finetune_embedder.py",
+         "--model", model, "--epochs", str(epochs), "--batch", str(batch)],
+        cwd="/app", capture_output=True, text=True,
+    )
+    print(proc.stdout[-8000:])
+    if proc.stderr:
+        print(proc.stderr[-4000:], file=sys.stderr)
+    results_vol.commit()
+    hf_vol.commit()
+    if proc.returncode != 0:
+        raise RuntimeError(f"finetune failed rc={proc.returncode}: "
+                           f"{proc.stderr[-2000:]}")
+    return {"tail": proc.stdout[-3000:]}
+
+
+@app.local_entrypoint()
+def ft(model: str = "Qwen/Qwen3-Embedding-0.6B",
+       epochs: int = 1, batch: int = 4):
+    """modal run modal_app.py::ft [--model ... --epochs 1 --batch 4]"""
+    call = run_finetune.spawn(model, epochs, batch)
+    print("spawned finetune; waiting...")
+    try:
+        res = call.get()
+        print(f"[DONE]\n{res['tail'][-2000:]}")
+    except Exception as e:  # noqa: BLE001
+        print(f"[FAIL] {e}")
 
 
 @app.local_entrypoint()

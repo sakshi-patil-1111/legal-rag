@@ -41,7 +41,11 @@ class LLMProvider:
         model: str | None = None,
     ):
         self.provider = provider or os.getenv("LLM_PROVIDER", "gemini")
-        self.api_key = api_key or os.getenv("GEMINI_API_KEY") or os.getenv("LLM_API_KEY", "")
+        if self.provider == "gemini":
+            default_key = os.getenv("GEMINI_API_KEY", "")
+        else:
+            default_key = os.getenv("LLM_API_KEY") or os.getenv("OPENAI_API_KEY", "")
+        self.api_key = api_key or default_key
         self.base_url = base_url or os.getenv("LLM_BASE_URL", "")
         self.model = model or os.getenv("LLM_MODEL", "gemini-3.8-flash")
 
@@ -56,6 +60,13 @@ class LLMProvider:
         if self.provider == "gemini":
             return self._generate_gemini(prompt, system, temperature, max_tokens)
         else:
+            if reasoning_effort is None and self.model.startswith(
+                ("o1", "o3", "o4", "gpt-5", "gpt-6")
+            ):
+                # reasoning models reject temperature and want
+                # max_completion_tokens; callers that don't opt in
+                # still need a valid request shape
+                reasoning_effort = "low"
             return self._generate_openai_compat(
                 prompt, system, temperature, max_tokens, reasoning_effort,
             )

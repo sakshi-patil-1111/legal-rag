@@ -108,7 +108,7 @@ def main() -> None:
         learning_rate=args.lr,
         optim="adafactor",
         warmup_ratio=0.05,
-        fp16=True,
+        bf16=True,  # A10G native; bf16 needs no GradScaler (unlike fp16)
         gradient_checkpointing=True,
         gradient_checkpointing_kwargs={"use_reentrant": False},
         logging_steps=50,
