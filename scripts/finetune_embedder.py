@@ -88,6 +88,7 @@ def main() -> None:
     model = SentenceTransformer(
         args.model,
         tokenizer_kwargs={"padding_side": "left"},
+        model_kwargs={"torch_dtype": "float32"},
     )
     model.max_seq_length = args.max_length
     try:
@@ -108,7 +109,8 @@ def main() -> None:
         learning_rate=args.lr,
         optim="adafactor",
         warmup_ratio=0.05,
-        bf16=True,  # A10G native; bf16 needs no GradScaler (unlike fp16)
+        fp16=False,  # ST args default fp16=True; a scaler cannot unscale bf16
+        bf16=True,   # A10G native; bf16 needs no GradScaler (unlike fp16)
         gradient_checkpointing=True,
         gradient_checkpointing_kwargs={"use_reentrant": False},
         logging_steps=50,

@@ -54,3 +54,6 @@ arXiv-2511.00268v1/
 # latex build output
 report.pdf
 report.aux
+demo_app/node_modules/
+demo_app/dist/
+data/demo_conversations.json

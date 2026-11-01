@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NYAAY — Agentic Legal RAG</title>
+<style>
+  :root{
+    --bg:#0d1117; --panel:#161b22; --panel2:#1c2330; --border:#2d3339;
+    --txt:#e6edf3; --dim:#8b949e; --accent:#c9a227; --accent2:#3b82f6;
+    --ok:#3fb950; --warn:#d29922; --bad:#f85149;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--txt);font:14px/1.5 "Segoe UI",system-ui,sans-serif;height:100vh;display:flex;flex-direction:column}
+  header{padding:12px 20px;border-bottom:1px solid var(--border);display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+  header h1{font-size:18px;font-weight:600;letter-spacing:.5px}
+  header h1 span{color:var(--accent)}
+  .badge{font-size:11px;padding:2px 9px;border:1px solid var(--border);border-radius:20px;color:var(--dim)}
+  .badge.gold{color:var(--accent);border-color:var(--accent)}
+  main{flex:1;display:grid;grid-template-columns:420px 1fr;min-height:0}
+  .left{border-right:1px solid var(--border);padding:16px;display:flex;flex-direction:column;gap:12px;overflow-y:auto}
+  .right{padding:16px;overflow-y:auto}
+  textarea{width:100%;min-height:220px;background:var(--panel);border:1px solid var(--border);border-radius:8px;color:var(--txt);padding:10px;font:12px/1.5 ui-monospace,monospace;resize:vertical}
+  .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+  select,button{background:var(--panel2);border:1px solid var(--border);color:var(--txt);border-radius:6px;padding:7px 12px;font-size:13px;cursor:pointer}
+  button.primary{background:var(--accent);border-color:var(--accent);color:#111;font-weight:600}
+  button:disabled{opacity:.4;cursor:wait}
+  fieldset{border:1px solid var(--border);border-radius:8px;padding:10px}
+  legend{font-size:11px;color:var(--dim);padding:0 6px;text-transform:uppercase;letter-spacing:1px}
+  label{display:flex;gap:6px;align-items:flex-start;font-size:12px;cursor:pointer;padding:4px 0}
+  label small{color:var(--dim);display:block}
+  h2{font-size:13px;text-transform:uppercase;letter-spacing:1px;color:var(--dim);margin:14px 0 8px}
+  .card{background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:12px;margin-bottom:10px}
+  .card .id{color:var(--accent2);font-family:ui-monospace,monospace;font-size:12px}
+  .card .score{float:right;color:var(--dim);font-size:11px}
+  .card .title{color:var(--txt);font-size:12px;margin:4px 0}
+  .card .snip{color:var(--dim);font-size:11px}
+  .dossier{border-color:var(--accent)}
+  .dossier h3{font-size:14px;margin-bottom:8px}
+  .dossier .sec{margin:8px 0;font-size:13px}
+  .dossier .sec b{color:var(--accent)}
+  .cite{display:inline-block;background:var(--panel2);border:1px solid var(--border);border-radius:5px;padding:2px 7px;margin:2px;font-size:11px;font-family:ui-monospace,monospace}
+  .cite.ok{border-color:var(--ok)}
+  .cite.ok::after{content:" ✓";color:var(--ok)}
+  .step{display:inline-block;background:var(--panel2);border:1px solid var(--border);border-radius:6px;padding:4px 10px;margin:3px;font-size:11px}
+  .step b{color:var(--accent2);text-transform:capitalize}
+  .warn{background:#2d2116;border:1px solid var(--warn);border-radius:6px;padding:8px 10px;font-size:12px;color:var(--warn);margin:8px 0}
+  .empty{color:var(--dim);font-style:italic;text-align:center;padding:40px}
+  .spin{display:inline-block;width:12px;height:12px;border:2px solid var(--dim);border-top-color:var(--accent);border-radius:50%;animation:sp .8s linear infinite;vertical-align:middle;margin-right:6px}
+  @keyframes sp{to{transform:rotate(360deg)}}
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  footer{padding:6px 20px;border-top:1px solid var(--border);font-size:11px;color:var(--dim)}
+</style>
+</head>
+<body>
+<header>
+  <h1>NYAAY <span>·</span> Agentic Legal RAG</h1>
+  <span class="badge gold">IL-PCSR dev corpus</span>
+  <span class="badge">legs: BM25 2-gram ×2</span>
+  <span class="badge" id="llmbadge">llm: —</span>
+</header>
+<main>
+  <div class="left">
+    <div class="row">
+      <select id="sampleSel"><option value="">— load a dev query —</option></select>
+      <button id="loadSample">Load</button>
+    </div>
+    <textarea id="caseText" placeholder="Paste a case description (facts, issues, procedural history)…"></textarea>
+    <fieldset><legend>Mode</legend>
+      <label><input type="radio" name="mode" value="single_shot">
+        <span>single_shot<small>raw text → BM25, evidence only (no LLM)</small></span></label>
+      <label><input type="radio" name="mode" value="agent_synth" checked>
+        <span>agent_synth<small>raw-text retrieve → LLM dossier + citation validation — evidence-recommended config</small></span></label>
+      <label><input type="radio" name="mode" value="agent_full">
+        <span>agent_full<small>LLM route → retrieve → reflect → dossier (full loop; reformulation hurt PCR in evals)</small></span></label>
+    </fieldset>
+    <fieldset><legend>Corpora</legend>
+      <label><input type="checkbox" id="tStatute" checked> statutes (936)</label>
+      <label><input type="checkbox" id="tPrecedent" checked> precedents (3,183)</label>
+    </fieldset>
+    <button class="primary" id="go">Analyse case</button>
+  </div>
+  <div class="right" id="results">
+    <div class="empty">Run an analysis — evidence, trace and the validated dossier appear here.</div>
+  </div>
+</main>
+<footer id="foot">retrieval legs: BM25 2-gram over IL-PCSR dev (honest labels — what's running is what's labelled)</footer>
+<script>
+const $=s=>document.querySelector(s);
+let SAMPLES={};
+
+fetch('/api/samples').then(r=>r.json()).then(d=>{
+  SAMPLES=d;
+  for(const t in d)for(const s of d[t]){
+    const o=document.createElement('option');
+    o.value=t+':'+s.n;o.textContent=`${t} — ${s.qid}`;
+    $('#sampleSel').appendChild(o);
+  }
+});
+
+// #demo: autoload a real dev query and run agent_synth (for headless
+// screenshots and one-click video demos)
+if(location.hash==='#demo'){(async()=>{
+  const r=await fetch('/api/sample?task=precedent&idx=3').then(r=>r.json());
+  $('#caseText').value=r.text;
+  document.querySelector('input[value=agent_synth]').checked=true;
+  $('#go').click();
+})();}
+
+$('#loadSample').onclick=async()=>{
+  const v=$('#sampleSel').value;if(!v)return;
+  const[t,i]=v.split(':');
+  const r=await fetch(`/api/sample?task=${t}&idx=${i}`).then(r=>r.json());
+  $('#caseText').value=r.text;
+};
+
+$('#go').onclick=async()=>{
+  const tasks=[];if($('#tStatute').checked)tasks.push('statute');
+  if($('#tPrecedent').checked)tasks.push('precedent');
+  const mode=document.querySelector('input[name=mode]:checked').value;
+  const text=$('#caseText').value.trim();
+  if(!text){$('#results').innerHTML='<div class="empty">Enter a case description first.</div>';return}
+  $('#go').disabled=true;
+  $('#results').innerHTML='<div class="empty"><span class="spin"></span>running '+mode+'…</div>';
+  try{
+    const r=await fetch('/api/analyze',{method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({case_text:text,mode,tasks})}).then(r=>r.json());
+    $('#llmbadge').textContent='llm: '+r.llm;
+    render(r);
+  }catch(e){
+    $('#results').innerHTML='<div class="empty">request failed: '+e+'</div>';
+  }
+  $('#go').disabled=false;
+};
+
+function esc(s){const d=document.createElement('div');d.textContent=s??'';return d.innerHTML}
+function cites(items,cls){
+  if(!items||!items.length)return'<span class="snip">none cited</span>';
+  return items.map(c=>`<span class="cite ${cls}">${esc(c.id||c)}</span>`).join('');
+}
+function docCards(list){
+  if(!list||!list.length)return'<div class="empty">no evidence</div>';
+  return list.map(d=>`<div class="card"><span class="score">${d.score}</span>
+    <div class="id">${esc(d.id)}</div>
+    <div class="title">${esc(d.title)}</div>
+    <div class="snip">${esc(d.snippet)}…</div></div>`).join('');
+}
+function render(r){
+  let h=`<h2>trace · ${esc(r.mode)} · ${r.wall_s}s</h2><div>`;
+  if(r.trace&&r.trace.length)
+    h+=r.trace.map(s=>`<span class="step"><b>${s.step}</b> ${s.latency_s}s</span>`).join('');
+  else h+='<span class="snip">no LLM steps in this mode</span>';
+  h+='</div>';
+  h+='<div class="cols">';
+  for(const t of r.tasks)
+    h+=`<div><h2>${t} evidence (top ${r.evidence[t].length})</h2>${docCards(r.evidence[t])}</div>`;
+  h+='</div>';
+  const d=r.dossier||{};
+  if(d.issue||d.analysis||d.applicable_statutes){
+    h+=`<h2>grounded dossier</h2><div class="card dossier">
+      <div class="sec"><b>Issue:</b> ${esc(d.issue)}</div>
+      <div class="sec"><b>Applicable statutes:</b><br>${cites(d.applicable_statutes,'ok')}</div>
+      <div class="sec"><b>Supporting precedents:</b><br>${cites(d.supporting_precedents,'ok')}</div>
+      <div class="sec"><b>Analysis:</b><br>${esc(d.analysis)}</div>
+      <div class="sec"><b>Suggested action:</b> ${esc(d.suggested_action)}</div></div>`;
+  }
+  for(const w of r.warnings||[])h+=`<div class="warn">⚠ ${esc(w)}</div>`;
+  $('#results').innerHTML=h;
+}
+</script>
+</body>
+</html>
