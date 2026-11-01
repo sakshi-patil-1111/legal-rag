@@ -175,48 +175,34 @@ def main() -> None:
             )
 
         # -------- ColBERT MaxSim rerank over union pools --------
+        # encode each query's pool on the fly; storing all pooled colbert
+        # vectors (~20K x 700tok x 1024dim) OOMs host RAM
         import torch
 
-        needed = sorted({ci for pool in pools for ci in pool})
-        print(
-            f"[{task}] encoding colbert for {len(needed):,} pooled chunks...",
-            flush=True,
-        )
-        t0 = time.time()
-        col_vecs: dict[int, np.ndarray] = {}
-        B = 8
-        for i in range(0, len(needed), B):
-            batch_ids = needed[i : i + B]
-            batch_out = model.encode(
-                [texts[ci] for ci in batch_ids],
-                batch_size=len(batch_ids),
-                max_length=1024,
-                return_dense=False,
-                return_sparse=False,
-                return_colbert_vecs=True,
-            )
-            for ci, v in zip(batch_ids, batch_out["colbert_vecs"]):
-                col_vecs[ci] = v
-        print(f"[{task}] colbert encoded in {(time.time() - t0) / 60:.1f} min", flush=True)
-
         col_rankings = []
+        t0 = time.time()
         for qi in range(len(dq)):
-            qc = model.encode(
-                [dq[qi].text],
-                batch_size=1,
-                max_length=4096,
+            if qi % 100 == 0:
+                print(f"[{task}] colbert rerank {qi}/{len(dq)} "
+                      f"({(time.time() - t0) / 60:.0f} min)", flush=True)
+            enc = model.encode(
+                [dq[qi].text] + [texts[ci] for ci in pools[qi]],
+                batch_size=4,
+                max_length=2048,
                 return_dense=False,
                 return_sparse=False,
                 return_colbert_vecs=True,
-            )["colbert_vecs"][0]
-            qv = torch.tensor(qc, dtype=torch.float32)
+            )["colbert_vecs"]
+            qv = torch.tensor(enc[0], dtype=torch.float16)
             scores = []
-            for ci in pools[qi]:
-                dv = torch.tensor(col_vecs[ci], dtype=torch.float32)
+            for ci, dv_np in zip(pools[qi], enc[1:]):
+                dv = torch.tensor(dv_np, dtype=torch.float16)
                 sim = qv @ dv.T  # (q_tok, d_tok)
                 scores.append((float(sim.max(dim=1).values.sum()), ci))
             order = [ci for _, ci in sorted(scores, reverse=True)]
             col_rankings.append(dedup_chunk_ranking(order, args.eval_topk))
+        print(f"[{task}] colbert rerank done in {(time.time() - t0) / 60:.1f} min",
+              flush=True)
         m = aggregate(col_rankings, truths, args.eval_topk)
         report(f"bge-m3 {task} colbert_rerank", m)
         (Path(args.out) / f"{task}_colbert_rerank_summary.json").write_text(

@@ -87,7 +87,6 @@ def main() -> None:
 
     model = SentenceTransformer(
         args.model,
-        model_kwargs={"dtype": "float16"},
         tokenizer_kwargs={"padding_side": "left"},
     )
     model.max_seq_length = args.max_length
