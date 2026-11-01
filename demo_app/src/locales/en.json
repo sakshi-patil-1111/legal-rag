@@ -152,7 +152,7 @@
       "eyebrow": "CASE STRATEGY",
       "titleLine1": "Build both sides",
       "titleLine2": "of your case.",
-      "subtitle": "Evidence-grounded legal analysis over Indian central acts and IL-PCSR precedents.",
+      "subtitle": "Evidence-grounded legal analysis over Indian Central Acts and case-law precedents.",
       "action1": "Contract Dispute",
       "action2": "Eviction Notice",
       "action3": "BNS Analysis"
@@ -162,7 +162,7 @@
   },
   "chatInput": {
     "placeholder": "Describe your legal situation...",
-    "footerDisclaimer": "NYAAY AI · 303 central acts + IL-PCSR precedents · Verified citations"
+    "footerDisclaimer": "NYAAY AI · Indian Central Acts & case-law precedents · Verified citations"
   },
   "chatSidebar": {
     "pinned": "Pinned",
@@ -269,10 +269,10 @@
       "title2": "A Companion to Justice. ⚖️",
       "subtitle": "From laws to landmark judgments — making India’s legal knowledge easier to find, understand, and access.",
       "cta_start": "Describe your problem",
-      "cta_explore": "Browse the 93 Bare Acts",
+      "cta_explore": "Browse Indian Central Acts",
       "civic_empowerment": "Civic empowerment",
       "build_id": "NYAAY-RAG-2026",
-      "acts_indexed": "93 Indian Bare Acts indexed",
+      "acts_indexed": "Indian Central Acts & case law indexed",
       "fast_answers": "100% Statute-Grounded Answers",
       "try_label": "TRY:",
       "try_rti_query": "I filed an RTI application 38 days ago with the Municipal Corporation regarding road repair tender. No response received.",
@@ -283,7 +283,7 @@
       },
       "tile2": {
         "title": "Every claim traced to a statute",
-        "desc": "Hybrid retrieval across 93 Acts — meaning and keyword search, fused."
+        "desc": "Hybrid retrieval across Indian Central Acts — meaning and keyword search, fused."
       },
       "tile3": {
         "title": "You leave with a filled-in draft",
@@ -291,7 +291,7 @@
       },
       "tile4": {
         "title": "Dense + sparse hybrid search",
-        "desc": "Chroma vectors fused with BM25 keyword matching across 93 Bare Acts."
+        "desc": "BM25 and dense retrieval across Indian Central Acts and case-law precedents."
       },
       "tile5": {
         "title": "Zero hallucinated citations",
@@ -309,7 +309,7 @@
     },
     "fallback": {
       "title": "3D STATUTORY ARRAY",
-      "subtitle": "Loading 93 Indian Bare Acts model…"
+      "subtitle": "Loading Indian Central Acts & case-law corpus…"
     },
     "scenarios": {
       "rti": {
@@ -362,7 +362,7 @@
         "name": "Problem & Rights",
         "badge": "GROUNDED STATUTE",
         "title": "Statutory Shield & Rights Identification",
-        "description": "Zero-hallucination extraction of enforceable citizen rights directly mapped to exact legislative Sections from the 93 Indian Bare Acts.",
+        "description": "Zero-hallucination extraction of enforceable citizen rights directly mapped to exact legislative Sections from Indian Central Acts.",
         "dossierHighlight": "Section 7(2) RTI Act: Deemed Refusal invokes immediate First Appellate Authority jurisdiction without fresh fees."
       },
       "part2": {
@@ -411,9 +411,9 @@
       },
       "rights": {
         "name": "Rights Navigator",
-        "desc": "Translates messy disputes (tenant evictions, consumer defects, unpaid wages) into simple terms backed by citations from 93 Bare Acts and evidence checklists.",
+        "desc": "Translates messy disputes (tenant evictions, consumer defects, unpaid wages) into simple terms backed by citations from Indian Central Acts and case-law precedents, plus evidence checklists.",
         "cta": "Explore Rights Dossier",
-        "badge": "EVIDENCE & 93 ACTS",
+        "badge": "EVIDENCE & STATUTES",
         "preset_query": "Authorized service center rejected warranty repair on my 4-month-old laptop claiming customer fault without technical diagnostic inspection."
       },
       "schemes": {
@@ -442,7 +442,7 @@
         },
         "rights": {
           "label": "PREVIEW // RIGHTS & EVIDENCE DOSSIER",
-          "badge": "93 BARE ACT CITATION",
+          "badge": "STATUTE CITATION",
           "act": "Consumer Protection Act 2019 · Sec 84",
           "item1": "Mandatory: Tax Invoice",
           "item2": "Mandatory: Job-Sheet",
@@ -480,9 +480,9 @@
     },
     "repository": {
       "badge": "KNOWLEDGE BASE",
-      "title": "Explore the 93 Indian Bare Acts Catalog",
+      "title": "Explore the Indian Central Acts Catalog",
       "subtitle": "From the Constitution of India to the Consumer Protection Act 2019, Transfer of Property Act 1882, and modern procedural enactments.",
-      "cta": "OPEN 93 ACTS REPOSITORY"
+      "cta": "OPEN ACTS REPOSITORY"
     },
     "scroll_reveal": {
       "badge": "CIVIC REALITY & PROBLEM STATEMENT",
@@ -514,7 +514,7 @@
       "signup": "Create account"
     },
     "acts": {
-      "heading": "93 Grounded Bare Acts",
+      "heading": "Grounded Central Acts",
       "rti": {
         "title": "RTI Act, 2005",
         "desc": "Sec 7(1) & Sec 19 Appellate Forum"
@@ -653,7 +653,7 @@
       "civic": {
         "workflow": "CASE INTAKE",
         "name": "Civic Navigator",
-        "desc": "RTI, Consumer, Tenant — 5-part dossiers from 93 Bare Acts."
+        "desc": "RTI, Consumer, Tenant — 5-part dossiers from Indian Central Acts."
       },
       "kanoon": {
         "workflow": "STATUTE RESEARCH",
@@ -694,7 +694,7 @@
   },
   "convergence": {
     "header": {
-      "title": "THE CONVERGENCE // 93 → 34 → 1",
+      "title": "THE CONVERGENCE",
       "subtitle": "Deterministic Statutory Lock"
     },
     "status": {
@@ -720,7 +720,7 @@
     "loading": "Loading"
   },
   "bareActs": {
-    "statutoryRepository": "STATUTORY REPOSITORY // 93 BARE ACTS",
+    "statutoryRepository": "STATUTORY REPOSITORY // INDIAN CENTRAL ACTS",
     "indianLegislativeDatabase": "INDIAN LEGISLATIVE DATABASE",
     "groundingIndexTitle": "Indian Bare Acts Grounding Index",
     "allCategories": "ALL CATEGORIES",

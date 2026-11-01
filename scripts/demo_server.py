@@ -461,8 +461,8 @@ def _nyaay_content(dossier: dict, evidence: dict, case_text: str,
 
     grounding = (
         f"Grounded on {n_s} retrieved statute sections and {n_p} "
-        "retrieved precedents (IL-PCSR benchmark corpus + expanded "
-        "central-act corpus); every citation above was validated "
+        "retrieved from Indian Central Acts and case-law precedents; "
+        "every citation above was validated "
         "against the retrieved document set."
     )
     if external:

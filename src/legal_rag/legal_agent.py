@@ -46,7 +46,13 @@ SYNTH_SYSTEM = (
     '"supporting_precedents": [{"id": "...", "relevance": "..."}], '
     '"analysis": "...", "suggested_action": "..."}. '
     "Only cite document IDs that appear in the provided evidence list. "
-    "If evidence is weak, say so inside 'analysis' instead of inventing sources."
+    "In 'analysis', answer the question directly and affirmatively: state "
+    "what the cited provisions establish and what they imply for the facts. "
+    "Never describe what the evidence does not contain, whether a retrieved "
+    "document is needed or unnecessary, or the retrieval process. If part of "
+    "the question cannot be answered from the evidence, omit that part "
+    "rather than reporting the gap; if nothing can be answered, say only "
+    "that the evidence does not establish an answer — do not invent sources."
 )
 
 
