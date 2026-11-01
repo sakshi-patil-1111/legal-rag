@@ -232,7 +232,10 @@ def _conv_summary(c: dict) -> dict:
 
 def _synth_pipeline(case_text: str, tasks: tuple = TASKS):
     """Raw-text retrieval + LLM synthesis — the config our ablations
-    recommend (agent_synth). Returns (evidence, dossier, warnings, trace)."""
+    recommend — with a reflection gate on borderline retrieval: when the
+    top hit is weak the LLM judges sufficiency and may re-route with
+    refined queries before synthesis. Returns
+    (evidence, dossier, warnings, trace, insufficient)."""
     from legal_rag.legal_agent import AgentStep
     agent = LegalAgent(
         {t: _state["retrievers"][t] for t in tasks},
@@ -248,6 +251,26 @@ def _synth_pipeline(case_text: str, tasks: tuple = TASKS):
                        {"queries": {t: "<raw case text>" for t in tasks},
                         "counts": {t: len(e) for t, e in evidence.items()}},
                        time.perf_counter() - t0)]
+
+    # Reflection gate — one extra LLM call only when retrieval looks
+    # borderline, keeping strong cases on the fast path.
+    top = 0.0
+    for hits in evidence.values():
+        for _d, s in hits.items():
+            top = max(top, float(s))
+    insufficient = False
+    if top < 15.0:
+        t0 = time.perf_counter()
+        refined = agent._reflect(case_text, evidence)
+        insufficient = refined is not None
+        if refined:
+            agent._retrieve({t: q for t, q in refined.items()
+                             if t in tasks}, evidence)
+        trace.append(AgentStep(
+            "reflect",
+            {"sufficient": not insufficient, "refined": bool(refined)},
+            time.perf_counter() - t0))
+
     t0 = time.perf_counter()
     dossier = agent._synthesize(case_text, evidence)
     dropped = agent._validate_citations(dossier, evidence)
@@ -255,7 +278,7 @@ def _synth_pipeline(case_text: str, tasks: tuple = TASKS):
                 if dropped else [])
     trace.append(AgentStep("synthesize", {"dossier": dossier},
                            time.perf_counter() - t0))
-    return evidence, dossier, warnings, trace
+    return evidence, dossier, warnings, trace, insufficient
 
 
 _STOPWORDS = {"that", "with", "this", "from", "have", "been", "what",
@@ -305,9 +328,11 @@ def _web_fallback(query_text: str, n: int = 5) -> tuple[list, str | None]:
         payload = {
             "model": model,
             "input": (
-                "Using authoritative public sources (legislation, "
-                "regulators, courts, official commentary), briefly answer "
-                "this legal question and cite your sources: "
+                "Under Indian law (unless the question clearly concerns "
+                "another jurisdiction), using authoritative public "
+                "sources — legislation, regulators, courts, official "
+                "commentary — briefly answer this legal question and "
+                "cite your sources: "
                 + " ".join(query_text.split()[:120])),
             "tools": [{"type": "web_search_preview"}],
         }
@@ -476,18 +501,20 @@ def reasoning_generate(req: ReasoningReq):
         }
         convs.append(conv)
 
-    evidence, dossier, warnings, trace = _synth_pipeline(req.user_facts)
+    evidence, dossier, warnings, trace, insufficient = \
+        _synth_pipeline(req.user_facts)
     citations = _citations_payload(dossier)
 
-    # Weak-evidence gate: no validated citations, or the strongest BM25
-    # hit is noise-level -> fetch external public references.
+    # Weak-evidence gate: reflection judged the corpus insufficient, or
+    # no validated citations, or the strongest BM25 hit is noise-level
+    # -> fetch external public references.
     top_score = 0.0
     for hits in evidence.values():
         seq = hits.items() if isinstance(hits, dict) else hits
         for _did, s in seq:
             top_score = max(top_score, float(s))
     external, supplementary = [], None
-    if not citations or top_score < 8.0:
+    if insufficient or not citations or top_score < 8.0:
         external, supplementary = _web_fallback(req.user_facts)
         if external or supplementary:
             warnings = list(warnings) + [
