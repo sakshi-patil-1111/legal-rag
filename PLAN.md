@@ -70,14 +70,37 @@ protocol.
    Kaggle CPU → 20.8/40.0/57.4 vs original 20.7/39.9/57.3. Modal c2 vs
    Kaggle c2: within ~0.4 MAP.
 
+### 1.4a Done since last update
+
+- **Agentic loop benchmarked** (50 dev q, gpt-6-luna, real LLM calls):
+  single-shot 10.6/12.6/30.8 vs 20.1/27.1/43.7 (LSR/PCR
+  F1@10/MAP/MRR); agent r0 8.5/8.3/22.2 vs 7.3/7.8/11.3; agent r1
+  8.9/9.5/26.2 vs 7.0/7.0/11.2. Query reformulation costs −19.3 MAP
+  on PCR — agent value is in synthesis (49/50 dossiers, 167
+  citations, 0 invalid), not routing. Files:
+  `results/agent_benchmark_{single_shot,agent_r0,agent_r1}.json`.
+- **BGE-M3 complete** (incl. precedent ColBERT): LSR 6.8–10.2 F1@10,
+  PCR 8.2–12.0 — below own legs and below Qwen3-4B/5-gram baselines.
+  Late interaction dead on this corpus. `results/kaggle_bgem3/`.
+- **NYAAY-AI frontend adapted** → `demo_app/` (auth stripped, chat
+  shell + dossier renderer + conversation CRUD kept), served by new
+  endpoints in `scripts/demo_server.py` backed by
+  `data/demo_conversations.json`. `?conv=<id>` deep links added.
+  Screenshots in `demo_app/screenshots/` and thesis Ch.7.
+- **FT moved to Modal A10G** (Kaggle T4 died 4×: fp16 scaler, then
+  bf16-grad unscale). Root cause: ST args default `fp16=True` + Qwen3
+  ships bf16 weights → scaler can't unscale bf16 grads. Fixed via
+  fp32 weights + explicit `fp16=False` + `bf16` autocast.
+
 ### 1.4 In flight
 
 | Job | Where | What | Status check |
 |---|---|---|---|
-| `legal-rag-qwen3-ft` | Kaggle T4 | Contrastive FT of Qwen3-0.6B on 5,017 train pairs → dev eval | `kaggle kernels status` / email |
-| `legal-rag-bgem3` | Kaggle T4 | BGE-M3 dense+sparse+RRF+ColBERT MaxSim rerank | same |
+| `run_finetune` | Modal A10G | Contrastive FT of Qwen3-0.6B on 66,753 train pairs → dev eval | `modal app list` |
 
-Modal work is all complete (b2b/c2/b3/c3/d2/d3 results in `results/`).
+All other remote work complete: b2b/c2/b3/c3/d2/d3 (Modal), BGE-M3
+all modes (Kaggle, `results/kaggle_bgem3/`), agent benchmark
+(`results/agent_benchmark_*`).
 
 ---
 
@@ -402,10 +425,13 @@ cd BTech_Latex_Report && tectonic thesis.tex    # or latexmk -pdf
 
 ## 8. Definition of done for the dissertation
 
-- [ ] qwen3-ft + bgem3 results pulled, tables updated, CIs regenerated
+- [x] bgem3 results pulled + tables updated (`results/kaggle_bgem3/`)
+- [ ] qwen3-ft (Modal A10G) results pulled, FT-model retrieval run,
+      tables updated, CIs regenerated
 - [ ] P1 items 1-3 run (rerank-over-strong-base, FT-model retrieval, LTR)
 - [ ] One clean test-split number for the champion config
-- [ ] Agentic loop benchmarked (even small — 100 queries is fine)
+- [x] Agentic loop benchmarked (50 dev q, gpt-6-luna — routing hurts
+      retrieval, synthesis strong; see §1.4a)
 - [ ] Thesis: lit review ≥25 refs, limitations section, cost table,
       all diagrams, placeholders filled, abstract rewritten last
 - [ ] README tables final, PLAN.md updated, secrets rotated

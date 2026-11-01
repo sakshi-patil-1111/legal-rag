@@ -70,6 +70,25 @@ prints the dossier, evidence list, and step-by-step trace. It runs fully
 offline except LLM calls — without a key it still exercises routing through
 retrieval via a deterministic fallback.
 
+### Conversational web demo
+
+`scripts/demo_server.py` serves the agent behind a NYAAY-AI-compatible API,
+and `demo_app/` is the adapted NYAAY-AI React frontend (auth removed;
+conversation sidebar, pin/rename/delete, dossier cards retained):
+
+```bash
+python scripts/demo_server.py                 # backend on :8090
+cd demo_app && npm install && npm run dev     # frontend on :3000
+```
+
+The backend runs the ablation-recommended configuration (raw case text to
+both BM25 corpora, LLM synthesis, citation validation), adapts the dossier
+to the renderer's section schema, and persists conversations to
+`data/demo_conversations.json`. Saved cases are deep-linkable via
+`?conv=<id>`. Three alternate modes (`single_shot`, `agent_synth`,
+`agent_full`) remain available on `/api/analyze`, and the standalone
+`demo_ui/index.html` still works without a build step.
+
 LLM config (any OpenAI-compatible endpoint or Gemini REST; plain `urllib`,
 no vendor SDK):
 
