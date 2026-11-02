@@ -160,37 +160,34 @@ like black boxes, and therefore their results cannot be verified
 easily. A model asked for the punishment for murder can produce
 a confident section number or a confident precedent name.
 However, there is no mechanism by which a reader can distinguish
-a true citation from a plausible fabrication or hallucination.
+a true citation from a plausible fabrication or hallucination. In
+a domain where a wrong citation misleads counsel rather than
+merely a casual reader, fluency without verifiability is a
+liability. The requirement that follows is not better generation
+but grounding: every claim the system makes must be produced
+from, and checkable against, retrieved legal documents.
 
 Retrieval-augmented generation supplies the grounding
 mechanism~\cite{rag}. Whether it suffices for legal case
 analysis is, however, an empirical question rather than an
 assumption. The queries are not keyword strings but complete
-case descriptions averaging roughly 4,500 tokens; the corpora are
-of two kinds whose notions of relevance differ; and the retrieval
-machinery deployed in most RAG systems is designed and validated
-for short queries. Which components of that machinery transfer to
-long legal queries, which do not, and what an agentic controller
-contributes beyond a fixed pipeline, are the questions this
-dissertation answers through controlled measurement followed by
-system construction.
+case descriptions; the retrieval machinery deployed in most RAG
+systems is designed and validated for short queries. Which
+components of that machinery transfer and which do not, and what
+an agentic controller contributes, are questions that this
+dissertation answers through controlled experiments.
 
-A property of the reported literature narrows the design space
-further. For the benchmarks most relevant to this task, the
-strongest published rows are produced by systems fitted to the
-benchmark itself: the leading IL-PCSR configuration trains a
-graph network on corpus-specific rhetorical labels, and the
-leading BSARD rows are fine-tuned bi-encoders (Sections~3.12
-and~3.13). The legal corpus is not a fixed index, however.
-Courts deliver judgments and legislatures enact, amend, and
-repeal provisions continually, so a fitted component begins to
-drift the day it is trained, and a production system cannot
-re-fine-tune on a schedule the corpus does not keep. This
-dissertation therefore treats benchmark-specific training as
-the exception rather than the method: the target is a
-configuration assembled from training-free legs that remains
-competitive with the published rows and transfers to new
-corpora without modification.
+The reported literature narrows the design space further: the
+strongest results on benchmarks are often produced by systems or
+models fine-tuned to the benchmark itself. The legal corpus is
+not a fixed index, however. Courts deliver judgments and
+legislatures enact, amend, and repeal provisions continually, so
+a fitted component begins to drift the day it is trained, and a
+production system cannot re-fine-tune on a schedule the corpus
+does not keep. We therefore target a configuration assembled
+from training-free legs that remains competitive with
+state-of-the-art published methods and transfers to new corpora
+without modification.
 
 \section{Problem Statement}
 The task is automated legal case analysis over Indian law,
@@ -243,7 +240,11 @@ whereas precedents are relevant factually, by similarity of
 situation and vocabulary. There is no reason to expect a single
 retriever to be optimal for both. Third, the correctness
 constraint is strict: a system that emits a plausible but
-incorrect citation has failed materially, not marginally.
+incorrect citation has failed materially, not marginally. The
+formulation is corpus-agnostic: the same input, outputs, and
+requirements are evaluated unchanged on a second Indian
+benchmark (AILA) and on a foreign statutory corpus (BSARD) in
+Section~3.13.
 
 \section{Research Objectives}
 \begin{enumerate}
@@ -269,9 +270,12 @@ incorrect citation has failed materially, not marginally.
 The study addresses retrieval and grounded synthesis for Indian
 central legislation and case law in English. It does not attempt
 legal judgment prediction, statutory interpretation as a
-normative exercise, drafting of legal instruments, or
-jurisdictions outside India. Benchmark evaluation is conducted on
-the IL-PCSR development split; the published test-split figures
+normative exercise, drafting of legal instruments, or deployment
+to jurisdictions outside India; a foreign statutory corpus
+(BSARD) is used once, as external validation of transfer, not as
+a target domain. Benchmark evaluation is conducted on the
+IL-PCSR development split, with unchanged transfer evaluation on
+the AILA and BSARD corpora; the published test-split figures
 of the benchmark are cited under their own protocol and are not
 equated with development-split figures. Language-model calls in
 the system use externally hosted models.
@@ -305,9 +309,7 @@ legal segmentation for Indian judgments~\cite{malik2021ildc};
 Malik et al.\ labelled rhetorical roles such as Facts, Issue, and
 Court Reasoning~\cite{malik2022rr}; and DeepRhole provides a
 trained classifier for the same
-labels~\cite{bhattacharya2023deeprhole}. The IL-PCSR queries used
-in this study carry exactly these segment annotations, which
-makes a rhetorical-restriction ablation directly executable.
+labels~\cite{bhattacharya2023deeprhole}.
 
 \section{Language Models and the Verifiability Problem in Law}
 Large language models have been evaluated across legal tasks by
@@ -326,11 +328,23 @@ legal-domain encoders are negative.
 \section{Retrieval-Augmented Generation}
 Retrieval-augmented generation conditions a generated answer on
 documents retrieved at inference time~\cite{rag}. The
+formulation descends from open-domain question answering, where
+dense passage retrieval first supplied the evidence
+layer~\cite{dpr}; REALM folds retrieval into pretraining
+itself~\cite{guu2020realm}; RETRO scales the same idea to a
+transformer trained from scratch against a trillion-token
+retrieval corpus~\cite{borgeaud2022retro}; and Gao et al.\
+survey the resulting design space of retrieval, fusion, and
+augmentation strategies~\cite{gao2023ragsurvey}. The
 architecture transfers the burden of factuality from the
 generator's parametric memory to the retriever's index, which is
-auditable. Its performance is therefore bounded by retrieval
-quality, and the design space of that retriever is the subject of
-the next three sections.
+auditable; in law this is the decisive property, since an
+authority the system cannot produce is an authority it cannot
+cite. Its performance is therefore bounded by retrieval quality,
+a dependence measured directly in legal question answering,
+where case-structured retrieval materially improves answer
+grounding~\cite{wiratunga2024cbrrag}. The design space of that
+retriever is the subject of the next three sections.
 
 \section{First-Stage Retrieval}
 \subsection{Lexical Retrieval}
@@ -425,17 +439,19 @@ several of these threads together and supplies the evaluation
 bed for this study~\cite{ilpcsr}.
 
 \section{Research Gaps}
-Three gaps follow from the literature. First, published legal
-retrieval evaluations compare retrievers on uniform settings, but
-the two legal corpora reward different notions of relevance;
-whether legs should differ per task is measured here rather than
-assumed. Second, standard query-processing interventions are
-evaluated for short queries; their behaviour on multi-thousand
-token case descriptions is an open question with a uniform
-answer. Third, agentic RAG systems are described qualitatively in
-the literature; their measurable contribution over a fixed
-pipeline on a shared benchmark, including citation validity
-rates, is not. This dissertation addresses all three.
+Four gaps follow from the literature. First, the strongest
+reported results lean on benchmark-specific training, and
+whether a domain-specific training-free configuration can stay
+competitive is not measured across datasets. Second, published
+legal retriever evaluations compare retrievers under uniform
+settings, although statute and precedent retrieval reward
+different notions of relevance; whether the retriever should
+differ per task is unmeasured. Third, standard query processing
+is an open-ended question on multi-thousand-token case
+descriptions. Fourth, agentic RAG systems are described
+qualitatively, and their performance over a fixed pipeline on
+metrics like citation validity rates is not measured. We aim to
+address all four.
 
 \chapter{Methodology and Experimental Investigation}
 
@@ -977,35 +993,49 @@ precedents, 197 statutes). Micro-averaged metrics at depth~100.}
 \cmidrule(lr){2-5}\cmidrule(lr){6-9}
 Configuration & R@10 & R@100 & MAP & MRR & R@10 & R@100 & MAP & MRR \\
 \midrule
-BM25, unigram & \textbf{14.36} & 33.85 & 10.46 & \textbf{21.30} & 14.29 & 50.23 & 8.07 & 21.49 \\
-Qwen3-Embedding-0.6B & 10.26 & 37.44 & 7.69 & 14.92 & \textbf{53.46} & \textbf{96.77} & \textbf{41.64} & \textbf{69.27} \\
-RRF, BM25 + Qwen3-0.6B & 12.82 & \textbf{39.49} & \textbf{11.24} & 21.04 & 23.96 & 94.93 & 17.59 & 34.13 \\
+BM25, unigram & 14.36 & 33.85 & 10.46 & 21.30 & 14.29 & 50.23 & 8.07 & 21.49 \\
+Qwen3-Embedding-0.6B & 10.26 & 37.44 & 7.69 & 14.92 & 53.46 & 96.77 & 41.64 & 69.27 \\
+Qwen3-Embedding-4B & \textbf{17.44} & \textbf{44.10} & \textbf{12.82} & \textbf{24.09} & \textbf{60.83} & \textbf{100.0} & \textbf{45.91} & \textbf{73.60} \\
+RRF, BM25 + Qwen3-0.6B & 12.82 & 39.49 & 11.24 & 21.04 & 23.96 & 94.93 & 17.59 & 34.13 \\
+RRF, BM25 + Qwen3-4B & 15.38 & 43.59 & 11.48 & 20.72 & 27.65 & 98.16 & 20.18 & 41.19 \\
 \bottomrule
 \end{tabular}
 \end{center}
 
-Three results carry over from IL-PCSR and BSARD
-(Table~\ref{tab:aila}). First, statute retrieval remains
-semantic: the 0.6B dense leg lifts recall at depth~100 from
-50.23 to 96.77 and MAP from 8.07 to 41.64, the widest statute
-gap observed on any corpus in this study. Second, precedent
-retrieval remains lexical in the precision regime: the
-unigram lexical leg leads on MAP (10.46 against 7.69) and MRR
-(21.30 against 14.92), although the dense leg recalls slightly
-more relevant documents at depth~100 (37.44 against 33.85).
-Third, fusion behaves exactly as the complementarity rule
-predicts. On precedents, where the legs are competitive, fusion
-sets the best recall and MAP of the table (39.49 and 11.24); on
-statutes, where the dense leg dominates, the weak lexical leg
-dilutes the fused ranking (96.77 to 94.93, MAP 41.64 to 17.59),
-the same dilution measured for the 4B fusion on BSARD. The
-n-gram ordering also sits where the query-conditional rule
-places it: AILA queries are entity-masked, with party names
-replaced by tokens such as \texttt{P1} and \texttt{A1}, which
-destroys the citation phrases that make 5-gram BM25 dominant on
-IL-PCSR precedents, so unigram BM25 leads on both tasks here,
-midway between the 5-gram ordering of IL-PCSR's long narratives
-and the unigram ordering of BSARD's short questions.
+Three results carry over from IL-PCSR and BSARD, and a fourth
+qualifies one of them (Table~\ref{tab:aila}). First, statute
+retrieval remains semantic: the dense leg lifts recall at
+depth~100 from 50.23 to 96.77 at the 0.6B scale and to a
+perfect 100.0 at 4B, and MAP from 8.07 to 45.91, the widest
+statute gap observed on any corpus in this study. Second,
+fusion behaves exactly as the complementarity rule predicts: on
+precedents at the 0.6B scale, where the two legs are
+competitive, fusion sets the best recall and MAP of its block
+(39.49 and 11.24), while wherever one leg dominates ---
+statutes at either scale, precedents at 4B --- the weak lexical
+leg dilutes the fused ranking, a second replication of the
+dilution measured on BSARD. Third, the n-gram ordering sits
+where the query-conditional rule places it: AILA queries are
+entity-masked, with party names replaced by tokens such as
+\texttt{P1} and \texttt{A1}, which destroys the citation
+phrases that make 5-gram BM25 dominant on IL-PCSR precedents,
+so unigram BM25 leads on both tasks here, midway between the
+5-gram ordering of IL-PCSR's long narratives and the unigram
+ordering of BSARD's short questions.
+
+The qualification concerns the precedent leg. Against the 0.6B
+embedder the lexical advantage of IL-PCSR replicates in the
+precision regime, with unigram BM25 leading on MAP (10.46
+against 7.69) and MRR (21.30 against 14.92). At the 4B scale,
+however, the dense leg overtakes it on every precedent metric
+(44.10 recall at depth~100, 12.82 MAP, 24.09 MRR). On
+entity-masked text the citation phrases the lexical leg
+exploits are already gone, and a sufficiently large embedder no
+longer needs them; the lexical-precedent rule is therefore a
+property of unmasked narrative text at moderate embedding
+scale, not a universal. The parameter hypothesis of Chapter~4
+is confirmed a second time in the process, on both tasks at
+once.
 
 \section{Synthesis of Findings}
 The measurements reduce to five design rules.
@@ -1022,6 +1052,13 @@ The measurements reduce to five design rules.
   properties; the first is optimised in this chapter, the second
   is enforced by the agent loop of the next.
 \end{enumerate}
+The external corpora qualify rules~1 and~2 at their edges:
+fusion dilutes whichever leg dominates rather than helping
+unconditionally, and on AILA's entity-masked text the 4B
+embedder overtakes the lexical precedent leg outright. The
+rules are stated for the text regime they were measured on ---
+unmasked narrative queries at moderate embedding scale ---
+and Section~3.13 records where the boundaries move.
 
 \chapter{Design and Architecture of the Agentic RAG Framework}
 
@@ -1136,7 +1173,8 @@ length improves retrieval performance, as demonstrated by the
 gain from the 0.6B to the 4B variant in
 Table~\ref{tab:firststage} and confirmed externally on BSARD,
 where the 4B leg lifts R@100 from 51.65 to 67.67
-(Table~\ref{tab:bsard}).
+(Table~\ref{tab:bsard}), and on AILA, where the same scaling
+holds on both tasks at once (Table~\ref{tab:aila}).
 
 \subsection{Fusion and Reranking}
 Where both legs operate, reciprocal rank fusion merges them at
@@ -1576,9 +1614,10 @@ French BSARD benchmark and the Indian AILA benchmark confirms
 that these design rules travel: on BSARD the pipeline exceeds
 every published zero-shot baseline without modification or
 retraining, the 4B dense leg alone closes most of the remaining
-gap to the fine-tuned ceiling, and on AILA the same
-task-conditional asymmetry and the fusion-complementarity rule
-replicate unchanged. The
+gap to the fine-tuned ceiling, and on AILA the semantic-statute
+asymmetry, the fusion-complementarity rule, and the
+query-conditional n-gram ordering replicate, while 4B scaling
+redraws the precedent winner on masked text. The
 expanded corpus and the demonstration application render the
 measured pipeline a functioning system that answers queries the
 benchmark itself cannot, including the 2023 criminal codes.
@@ -1599,9 +1638,10 @@ contain. The fifth objective, transfer to other legal datasets
 and jurisdictions, receives its first empirical test in
 Section~3.13: the assembled legs outperform every published
 zero-shot baseline on the French BSARD benchmark, and on the
-Indian AILA benchmark the same lexical-precedent and
-semantic-statute asymmetry and the fusion-complementarity rule
-replicate, in both cases without modification or retraining.
+Indian AILA benchmark the semantic-statute asymmetry and the
+fusion-complementarity rule replicate while the precedent
+winner changes at the 4B scale, in both cases without
+modification or retraining.
 Broader transfer across further corpora remains open.
 
 \section{Future Work}
