@@ -155,17 +155,12 @@ description can run to several thousand tokens before a single
 authority is consulted. Any reduction in the effort required to
 locate and verify the applicable law has direct practical value.
 
-Large language models appear to answer this need, and their
-fluency is precisely the problem. A model asked for the
-punishment for murder produces a confident section number; asked
-for the controlling precedent, it produces a confident case name.
-Neither answer carries any mechanism by which a reader can
-distinguish a true citation from a plausible fabrication, and in
-a domain where a wrong citation misleads counsel rather than
-merely a casual reader, fluency without verifiability is a
-liability. The requirement that follows is not better generation
-but grounding: every claim the system makes must be produced
-from, and checkable against, retrieved legal documents.
+Large language models attend to this need. However, they operate
+like black boxes, and therefore their results cannot be verified
+easily. A model asked for the punishment for murder can produce
+a confident section number or a confident precedent name.
+However, there is no mechanism by which a reader can distinguish
+a true citation from a plausible fabrication or hallucination.
 
 Retrieval-augmented generation supplies the grounding
 mechanism~\cite{rag}. Whether it suffices for legal case
