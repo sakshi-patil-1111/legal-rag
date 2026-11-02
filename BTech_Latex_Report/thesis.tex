@@ -1068,7 +1068,9 @@ serving configuration employs the 0.6B Qwen3-Embedding variant.
 We hypothesise that increasing model parameters and context
 length improves retrieval performance, as demonstrated by the
 gain from the 0.6B to the 4B variant in
-Table~\ref{tab:firststage}.
+Table~\ref{tab:firststage} and confirmed externally on BSARD,
+where the 4B leg lifts R@100 from 51.65 to 67.67
+(Table~\ref{tab:bsard}).
 
 \subsection{Fusion and Reranking}
 Where both legs operate, reciprocal rank fusion merges them at
@@ -1503,10 +1505,14 @@ relevance signal is semantic and only when it can read the input.
 An agentic loop earns its place through the guarantees it adds,
 namely evidence-sufficiency judgment, a bounded retry, a labelled
 fallback, and universally validated citations, rather than
-through retrieval planning. The expanded corpus and the
-demonstration application render the measured pipeline a
-functioning system that answers queries the benchmark itself
-cannot, including the 2023 criminal codes.
+through retrieval planning. A first external validation on the
+French BSARD benchmark confirms that these design rules travel:
+without modification or retraining, the pipeline exceeds every
+published zero-shot baseline, and the 4B dense leg alone closes
+most of the remaining gap to the fine-tuned ceiling. The
+expanded corpus and the demonstration application render the
+measured pipeline a functioning system that answers queries the
+benchmark itself cannot, including the 2023 criminal codes.
 
 \section{Findings in Relation to the Research Objectives}
 The first two objectives are met by the experimental programme:
