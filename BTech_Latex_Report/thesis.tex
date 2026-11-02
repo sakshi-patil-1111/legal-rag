@@ -11,6 +11,7 @@
 \pgfplotsset{compat=1.17}
 \usepackage{xcolor}
 \usepackage[most]{tcolorbox}
+\usepackage{algpseudocode}
 \newtcolorbox{livebox}[2]{enhanced, breakable,
   colback=#2!5, colframe=#2!45, colbacktitle=#2!16,
   coltitle=black, fonttitle=\bfseries\small, title={#1},
@@ -31,66 +32,119 @@
 Generation Framework for Automated Legal Case Analysis}
 \author{Samudraneel Sarkar (20233249), Patil Sakshi (20233209),
         Nikhil Kumar (20233202), and Manpreet Kaur (20233180)}
+\titleauthors{Samudraneel Sarkar (20233249)\\
+              Patil Sakshi (20233209)\\
+              Nikhil Kumar (20233202)\\
+              Manpreet Kaur (20233180)}
+\signames{Samudraneel Sarkar & 20233249\\
+          Patil Sakshi & 20233209\\
+          Nikhil Kumar & 20233202\\
+          Manpreet Kaur & 20233180}
+\submitdate{November 2026}
 \supervisor{Dr.\ Vibhav Prakash Singh}
 
 \specialization{Computer Science \& Engineering}
 \beforepreface
 
 \prefacesection{Abstract}
-Automated analysis of legal cases is a promising application of
-large language models, yet its value depends on a property that
-standard generation does not provide: every substantive claim in
-the output must be traceable to an authoritative legal document.
-We re-investigate how a retrieval-augmented generation (RAG)
-system should be designed when the input is a full case
-description of several thousand tokens and the output must cite
-statutes and precedents that can be mechanically verified. Rather
-than adopting the conventional RAG pipeline as folklore, the
-study derives its architecture from controlled measurement on the
-IL-PCSR benchmark, the only public dataset that evaluates statute
-and precedent retrieval jointly over Indian case judgments.
-A series of experiments establishes three findings. First, the
-two retrieval tasks reward different machinery: phrase-level
-lexical retrieval dominates precedent retrieval, whereas
-long-context dense retrieval combined with lexical retrieval by
-rank fusion dominates statute retrieval. Second, every mechanism
-that compresses the long case description, including expansion,
-rhetorical restriction, truncation, and reformulation, degrades
-retrieval quality. Third, a reranker improves the ranking only
-where the relevance signal is semantic and only when the reranker
-can read the complete query; a truncated cross-encoder collapses
-recall. These findings produce an asymmetric architecture: a
-fused dense-lexical statute leg with listwise language-model
-reranking, and a purely lexical precedent leg. A bounded agent
-loop adds what a fixed pipeline cannot: a semantic judgment of
-evidence sufficiency, one reformulated retry upon failure, a
-labelled external fallback, and mechanical validation of every
-emitted citation, of which all 167 in the benchmark resolved to
-retrieved documents. We evaluate the resulting architecture on an
+Automated analysis of legal cases in order to find applicable
+judgements and precedents is a promising application of large
+language models. However, in law, every claim or argument must
+be traceable to an authoritative legal document and LLMs often
+fall prey to hallucination and fabricated language generation.
+We investigate how a retrieval augmented generation system
+should be designed to handle legal work in realistic settings
+where case descriptions run into several thousand tokens and
+output must cite statutes and precedents that are directly
+relevant. We quantitatively examine RAG pipelines and different
+retrieval, embedding and chunking strategies and evaluate their
+performances on the IL-PCSR benchmark, which evaluates statutes
+and precedents over Indian case judgements. We also validate
+our pipeline on BSARD as external validation and establish three
+findings. First, the two retrieval tasks reward different
+machinery: lexical retrieval dominates precedent finding,
+whereas long context dense retrieval, oftentimes combined with
+lexical retrieval by rank fusion, dominates statute retrieval.
+Second, compression of any form of the case, including
+expansion, rhetorical restriction, truncation for the
+cross-encoder re-ranker, etc., degrades retrieval quality. Third, a re-ranker improves the ranking only
+when relevant signal is semantic and the re-ranker can read the
+complete query, and otherwise a truncated cross encoder leads
+to worse performance. These findings produce an asymmetric
+optimal architecture with a dense-lexical statute leg along
+with language model reranking, and a purely lexical precedent
+leg. We then test out a bounded agent loop on top of this
+pipeline in order to place guardrails like retry upon failure,
+external fallback mechanism and mechanical validation of
+citations, and evaluate the resulting architecture on an
 expanded corpus of 28,074 section-level statute documents
-covering 302~central~acts.
+covering 302 Central acts.
 
 \prefacesection{Acknowledgements}
 We express our sincere gratitude to our supervisor, Dr.\ Vibhav
 Prakash Singh, Department of Computer Science and Engineering,
 Motilal Nehru National Institute of Technology Allahabad, for his
-guidance, encouragement, and constructive criticism throughout
-this project.
+guidance, help, and constructive feedback throughout this
+project.
 
-We thank the faculty and staff of the Department of Computer
-Science and Engineering for the environment and resources that
-made this work possible. We also thank the authors of the IL-PCSR
-corpus for releasing the dataset together with a reproducible
-baseline, without which a fair comparative study could not have
-been conducted. We also thank our friends at NUJS Kolkata for
-their inputs.
+We also thank the faculty and staff of the Department of Computer
+Science and Engineering for the environment and the resources
+that made this work possible. We also thank the authors of the
+IL-PCSR and BSARD corpora for their invaluable contributions in
+releasing the datasets with reproducible baselines, without
+which a fair comparative study could not have been conducted.
+We also sincerely thank our friends at NUJS Kolkata for their
+inputs on matters which require a legal perspective.
 
 Finally, we thank our families and friends for their constant
-support during the course of this work.
+support and love during the course of this work.
 
 \afterpreface
 
 \chapter{Introduction}
+
+\section{Background}
+
+The documents a legal system produces fall into two broad
+classes. Statutes are acts of the legislature: prescriptive
+texts organised hierarchically into chapters, sections, and
+sub-sections, each section stating a rule, a definition, an
+offence, or a remedy in compact formal language. The Indian
+penal code, its successor the Bharatiya Nyaya Sanhita, and the
+procedural and evidence codes are examples. Case law is the
+second class: a judgment records the facts of a dispute, the
+issues framed, the reasoning of the court, the ratio decidendi
+that binds future courts, and the final order. A professional
+query to such a corpus is rarely a keyword; it is a narrative of
+facts from which the applicable sections and the controlling
+precedents must be identified, a task this work treats as two
+distinct retrieval problems following the IL-PCSR
+benchmark~\cite{ilpcsr}.
+
+Large language models are neural networks trained to predict
+the next token over very large text corpora. Their fluency comes
+from parametric memory: the facts a model knows are encoded
+implicitly in its weights rather than stored in any document it
+can point back to, and the model will produce a plausible
+continuation whether or not the underlying fact is true. Two
+consequences matter for law. First, hallucination: a model can
+emit a confident but non-existent section number or case
+citation. Second, the context window: a model can only attend to
+a bounded span of text, which a long judgment or a detailed case
+description can exceed.
+
+Applications of these models to law now span judgment
+summarisation, document drafting, question answering, and
+retrieval, and dedicated benchmarks measure them: LegalBench
+collects a broad suite of legal reasoning
+tasks~\cite{legalbench} and IL-TUR covers Indian legal text
+specifically~\cite{iltur}. Long-input encoders such as
+LawFormer extend the context budget for legal
+documents~\cite{lawformer}, while specialised encoders such as
+SAILER are trained for case retrieval~\cite{sailer}. What these
+applications share is a dependence on retrieval: the answer a
+legal system gives is only as trustworthy as the documents it
+was built from, which is the central concern of this study.
 
 \section{Motivation}
 India administers one of the largest judicial systems in the
@@ -490,6 +544,12 @@ configurations.
 
 \begin{center}
 \small
+\tabcaption{First-stage retrieval on the development split
+($n=627$). Best per column in bold; the 5-gram precedent row was
+measured on the whole-document index required by that
+tokenisation.}
+\label{tab:firststage}
+\vspace{2mm}
 \begin{tabular}{lccccc}
 \toprule
  & \multicolumn{3}{c}{Statute (LSR)} & \multicolumn{2}{c}{Precedent (PCR)} \\
@@ -508,11 +568,6 @@ Qwen3-Embedding-0.6B & 12.57 & 15.16 & 30.93 & 11.07 & 17.18 \\
 Qwen3-Embedding-4B & \textbf{14.29} & \textbf{19.79} & 37.38 & 12.59 & 19.65 \\
 \bottomrule
 \end{tabular}
-\tabcaption{First-stage retrieval on the development split
-($n=627$). Best per column in bold; the 5-gram precedent row was
-measured on the whole-document index required by that
-tokenisation.}
-\label{tab:firststage}
 \end{center}
 
 The two tasks exhibit opposite preferences. On precedents the
@@ -543,6 +598,10 @@ first-stage legs.
 
 \begin{center}
 \small
+\tabcaption{Reciprocal rank fusion on the development split. The
+fused pool is formed from each leg's top ranks at $k=60$.}
+\label{tab:fusion}
+\vspace{2mm}
 \begin{tabular}{lccccc}
 \toprule
  & \multicolumn{3}{c}{Statute (LSR)} & \multicolumn{2}{c}{Precedent (PCR)} \\
@@ -554,9 +613,6 @@ RRF: 5-gram BM25 + Qwen3-0.6B & 13.65 & 17.91 & 38.91 & 19.09 & 29.85 \\
 RRF: 5-gram BM25 + Qwen3-4B & \textbf{14.68} & \textbf{19.12} & \textbf{40.53} & 19.74 & 31.60 \\
 \bottomrule
 \end{tabular}
-\tabcaption{Reciprocal rank fusion on the development split. The
-fused pool is formed from each leg's top ranks at $k=60$.}
-\label{tab:fusion}
 \end{center}
 
 Fusion improves retrieval precisely where the constituent legs
@@ -577,6 +633,11 @@ their first-stage pool.
 
 \begin{center}
 \small
+\tabcaption{Second-stage reranking over the fused top-50 pool.
+The listwise reranker reads the query (up to 4,000 characters)
+beside 20 numbered snippets.}
+\label{tab:rerank}
+\vspace{2mm}
 \begin{tabular}{lccccc}
 \toprule
  & \multicolumn{3}{c}{Statute (LSR)} & \multicolumn{2}{c}{Precedent (PCR)} \\
@@ -588,10 +649,6 @@ Cross-encoder rerank & 7.46 & 6.56 & 16.14 & 6.89 & 7.28 \\
 LLM listwise rerank & \textbf{14.83} & \textbf{25.20} & \textbf{50.88} & 16.62 & 25.48 \\
 \bottomrule
 \end{tabular}
-\tabcaption{Second-stage reranking over the fused top-50 pool.
-The listwise reranker reads the query (up to 4,000 characters)
-beside 20 numbered snippets.}
-\label{tab:rerank}
 \end{center}
 
 The cross-encoder result is the clearest context-length failure
@@ -620,6 +677,11 @@ query, all degraded retrieval (Table~\ref{tab:query}).
 
 \begin{center}
 \small
+\tabcaption{Query-processing interventions. Reference rows are
+the unmodified-query runs on the same index; the PRF statute row
+scores 6.85 F1@10 against a 10.55 reference.}
+\label{tab:query}
+\vspace{2mm}
 \begin{tabular}{lcc}
 \toprule
 Intervention & F1@10 & MAP \\
@@ -637,10 +699,6 @@ Facts + Issue segments only & 4.63 & 5.04 \\
 All segments except Court Reasoning & 7.41 & 9.56 \\
 \bottomrule
 \end{tabular}
-\tabcaption{Query-processing interventions. Reference rows are
-the unmodified-query runs on the same index; the PRF statute row
-scores 6.85 F1@10 against a 10.55 reference.}
-\label{tab:query}
 \end{center}
 
 Pseudo-relevance feedback drifts the query toward whatever the
@@ -663,6 +721,10 @@ The 50-query agent benchmark exercises the full loop
 
 \begin{center}
 \small
+\tabcaption{Agent benchmark, 50-query development slice, BM25
+2-gram legs at top-8.}
+\label{tab:agent}
+\vspace{2mm}
 \begin{tabular}{lr}
 \toprule
 Quantity & Value \\
@@ -677,9 +739,6 @@ Total LLM latency & 830.9 s \\
 Wall-clock duration & 13.9 min \\
 \bottomrule
 \end{tabular}
-\tabcaption{Agent benchmark, 50-query development slice, BM25
-2-gram legs at top-8.}
-\label{tab:agent}
 \end{center}
 
 The call count exhibits the loop in operation: 28 of 50 queries
@@ -699,6 +758,10 @@ BGE-M3 was evaluated in all four of its modes on both tasks
 
 \begin{center}
 \small
+\tabcaption{BGE-M3 all-modes on the development split. All four
+modes score below the corresponding lexical or Qwen3 legs.}
+\label{tab:bgem3}
+\vspace{2mm}
 \begin{tabular}{lccccc}
 \toprule
  & \multicolumn{3}{c}{Statute (LSR)} & \multicolumn{2}{c}{Precedent (PCR)} \\
@@ -711,9 +774,6 @@ RRF union & 7.84 & 6.04 & 13.46 & 12.02 & 18.40 \\
 ColBERT MaxSim rerank & 6.82 & 8.49 & 18.50 & 8.21 & 11.75 \\
 \bottomrule
 \end{tabular}
-\tabcaption{BGE-M3 all-modes on the development split. All four
-modes score below the corresponding lexical or Qwen3 legs.}
-\label{tab:bgem3}
 \end{center}
 
 No mode approaches the task champions: the strongest BGE-M3
@@ -737,6 +797,11 @@ agentic loop, and the expanded corpus.
 \begin{center}
 \footnotesize
 \setlength{\tabcolsep}{4pt}
+\tabcaption{IL-PCSR rows against the assembled legs. Every block
+reports the best per-configuration depth; IL-PCSR rows measure
+the test split, this work the development split.}
+\label{tab:baseline}
+\vspace{2mm}
 \begin{tabular}{ll ccc ccc}
 \toprule
  & & \multicolumn{3}{c}{Statute (LSR)} & \multicolumn{3}{c}{Precedent (PCR)} \\
@@ -756,10 +821,6 @@ Para-GNN + BM25 ensemble & fine-tuned & 39.44 & 52.13 & 73.77 & 38.77 & 50.21 & 
 \quad + GPT-4.1 rerank, 2-stage & + API & 46.11 & 61.06 & 81.55 & 43.31 & 54.43 & 68.88 \\
 \bottomrule
 \end{tabular}
-\tabcaption{IL-PCSR rows against the assembled legs. Every block
-reports the best per-configuration depth; IL-PCSR rows measure
-the test split, this work the development split.}
-\label{tab:baseline}
 \end{center}
 
 Within the training-free tier the assembled statute leg leads on
@@ -806,6 +867,80 @@ training-free configuration is the appropriate design point,
 and the accuracy headroom that supervision buys, quantified
 under one protocol, is the first item of future work.
 
+\section{External Validation on BSARD}
+The measurements so far describe a single benchmark. To test
+whether the design rules travel, the statute leg is run unchanged
+on an unrelated corpus, BSARD~\cite{louis2022bsard}, a Belgian
+statutory-article benchmark authored in French: 22,633 articles
+and 222 jurist-labelled test questions, whose published
+evaluation reports recall at depth~100 against a series of
+zero-shot and fine-tuned baselines. The legs, metrics, and
+protocol of this chapter are applied verbatim; the corpus
+requires no code change beyond document loading, and no model is
+trained.
+
+Three observations follow (Table~\ref{tab:bsard}). First, the
+n-gram ordering inverts as the framework predicts. BSARD
+questions are legal questions of a dozen tokens rather than
+multi-thousand-token case descriptions, so phrase n-grams starve:
+the 5-gram configuration that leads precedent retrieval on
+IL-PCSR collapses to 0.83 F1, while the unigram lexical leg and
+the dense leg compete on near-equal terms. The rules are
+query-conditional, not corpus-bound. Second, the measured
+mechanisms transfer individually: prepending the act-context
+description to indexed article text, the same device that
+resolved act-name ambiguity in the expanded corpus, lifts
+unigram MAP from 13.20 to 15.14, and reciprocal rank fusion over
+the lexical and dense legs lifts recall at depth~100 from 51.65
+to 54.62. Third, the assembled configuration exceeds every
+zero-shot baseline published for the benchmark, including its
+best dense bi-encoder row at 49.41 and its own BM25 row at
+40.13; only the fine-tuned models score higher, at 74.78,
+reproducing the supervision headroom observed on IL-PCSR. The
+published rows are macro-averaged over queries while ours are
+micro-averaged, a mild protocol difference that changes no
+ranking here.
+
+\begin{center}
+\small
+\tabcaption{External validation on BSARD (222 test questions,
+22,633 French articles). This work reports micro-averaged
+metrics at depth~100; published rows report the paper's
+macro-averaged R@100.}
+\label{tab:bsard}
+\vspace{2mm}
+\begin{tabular}{lcccc}
+\toprule
+Configuration & R@10 & R@100 & MAP@100 & MRR@100 \\
+\midrule
+BM25, unigram, context-prepend & 14.81 & 41.23 & 17.31 & 25.73 \\
+Qwen3-Embedding-0.6B & 22.71 & 51.65 & 26.71 & 39.35 \\
+Qwen3-Embedding-4B & 29.59 & \textbf{67.67} & \textbf{36.91} & \textbf{51.20} \\
+RRF, BM25 + Qwen3-0.6B ($k{=}60$) & 22.08 & 54.62 & 25.88 & 37.62 \\
+RRF, BM25 + Qwen3-4B ($k{=}60$) & 25.09 & 64.91 & 29.81 & 41.45 \\
+\midrule
+\multicolumn{5}{l}{\emph{Published baselines (macro R@100)}} \\
+BM25, zero-shot & & 40.13 & & \\
+Bi-encoder word2vec, zero-shot & & 49.41 & & \\
+Fine-tuned, best & & 74.78 & & \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The external dense runs also test the parameter hypothesis of
+Chapter~4, and the pattern repeats at larger amplitude. The 4B
+embedder lifts recall at depth~100 from 51.65 to 67.67 and MAP
+from 26.71 to 36.91 over the 0.6B variant on this corpus, a gain
+larger than the one measured between the two variants on
+IL-PCSR statutes, and the 4B leg alone closes most of the gap
+to the published fine-tuned ceiling of 74.78 without any
+task-specific training. Fusion behaviour sharpens the earlier
+finding in the same stroke: reciprocal rank fusion helps when
+the two legs carry complementary evidence, lifting the 0.6B
+configuration from 51.65 to 54.62, but dilutes a dominant leg,
+since the weak BM25 leg drags the 4B ranking from 67.67 down to
+64.91. Fusion is beneficial only when the legs are competitive.
+
 \section{Synthesis of Findings}
 The measurements reduce to five design rules.
 \begin{enumerate}
@@ -831,6 +966,10 @@ mapping explicitly.
 
 \begin{center}
 \small
+\tabcaption{Mapping of experimental findings to architectural
+decisions.}
+\label{tab:find2arch}
+\vspace{2mm}
 \begin{tabular}{p{0.44\linewidth}p{0.48\linewidth}}
 \toprule
 Measured finding & Architectural rule \\
@@ -841,8 +980,8 @@ Dense and fused legs dominate LSR & Statute leg fuses lexical and
 long-context dense legs by RRF \\
 Listwise rerank helps LSR, hurts PCR & Reranker sits on the
 statute leg only \\
-Cross-encoder collapses recall on long queries & No
-context-bounded reranker in pipeline \\
+Cross-encoder collapses recall & No context-bounded reranker in
+pipeline \\
 All query compression fails & Case text issued verbatim to both
 legs \\
 Agent planning harms retrieval; synthesis and validation are the
@@ -852,9 +991,6 @@ Corpus lacks governing law for real queries & Statute corpus
 expanded; persistent insufficiency routes to labelled fallback \\
 \bottomrule
 \end{tabular}
-\tabcaption{Mapping of experimental findings to architectural
-decisions.}
-\label{tab:find2arch}
 \end{center}
 
 \section{System Overview}
@@ -1020,6 +1156,33 @@ external fallback.}
   the answer; it is never presented as retrieved authority.
 \end{description}
 
+\begin{center}
+\begin{minipage}{5.1in}
+\noindent\textbf{Algorithm 1\quad Agentic control loop}\\[1mm]
+\hrule\vspace{1.5mm}
+\begin{algorithmic}[1]
+\Require case description $q$
+\State $E \gets$ \Call{Retrieve}{$q$} \Comment{verbatim to both legs}
+\State $v \gets$ \Call{Reflect}{$q, E$} \Comment{semantic verdict}
+\If{$v = \mathrm{insufficient}$}
+    \State $q' \gets$ \Call{Reformulate}{$q, E$} \Comment{doctrinal vocabulary}
+    \State $E \gets E \cup\; $\Call{Retrieve}{$q'$} \Comment{bounded retry}
+    \State $v \gets$ \Call{Reflect}{$q, E$}
+\EndIf
+\If{$v = \mathrm{insufficient}$}
+    \State $F \gets$ \Call{WebFallback}{$q$} \Comment{labelled external}
+\Else
+    \State $F \gets \emptyset$
+\EndIf
+\State $D \gets$ \Call{Synthesise}{$q, E \cup F$}
+\State \Call{Validate}{$D, E$} \Comment{discard unverifiable citations}
+\State \Return $D$
+\end{algorithmic}
+\vspace{1mm}
+\hrule
+\end{minipage}
+\end{center}
+
 \section{Expanded Statutory Corpus}
 The benchmark statute collection is bounded by design; real
 queries invoke legislation it does not contain, including the
@@ -1042,6 +1205,10 @@ indexed. Candidate source texts are scored by English legal-term
 density to reject corrupted encodings.
 
 \begin{center}
+\tabcaption{Composition of the expanded statute index. The
+precedent leg retains its 3,183 IL-PCSR documents.}
+\label{tab:corpus}
+\vspace{2mm}
 \begin{tabular}{lr}
 \toprule
 Corpus segment & Section documents \\
@@ -1066,9 +1233,6 @@ IL-PCSR statutes (retained) & 936 \\
 Indexed statute leg & 28,074 \\
 \bottomrule
 \end{tabular}
-\tabcaption{Composition of the expanded statute index. The
-precedent leg retains its 3,183 IL-PCSR documents.}
-\label{tab:corpus}
 \end{center}
 
 \chapter{Implementation and Application Development}
@@ -1166,6 +1330,10 @@ Table~\ref{tab:sys} summarises the assembled system as measured.
 
 \begin{center}
 \small
+\tabcaption{The assembled system as measured. Retrieval rows are
+development-split; the test row is the test-split BM25 run.}
+\label{tab:sys}
+\vspace{2mm}
 \begin{tabular}{p{0.34\linewidth}p{0.58\linewidth}}
 \toprule
 Property & Measured value \\
@@ -1180,9 +1348,6 @@ verdict; 49/50 dossiers; 167/167 citations valid \\
 Indexed corpora & 28,074 statute docs; 3,183 precedent docs \\
 \bottomrule
 \end{tabular}
-\tabcaption{The assembled system as measured. Retrieval rows are
-development-split; the test row is the test-split BM25 run.}
-\label{tab:sys}
 \end{center}
 
 \section{Live Verifications}
@@ -1356,8 +1521,11 @@ recovery, and citation integrity, with all 167 emitted citations
 valid. The fourth is met by the live verifications: the expanded
 corpus resolves queries on legislation the benchmark does not
 contain. The fifth objective, transfer to other legal datasets
-and jurisdictions, remains open and is addressed in the future
-work below.
+and jurisdictions, receives its first empirical test in
+Section~3.13: on the French BSARD benchmark the assembled legs
+outperform every published zero-shot baseline without
+modification or retraining, while broader transfer across
+further corpora remains open.
 
 \section{Future Work}
 A same-protocol test-split evaluation of the assembled
@@ -1376,19 +1544,20 @@ next class of statutes real queries invoke, and the ingestion
 pipeline requires no modification to accept them. On the agent
 side, a learned sufficiency threshold, a second bounded retry,
 and a numeric groundedness score per dossier are natural
-strengthenings. Finally, the fifth objective stands open in
-empirical terms: rerunning the same experiment battery on a
-non-Indian legal corpus would test whether the design rules
-derived here transfer across datasets and jurisdictions, and the
-benchmark's own literature supplies the candidates, the COLIEE
-Canadian case-law collection~\cite{rabelo2022coliee21} and the
-Chinese case-retrieval corpora LeCaRD~\cite{ma2021lecard} and
-CAIL~\cite{xiao2018cail2018}. The evaluation itself can be
+strengthenings. Finally, the fifth objective stands partially
+open in empirical terms: Section~3.13 supplies the first
+cross-corpus evidence on French statutory text, and extending
+the same battery to the case-law and non-European benchmarks the
+literature supplies, the COLIEE Canadian case-law
+collection~\cite{rabelo2022coliee21} and the Chinese
+case-retrieval corpora LeCaRD~\cite{ma2021lecard} and
+CAIL~\cite{xiao2018cail2018}, is the outstanding test. The
+evaluation itself can be
 deepened: a human study of dossier correctness against expert
 legal judgment would measure the property the citation validator
 can only approximate.
 
-\bibliographystyle{plainnat}
+\bibliographystyle{unsrtnat}
 \bibliography{references}
 
 \end{document}

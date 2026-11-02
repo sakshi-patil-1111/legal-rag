@@ -23,7 +23,7 @@
 \RequirePackage[USenglish]{babel}
 %\RequirePackage[usenames, dvipsnames]{color}
 %\RequirePackage[perpage]{footmisc}
-\RequirePackage[square, sort, numbers, authoryear]{natbib}
+\RequirePackage[square, sort, numbers]{natbib}
 %\RequirePackage{ifthen}
 
 \long\def\comment#1{}
@@ -121,8 +121,12 @@ t\advance\@tempcnta \tw@\fi \if\@tempa b\advance\@tempcnta
 \def\submitdate#1{\gdef\@submitdate{#1}}
 \def\copyrightyear#1{\gdef\@copyrightyear{#1}} % \author, \title in report
 \def\specialization#1{\mbox{\gdef\@specialization{#1}}}
+\def\titleauthors#1{\gdef\@titleauthors{#1}}
+\def\signames#1{\gdef\@signames{#1}}
 \def\@title{}
 \def\@author{}
+\def\@titleauthors{}
+\def\@signames{}
 \def\@dept{Computer Science and Engineering}
 \def\@supervisor{}
 \def\@degree{Bachelor of Technology}
@@ -147,38 +151,31 @@ t\advance\@tempcnta \tw@\fi \if\@tempa b\advance\@tempcnta
 \def\titlep{%
     \thispagestyle{empty}%
     \renewcommand{\baselinestretch}{1}
-    \null\vskip1in%
+    \vspace*{-1.15in}%
     \begin{center}
-%       {\sl Title of the Thesis}\\
-%       \vspace{1cm}
-%        {\Large\uppercase\expandafter{\@title}}}
-        \textbf{{\Large\expandafter{\@title}}}
+        {\large\bf B.Tech.\ Minor Project Report}\\[0.5cm]
+        on\\[0.3cm]
+        \textbf{{\Large\expandafter{\@title}}}\\[0.7cm]
+        by\\[0.25cm]
+        \@titleauthors
     \end{center}
     \vfill
     \begin{center}
-%        {\sl A Thesis Submitted}\\
-        {A Report Submitted}\\
+        A Report Submitted\\
         in Partial Fulfillment of the Requirements\\
-        for the Degree of\\
+        for the award of the Degree of\\
         \textbf{\@degree}\\
         in\\
-        \textbf{\@specialization}\\
+        \textbf{\@specialization}
     \end{center}
     \vfill
     \begin{center}
-%        \sl by\\
-        by\\
-        \textbf{\@author}
+        \includegraphics[height=3.3cm]{mnnit_logo.png}\\[0.3cm]
+        {\bf \uppercase\expandafter{\@dept} DEPARTMENT}\\[0.15cm]
+        {\bf MOTILAL NEHRU NATIONAL INSTITUTE OF TECHNOLOGY\\ALLAHABAD, PRAYAGRAJ}\\[0.35cm]
+        \@submitdate
     \end{center}
-    \vfill
-    \begin{center}
-%        {\sl to the}\\
-        {to the}\\
-        {\bf \uppercase\expandafter{\@dept} DEPARTMENT}\\
-        {\large MOTILAL NEHRU NATIONAL INSTITUTE OF TECHNOLOGY\\ALLAHABAD PRAYAGRAJ}\\
-        \bf\@submitdate
-    \end{center}
-    \vskip.5in\newpage}
+    \vskip.2in\newpage}
 
 \def\copyrightpage{%
     \null\vfill
@@ -193,23 +190,28 @@ t\advance\@tempcnta \tw@\fi \if\@tempa b\advance\@tempcnta
     \renewcommand{\baselinestretch}{1.3}
     \vspace*{\fill}
     \centerline{\LARGE\bf UNDERTAKING}
-    \vspace{3cm}
+    \vspace{2cm}
     \begin{center}
     \begin{minipage}{4.5in}
     \parindent=0pt
     I declare that the work presented in this report titled
-    ``{\sl\@title}'', submitted to the \mbox{\@dept} Department, \@college, for 
-    the award of the {\bf\emph \@degree} \ degree in \mbox{\bf\emph \@specialization}, 
-    is my original work. I have not plagiarized or submitted the same work for 
-    the award of any other degree. In case this undertaking is found incorrect, I accept 
+    ``{\sl\@title}'', submitted to the \mbox{\@dept} Department, \@college, for
+    the award of the {\bf\emph \@degree} \ degree in \mbox{\bf\emph \@specialization},
+    is my original work. I have not plagiarized or submitted the same work for
+    the award of any other degree. In case this undertaking is found incorrect, I accept
     that my degree may be unconditionally withdrawn.\par
-    \vspace*{2cm}
-    \@submitdate\\Allahabad\par
-    \hbox to 4.5in {
-    \hfill\vbox{\hsize 2in\vrule width 2in height0.4pt\vspace*{-4mm}\par\center{(\@author)}}}
-    \vspace*{5cm}
     \end{minipage}
     \end{center}
+    \vspace*{\fill}
+    \noindent
+    \begin{tabular}[b]{@{}l@{}}
+      Place: Prayagraj\\
+      Date: \@submitdate
+    \end{tabular}\hfill
+    \begin{tabular}[b]{@{}l@{\hspace{3em}}l@{}}
+      \@signames
+    \end{tabular}\par
+    \newpage
 }
 
 \long\def\signature#1{%
@@ -223,22 +225,23 @@ degree.
 \par
 \vspace{3cm}
 \hbox to 4.5in{\@submitdate\hfill
-    \vbox{\hsize 3in\vrule width 2in height0.4pt\par#1}\hss}
+    \vtop{\hsize 3in\raggedleft#1}}
 \end{minipage}
 \end{center}
 }
 
-\def\signaturepage{%
+\def\signaturepage{\newpage%
     \renewcommand{\baselinestretch}{1.3}
     \vspace*{\fill}
     \centerline{\LARGE\bf CERTIFICATE}
     \vspace{3cm}
     \signature{
-        (\@supervisor)\par
+        \@supervisor\par
         \@dept \ Dept.\par
-        M.N.N.I.T, Allahabad\\\\\par
+        MNNIT, Allahabad\par
     }
     \vspace*{\fill}
+    \newpage
 }
 
 \def\beforepreface{
