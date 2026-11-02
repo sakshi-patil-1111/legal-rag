@@ -168,7 +168,7 @@ class DenseRetriever(Retriever):
                 vecs = embs.pooler_output
             if vecs is None:
                 vecs = embs.last_hidden_state.mean(axis=1)
-            all_vecs.append(np.array(mx.array(vecs), dtype=np.float32))
+            all_vecs.append(np.array(vecs.astype(mx.float32)))
         result = np.concatenate(all_vecs, axis=0)
         # L2 normalize
         norms = np.linalg.norm(result, axis=1, keepdims=True)
@@ -239,6 +239,8 @@ class DenseRetriever(Retriever):
         if self._device == "cuda" and HF_AVAILABLE:
             torch.cuda.empty_cache()
         if self._backend == "mlx":
+            if self.query_prompt:
+                query = self.query_prompt + query
             return self._encode_mlx([query])
         elif self._backend == "transformers":
             return self._encode_hf([query])

@@ -1,1 +1,0 @@
-Draft a formal representation/petition to a government authority or department regarding a grievance. Maintain a respectful, formal tone (e.g. 'Respected Sir/Madam,').

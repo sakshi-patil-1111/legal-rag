@@ -16,6 +16,7 @@ Deps: fastapi + uvicorn (already in venv), .env keys for LLM modes.
 """
 
 import json
+import os
 import sys
 import time
 import uuid
@@ -42,9 +43,113 @@ from legal_rag.datasets import load_il_pcsr
 from legal_rag.legal_agent import LegalAgent
 from legal_rag.llm import LLMProvider
 from legal_rag.retrievers import BM25Retriever
+from legal_rag.retrievers.base import Retriever
 
 TASKS = ("statute", "precedent")
 TOP_K = 8
+RERANK_POOL = 50  # measured config: fused top-50 -> listwise rerank
+
+
+class _RerankedLeg(Retriever):
+    """Retriever wrapper: a first-stage leg followed by listwise LLM
+    reranking of its top ``RERANK_POOL`` candidates — the measured
+    statute-leg configuration (RRF then LLM rerank)."""
+
+    def __init__(self, leg: Retriever, reranker, doc_texts: dict):
+        super().__init__()
+        self.leg = leg
+        self.reranker = reranker
+        self.doc_texts = doc_texts
+
+    def index(self, items):
+        self.items = items
+        self._chunk_ids = [self._chunk_id(d) for d in items]
+        self.leg.index(items)
+
+    def search(self, query: str, top_k: int = 10):
+        pool = self.leg.search(query, top_k=RERANK_POOL)
+        return self.reranker.rerank(query, pool, self.doc_texts, top_k)
+
+    def search_chunks(self, query: str, top_k: int = 10):
+        return self.search(query, top_k)
+
+
+def _statute_leg(bm25_r: Retriever, chunks: list, cache_dir,
+                 doc_texts: dict) -> tuple[Retriever, Retriever | None]:
+    """Measured LSR pipeline: BM25 + Qwen3-Embedding-0.6B fused by RRF,
+    plus (when an LLM key is configured) a reranked variant used by the
+    agent paths — listwise rerank of the fused top-50 pool. The plain
+    hybrid is returned for retrieval-only paths so ``single_shot``
+    stays LLM-free. Degrades gracefully: no embedding model -> plain
+    BM25 leg; no LLM key -> fusion without rerank.
+
+    Gated on DEMO_DENSE=1: the first-time corpus encode is a one-off
+    batch job (~1-2 h on M2/8 GB) — run scripts offline, then the
+    server loads the .npy cache in seconds."""
+    from legal_rag.reranker import LLMReranker
+    from legal_rag.retrievers.dense import DenseRetriever
+    from legal_rag.retrievers.hybrid import HybridRetriever
+
+    have_cache = any(
+        Path(cache_dir).glob("dense_Qwen_Qwen3-Embedding-0.6B_*.npy"))
+    if os.getenv("DEMO_DENSE") != "1" and not have_cache:
+        print("[init] dense leg disabled (no cache, DEMO_DENSE!=1) — "
+              "statute leg is BM25", flush=True)
+        return bm25_r, None
+    try:
+        dense = DenseRetriever(
+            model_name="Qwen/Qwen3-Embedding-0.6B",
+            backend="auto",  # MLX on Apple Silicon — no MPS OOM on 8 GB
+            device="auto", batch_size=32,
+            query_prompt=("Instruct: Given a legal query, retrieve "
+                          "relevant passages that answer the query\n"
+                          "Query:"),
+            cache_dir=cache_dir,
+        )
+        hybrid = HybridRetriever(bm25_r, dense, k=60.0)
+        hybrid.index(chunks)
+        print("[init] statute: dense leg indexed "
+              "(RRF BM25 + Qwen3-0.6B)", flush=True)
+    except Exception as exc:
+        print(f"[init] dense leg unavailable ({type(exc).__name__}: "
+              f"{exc}); statute leg stays BM25", flush=True)
+        return bm25_r, None
+
+    provider = os.getenv("LLM_PROVIDER", "gemini")
+    key_env = ("GEMINI_API_KEY" if provider == "gemini"
+               else "LLM_API_KEY" if os.getenv("LLM_API_KEY")
+               else "OPENAI_API_KEY")
+    if not os.getenv(key_env):
+        print("[init] no LLM key — statute leg is hybrid, no rerank",
+              flush=True)
+        return hybrid, None
+    reranker = LLMReranker(
+        model_name=os.getenv("LLM_MODEL", "gpt-6-luna"),
+        provider=provider,
+        base_url=os.getenv("LLM_BASE_URL", "https://api.openai.com/v1"),
+        api_key_env=key_env,
+        reasoning_effort="medium",
+    )
+    print("[init] statute leg: hybrid + LLM rerank (top-50 pool)",
+          flush=True)
+    return hybrid, _RerankedLeg(hybrid, reranker, doc_texts)
+
+
+def _agent_legs(tasks) -> dict:
+    """Retriever map for agent paths: statute gets the reranked leg
+    when available; everything else gets its first-stage leg."""
+    legs = {}
+    for t in tasks:
+        leg = (_state.get("statute_rerank") if t == "statute" else None)
+        legs[t] = leg or _state["retrievers"][t]
+    return legs
+
+
+def _leg_labels() -> dict:
+    statute = "BM25+Qwen3 RRF" if _state.get("statute_hybrid") else "BM25 2-gram"
+    if _state.get("statute_rerank"):
+        statute += " + LLM rerank"
+    return {"statute": statute, "precedent": "BM25 2-gram"}
 
 app = FastAPI(title="NYAAY-legal-rag demo")
 app.add_middleware(
@@ -103,6 +208,12 @@ def _build():
             cp.write_bytes(pickle.dumps(chunks))
         r = BM25Retriever(ngram=2, cache_dir=cache_dir)
         r.index(chunks)
+        if task == "statute":
+            leg, rerank_leg = _statute_leg(r, chunks, cache_dir,
+                                           doc_texts[task])
+            _state["statute_rerank"] = rerank_leg
+            _state["statute_hybrid"] = leg is not r
+            r = leg
         retrievers[task] = r
         print(f"[init] {task}: {len(docs)} docs indexed", flush=True)
     _state.update(retrievers=retrievers, doc_texts=doc_texts,
@@ -147,7 +258,7 @@ def analyze(req: AnalyzeReq):
     t_start = time.perf_counter()
     tasks = [t for t in req.tasks if t in TASKS] or list(TASKS)
     agent = LegalAgent(
-        {t: _state["retrievers"][t] for t in tasks},
+        _agent_legs(tasks),
         {t: _state["doc_texts"][t] for t in tasks},
         _state["llm"],
         {t: _state["doc_titles"][t] for t in tasks},
@@ -185,7 +296,7 @@ def analyze(req: AnalyzeReq):
     return {
         "mode": mode,
         "tasks": tasks,
-        "legs": {"statute": "BM25 2-gram", "precedent": "BM25 2-gram"},
+        "legs": _leg_labels(),
         "evidence": _evidence_payload(evidence),
         "dossier": dossier,
         "warnings": warnings,
@@ -257,7 +368,7 @@ def _synth_pipeline(case_text: str, tasks: tuple = TASKS):
     (evidence, dossier, warnings, trace, insufficient)."""
     from legal_rag.legal_agent import AgentStep
     agent = LegalAgent(
-        {t: _state["retrievers"][t] for t in tasks},
+        _agent_legs(tasks),
         {t: _state["doc_texts"][t] for t in tasks},
         _state["llm"],
         {t: _state["doc_titles"][t] for t in tasks},

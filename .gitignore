@@ -48,12 +48,20 @@ results/**/*_statute.json
 results/**/*_precedent.json
 
 # local reference dirs
-BTech_Latex_Report/
 arXiv-2511.00268v1/
+BTech_Latex_Report/writing_refs/
+*~
 
-# latex build output
-report.pdf
-report.aux
+# LaTeX intermediates (thesis.tex, references.bib, thesis.pdf tracked)
+BTech_Latex_Report/*.aux
+BTech_Latex_Report/*.log
+BTech_Latex_Report/*.out
+BTech_Latex_Report/*.toc
+BTech_Latex_Report/*.bbl
+BTech_Latex_Report/*.blg
+BTech_Latex_Report/*.xdv
+BTech_Latex_Report/*.fls
+BTech_Latex_Report/*.fdb_latexmk
 demo_app/node_modules/
 demo_app/dist/
 data/demo_conversations.json

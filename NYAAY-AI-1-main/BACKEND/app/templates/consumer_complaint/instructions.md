@@ -1,1 +1,0 @@
-Draft a complaint for the District Consumer Disputes Redressal Commission. Format as 'BEFORE THE DISTRICT CONSUMER DISPUTES REDRESSAL COMMISSION AT [DISTRICT]'. Include Cause Title (Complainant vs Opposite Party). Detail the deficiency in service or unfair trade practice.
