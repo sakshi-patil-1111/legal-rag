@@ -60,8 +60,8 @@ relevant. We quantitatively examine RAG pipelines and different
 retrieval, embedding and chunking strategies and evaluate their
 performances on the IL-PCSR benchmark, which evaluates statutes
 and precedents over Indian case judgements. We also validate
-our pipeline on BSARD as external validation and establish three
-findings. First, the two retrieval tasks reward different
+our findings on other Indian and international benchmarks, AILA
+and BSARD, and establish three findings. First, the two retrieval tasks reward different
 machinery: lexical retrieval dominates precedent finding,
 whereas long context dense retrieval, oftentimes combined with
 lexical retrieval by rank fusion, dominates statute retrieval.
@@ -183,6 +183,23 @@ long legal queries, which do not, and what an agentic controller
 contributes beyond a fixed pipeline, are the questions this
 dissertation answers through controlled measurement followed by
 system construction.
+
+A property of the reported literature narrows the design space
+further. For the benchmarks most relevant to this task, the
+strongest published rows are produced by systems fitted to the
+benchmark itself: the leading IL-PCSR configuration trains a
+graph network on corpus-specific rhetorical labels, and the
+leading BSARD rows are fine-tuned bi-encoders (Sections~3.12
+and~3.13). The legal corpus is not a fixed index, however.
+Courts deliver judgments and legislatures enact, amend, and
+repeal provisions continually, so a fitted component begins to
+drift the day it is trained, and a production system cannot
+re-fine-tune on a schedule the corpus does not keep. This
+dissertation therefore treats benchmark-specific training as
+the exception rather than the method: the target is a
+configuration assembled from training-free legs that remains
+competitive with the published rows and transfers to new
+corpora without modification.
 
 \section{Problem Statement}
 The task is automated legal case analysis over Indian law,
@@ -867,10 +884,16 @@ training-free configuration is the appropriate design point,
 and the accuracy headroom that supervision buys, quantified
 under one protocol, is the first item of future work.
 
-\section{External Validation on BSARD}
+\section{External Validation}
 The measurements so far describe a single benchmark. To test
-whether the design rules travel, the statute leg is run unchanged
-on an unrelated corpus, BSARD~\cite{louis2022bsard}, a Belgian
+whether the design rules travel, the pipeline is run unchanged
+on two unrelated corpora: BSARD~\cite{louis2022bsard}, a Belgian
+statutory benchmark authored in French, and AILA~\cite{aila}, an
+Indian benchmark from the FIRE legal-assistance track.
+
+\subsection{BSARD}
+The statute leg is run on
+BSARD~\cite{louis2022bsard}, a Belgian
 statutory-article benchmark authored in French: 22,633 articles
 and 222 jurist-labelled test questions, whose published
 evaluation reports recall at depth~100 against a series of
@@ -940,6 +963,58 @@ the two legs carry complementary evidence, lifting the 0.6B
 configuration from 51.65 to 54.62, but dilutes a dominant leg,
 since the weak BM25 leg drags the 4B ranking from 67.67 down to
 64.91. Fusion is beneficial only when the legs are competitive.
+
+\subsection{AILA}
+BSARD tests the statute leg on short questions in a foreign
+language; the second external corpus, AILA~\cite{aila}, tests
+both legs on Indian Supreme Court text. The evaluation uses the
+public 2019 release: 50 entity-masked queries averaging roughly
+500 words, a precedent pool of 2,914 documents and a statute
+pool of 197 documents, with graded relevance judgements
+thresholded at level~1.
+
+\begin{center}
+\small
+\tabcaption{External validation on AILA (50 queries; 2,914
+precedents, 197 statutes). Micro-averaged metrics at depth~100.}
+\label{tab:aila}
+\vspace{2mm}
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{l cccc cccc}
+\toprule
+ & \multicolumn{4}{c}{Precedents} & \multicolumn{4}{c}{Statutes} \\
+\cmidrule(lr){2-5}\cmidrule(lr){6-9}
+Configuration & R@10 & R@100 & MAP & MRR & R@10 & R@100 & MAP & MRR \\
+\midrule
+BM25, unigram & \textbf{14.36} & 33.85 & 10.46 & \textbf{21.30} & 14.29 & 50.23 & 8.07 & 21.49 \\
+Qwen3-Embedding-0.6B & 10.26 & 37.44 & 7.69 & 14.92 & \textbf{53.46} & \textbf{96.77} & \textbf{41.64} & \textbf{69.27} \\
+RRF, BM25 + Qwen3-0.6B & 12.82 & \textbf{39.49} & \textbf{11.24} & 21.04 & 23.96 & 94.93 & 17.59 & 34.13 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Three results carry over from IL-PCSR and BSARD
+(Table~\ref{tab:aila}). First, statute retrieval remains
+semantic: the 0.6B dense leg lifts recall at depth~100 from
+50.23 to 96.77 and MAP from 8.07 to 41.64, the widest statute
+gap observed on any corpus in this study. Second, precedent
+retrieval remains lexical in the precision regime: the
+unigram lexical leg leads on MAP (10.46 against 7.69) and MRR
+(21.30 against 14.92), although the dense leg recalls slightly
+more relevant documents at depth~100 (37.44 against 33.85).
+Third, fusion behaves exactly as the complementarity rule
+predicts. On precedents, where the legs are competitive, fusion
+sets the best recall and MAP of the table (39.49 and 11.24); on
+statutes, where the dense leg dominates, the weak lexical leg
+dilutes the fused ranking (96.77 to 94.93, MAP 41.64 to 17.59),
+the same dilution measured for the 4B fusion on BSARD. The
+n-gram ordering also sits where the query-conditional rule
+places it: AILA queries are entity-masked, with party names
+replaced by tokens such as \texttt{P1} and \texttt{A1}, which
+destroys the citation phrases that make 5-gram BM25 dominant on
+IL-PCSR precedents, so unigram BM25 leads on both tasks here,
+midway between the 5-gram ordering of IL-PCSR's long narratives
+and the unigram ordering of BSARD's short questions.
 
 \section{Synthesis of Findings}
 The measurements reduce to five design rules.
@@ -1506,10 +1581,13 @@ An agentic loop earns its place through the guarantees it adds,
 namely evidence-sufficiency judgment, a bounded retry, a labelled
 fallback, and universally validated citations, rather than
 through retrieval planning. A first external validation on the
-French BSARD benchmark confirms that these design rules travel:
-without modification or retraining, the pipeline exceeds every
-published zero-shot baseline, and the 4B dense leg alone closes
-most of the remaining gap to the fine-tuned ceiling. The
+French BSARD benchmark and the Indian AILA benchmark confirms
+that these design rules travel: on BSARD the pipeline exceeds
+every published zero-shot baseline without modification or
+retraining, the 4B dense leg alone closes most of the remaining
+gap to the fine-tuned ceiling, and on AILA the same
+task-conditional asymmetry and the fusion-complementarity rule
+replicate unchanged. The
 expanded corpus and the demonstration application render the
 measured pipeline a functioning system that answers queries the
 benchmark itself cannot, including the 2023 criminal codes.
@@ -1528,10 +1606,12 @@ valid. The fourth is met by the live verifications: the expanded
 corpus resolves queries on legislation the benchmark does not
 contain. The fifth objective, transfer to other legal datasets
 and jurisdictions, receives its first empirical test in
-Section~3.13: on the French BSARD benchmark the assembled legs
-outperform every published zero-shot baseline without
-modification or retraining, while broader transfer across
-further corpora remains open.
+Section~3.13: the assembled legs outperform every published
+zero-shot baseline on the French BSARD benchmark, and on the
+Indian AILA benchmark the same lexical-precedent and
+semantic-statute asymmetry and the fusion-complementarity rule
+replicate, in both cases without modification or retraining.
+Broader transfer across further corpora remains open.
 
 \section{Future Work}
 A same-protocol test-split evaluation of the assembled
@@ -1552,7 +1632,8 @@ side, a learned sufficiency threshold, a second bounded retry,
 and a numeric groundedness score per dossier are natural
 strengthenings. Finally, the fifth objective stands partially
 open in empirical terms: Section~3.13 supplies the first
-cross-corpus evidence on French statutory text, and extending
+cross-corpus evidence, on French statutory text and on a second
+Indian benchmark, and extending
 the same battery to the case-law and non-European benchmarks the
 literature supplies, the COLIEE Canadian case-law
 collection~\cite{rabelo2022coliee21} and the Chinese
