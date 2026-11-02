@@ -47,7 +47,7 @@ Generation Framework for Automated Legal Case Analysis}
 \beforepreface
 
 \prefacesection{Abstract}
-Automated analysis of legal cases in order to find applicable
+Automated analysis of legal cases to find applicable
 judgements and precedents is a promising application of large
 language models. However, in law, every claim or argument must
 be traceable to an authoritative legal document and LLMs often
@@ -58,12 +58,12 @@ where case descriptions run into several thousand tokens and
 output must cite statutes and precedents that are directly
 relevant. We quantitatively examine RAG pipelines and different
 retrieval, embedding and chunking strategies and evaluate their
-performances on the IL-PCSR benchmark, which evaluates statutes
-and precedents over Indian case judgements. We also validate
+performances on the IL-PCSR benchmark, which evaluates Indian
+statutes and case judgement precedents. We also validate
 our findings on other Indian and international benchmarks, AILA
 and BSARD, and establish three findings. First, the two retrieval tasks reward different
 machinery: lexical retrieval dominates precedent finding,
-whereas long context dense retrieval, oftentimes combined with
+whereas long context dense retrieval, often combined with
 lexical retrieval by rank fusion, dominates statute retrieval.
 Second, compression of any form of the case, including
 expansion, rhetorical restriction, truncation for the
@@ -73,8 +73,8 @@ complete query, and otherwise a truncated cross encoder leads
 to worse performance. These findings produce an asymmetric
 optimal architecture with a dense-lexical statute leg along
 with language model reranking, and a purely lexical precedent
-leg. We then test out a bounded agent loop on top of this
-pipeline in order to place guardrails like retry upon failure,
+leg. We then test a bounded agent loop on top of this
+pipeline to place guardrails like retry upon failure,
 external fallback mechanism and mechanical validation of
 citations, and evaluate the resulting architecture on an
 expanded corpus of 28,074 section-level statute documents
