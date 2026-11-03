@@ -6,9 +6,10 @@
 \usepackage{amssymb}
 \usepackage{url}
 \usepackage{tikz}
-\usetikzlibrary{arrows.meta,positioning,shapes.geometric,calc}
+\usetikzlibrary{arrows.meta,positioning,shapes.geometric,calc,patterns}
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.17}
+\usepgfplotslibrary{groupplots}
 \usepackage{xcolor}
 \usepackage[most]{tcolorbox}
 \usepackage{algpseudocode}
@@ -268,17 +269,14 @@ Section~3.13.
 
 \section{Scope of the Study}
 The study addresses retrieval and grounded synthesis for Indian
-central legislation and case law in English. It does not attempt
-legal judgment prediction, statutory interpretation as a
-normative exercise, drafting of legal instruments, or deployment
-to jurisdictions outside India; a foreign statutory corpus
-(BSARD) is used once, as external validation of transfer, not as
-a target domain. Benchmark evaluation is conducted on the
-IL-PCSR development split, with unchanged transfer evaluation on
-the AILA and BSARD corpora; the published test-split figures
-of the benchmark are cited under their own protocol and are not
-equated with development-split figures. Language-model calls in
-the system use externally hosted models.
+central legislation and case law in English, and not in
+vernacular or local languages. It does not attempt legal
+judgment prediction, statutory interpretation as a normative
+exercise, drafting of legal instruments, or deployment to
+multiple jurisdictions outside India. Benchmark evaluation is
+conducted on the IL-PCSR development split, with unchanged
+transfer evaluation on the AILA and BSARD corpora.
+Language-model calls in the system use externally hosted models.
 
 \chapter{Literature Review and Theoretical Foundations}
 
@@ -696,17 +694,27 @@ judgment. Reranking is therefore included on the statute leg and
 excluded from the precedent leg, each for measured reasons.
 
 \section{Query-Processing Results}
-Four interventions, each a defensible attempt to improve a long
-query, all degraded retrieval (Table~\ref{tab:query}).
+Four interventions were tried on the long case-description
+query, each a defensible attempt to improve it.
+Pseudo-relevance feedback expands the query with terms drawn
+from the top documents of a first retrieval pass.
+Rhetorical-role restriction keeps only the Facts and Issue
+segments, on the hypothesis that they carry the legal content;
+its complement drops only the Court Reasoning segments while
+keeping the rest. Truncation and reformulation shorten the
+query outright. None of them helped: every measured variant
+scored below the unmodified query on both tasks
+(Table~\ref{tab:query}).
 
 \begin{center}
 \small
+\begin{minipage}{\linewidth}
 \tabcaption{Query-processing interventions. Reference rows are
 the unmodified-query runs on the same index; the PRF statute row
 scores 6.85 F1@10 against a 10.55 reference.}
 \label{tab:query}
 \vspace{2mm}
-\begin{tabular}{lcc}
+\centerline{\begin{tabular}{lcc}
 \toprule
 Intervention & F1@10 & MAP \\
 \midrule
@@ -722,7 +730,8 @@ All segments except Court Reasoning & 18.05 & 31.55 \\
 Facts + Issue segments only & 4.63 & 5.04 \\
 All segments except Court Reasoning & 7.41 & 9.56 \\
 \bottomrule
-\end{tabular}
+\end{tabular}}
+\end{minipage}
 \end{center}
 
 Pseudo-relevance feedback drifts the query toward whatever the
@@ -745,11 +754,12 @@ The 50-query agent benchmark exercises the full loop
 
 \begin{center}
 \small
+\begin{minipage}{\linewidth}
 \tabcaption{Agent benchmark, 50-query development slice, BM25
 2-gram legs at top-8.}
 \label{tab:agent}
 \vspace{2mm}
-\begin{tabular}{lr}
+\centerline{\begin{tabular}{lr}
 \toprule
 Quantity & Value \\
 \midrule
@@ -762,7 +772,8 @@ Citations failing validation & 0 \\
 Total LLM latency & 830.9 s \\
 Wall-clock duration & 13.9 min \\
 \bottomrule
-\end{tabular}
+\end{tabular}}
+\end{minipage}
 \end{center}
 
 The call count exhibits the loop in operation: 28 of 50 queries
@@ -933,13 +944,14 @@ ranking here.
 
 \begin{center}
 \small
+\begin{minipage}{\linewidth}
 \tabcaption{External validation on BSARD (222 test questions,
 22,633 French articles). This work reports micro-averaged
 metrics at depth~100; published rows report the paper's
 macro-averaged R@100.}
 \label{tab:bsard}
 \vspace{2mm}
-\begin{tabular}{lcccc}
+\centerline{\begin{tabular}{lcccc}
 \toprule
 Configuration & R@10 & R@100 & MAP@100 & MRR@100 \\
 \midrule
@@ -954,7 +966,8 @@ BM25, zero-shot & & 40.13 & & \\
 Bi-encoder word2vec, zero-shot & & 49.41 & & \\
 Fine-tuned, best & & 74.78 & & \\
 \bottomrule
-\end{tabular}
+\end{tabular}}
+\end{minipage}
 \end{center}
 
 The external dense runs also test the parameter hypothesis of
@@ -982,12 +995,13 @@ thresholded at level~1.
 
 \begin{center}
 \small
+\begin{minipage}{\linewidth}
 \tabcaption{External validation on AILA (50 queries; 2,914
 precedents, 197 statutes). Micro-averaged metrics at depth~100.}
 \label{tab:aila}
 \vspace{2mm}
 \setlength{\tabcolsep}{3.5pt}
-\begin{tabular}{l cccc cccc}
+\centerline{\begin{tabular}{l cccc cccc}
 \toprule
  & \multicolumn{4}{c}{Precedents} & \multicolumn{4}{c}{Statutes} \\
 \cmidrule(lr){2-5}\cmidrule(lr){6-9}
@@ -999,7 +1013,8 @@ Qwen3-Embedding-4B & \textbf{17.44} & \textbf{44.10} & \textbf{12.82} & \textbf{
 RRF, BM25 + Qwen3-0.6B & 12.82 & 39.49 & 11.24 & 21.04 & 23.96 & 94.93 & 17.59 & 34.13 \\
 RRF, BM25 + Qwen3-4B & 15.38 & 43.59 & 11.48 & 20.72 & 27.65 & 98.16 & 20.18 & 41.19 \\
 \bottomrule
-\end{tabular}
+\end{tabular}}
+\end{minipage}
 \end{center}
 
 Three results carry over from IL-PCSR and BSARD, and a fourth
@@ -1036,6 +1051,73 @@ property of unmasked narrative text at moderate embedding
 scale, not a universal. The parameter hypothesis of Chapter~4
 is confirmed a second time in the process, on both tasks at
 once.
+
+Figure~\ref{fig:extcmp} places the three corpora side by side:
+the measured configuration stands against the strongest
+published row reported for each benchmark.
+
+\begin{center}
+\begin{tikzpicture}
+\begin{groupplot}[
+    group style={group size=3 by 1, horizontal sep=1.5cm,
+                 y descriptions at=edge left},
+    width=4.6cm, height=5.4cm,
+    ybar, /pgf/bar width=6.5pt,
+    ymin=0, enlarge x limits=0.75,
+    ymajorgrids, major grid style={black!8},
+    axis y line*=left, axis x line*=bottom,
+    axis line style={black!35},
+    tick style={draw=none},
+    tick label style={font=\footnotesize},
+    title style={font=\footnotesize},
+    x tick label style={font=\scriptsize, rotate=45, anchor=east},
+    nodes near coords,
+    every node near coord/.append style={font=\tiny,
+        rotate=90, anchor=west, xshift=0.8mm,
+        /pgf/number format/fixed, /pgf/number format/precision=1},
+    symbolic x coords={statutes,precedents},
+    xtick=data,
+  ]
+\nextgroupplot[title={IL-PCSR (MAP)}, ylabel={score}, ymax=82,
+    legend to name=extleg, legend columns=3,
+    legend style={font=\footnotesize, draw=none}]
+\addplot[ybar, fill=blue!30] coordinates
+    {(statutes,21.82) (precedents,43.98)};
+\addlegendentry{published, no training}
+\addplot[ybar, fill=teal!50] coordinates
+    {(statutes,25.20) (precedents,39.90)};
+\addlegendentry{this work}
+\addplot[ybar, fill=orange!18, pattern=dots,
+    pattern color=black!55] coordinates
+    {(statutes,61.06) (precedents,54.43)};
+\addlegendentry{fine-tuned on benchmark}
+
+\nextgroupplot[title={BSARD (R@100)},
+    symbolic x coords={statutes}, xtick=data, ymax=100]
+\addplot[ybar, fill=blue!30] coordinates {(statutes,49.41)};
+\addplot[ybar, fill=teal!50] coordinates {(statutes,67.67)};
+\addplot[ybar, fill=orange!18, pattern=dots,
+    pattern color=black!55] coordinates {(statutes,74.78)};
+
+\nextgroupplot[title={AILA (MAP)}, ymax=65]
+\addplot[ybar, fill=blue!30] coordinates
+    {(statutes,15.66) (precedents,14.92)};
+\addplot[ybar, fill=teal!50] coordinates
+    {(statutes,45.91) (precedents,12.82)};
+\end{groupplot}
+\node[below=7mm of group c2r1.south]
+    {\pgfplotslegendfromname{extleg}};
+\end{tikzpicture}
+\figcaption{The measured configuration against the strongest
+published row on each corpus. Blue columns are the best
+published training-free rows; dotted orange columns are
+trained on the benchmark itself. IL-PCSR published rows are test-split
+while this work is dev-split; BSARD published rows are
+macro-averaged R@100, this work micro; AILA published rows
+are the FIRE~2019 track winners (macro MAP), this work micro
+MAP@100.}
+\label{fig:extcmp}
+\end{center}
 
 \section{Synthesis of Findings}
 The measurements reduce to five design rules.
