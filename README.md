@@ -27,7 +27,8 @@ dissertation is `BTech_Latex_Report/thesis.pdf`.
 ├── results/               Aggregated experiment outputs per stage
 ├── analysis/              Analysis summary + pgfplots figure sources
 ├── tests/                 Unit and smoke tests
-├── BTech_Latex_Report/    thesis.tex, references.bib, thesis.pdf
+├── BTech_Latex_Report/    thesis.tex, references.bib, thesis.pdf,
+│                          defense decks, deck_assets/ chart builders
 ├── demo_ui/               Self-contained web UI served at / (no build step)
 ├── demo_app/              Optional React frontend (NYAAY-inspired)
 ├── kaggle/                Kaggle kernel definitions (GPU experiment runs)
@@ -71,9 +72,9 @@ python scripts/run_phase1.py stage_d3.json            # LLM listwise rerank
 Results land in `results/<stage>/`; aggregated summaries are committed,
 per-query outputs are regenerated. Heavy compute (corpus-scale dense
 encoding, fine-tuning) is designed to run on Kaggle/Modal, not a laptop —
-kernel definitions live in `kaggle/`; the Qwen3-0.6B statute-embedding cache
-in `data/cache/` was produced by the `legal-rag-encode-statutes` kernel on a
-T4 and loads as a disk-cache hit locally.
+kernel definitions live in `kaggle/`, job definitions in `modal/`. Index
+and embedding caches under `data/cache*/` are gitignored and regenerated
+on demand by experiment runs.
 
 | Stage | Comparison |
 |-------|-----------|
@@ -136,11 +137,14 @@ LLM config (any OpenAI-compatible endpoint or Gemini REST; plain `urllib`):
 
 ```bash
 cd BTech_Latex_Report
-tectonic --keep-intermediates thesis.tex && xdvipdfmx thesis.xdv
+tectonic thesis.tex
 ```
 
 `thesis.tex` + `references.bib` + the compiled `thesis.pdf` are tracked;
-LaTeX intermediates are gitignored.
+LaTeX intermediates are gitignored. The defense decks
+(`Legal_RAG_Defense*.pptx`) are generated deterministically by
+`deck_assets/build_deck*.py` (run with the repo venv); chart PNGs are
+produced by the matplotlib scripts in the same directory.
 
 ## Tests
 
