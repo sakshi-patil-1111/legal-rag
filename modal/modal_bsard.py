@@ -1,7 +1,7 @@
 """BSARD dense-leg evaluation on Modal (Qwen3 embeddings).
 
 Usage:
-    modal run modal_bsard.py --model Qwen/Qwen3-Embedding-4B
+    modal run modal/modal_bsard.py --model Qwen/Qwen3-Embedding-4B
     modal volume get legal-rag-results bsard_dense_4b_metrics.json
     modal volume get legal-rag-results bsard_dense_4b_top100.json
 """

@@ -7,7 +7,7 @@ model between runs so the 4B weights never share memory with the
 legal-rag-results volume.
 
 Usage:
-    modal run modal_aila.py
+    modal run modal/modal_aila.py
     modal volume get legal-rag-results aila_statutes_dense_0.6b_metrics.json
 """
 

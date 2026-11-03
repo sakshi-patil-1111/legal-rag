@@ -3,7 +3,7 @@ BSARD via reciprocal rank fusion (k=60), and report micro P/R/F1,
 MAP, and MRR.
 
 The dense ranking is the output of the remote embedding job
-(kaggle/bsard-dense or modal_bsard.py), a JSON object mapping
+(kaggle/bsard-dense or modal/modal_bsard.py), a JSON object mapping
 question id to a ranked list of article ids. The BM25 leg is
 rebuilt locally with the same unigram + act-description context
 indexing as eval_bsard.py --context.

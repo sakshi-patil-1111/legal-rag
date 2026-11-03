@@ -1,8 +1,8 @@
 """Modal runner for IL-PCSR GPU experiments.
 
 Usage:
-    modal run modal_app.py                # launch all RUNS in parallel, wait, print tails
-    modal run modal_app.py --configs '[["stage_b2b_qwen3_pcr.json","T4"]]'
+    modal run modal/modal_app.py                # launch all RUNS in parallel, wait, print tails
+    modal run modal/modal_app.py --configs '[["stage_b2b_qwen3_pcr.json","T4"]]'
 
 Volumes:
     legal-rag-data    -> /vol/data/il_pcsr/{queries,statutes,precedents}.json (+ /vol/data/cache)
@@ -163,7 +163,7 @@ def run_finetune(model: str = "Qwen/Qwen3-Embedding-0.6B",
 @app.local_entrypoint()
 def ft(model: str = "Qwen/Qwen3-Embedding-0.6B",
        epochs: int = 1, batch: int = 4):
-    """modal run modal_app.py::ft [--model ... --epochs 1 --batch 4]"""
+    """modal run modal/modal_app.py::ft [--model ... --epochs 1 --batch 4]"""
     call = run_finetune.spawn(model, epochs, batch)
     print("spawned finetune; waiting...")
     try:

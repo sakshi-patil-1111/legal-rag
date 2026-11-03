@@ -31,9 +31,7 @@ dissertation is `BTech_Latex_Report/thesis.pdf`.
 ├── demo_ui/               Self-contained web UI served at / (no build step)
 ├── demo_app/              Optional React frontend (NYAAY-inspired)
 ├── kaggle/                Kaggle kernel definitions (GPU experiment runs)
-├── modal_app.py           Modal app: data bootstrap + GPU runs
-├── arXiv-2511.00268v1/    IL-PCSR baseline paper source (local reference,
-│                          gitignored — used to verify comparison claims)
+├── modal/                 Modal job definitions (data bootstrap + GPU runs)
 └── data/                  fixtures/ (committed), raw/ + cache/ (regenerated,
                            gitignored)
 ```
