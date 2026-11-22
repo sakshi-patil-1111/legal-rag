@@ -12,7 +12,9 @@
 \usepgfplotslibrary{groupplots}
 \usepackage{xcolor}
 \usepackage{fontspec}
-\newfontfamily\hindifont{Kohinoor Devanagari}[Script=Devanagari]
+\newfontfamily\hindifont{NotoSerifDevanagari}[Path=fonts/,
+    Extension=.ttf, UprightFont=*-Regular, BoldFont=*-Bold,
+    Script=Devanagari]
 \DeclareRobustCommand{\hdev}[1]{{\hindifont#1}}
 \usepackage[most]{tcolorbox}
 \usepackage{algpseudocode}
