@@ -24,39 +24,42 @@
   before skip=10pt, after skip=10pt}
 \emergencystretch=3em
 
-% Hindi (Devanagari) version of the cover/title page, emitted before the
-% English \titlep as required by the Dean (Academic) notification.
-\newcommand{\titlephindi}{%
+% Bilingual cover/title page: Hindi first, then English, on a single page,
+% as required by the Dean (Academic) notification. Replaces the class \titlep.
+\newcommand{\titlepbilingual}{%
     \thispagestyle{empty}%
     \renewcommand{\baselinestretch}{1}
-    \vspace*{-1.15in}%
-    {\hindifont
+    \vspace*{-1.1in}%
     \begin{center}
-        {\large\bfseries बी.टेक. लघु परियोजना प्रतिवेदन}\\[0.5cm]
-        पर\\[0.3cm]
-        {\Large\bfseries स्वचालित विधिक वाद विश्लेषण के लिए एजेंटिक
-        पुनर्प्राप्ति-संवर्धित जनन ढाँचे की अभिकल्पना एवं विकास}\\[0.7cm]
-        द्वारा\\[0.25cm]
-        समुद्रनील सरकार (20233249)\\
-        पाटिल साक्षी (20233209)\\
-        निखिल कुमार (20233202)\\
-        मनप्रीत कौर (20233180)
+        {\hindifont\large\bfseries बी.टेक. लघु परियोजना प्रतिवेदन}\\[0.05cm]
+        {\large\bf B.Tech.\ Minor Project Report}\\[0.18cm]
+        {\hindifont पर} / on\\[0.15cm]
+        {\hindifont\Large\bfseries स्वचालित विधिक वाद विश्लेषण के लिए एजेंटिक
+        पुनर्प्राप्ति-संवर्धित जनन ढाँचे की अभिकल्पना एवं विकास}\\[0.12cm]
+        {\Large\bfseries Design and Development of an Agentic Retrieval-Augmented
+        Generation Framework for Automated Legal Case Analysis}\\[0.22cm]
+        {\hindifont द्वारा} / by\\[0.08cm]
+        {\hindifont समुद्रनील सरकार} / Samudraneel Sarkar (20233249)\\
+        {\hindifont पाटिल साक्षी} / Patil Sakshi (20233209)\\
+        {\hindifont निखिल कुमार} / Nikhil Kumar (20233202)\\
+        {\hindifont मनप्रीत कौर} / Manpreet Kaur (20233180)\\[0.3cm]
+        {\hindifont आंशिक पूर्ति के लिए प्रस्तुत प्रतिवेदन}\\
+        A Report Submitted in Partial Fulfillment of the Requirements for the
+        award of the Degree of \textbf{Bachelor of Technology}\\
+        {\hindifont\textbf{कम्प्यूटर विज्ञान एवं अभियांत्रिकी} में
+        \textbf{स्नातक प्रौद्योगिकी} की उपाधि हेतु} / in
+        \textbf{Computer Science \& Engineering}
     \end{center}
     \vfill
     \begin{center}
-        \textbf{कम्प्यूटर विज्ञान एवं अभियांत्रिकी} में\\
-        \textbf{स्नातक प्रौद्योगिकी} की उपाधि हेतु\\
-        आंशिक पूर्ति के लिए प्रस्तुत प्रतिवेदन
+        \includegraphics[height=2.2cm]{mnnit_logo.png}\\[0.1cm]
+        {\hindifont\bfseries कम्प्यूटर विज्ञान एवं अभियांत्रिकी विभाग}\\
+        {\bf COMPUTER SCIENCE AND ENGINEERING DEPARTMENT}\\[0.08cm]
+        {\hindifont\bfseries मोतीलाल नेहरू राष्ट्रीय प्रौद्योगिकी संस्थान इलाहाबाद, प्रयागराज}\\
+        {\bf MOTILAL NEHRU NATIONAL INSTITUTE OF TECHNOLOGY ALLAHABAD, PRAYAGRAJ}\\[0.12cm]
+        {\hindifont नवम्बर 2026} / November 2026
     \end{center}
-    \vfill
-    \begin{center}
-        \includegraphics[height=3.3cm]{mnnit_logo.png}\\[0.3cm]
-        {\bfseries कम्प्यूटर विज्ञान एवं अभियांत्रिकी विभाग}\\[0.15cm]
-        {\bfseries मोतीलाल नेहरू राष्ट्रीय प्रौद्योगिकी संस्थान\\इलाहाबाद, प्रयागराज}\\[0.35cm]
-        नवम्बर 2026
-    \end{center}
-    }%
-    \vskip.2in\newpage}
+    \vskip.1in\newpage}
 
 % mnnit.cls uses pre-1995 float internals that break on modern kernels;
 % use non-floating blocks with these caption helpers instead.
@@ -82,8 +85,11 @@ Generation Framework for Automated Legal Case Analysis}
 \supervisor{Dr.\ Vibhav Prakash Singh}
 
 \specialization{Computer Science \& Engineering}
-\titlephindi
-\beforepreface
+\pagenumbering{roman}
+\pagestyle{plain}
+\titlepbilingual
+\undertakingpage
+\signaturepage
 
 \prefacesection{\hdev{सारांश}}
 {\hindifont स्वचालित विधिक वाद विश्लेषण द्वारा लागू निर्णयों एवं
