@@ -11,6 +11,9 @@
 \pgfplotsset{compat=1.17}
 \usepgfplotslibrary{groupplots}
 \usepackage{xcolor}
+\usepackage{fontspec}
+\newfontfamily\hindifont{Kohinoor Devanagari}[Script=Devanagari]
+\DeclareRobustCommand{\hdev}[1]{{\hindifont#1}}
 \usepackage[most]{tcolorbox}
 \usepackage{algpseudocode}
 \newtcolorbox{livebox}[2]{enhanced, breakable,
@@ -20,6 +23,40 @@
   left=2mm, right=2mm, top=1.2mm, bottom=1.2mm,
   before skip=10pt, after skip=10pt}
 \emergencystretch=3em
+
+% Hindi (Devanagari) version of the cover/title page, emitted before the
+% English \titlep as required by the Dean (Academic) notification.
+\newcommand{\titlephindi}{%
+    \thispagestyle{empty}%
+    \renewcommand{\baselinestretch}{1}
+    \vspace*{-1.15in}%
+    {\hindifont
+    \begin{center}
+        {\large\bfseries बी.टेक. लघु परियोजना प्रतिवेदन}\\[0.5cm]
+        पर\\[0.3cm]
+        {\Large\bfseries स्वचालित विधिक वाद विश्लेषण के लिए एजेंटिक
+        पुनर्प्राप्ति-संवर्धित जनन ढाँचे की अभिकल्पना एवं विकास}\\[0.7cm]
+        द्वारा\\[0.25cm]
+        समुद्रनील सरकार (20233249)\\
+        पाटिल साक्षी (20233209)\\
+        निखिल कुमार (20233202)\\
+        मनप्रीत कौर (20233180)
+    \end{center}
+    \vfill
+    \begin{center}
+        \textbf{कम्प्यूटर विज्ञान एवं अभियांत्रिकी} में\\
+        \textbf{स्नातक प्रौद्योगिकी} की उपाधि हेतु\\
+        आंशिक पूर्ति के लिए प्रस्तुत प्रतिवेदन
+    \end{center}
+    \vfill
+    \begin{center}
+        \includegraphics[height=3.3cm]{mnnit_logo.png}\\[0.3cm]
+        {\bfseries कम्प्यूटर विज्ञान एवं अभियांत्रिकी विभाग}\\[0.15cm]
+        {\bfseries मोतीलाल नेहरू राष्ट्रीय प्रौद्योगिकी संस्थान\\इलाहाबाद, प्रयागराज}\\[0.35cm]
+        नवम्बर 2026
+    \end{center}
+    }%
+    \vskip.2in\newpage}
 
 % mnnit.cls uses pre-1995 float internals that break on modern kernels;
 % use non-floating blocks with these caption helpers instead.
@@ -45,7 +82,43 @@ Generation Framework for Automated Legal Case Analysis}
 \supervisor{Dr.\ Vibhav Prakash Singh}
 
 \specialization{Computer Science \& Engineering}
+\titlephindi
 \beforepreface
+
+\prefacesection{\hdev{सारांश}}
+{\hindifont स्वचालित विधिक वाद विश्लेषण द्वारा लागू निर्णयों एवं
+पूर्वनिर्णयों की खोज, बृहत् भाषा मॉडलों का एक आशाजनक अनुप्रयोग है।
+परन्तु विधि के क्षेत्र में प्रत्येक दावा या तर्क किसी प्रामाणिक
+विधिक दस्तावेज़ तक अनुसरणीय होना आवश्यक है, जबकि बृहत् भाषा मॉडल
+प्रायः भ्रम (hallucination) एवं काल्पनिक भाषा-निर्माण का शिकार हो
+जाते हैं। हम यह अनुसंधान करते हैं कि यथार्थ परिस्थितियों में विधिक
+कार्य हेतु पुनर्प्राप्ति-संवर्धित जनन (retrieval augmented
+generation) प्रणाली की अभिकल्पना किस प्रकार होनी चाहिए, जहाँ
+वाद-विवरण कई हज़ार टोकन तक लम्बे होते हैं तथा निर्गत को प्रत्यक्ष
+रूप से प्रासंगिक अधिनियमों एवं पूर्वनिर्णयों का उद्धरण देना होता
+है। हम RAG पाइपलाइनों तथा विभिन्न पुनर्प्राप्ति, एम्बेडिंग एवं
+खंडीकरण रणनीतियों की मात्रात्मक जाँच करते हैं और IL-PCSR बेंचमार्क
+पर उनके निष्पादन का मूल्यांकन करते हैं, जो भारतीय अधिनियमों तथा
+वाद-निर्णय पूर्वनिर्णयों को मापता है। हम अपने निष्कर्षों की पुष्टि
+अन्य भारतीय एवं अंतर्राष्ट्रीय बेंचमार्कों — AILA तथा BSARD — पर
+भी करते हैं और तीन निष्कर्ष स्थापित करते हैं। प्रथम, दोनों
+पुनर्प्राप्ति कार्य भिन्न यंत्रणाओं की माँग करते हैं:
+पूर्वनिर्णय-खोज में शाब्दिक पुनर्प्राप्ति प्रधान है, जबकि
+अधिनियम-पुनर्प्राप्ति में दीर्घ-संदर्भ सघन पुनर्प्राप्ति — प्रायः
+रैंक-संलयन द्वारा शाब्दिक पुनर्प्राप्ति से संयुक्त — प्रधान है।
+द्वितीय, वाद-पाठ का किसी भी रूप में संक्षेपण — विस्तारण,
+वकृत्य-प्रतिबंध, क्रॉस-एन्कोडर पुनःक्रमक हेतु छंटनी आदि —
+पुनर्प्राप्ति गुणवत्ता घटाता है। तृतीय, पुनःक्रमक केवल तभी क्रमवार
+सुधार देता है जब प्रासंगिक संकेत अर्थपरक हो और पुनःक्रमक सम्पूर्ण
+प्रश्न पढ़ सके; अन्यथा छँटा हुआ क्रॉस-एन्कोडर और भी निम्न निष्पादन
+की ओर ले जाता है। इन निष्कर्षों से एक असममित इष्टतम संरचना प्राप्त
+होती है — भाषा-मॉडल पुनःक्रमण सहित सघन-शाब्दिक अधिनियम-भाग तथा
+विशुद्ध शाब्दिक पूर्वनिर्णय-भाग। तत्पश्चात् हम इस पाइपलाइन के ऊपर
+एक सीमित एजेंट-चक्र का परीक्षण करते हैं, जो विफलता पर
+पुनःप्रयास, बाह्य पुनःप्राप्ति-व्यवस्था तथा उद्धरणों की यांत्रिक
+वैधीकरण जैसी सुरक्षाएँ प्रदान करता है, तथा परिणामी संरचना का
+मूल्यांकन 302 केन्द्रीय अधिनियमों के 28,074 धारा-स्तरीय
+अधिनियम-दस्तावेज़ों के विस्तारित संग्रह पर करते हैं।}
 
 \prefacesection{Abstract}
 Automated analysis of legal cases to find applicable
